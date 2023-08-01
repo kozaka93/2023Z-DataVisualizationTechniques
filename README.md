@@ -10,8 +10,8 @@ Previous: [Winter Semester 2022/23](https://github.com/MI2-Education/2023Z-DataV
 <colgroup>
 <col style="width: 26.116667px">
 <col style="width: 83.116667px">
-<col style="width: 285.116667px">
-<col style="width: 276.116667px">
+<col style="width: 244.116667px">
+<col style="width: 244.116667px">
 <col style="width: 244.116667px">
 <col style="width: 71.116667px">
 </colgroup>
