@@ -39,7 +39,7 @@ Previous: [Winter Semester 2022/23](https://github.com/MI2-Education/2023Z-DataV
   <tr>
     <td class="tg-9wq8" rowspan="2">10-05</td>
     <td class="tg-lboi" rowspan="2"></td>
-    <td class="tg-lboi" rowspan="2">< a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/tree/main/labs/lab1">R: review: proton, GitHub</a></td>
+    <td class="tg-lboi" rowspan="2"><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/tree/main/labs/lab1">R: review: proton, GitHub</a></td>
     <td class="tg-lboi" rowspan="2">Introducing P1</td>
   </tr>
   <tr>
