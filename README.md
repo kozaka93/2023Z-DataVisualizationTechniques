@@ -6,23 +6,23 @@ Previous: [Winter Semester 2022/23](https://github.com/MI2-Education/2023Z-DataV
 
 ## Schedule
 
-<div class="tg-wrap"><table style="undefined;table-layout: fixed; width: 835px">
+<div class="tg-wrap"><table style="undefined;table-layout: fixed; width: 865px">
 <colgroup>
 <col style="width: 25px">
 <col style="width: 80px">
 <col style="width: 250px">
 <col style="width: 250px">
 <col style="width: 160px">
-<col style="width: 70px">
+<col style="width: 100px">
 </colgroup>
 <tbody>
   <tr>
-    <td>#</td>
-    <td>Month-Day</td>
-    <td>Lecture</td>
-    <td>Lab</td>
-    <td>Project</td>
-    <td>Points</td>
+    <td><b>#</b></td>
+    <td><b>Month-Day</b></td>
+    <td><b>Lecture</b></td>
+    <td><b>Lab</b></td>
+    <td><b>Project</b></td>
+    <td><b>Points</b></td>
   </tr>
   <tr>
     <td rowspan="2">1</td>
