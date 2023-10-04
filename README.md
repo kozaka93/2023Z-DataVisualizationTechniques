@@ -27,9 +27,9 @@ Previous: [Winter Semester 2022/23](https://github.com/MI2-Education/2023Z-DataV
   <tr>
     <td rowspan="2">1</td>
     <td rowspan="2">10-05</td>
-    <td rowspan="2"><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/blob/main/lectures/L1-Intro.pdf">Course introduction, </a><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/blob/main/lectures/L1-Intro.pdf">data types, visualization tools</a></td>
+    <td rowspan="2"><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/blob/main/lectures/L1-course-introduction.pdf">Course introduction, </a><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/blob/main/lectures/L1-Intro.pdf">data types, visualization tools</a></td>
     <td rowspan="2"><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/tree/main/labs/lab1">R: review: proton, GitHub</a></td>
-    <td rowspan="2">Introducing P1</td>
+    <td rowspan="2"><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/tree/main/projects/project1">Introducing P1</td>
     <td rowspan="2"></td>
   </tr>
   <tr>
