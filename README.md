@@ -37,8 +37,8 @@ Previous: [Winter Semester 2022/23](https://github.com/MI2-Education/2023Z-DataV
   <tr>
     <td rowspan="2">2</td>
     <td rowspan="2">10-12</td>
-    <td rowspan="2">The Grammar of Graphics</td>
-    <td rowspan="2">R: dplyr, tidyr, forcats</td>
+    <td rowspan="2"><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/blob/main/lectures/L2-gramatyka.pdf">The Grammar of Graphics</a></td>
+    <td rowspan="2"><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/tree/main/labs/lab2">R: dplyr, tidyr, forcats</a></td>
     <td rowspan="2">Group work</td>
     <td rowspan="2">P1 (1p)</td>
   </tr>
