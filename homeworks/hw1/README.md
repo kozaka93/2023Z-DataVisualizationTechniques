@@ -24,4 +24,4 @@
 | acousticness_%       |  Amount of acoustic sound in the song                       |
 | instrumentalness_%   |  Amount of instrumental content in the song                 |
 | liveness_%           |  Presence of live performance elements                      |
-| speechiness_%        |  Amount of spoken words in the song                         |a
+| speechiness_%        |  Amount of spoken words in the song                         |
