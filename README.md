@@ -50,7 +50,7 @@ Previous: [Winter Semester 2022/23](https://github.com/MI2-Education/2023Z-DataV
     <td rowspan="2">Colors and scales</td>
     <td rowspan="2">R: ggplot2 - introduction</td>
     <td rowspan="2">Consultations</td>
-    <td rowspan="2">HW1 (6p)</td>
+    <td rowspan="2"><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/issues/69">HW1 </a>(6p)</td>
   </tr>
   <tr>
   </tr>
