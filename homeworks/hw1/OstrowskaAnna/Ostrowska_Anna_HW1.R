@@ -3,6 +3,7 @@ library(dplyr)
 
 df <- read.csv('spotify-2023.csv')
 
+df[575, 'streams'] <- '0'
 
 #### 1.Jaka jest średnia liczba odtworzeń piosenek opublikowanych w roku 2023 w pierwszym kwartale?
 
