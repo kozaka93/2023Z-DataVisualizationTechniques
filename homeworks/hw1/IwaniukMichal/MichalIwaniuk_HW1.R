@@ -1,6 +1,6 @@
 library(tidyverse)
 
-df <- read_csv('spotify-2023.csv')
+df <- read_csv('../spotify-2023.csv')
 
 
 #### 1.Jaka jest średnia liczba odtworzeń piosenek opublikowanych w roku 2023 w pierwszym kwartale?
@@ -153,36 +153,18 @@ df %>% filter(`in_spotify_playlists`>`in_apple_playlists`) %>%
 
 #### 12. Który artysta średnio generuje więcej odtworzeń na piosenkę gdy tworzy solo niż gdy tworzy z innymi artystami?
 
-df2 <- df %>% select(`artist(s)_name`) %>%
-  separate(`artist(s)_name`,into=c(paste("artist",1:max(df$artist_count),sep="-")),",")
-
-names <- lapply(df2, function(vec) na.omit(vec))
-names <- as.character(flatten(names))
-names <- str_replace_all(names, " ", "")
-names <- unique(names)
-names <- sort(names)
-names <- names[-1]
-
-artists <- vector("character")
-
-for(name in names){
-  df1 <- df %>% filter(str_detect(df$`artist(s)_name`,paste(name,",|",name,"$",sep=""))) %>%
-    mutate(solo = as.character(artist_count==1)) %>%
-    group_by(solo) %>%
-    summarise(mean(as.numeric(streams)))
+artists <- df %>% 
+  mutate(`artist(s)_name` = str_split(`artist(s)_name`,", ")) %>%
+  unnest(`artist(s)_name`) %>%
+  group_by(`artist(s)_name`, solo = as.factor(artist_count==1)) %>%
+  summarise(avg_st = mean(as.numeric(streams),na.rm=T)) %>%
+  pivot_wider(names_from = solo,values_from = avg_st) %>%
+  filter(!is.na(`TRUE`)&!is.na(`FALSE`)) %>%
+  mutate(diff = `TRUE`-`FALSE`) %>%
+  filter(diff>0) %>%
+  pull(`artist(s)_name`)
   
-  if(!identical(dim(df1),c(2L,2L))){
-    next
-  }
-  
-  if(df1[df1$solo=="TRUE",2]>df1[df1$solo=="FALSE",2]){
-    artists <- c(artists,name)
-  }
-}
-
-artists
 
 ## Odp.
-
 
 
