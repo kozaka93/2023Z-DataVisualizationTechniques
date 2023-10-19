@@ -59,7 +59,7 @@ library(ggplot2)
 # b) jedna zmienna ilościowa, jedna jakościowa
 
 
-spotify_2023 <- read.csv("spotify-2023.csv")
+spotify_2023 <- read.csv("https://raw.githubusercontent.com/kozaka93/2023Z-DataVisualizationTechniques/main/homeworks/hw1/spotify-2023.csv")
 
 
 # Zadanie 3
