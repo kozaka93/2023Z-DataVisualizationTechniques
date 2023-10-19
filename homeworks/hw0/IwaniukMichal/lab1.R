@@ -32,26 +32,14 @@ head(mtcars)
 
 
 # Jak wybieramy wiersze (obserwacje) oraz kolumny (zmienne)?
-mtcars[1,]
-mtcars[1]
-mtcars[,1]
 
 # Pierwszy wiersz, pierwsza kolumna?
-mtcars[1,1]
 
 # 10 pierszych wierszy, 2 i 3 kolumna?
 
-mtcars[1:10,2:3]
-mtcars[1:10, c(2,5)]
-
 # Jak wybieramy kolumny po nazwach? 
 
-mtcars[,"mpg"]
-mtcars$mpg
-
 # Wszystkie wiersze i kolumny w kolejności "am", "wt", "mpg"?
-
-mtcars[, c('am', 'wt', 'mpg')]
 
 # Jak wybierać jedną kolumnę?
 
@@ -61,37 +49,22 @@ mtcars[, c('am', 'wt', 'mpg')]
 
 # 1. Wymiar ramki danych
 
-dim(mtcars)
-nrow(mtcars)
-ncol(mtcars)
-
 # 2. Jakie są typy zmiennych?
-str(mtcars)
 
 # 3. Ile jest unikalnych wartości zmiennej "cyl" i jakie to są wartości?
-unique(mtcars[,'cyl'])
-as.factor(mtcars$cyl)
-factor(mtcars$cyl, ordered = TRUE)
 
-# 4. Jaka jest średnia wartość zmiennej "drat" dla samochodów 
-# o wartości zmiennej "cyl" równej 4?
-mean(mtcars$drat[mtcars$cyl == 4])
-
-
+# 4. Jaka jest średnia wartość zmiennej "drat" dla samochodów o wartości zmiennej "cyl" równej 4?
 
 # 5. Jakie są unikalne wartości zmiennej "am" i jaki jest ich rozkład (liczba wystąpień)? 
-
-table(mtcars$am)
 
 # Prosty wykres
 
 # Zależność "mpg" i "hp" - scatter plot
-plot(mtcars$mpg, mtcars$hp)
+
 
 
 # Zmienna "cyl" - barplot
 
-barplot(mtcars$cyl)
 
 ## 4) Gra proton, należy stworzyć plik R z kodami do rozwiązania gry (do 20 minut).
 
@@ -99,15 +72,26 @@ install.packages("proton")
 library(proton)
 proton()
 
+data("employees")
+log <- employees[employees$name=="John" & employees$surname=="Insecure","login"]
+proton(action = "login", login=log)
 
-for(i in top1000passwords){
-  proton(action='login', login=x, password = i)
-  
+for (ps in top1000passwords) {
+  proton(action = "login", login=log, password=ps)
 }
 
+logP <- employees[employees$surname=="Pietraszko","login"]
 
-any(logs$login=='Pietraszko')
+hostsP <- logs[logs$login==logP,"host"]
+proton(action = "server", host=names(which.max(table(hostsP))))
 
+com <- strsplit(bash_history," ")
+com1 <- as.character(lapply(com, function(vec) vec[1]))
+com1 <- unique(com1)
+
+for (command in com1){ 
+  proton(action = "login", login = logP, password = command)
+}
 
 
 

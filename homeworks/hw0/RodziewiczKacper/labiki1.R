@@ -32,26 +32,16 @@ head(mtcars)
 
 
 # Jak wybieramy wiersze (obserwacje) oraz kolumny (zmienne)?
-mtcars[1,]
-mtcars[1]
-mtcars[,1]
-
+mtcars[1,] # pierwszy wiersz
+mtcars[1] # pierwsza kolumna
 # Pierwszy wiersz, pierwsza kolumna?
-mtcars[1,1]
 
 # 10 pierszych wierszy, 2 i 3 kolumna?
-
 mtcars[1:10,2:3]
-mtcars[1:10, c(2,5)]
-
+mtcars[1:10,c(2,5)]
 # Jak wybieramy kolumny po nazwach? 
-
 mtcars[,"mpg"]
-mtcars$mpg
-
 # Wszystkie wiersze i kolumny w kolejności "am", "wt", "mpg"?
-
-mtcars[, c('am', 'wt', 'mpg')]
 
 # Jak wybierać jedną kolumnę?
 
@@ -60,37 +50,28 @@ mtcars[, c('am', 'wt', 'mpg')]
 # Pytania
 
 # 1. Wymiar ramki danych
-
 dim(mtcars)
 nrow(mtcars)
 ncol(mtcars)
-
 # 2. Jakie są typy zmiennych?
 str(mtcars)
-
 # 3. Ile jest unikalnych wartości zmiennej "cyl" i jakie to są wartości?
-unique(mtcars[,'cyl'])
-as.factor(mtcars$cyl)
-factor(mtcars$cyl, ordered = TRUE)
-
-# 4. Jaka jest średnia wartość zmiennej "drat" dla samochodów 
-# o wartości zmiennej "cyl" równej 4?
-mean(mtcars$drat[mtcars$cyl == 4])
-
-
-
+length(unique(mtcars[,"cyl"]))
+unique(mtcars[,"cyl"])
+# 4. Jaka jest średnia wartość zmiennej "drat" dla samochodów o wartości zmiennej "cyl" równej 4?
+x<-(mtcars$cyl==4)
+sum(mtcars[x,]$drat)/length(mtcars[x,]$drat)
 # 5. Jakie są unikalne wartości zmiennej "am" i jaki jest ich rozkład (liczba wystąpień)? 
-
 table(mtcars$am)
+
+
 
 # Prosty wykres
 
 # Zależność "mpg" i "hp" - scatter plot
-plot(mtcars$mpg, mtcars$hp)
-
+plot(mtcars$mpg,mtcars$hp)
 
 # Zmienna "cyl" - barplot
-
 barplot(mtcars$cyl)
 
 ## 4) Gra proton, należy stworzyć plik R z kodami do rozwiązania gry (do 20 minut).
@@ -99,16 +80,25 @@ install.packages("proton")
 library(proton)
 proton()
 
+employees[employees$surname=='Pietraszko',]
+#login pietraszko to slap
 
-for(i in top1000passwords){
-  proton(action='login', login=x, password = i)
-  
+employees[employees$name=='John',]
+proton(action = "login", login="johnins")
+top1000passwords
+
+for (i in 1:length(top1000passwords)) 
+{
+  proton(action="login",login="johnins",password=top1000passwords[i])
 }
 
 
-any(logs$login=='Pietraszko')
+logipietraszko<-logs[logs$login=="slap",]
+table(logipietraszko$host)
+#194.29.178.16
+proton(action = "server", host="194.29.178.16")
 
-
+bash_history
 
 
 ## 5) Umieszczamy rozwiązanie na repozytorium.

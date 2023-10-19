@@ -27,33 +27,35 @@
 
 data(mtcars)
 head(mtcars)
+tail(mtcars)
+
+dim(mtcars)
+str(mtcars)
 
 ?mtcars
 
 
 # Jak wybieramy wiersze (obserwacje) oraz kolumny (zmienne)?
-mtcars[1,]
-mtcars[1]
-mtcars[,1]
+
+mtcars[c(2,3),2:3]
 
 # Pierwszy wiersz, pierwsza kolumna?
 mtcars[1,1]
-
 # 10 pierszych wierszy, 2 i 3 kolumna?
-
 mtcars[1:10,2:3]
-mtcars[1:10, c(2,5)]
+head(mtcars,10)[,2:3]#xd
 
 # Jak wybieramy kolumny po nazwach? 
-
-mtcars[,"mpg"]
-mtcars$mpg
+mtcars[,c("cyl", "disp")]
 
 # Wszystkie wiersze i kolumny w kolejności "am", "wt", "mpg"?
 
-mtcars[, c('am', 'wt', 'mpg')]
+mtcars[,c("am","wt","mpg")]
 
 # Jak wybierać jedną kolumnę?
+mtcars[,c("mpg")]
+mtcars$mpg
+mtcars["mpg"]
 
 # Uwaga na przecinek i wybór kolumn poprzez indeksy
 
@@ -61,37 +63,31 @@ mtcars[, c('am', 'wt', 'mpg')]
 
 # 1. Wymiar ramki danych
 
-dim(mtcars)
-nrow(mtcars)
-ncol(mtcars)
-
 # 2. Jakie są typy zmiennych?
-str(mtcars)
 
 # 3. Ile jest unikalnych wartości zmiennej "cyl" i jakie to są wartości?
-unique(mtcars[,'cyl'])
-as.factor(mtcars$cyl)
-factor(mtcars$cyl, ordered = TRUE)
+length(unique(mtcars$cyl))
+unique(mtcars$cyl)
 
-# 4. Jaka jest średnia wartość zmiennej "drat" dla samochodów 
-# o wartości zmiennej "cyl" równej 4?
-mean(mtcars$drat[mtcars$cyl == 4])
+# 4. Jaka jest średnia wartość zmiennej "drat" dla samochodów o wartości zmiennej "cyl" równej 4?
+mean(mtcars[mtcars$cyl == 4,]$drat)
 
-
-
-# 5. Jakie są unikalne wartości zmiennej "am" i jaki jest ich rozkład (liczba wystąpień)? 
-
+# 5. Jakie są unikalne wartości zmiennej "am" i jaki jest ich rozkład (liczba wystąpień)?
 table(mtcars$am)
+?table
 
 # Prosty wykres
 
 # Zależność "mpg" i "hp" - scatter plot
-plot(mtcars$mpg, mtcars$hp)
+
+plot(mtcars$mpg,mtcars$hp)
+?plot
 
 
 # Zmienna "cyl" - barplot
 
-barplot(mtcars$cyl)
+barplot(table(mtcars$cyl))
+
 
 ## 4) Gra proton, należy stworzyć plik R z kodami do rozwiązania gry (do 20 minut).
 
@@ -99,16 +95,29 @@ install.packages("proton")
 library(proton)
 proton()
 
+#Problem 1
+str(employees)
+employees[employees$name == "John" & employees$surname == "Insecure", c("login")]
 
-for(i in top1000passwords){
-  proton(action='login', login=x, password = i)
-  
+#johnins
+
+#Problem 2
+str(top1000passwords)
+for (password in top1000passwords) {
+  proton(action = "login", login="johnins", password=password)
 }
 
+#Problem 3
+employees[employees$surname == "Pietraszko",]$login
 
-any(logs$login=='Pietraszko')
+mostlogged = max(table(logs[logs$login=="slap",]$host))
+table(logs[logs$login=="slap",]$host)[table(logs[logs$login=="slap",]$host)==mostlogged]
 
+proton(action ="server", host="194.29.178.16")
 
+#Problem 4
+str(bash_history)
 
+grep()
 
 ## 5) Umieszczamy rozwiązanie na repozytorium.

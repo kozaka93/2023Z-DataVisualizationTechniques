@@ -32,35 +32,33 @@ head(mtcars)
 
 
 # Jak wybieramy wiersze (obserwacje) oraz kolumny (zmienne)?
-mtcars[1,]
-mtcars[1]
-mtcars[,1]
 
+mtcars[c(2, 3), c(1, 3)]
+mtcars[2:10, 1:5]
+mtcars[, 1] # wektor
+mtcars[, 1, drop = FALSE] # ramka
+mtcars[1, 1]
+mtcars[, c("mpg", "cyl")]
 # Pierwszy wiersz, pierwsza kolumna?
-mtcars[1,1]
 
 # 10 pierszych wierszy, 2 i 3 kolumna?
 
-mtcars[1:10,2:3]
-mtcars[1:10, c(2,5)]
-
 # Jak wybieramy kolumny po nazwach? 
 
-mtcars[,"mpg"]
-mtcars$mpg
-
 # Wszystkie wiersze i kolumny w kolejności "am", "wt", "mpg"?
-
-mtcars[, c('am', 'wt', 'mpg')]
+mtcars[, c("am", "wt", "mpg")]
 
 # Jak wybierać jedną kolumnę?
+mtcars["wt"]
+
 
 # Uwaga na przecinek i wybór kolumn poprzez indeksy
+mtcars[1, 2]
+mtcars[c(1, 2)]
 
 # Pytania
 
 # 1. Wymiar ramki danych
-
 dim(mtcars)
 nrow(mtcars)
 ncol(mtcars)
@@ -69,19 +67,14 @@ ncol(mtcars)
 str(mtcars)
 
 # 3. Ile jest unikalnych wartości zmiennej "cyl" i jakie to są wartości?
-unique(mtcars[,'cyl'])
-as.factor(mtcars$cyl)
-factor(mtcars$cyl, ordered = TRUE)
+unique(mtcars$cyl)
+length(unique(mtcars$cyl))
 
-# 4. Jaka jest średnia wartość zmiennej "drat" dla samochodów 
-# o wartości zmiennej "cyl" równej 4?
-mean(mtcars$drat[mtcars$cyl == 4])
-
-
+# 4. Jaka jest średnia wartość zmiennej "drat" dla samochodów o wartości zmiennej "cyl" równej 4?
+mean(mtcars[mtcars$cyl == 4, "drat"])
 
 # 5. Jakie są unikalne wartości zmiennej "am" i jaki jest ich rozkład (liczba wystąpień)? 
-
-table(mtcars$am)
+table(unique(mtcars$am))
 
 # Prosty wykres
 
@@ -90,8 +83,9 @@ plot(mtcars$mpg, mtcars$hp)
 
 
 # Zmienna "cyl" - barplot
+table(mtcars$cyl)
+barplot(table(mtcars$cyl))
 
-barplot(mtcars$cyl)
 
 ## 4) Gra proton, należy stworzyć plik R z kodami do rozwiązania gry (do 20 minut).
 
@@ -99,15 +93,18 @@ install.packages("proton")
 library(proton)
 proton()
 
+employees[employees$surname == "Insecure", ]
+proton(action = "login", login="johnins")
 
-for(i in top1000passwords){
-  proton(action='login', login=x, password = i)
-  
+for (x in top1000passwords) {
+  proton(action = "login", login="johnins", password=x)
 }
 
+employees[employees$surname == "Pietraszko", ]
 
-any(logs$login=='Pietraszko')
-
+x <- logs[logs$login == "slap", ]
+sort(table(x$host))
+# 194.29.178.16 
 
 
 

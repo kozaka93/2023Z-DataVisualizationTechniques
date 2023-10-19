@@ -32,51 +32,43 @@ head(mtcars)
 
 
 # Jak wybieramy wiersze (obserwacje) oraz kolumny (zmienne)?
-mtcars[1,]
-mtcars[1]
-mtcars[, 1]   # wektor
+mtcars[c(2,3),c(1,3)] # wiersz 2 i 3, kolumna 1 i 3, indeksowanie jest od 1
+mtcars[2:10,1:5] # wiersze od 2 do 10 i kolumny od 1 do 5
+mtcars[,c(1, 2, 3)] # wszystkie wiersze, kolumny 1, 2 i 3
 
 # Pierwszy wiersz, pierwsza kolumna?
-mtcars[1, 1]
-
+mtcars[1,]
+mtcars[,1]
+mtcars[,1, drop = FALSE]
 # 10 pierszych wierszy, 2 i 3 kolumna?
-mtcars[1:10, 2:3]
-mtcars[1:10, c(2, 5)]
-
+mtcars[1:10, c(2, 3)]
 # Jak wybieramy kolumny po nazwach? 
-mtcars[, "mpg"]
-mtcars$disp
-
+mtcars[1:10, c("mpg", "cyl")]
 # Wszystkie wiersze i kolumny w kolejności "am", "wt", "mpg"?
-mtcars[, c('am', 'wt', 'mpg')]
-
+mtcars[c("am","wt","mpg")]
 # Jak wybierać jedną kolumnę?
-mtcars[, 3]
-
+mtcars$wt
+mtcars["wt"]
+var <- "wt"
+mtcars[var] # mtcars$var nie dziala
 # Uwaga na przecinek i wybór kolumn poprzez indeksy
 
 # Pytania
 
 # 1. Wymiar ramki danych
 dim(mtcars)
-nrow(mtcars)   # liczba wierszy
-ncol(mtcars)   # liczba kolumn
-
+nrow(mtcars)
+ncol(mtcars)
 # 2. Jakie są typy zmiennych?
-typeof(mtcars)
 str(mtcars)
-
 # 3. Ile jest unikalnych wartości zmiennej "cyl" i jakie to są wartości?
-unique(mtcars[, 'cyl'])
-as.factor(mtcars$cyl)
-factor(mtcars$cyl, levels = c("8", "6", "4"), ordered = TRUE)
-
+unique(mtcars$cyl)
+lengh(unique(mtcars$cyl))
 # 4. Jaka jest średnia wartość zmiennej "drat" dla samochodów o wartości zmiennej "cyl" równej 4?
-mean(mtcars$drat[mtcars$cyl == 4])
-
+mean(mtcars[mtcars$cyl == 4, "drat"])
 # 5. Jakie są unikalne wartości zmiennej "am" i jaki jest ich rozkład (liczba wystąpień)? 
+unique(mtcars$am)
 table(mtcars$am)
-
 # Prosty wykres
 
 # Zależność "mpg" i "hp" - scatter plot
@@ -84,8 +76,7 @@ plot(mtcars$mpg, mtcars$hp)
 
 
 # Zmienna "cyl" - barplot
-barplot(mtcars$cyl)
-
+barplot(table(mtcars$cyl))
 
 ## 4) Gra proton, należy stworzyć plik R z kodami do rozwiązania gry (do 20 minut).
 
@@ -93,18 +84,22 @@ install.packages("proton")
 library(proton)
 proton()
 
+employees[employees$name == 'John ',c(1,2,3)]
+# johnins
+proton(action = "login", login="johnins")
 
-
-for (p in top1000passwords) {
-  if (proton(action = "login", login="johnins", password=p) == 'Success! User is logged in!') {
-    proton(action = "login", login="johnins", password=p)
+for (pass in top1000passwords){
+  result <- proton(action = 'login', login = 'johnins', password = pass)
+  if (result == "Success! User is logged in!"){
+    print(pass)
   }
 }
+# q1w2e3r4t5
 
-# login pietraszka
-lp = employees[employees$surname == "Pietraszko", "login"]
-host = names(sort(table(logs[logs$login == lp, "host"]), decreasing = TRUE)[1]) 
-proton(action = "server", host=host)
+employees[employees$surname == 'Pietraszko',]
+sort(table(logs[logs$login == 'slap','host']))
+proton(action = 'servr', host = '194.29.178.16')
+
 
 
 

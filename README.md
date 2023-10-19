@@ -37,8 +37,8 @@ Previous: [Winter Semester 2022/23](https://github.com/MI2-Education/2023Z-DataV
   <tr>
     <td rowspan="2">2</td>
     <td rowspan="2">10-12</td>
-    <td rowspan="2">The Grammar of Graphics</td>
-    <td rowspan="2">R: dplyr, tidyr, forcats</td>
+    <td rowspan="2"><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/blob/main/lectures/L2-gramatyka.pdf">The Grammar of Graphics</a></td>
+    <td rowspan="2"><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/tree/main/labs/lab2">R: dplyr, tidyr, forcats</a></td>
     <td rowspan="2">Group work</td>
     <td rowspan="2">P1 (1p)</td>
   </tr>
@@ -47,10 +47,10 @@ Previous: [Winter Semester 2022/23](https://github.com/MI2-Education/2023Z-DataV
   <tr>
     <td rowspan="2">3</td>
     <td rowspan="2">10-19</td>
-    <td rowspan="2">Colors and scales</td>
-    <td rowspan="2">R: ggplot2 - introduction</td>
+    <td rowspan="2"><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/blob/main/lectures/L3-kolory-skale.pdf">Colors and scales</a></td>
+    <td rowspan="2"><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/tree/main/labs/lab3">R: ggplot2 - introduction</a></td>
     <td rowspan="2">Consultations</td>
-    <td rowspan="2">HW1 (6p)</td>
+    <td rowspan="2"><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/issues/69">HW1 </a>(6p)</td>
   </tr>
   <tr>
   </tr>

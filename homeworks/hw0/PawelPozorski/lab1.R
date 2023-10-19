@@ -32,55 +32,45 @@ head(mtcars)
 
 
 # Jak wybieramy wiersze (obserwacje) oraz kolumny (zmienne)?
-mtcars[1,]
-mtcars[1]
-mtcars[,1]
+mtcars[, 1]
 
 # Pierwszy wiersz, pierwsza kolumna?
-mtcars[1,1]
+mtcars[1, 1]
 
 # 10 pierszych wierszy, 2 i 3 kolumna?
-
-mtcars[1:10,2:3]
-mtcars[1:10, c(2,5)]
+mtcars[1:10, 2:3]
 
 # Jak wybieramy kolumny po nazwach? 
-
-mtcars[,"mpg"]
-mtcars$mpg
+mtcars["mpg"]
 
 # Wszystkie wiersze i kolumny w kolejności "am", "wt", "mpg"?
-
-mtcars[, c('am', 'wt', 'mpg')]
+mtcars[, c("am", "wt", "mpg")]
 
 # Jak wybierać jedną kolumnę?
+mtcars[, 3]
 
 # Uwaga na przecinek i wybór kolumn poprzez indeksy
 
 # Pytania
 
 # 1. Wymiar ramki danych
-
 dim(mtcars)
 nrow(mtcars)
 ncol(mtcars)
 
 # 2. Jakie są typy zmiennych?
+typeof(mtcars)
 str(mtcars)
 
 # 3. Ile jest unikalnych wartości zmiennej "cyl" i jakie to są wartości?
-unique(mtcars[,'cyl'])
+unique(mtcars["cyl"])
 as.factor(mtcars$cyl)
-factor(mtcars$cyl, ordered = TRUE)
+factor(mtcars$cyl, levels=c("8", "6", "4"), ordered=TRUE)
 
-# 4. Jaka jest średnia wartość zmiennej "drat" dla samochodów 
-# o wartości zmiennej "cyl" równej 4?
+# 4. Jaka jest średnia wartość zmiennej "drat" dla samochodów o wartości zmiennej "cyl" równej 4?
 mean(mtcars$drat[mtcars$cyl == 4])
 
-
-
 # 5. Jakie są unikalne wartości zmiennej "am" i jaki jest ich rozkład (liczba wystąpień)? 
-
 table(mtcars$am)
 
 # Prosty wykres
@@ -90,8 +80,8 @@ plot(mtcars$mpg, mtcars$hp)
 
 
 # Zmienna "cyl" - barplot
-
 barplot(mtcars$cyl)
+
 
 ## 4) Gra proton, należy stworzyć plik R z kodami do rozwiązania gry (do 20 minut).
 
@@ -99,16 +89,19 @@ install.packages("proton")
 library(proton)
 proton()
 
+login = employees[employees$name == "John" & employees$surname == "Insecure", "login"]
+proton(action = "login", login=login)
 
-for(i in top1000passwords){
-  proton(action='login', login=x, password = i)
-  
+for (pass in top1000passwords) {
+  proton(action = "login", login=login, password=pass) 
 }
 
+login = employees[employees$surname == "Pietraszko", "login"]
+host = names(sort(table(logs[logs$login==login, "host"]), decreasing = TRUE)[1])
+proton(action = "server", host=host)
 
-any(logs$login=='Pietraszko')
-
-
-
+pass = colnames(t(sort(table(sub("\\s.*", "", bash_history)))))[1]
+proton(action = "login", login=login, password=pass) 
 
 ## 5) Umieszczamy rozwiązanie na repozytorium.
+

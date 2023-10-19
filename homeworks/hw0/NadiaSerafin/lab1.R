@@ -34,53 +34,47 @@ head(mtcars)
 # Jak wybieramy wiersze (obserwacje) oraz kolumny (zmienne)?
 mtcars[1,]
 mtcars[1]
-mtcars[,1]
+mtcars[, 1]   # wektor
 
 # Pierwszy wiersz, pierwsza kolumna?
-mtcars[1,1]
+mtcars[1, 1]
 
 # 10 pierszych wierszy, 2 i 3 kolumna?
-
-mtcars[1:10,2:3]
-mtcars[1:10, c(2,5)]
+mtcars[1:10, 2:3]
+mtcars[1:10, c(2, 5)]
 
 # Jak wybieramy kolumny po nazwach? 
-
-mtcars[,"mpg"]
-mtcars$mpg
+mtcars[, "mpg"]
+mtcars$disp
 
 # Wszystkie wiersze i kolumny w kolejności "am", "wt", "mpg"?
-
 mtcars[, c('am', 'wt', 'mpg')]
 
 # Jak wybierać jedną kolumnę?
+mtcars[, 3]
 
 # Uwaga na przecinek i wybór kolumn poprzez indeksy
 
 # Pytania
 
 # 1. Wymiar ramki danych
-
 dim(mtcars)
-nrow(mtcars)
-ncol(mtcars)
+nrow(mtcars)   # liczba wierszy
+ncol(mtcars)   # liczba kolumn
 
 # 2. Jakie są typy zmiennych?
+typeof(mtcars)
 str(mtcars)
 
 # 3. Ile jest unikalnych wartości zmiennej "cyl" i jakie to są wartości?
-unique(mtcars[,'cyl'])
+unique(mtcars[, 'cyl'])
 as.factor(mtcars$cyl)
-factor(mtcars$cyl, ordered = TRUE)
+factor(mtcars$cyl, levels = c("8", "6", "4"), ordered = TRUE)
 
-# 4. Jaka jest średnia wartość zmiennej "drat" dla samochodów 
-# o wartości zmiennej "cyl" równej 4?
+# 4. Jaka jest średnia wartość zmiennej "drat" dla samochodów o wartości zmiennej "cyl" równej 4?
 mean(mtcars$drat[mtcars$cyl == 4])
 
-
-
 # 5. Jakie są unikalne wartości zmiennej "am" i jaki jest ich rozkład (liczba wystąpień)? 
-
 table(mtcars$am)
 
 # Prosty wykres
@@ -90,8 +84,8 @@ plot(mtcars$mpg, mtcars$hp)
 
 
 # Zmienna "cyl" - barplot
-
 barplot(mtcars$cyl)
+
 
 ## 4) Gra proton, należy stworzyć plik R z kodami do rozwiązania gry (do 20 minut).
 
@@ -100,14 +94,17 @@ library(proton)
 proton()
 
 
-for(i in top1000passwords){
-  proton(action='login', login=x, password = i)
-  
+
+for (p in top1000passwords) {
+  if (proton(action = "login", login="johnins", password=p) == 'Success! User is logged in!') {
+    proton(action = "login", login="johnins", password=p)
+  }
 }
 
-
-any(logs$login=='Pietraszko')
-
+# login pietraszka
+lp = employees[employees$surname == "Pietraszko", "login"]
+host = names(sort(table(logs[logs$login == lp, "host"]), decreasing = TRUE)[1]) 
+proton(action = "server", host=host)
 
 
 
