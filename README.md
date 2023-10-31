@@ -58,7 +58,7 @@ Previous: [Winter Semester 2022/23](https://github.com/MI2-Education/2023Z-DataV
     <td rowspan="2">4</td>
     <td rowspan="2">11-02</td>
     <td rowspan="2">Don't do this at home</td>
-    <td rowspan="2">R: ggplot2 - plot modification, theme, facets</td>
+    <td rowspan="2"><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/tree/main/labs/lab4">R: ggplot2 - plot modification, theme, facets</a></td>
     <td rowspan="2">Data exploration &amp; First visualizations</td>
     <td rowspan="2">P1 (2p)</td>
   </tr>
