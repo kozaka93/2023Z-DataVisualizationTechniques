@@ -1,0 +1,89 @@
+---
+title: Raport - TWD HW 2
+author: Mateusz Karandys
+date: "04.11.2023"
+output: pdf_document
+editor_options: 
+  chunk_output_type: console
+---
+
+# Źródło
+Wykres pochodzi z artykułu: *https://obserwatorgospodarczy.pl/2023/11/03/pkb-polski-w-2023-roku-nie-urosnie-nawet-o-05-czy-w-2024-roku-bedzie-lepiej/* z dnia 03.11.2023.
+
+<center>
+
+![Oryginalna wizualizacja](bad_plot.png){width=70%}
+
+<center>
+
+**Błędy w wizualizacji**  
+1. Wykresy wyglądają jakby przedstawiały wartości z tego samego zakresu, chociaż w rzeczywistości prezentują zupełnie różne wielkości.  
+2. Z powodu dwóch osi Y odbiorca może źle zinterpretować zmiany wartości. Duża względna zmiana wartości na jednej skali wygląda tak samo jak mała zmiana na skali drugiej.  
+3. Trudno odczytać wartości z wykresu, brakuje linii pomocniczych.
+
+\newpage
+
+# Poprawiona wizualizacja
+
+Poniżej znajduje się kod potrzebny do wygenerowania wizualizacji oraz wykresy.\
+
+```{r, message=FALSE, warning=FALSE}
+library(ggplot2)
+```
+
+```{r}
+df <- data.frame(month = c("I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"),
+                 gdp = c(0.95, 0.95, 0.8, 0.6, 0.55, 0.6, 1.0, 1.1, 0.8, 0.4),
+                 inflation = c(12.7, 12.6, 12.6, 12.65, 12.7, 12.4, 12.4, 12.0, 11.9, 
+                               11.9))
+```
+
+```{r, fig.show="hide", warning=FALSE}
+gdp_plot <- ggplot(df, aes(x = factor(month, level=month), 
+                           y = gdp, 
+                           group = T, 
+                           color = "PKB")) +
+  geom_line(size = 1.1) +
+  labs(title = "Wykres 1. Zmiany konsensusu prognoz wzrostu gospodarczego
+w biezacym roku dla Polski",
+       x = element_blank(),
+       color = element_blank()) +
+  scale_y_continuous(name = element_blank(),
+                     limits = c(0, 1.2),
+                     breaks = seq(0, 1.2, 0.2),
+                     expand = c(0, 0)) +
+  scale_color_manual(values = c("orange")) +
+  theme_bw() +
+  theme(plot.title = element_text(size = 12, color = "gray14", face = "bold"))
+```
+
+```{r, warning=FALSE}
+inflation_plot <- ggplot(df, aes(x = factor(month, level=month), 
+                                 y = inflation, 
+                                 group = T, 
+                                 color = "Inflacja")) +
+  geom_line(size = 1.1) +
+  labs(title = "Wykres 2. Zmiany konsensusu prognoz inflacji w biezacym 
+roku dla Polski",
+       x = element_blank(),
+       color = element_blank()) +
+  scale_y_continuous(name = element_blank(),
+                     limits = c(11.4, 12.8),
+                     breaks = seq(11.4, 12.8, 0.2),
+                     expand = c(0, 0)) +
+  scale_color_manual(values = c("blue")) +
+  theme_bw() +
+  theme(plot.title = element_text(size = 12, color = "gray14", face = "bold"))
+```
+
+\newpage
+
+```{r, echo=FALSE, fig.align="center", out.width="80%"}
+gdp_plot
+inflation_plot
+```
+
+**Zalety nad oryginalną wizualizacją**  
+1. Dwa wykresy zamiast jednego dają większą klarowność i przejrzystość.  
+2. Odbiorca nie musi się zastanawiać która oś odpowiada danemu wykresowi.  
+3. Trudniej pomylić się przy porównywaniu wartości prezentowanych wskaźników.  
