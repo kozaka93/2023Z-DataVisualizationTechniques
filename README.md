@@ -67,7 +67,7 @@ Previous: [Winter Semester 2022/23](https://github.com/MI2-Education/2023Z-DataV
   <tr>
     <td rowspan="2">5</td>
     <td rowspan="2">11-09</td>
-    <td rowspan="2">Maps - is it so complicated?</td>
+    <td rowspan="2"><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/blob/main/lectures/L5-maps.pdf">Maps - is it so complicated?</a></td>
     <td rowspan="2"><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/tree/main/labs/lab5">R: ggplot2 - advanced, extensions: patchwork, ggrepel</a></td>
     <td rowspan="2">Advanced visualizations &amp; Prototype</td>
     <td rowspan="2">P1 (2p)<br><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/issues/151">HW2 </a> (6p)</td>
