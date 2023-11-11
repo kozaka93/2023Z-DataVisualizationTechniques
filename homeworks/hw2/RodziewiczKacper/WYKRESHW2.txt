@@ -1,0 +1,50 @@
+library(ggplot2)
+
+partie <- c("PRAWO I SPRAWIEDLIWOŚĆ", "KOALICJA OBYWATELSKA", "TRZECIA DROGA", "KONFEDERACJA", "NOWA LEWICA", "POLSKA JEST JEDNA", "BEZPARTYJNI SAMORZĄDOWCY", "NORMALNY KRAJ", "RUCH NAPRAWY POLSKI")
+liczby_glosow <- c(4636, 2519, 1827, 865, 494, 209, 124, 27, 17)
+procenty_glosow <- c(43.25, 23.50, 17.05, 8.07, 4.61, 1.95, 1.16, 0.25, 0.16)
+kolory <- c("PRAWO I SPRAWIEDLIWOŚĆ"="navy", "KOALICJA OBYWATELSKA"="darkorange", "TRZECIA DROGA"="yellow",
+            "KONFEDERACJA"="black", "NOWA LEWICA"="red", "POLSKA JEST JEDNA"="grey",
+            "BEZPARTYJNI SAMORZĄDOWCY"="grey", "NORMALNY KRAJ"="grey", "RUCH NAPRAWY POLSKI"="grey")
+etykiety <- paste(liczby_glosow, "głosów,", procenty_glosow, "%")
+
+dane <- data.frame(
+  partie = factor(partie, levels = partie[order(liczby_glosow, decreasing = TRUE)]),
+  liczby_glosow = liczby_glosow,
+  procenty_glosow = procenty_glosow
+)
+
+ p<-ggplot(dane, aes(x = partie, y = liczby_glosow, fill = partie)) + 
+  geom_bar(stat = "identity") +
+  ggtitle("Liczba głosów na poszczególne partie w Sokołowie Podlaskim w wyborach parlamentarnych w 2023 roku") + 
+  scale_fill_manual(values = kolory)
+ 
+ p <- p + theme_minimal()
+ 
+ p <- p + theme(
+   legend.position = "none",
+   axis.text.x = element_text(angle = 60, hjust = 1,size=11,face="bold"),
+   plot.title = element_text(hjust = 0.5),
+   panel.grid.major = element_blank(),
+   panel.grid.minor = element_blank(),
+   axis.title.x = element_blank(),  
+   axis.title.y = element_blank(),  
+   axis.text.y = element_blank(),   
+   axis.ticks.y = element_blank() 
+   
+ ) 
+ 
+ max_glosow <- max(liczby_glosow)
+ odleglosc <- max_glosow * 0.05 
+ for(i in 1:length(etykiety)) {
+   p <- p + annotate("text", x=partie[i], y=dane$liczby_glosow[i] + odleglosc, label=etykiety[i], size=4.76, hjust=0.5)
+ }
+ 
+ frekwencja <- 74.38 
+ liczba_glosow <- sum(dane$liczby_glosow)  
+ tekst <- paste("Frekwencja:", frekwencja, "%", "\nLiczba głosów:", liczba_glosow)
+ 
+ p <- p + annotate("text", x = Inf, y = Inf, label = tekst, hjust = 1, vjust = 1, size = 5)
+ 
+ print(p)
+ 
