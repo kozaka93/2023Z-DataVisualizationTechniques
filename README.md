@@ -78,7 +78,7 @@ Previous: [Winter Semester 2022/23](https://github.com/MI2-Education/2023Z-DataV
     <td rowspan="2">6</td>
     <td rowspan="2">11-16</td>
     <td rowspan="2">Hans Rosling: The best stats you've ever seen, Let my dataset change your mindset <br>Alberto Cairo: How Charts Lie</td>
-    <td rowspan="2">R: maps</td>
+    <td rowspan="2"><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/tree/main/labs/lab6">R: maps</a></td>
     <td rowspan="2">Consultations</td>
     <td rowspan="2"></td>
   </tr>
