@@ -2,6 +2,8 @@
 
 Winter Semester 2023/24 [@kozaka93](https://github.com/kozaka93) [@krzyzinskim](https://github.com/krzyzinskim) [@mikolajsp](https://github.com/mikolajsp) [@woznicak](https://github.com/woznicak)
 
+*Materials for courses conducted at the Faculty of Mathematics and Information Sciences, Warsaw University of Technology.*
+
 Previous: [Winter Semester 2022/23](https://github.com/MI2-Education/2023Z-DataVisualizationTechniques)
 
 ## Schedule
