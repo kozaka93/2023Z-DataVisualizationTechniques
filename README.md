@@ -92,7 +92,7 @@ Previous: [Winter Semester 2022/23](https://github.com/MI2-Education/2023Z-DataV
     <td rowspan="2">Presentation of P1</td>
     <td rowspan="2">R: plotly - interactive visualization</td>
     <td rowspan="2">Presentation of P1</td>
-    <td rowspan="2">HW3 (6p)<br>P1 (20p)</td>
+    <td rowspan="2"><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/issues/240">HW3 </a>(6p)<br>P1 (20p)</td>
   </tr>
   <tr>
   </tr>
