@@ -1,0 +1,34 @@
+---
+title: "Poprawa wizualizacji z wykorzystaniem ggplot2"
+author: "Kaniasty Adam"
+date: "05.11.2023"
+output:
+html_document:
+df_print: paged
+---
+
+
+## Wizualizacja źródłowa
+
+Wizualizacja została opublikowana dnia **22.10.2023** i pochodzi z [Twittera dziennikarza Gazety Prawnej]("https://twitter.com/tzolciak/status/1716020256714416468/photo/1").
+
+<img src="./original.jpg" alt="Alt text" title="Optional title" height=700 />
+
+
+## Uwagi do wizualizacji
+
+ - Wizualizacja jest mało czytalna. Kropki wokół głównej linii nie wnoszą wartości do przedstawionej myśli, a jedynie utrudniają odczytanie danych.
+ - Teksty przy pionowych liniach są mało czytelne. Powodują, że wizualizacja jest nieczytelna.
+
+## Poprawiona wizualizacja
+
+![](./fixed.png)
+
+**DANE UŻYTE W WIZUALIZACJI NIE SĄ AUTENTYCZNE; MAJĄ JEDYNIE CHARAKTER POGLĄDOWY**
+
+## Naniesione poprawki
+
+ - Usunięcie kropek wokół głównej linii
+ - Poprawienie umiejscowienia pionowych linii
+ - Przeniesienie legendy na prawą stronę
+ - Ideą wykresu, było przedstawienie trendu. W obecnej konfiguracji odbiorca może w pełni skupić się na konkretnej linii partii.
