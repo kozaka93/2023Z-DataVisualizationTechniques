@@ -49,7 +49,6 @@ plot_bmi <- ggplot() +
   ) +
   theme(
     plot.title = element_text(face = "bold", size = 18, hjust = 0.5, vjust = 0.5)
-  )
-  #+ geom_tile(data = grid, aes(x = `MeanUnderweight`, y = `MeanOverweight`, color=`Continent`), alpha=0.3)
+  ) # + geom_raster(data = grid, aes(x = `MeanUnderweight`, y = `MeanOverweight`, fill=`Continent`), alpha=0.3)
 
 ggsave("plot_bmi.png", plot = plot_bmi, dpi = 300)
