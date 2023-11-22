@@ -1,0 +1,185 @@
+---
+title: "P1"
+author: "W. Boguszewska, A. Samsel"
+date: "2023-11-21"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Wczytanie potrzebnych bibliotek
+```{r}
+library(ggplot2)
+library(ggpubr)
+library(dplyr)
+library(tidyr)
+library(patchwork)
+```
+
+Wczytanie danych
+```{r}
+food <- read.csv("Food_Production.csv")
+foodTypes <- read.csv("Food_Production2.csv", sep=";")
+```
+
+Wykres pokazujący produkty z emisją niższą i wyższą od średniej
+```{r}
+food2 <- food %>% filter(Land.use.change >= 0)
+food2$emission_z <- round((food2$Total_emissions - mean(food2$Total_emissions))/sd(food2$Total_emissions), 3)
+food2$emission_type <- ifelse(food2$emission_z < 0, 'below', 'above')
+food2 <- food2 %>% arrange(desc(emission_z))
+food2$Food.product <- factor(food2$Food.product, levels = food2$Food.product)
+
+mean_e <- round(mean(food2$Total_emissions), 2)
+
+food2 <- rbind(head(food2, 5), tail(food2, 5))
+
+ggplot(food2, aes(x=Food.product, y=emission_z, label=emission_z)) + 
+        geom_bar(stat='identity', aes(fill=emission_type), width=.5)  +
+        scale_fill_manual(name="Total emission", 
+                          labels = c("Above Average", "Below Average"), 
+                          values = c("above"="#a34624", "below"="#84997d")) + 
+        labs(y = "Total emission normalized",
+             x = "Name of product") + 
+        coord_flip() +
+        theme_classic() +
+        annotate("rect", xmin=0, xmax=5.5, ymin=-Inf, ymax=Inf, fill = "#a34624", alpha = 0.3) +
+        annotate("rect", xmin=5.5, xmax=Inf, ymin=-Inf, ymax=Inf, fill = "#84997d", alpha = 0.3) +
+        theme(legend.position = "none",
+              axis.title.x = element_text(size = 14),
+              axis.title.y = element_text(size = 14),
+              axis.text.x = element_text(size = 12),
+              axis.text.y = element_text(size = 12)) +
+        annotate(geom = "text", x = 6, y = 3, size = 4, label = "Below mean emission", 
+                 color = "#84997d", fontface = "bold") +
+        annotate(geom = "text", x = 5, y = 3, size = 4, label = "Above mean emission", 
+                 color = "#a34624", fontface = "bold") +
+        scale_y_reverse() + 
+        scale_x_discrete(position = "top")
+```
+
+Wykres słupkowy pokazujący 10 produktów z największą emisją.
+```{r}
+food_data <- food
+food_data$Other <- food_data$Processing + food_data$Transport + food_data$Packging + food_data$Retail
+long_data <- food_data %>%
+        select(Food.product, Land.use.change, Animal.Feed, Farm, Other) %>%
+        gather(key = "Category", value = "Emissions", -Food.product) %>%
+        arrange(desc(Food.product))
+
+top_10_data <- long_data %>%
+        group_by(Food.product) %>%
+        summarize(Total_Emissions = sum(Emissions)) %>%
+        top_n(10, Total_Emissions) %>%
+        inner_join(long_data, by = "Food.product")
+
+
+ggplot(top_10_data, aes(x = reorder(Food.product, Total_Emissions), y = Emissions, fill = Category)) +
+        geom_bar(stat = "identity") +
+        coord_flip() +
+        scale_fill_manual(values = c("Animal.Feed"="#a9906d", 
+                                     "Farm"="#FDE488", 
+                                     "Land.use.change"="#b4c47c", 
+                                     "Other"="#3b6066"),
+                          labels = c("Land Use", "Animal Feed", "Agriculture", "Processing & Logistics")) +
+        labs(title = "Emission Breakdown for Top 10 Food Products with Highest Total Emissions",
+             x = "Food Product", 
+             y = "Total Emissions",
+             fill = "Emission Source") +
+        theme_minimal() +
+        theme(legend.position = c(0.83, 0.15),
+              axis.title.x = element_blank(),
+              legend.background = element_rect(fill = "white", 
+                                               size = 0.5, 
+                                               linetype = "solid", 
+                                               colour = "white"),
+              legend.text = element_text(size = 12),
+              title = element_blank(),
+              axis.line = element_line(color = "black"),
+              axis.ticks = element_line(color = "black"),
+              axis.text.x = element_text(color = "black"),
+              axis.text.y = element_text(color = "black"),
+              panel.grid.major.x = element_line(color = "gray", linetype = "solid"),
+              panel.grid.major.y = element_blank(),
+              panel.grid.minor = element_blank()) +
+        scale_y_continuous(expand = c(0, 0))
+```
+
+Wykres waflowy pokazujący zużycie wody
+```{r}
+food3 <- foodTypes %>% 
+        group_by(TypeOfProduct) %>% 
+        summarise(sumOfFreshWater = sum(Freshwater.withdrawals.per.kilogram..liters.per.kilogram., na.rm = TRUE)/n()) %>%
+        mutate(sumOfFreshWater = round(sumOfFreshWater / sum(sumOfFreshWater) * 100, 0)) %>% 
+        arrange(TypeOfProduct)
+
+df <- data.frame(
+        category = rep(food3$TypeOfProduct, food3$sumOfFreshWater),
+        x = c(rep(1:8, 4), 1:6, 10, rep(9:10, 2), rep(4:8, 2), 9, rep(1:3, 5), rep(4:10, 3), rep(9:10, 4), 7:8),
+        y = c(rep(1, 8), rep(2, 8), rep(3, 8), rep(4, 8), rep(5, 6), 7, 5, 5, 6, 6, rep(6, 5), rep(7, 6), 
+              rep(6, 3), rep(7, 3), rep(8, 3), rep(9, 3), rep(10, 3), rep(8, 7), rep(9, 7), rep(10, 7),
+              1, 1, 2,2, 3, 3, 4, 4, 5, 5)
+)
+
+
+gW <- ggplot(df, aes(x = x, y = y, fill = category)) + 
+        geom_tile(color = "black", size = 0.5) +
+        scale_x_continuous(expand = c(0, 0)) +
+        scale_y_continuous(expand = c(0, 0), trans = 'reverse') +
+        labs(title="Share in fresh water withdrawals") +
+        theme(plot.title = element_text(size = rel(1.2)),
+              axis.text = element_blank(),
+              axis.title = element_blank(),
+              axis.ticks = element_blank(),
+              legend.title = element_blank(),
+              legend.position = "none") +
+        coord_fixed() +
+        scale_fill_manual(values=c('#84997d', '#cfb18c', '#3b5d60', '#d26d6d', '#ebc86c', 
+                                   '#21485f', '#a34624', '#688697'))
+legend <- get_legend(gW)
+
+gW
+```
+
+Wykres waflowy pokazujący zużycie ziemii
+```{r}
+food4 <- foodTypes %>% 
+        group_by(TypeOfProduct) %>% 
+        summarise(sumOfLand = sum(Land.use.per.kilogram..m..per.kilogram., na.rm = TRUE)/n()) %>%
+        mutate(sumOfLand = round(sumOfLand / sum(sumOfLand) * 100, 0)) %>% 
+        arrange(TypeOfProduct)
+
+food4[1, "sumOfLand"] = food4[1, "sumOfLand"] - 1
+
+
+data <- data.frame(
+        category = rep(food4$TypeOfProduct, food4$sumOfLand),
+        x = c(rep(1:10, 6), 1:4, 6:10, 7:10, 5, 5, 5, rep(6:10, 2), rep(1:4, 3), 6, 5),
+        y = c(rep(1, 10), rep(2, 10), rep(3, 10), rep(4, 10), rep(5, 10), rep(6, 10), rep(7, 4),
+              rep(9, 5), rep(10, 4), 10, 7, 8, rep(7, 5), rep(8, 5), rep(8, 4), rep(9, 4), rep(10, 4), 10, 9))
+
+gL <- ggplot(data, aes(x = x, y = y, fill = category)) + 
+        geom_tile(color = "black", size = 0.5) +
+        scale_x_continuous(expand = c(0, 0)) +
+        scale_y_continuous(expand = c(0, 0), trans = 'reverse') +
+        labs(title="Share in land use") +
+        theme(plot.title = element_text(size = rel(1.2)),
+              axis.text = element_blank(),
+              axis.title = element_blank(),
+              axis.ticks = element_blank(),
+              legend.title = element_blank(),
+              legend.position = "bottom") +
+        coord_fixed() +
+        scale_fill_manual(values=c('#84997d', '#cfb18c', '#3b5d60', '#d26d6d', '#ebc86c', 
+                                   '#21485f', '#a34624', '#688697'))
+
+gL
+```
+
+Oba wykresy waflowe
+```{r}
+gW + gL + plot_layout(ncol = 2, nrow = 1, heights = c(1, 0.2), guides = 'collect') & theme(legend.position = "bottom")
+```
+
