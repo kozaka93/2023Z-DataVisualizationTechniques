@@ -15,7 +15,7 @@ library(svglite)
 
 
 # Przygotowanie danych ------------------------------------------------------------------
-df_przepisy <- read.csv('../data/RAW_recipes.csv')  # tutaj jest ścieżka do ramki danych
+df_przepisy <- read.csv('../data/RAW_recipes.csv')  # ramka danych niedodana z powodu dużego rozmiaru
 
 # wybieram id przepisów i składniki z ramki danych
 df_skladniki <- df_przepisy %>%
