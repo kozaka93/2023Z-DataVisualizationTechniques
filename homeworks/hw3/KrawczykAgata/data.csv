@@ -1,0 +1,202 @@
+Economy;Year;Economy Code;Female share of graduates from Science, Technology, Engineering and Mathematics (STEM) programmes, tertiary (%)
+Aruba;2016;ABW;40
+Afghanistan;2019;AFG;
+Angola;2015;AGO;38.41584
+Albania;2018;ALB;46.65349
+Andorra;2018;AND;0
+United Arab Emirates;2017;ARE;41.48553
+Argentina;2010;ARG;43.46254
+Armenia;2018;ARM;39.81053
+American Samoa;2019;ASM;
+Antigua and Barbuda;2012;ATG;33.33333
+Australia;2017;AUS;32.07578
+Austria;2016;AUT;25.9026
+Azerbaijan;2018;AZE;35.09903
+Burundi;2017;BDI;18.16911
+Belgium;2017;BEL;25.83196
+Benin;2015;BEN;54.88478
+Burkina Faso;2018;BFA;20.5868
+Bangladesh;2018;BGD;20.55313
+Bulgaria;2017;BGR;36.87189
+Bahrain;2018;BHR;41.21339
+Bosnia and Herzegovina;2018;BIH;44.49518
+Belarus;2018;BLR;27.41609
+Belize;2015;BLZ;41.83007
+Bermuda;2018;BMU;20.37037
+Bolivia;2019;BOL;
+Brazil;2017;BRA;36.64406
+Barbados;2011;BRB;40.50279
+Brunei Darussalam;2018;BRN;54.3399
+Canada;2016;CAN;31.4295
+Switzerland;2017;CHE;22.31547
+Channel Islands;2019;CHI;
+Chile;2017;CHL;18.82858
+China;2019;CHN;
+Cote d'Ivoire;2019;CIV;
+Cameroon;2017;CMR;32.27844
+Colombia;2018;COL;33.40987
+Comoros;2019;COM;
+Cabo Verde;2018;CPV;42.35808
+Costa Rica;2018;CRI;32.20033
+Cuba;2016;CUB;39.88868
+Curacao;2019;CUW;
+Cayman Islands;2019;CYM;
+Cyprus;2017;CYP;38.26274
+Czech Republic;2017;CZE;35.56827
+Germany;2017;DEU;27.55567
+Djibouti;2019;DJI;
+Dominica;2019;DMA;
+Denmark;2017;DNK;34.24926
+Dominican Republic;2017;DOM;39.98837
+Algeria;2018;DZA;58.1698
+Ecuador;2016;ECU;29.22662
+Eritrea;2016;ERI;27.80749
+Spain;2017;ESP;29.55581
+Estonia;2017;EST;38.37799
+Ethiopia;2010;ETH;17.32012
+Finland;2017;FIN;27.40048
+Fiji;2019;FJI;
+France;2016;FRA;31.80564
+Faroe Islands;2019;FRO;
+Gabon;2019;GAB;
+United Kingdom;2016;GBR;38.10313
+Georgia;2019;GEO;38.67785
+Ghana;2018;GHA;19.76201
+Gibraltar;2010;GIB;0
+Guinea;2019;GIN;
+Guinea-Bissau;2019;GNB;
+Equatorial Guinea;2019;GNQ;
+Greece;2017;GRC;40.08756
+Grenada;2018;GRD;40.94488
+Greenland;2019;GRL;
+Guatemala;2015;GTM;34.6914
+Guam;2019;GUM;
+Guyana;2012;GUY;27.20307
+Honduras;2018;HND;37.78616
+Croatia;2017;HRV;38.91309
+Haiti;2019;HTI;
+Hungary;2017;HUN;31.6804
+Indonesia;2018;IDN;37.43295
+Isle of Man;2019;IMN;
+India;2018;IND;42.73444
+Ireland;2016;IRL;29.00194
+Iraq;2019;IRQ;
+Iceland;2012;ISL;35.23035
+Israel;2019;ISR;
+Italy;2016;ITA;39.52253
+Jamaica;2019;JAM;
+Jordan;2019;JOR;
+Japan;2019;JPN;
+Kazakhstan;2019;KAZ;31.63234
+Kenya;2016;KEN;30.72713
+Kyrgyz Republic;2018;KGZ;31.27617
+Cambodia;2015;KHM;16.67996
+Kiribati;2012;KIR;0
+St. Kitts and Nevis;2019;KNA;
+Kuwait;2019;KWT;
+Lao PDR;2018;LAO;28.95031
+Lebanon;2011;LBN;43.25716
+Liberia;2019;LBR;
+Libya;2019;LBY;
+St. Lucia;2019;LCA;
+Liechtenstein;2012;LIE;40.67797
+Sri Lanka;2018;LKA;40.57054
+Lesotho;2018;LSO;24.8237
+Lithuania;2017;LTU;29.59471
+Luxembourg;2016;LUX;27.57475
+Latvia;2017;LVA;31.133
+St. Martin (French part);2019;MAF;
+Morocco;2017;MAR;45.3156
+Monaco;2018;MCO;0
+Moldova;2018;MDA;30.5224
+Madagascar;2018;MDG;31.01747
+Maldives;2017;MDV;10.56338
+Mexico;2017;MEX;30.62815
+Marshall Islands;2019;MHL;
+North Macedonia;2017;MKD;47.38186
+Mali;2019;MLI;
+Malta;2017;MLT;27.84946
+Myanmar;2018;MMR;60.76428
+Montenegro;2019;MNE;
+Mongolia;2018;MNG;34.07768
+Northern Mariana Islands;2019;MNP;
+Mozambique;2018;MOZ;29.2567
+Mauritania;2017;MRT;28.85748
+Mauritius;2017;MUS;36.02903
+Malawi;2019;MWI;
+Malaysia;2018;MYS;34.16717
+Namibia;2017;NAM;42.49578
+New Caledonia;2019;NCL;
+Niger;2018;NER;18.02791
+Nigeria;2019;NGA;
+Nicaragua;2019;NIC;
+Netherlands;2017;NLD;29.29293
+Norway;2017;NOR;28.46429
+Nepal;2019;NPL;
+Nauru;2019;NRU;
+New Zealand;2017;NZL;34.96016
+Oman;2018;OMN;55.73442
+Pakistan;2019;PAK;
+Panama;2016;PAN;43.22296
+Peru;2017;PER;47.80991
+Philippines;2017;PHL;36.25297
+Palau;2019;PLW;
+Papua New Guinea;2019;PNG;
+Poland;2017;POL;43.36165
+Puerto Rico;2016;PRI;38.50121
+Portugal;2017;PRT;37.76102
+Paraguay;2019;PRY;
+West Bank and Gaza;2018;PSE;44.27376
+French Polynesia;2019;PYF;
+Qatar;2018;QAT;47.57709
+Romania;2016;ROU;41.21575
+Russian Federation;2019;RUS;
+Rwanda;2018;RWA;35.36145
+Saudi Arabia;2018;SAU;36.822
+Sudan;2015;SDN;47.18265
+Senegal;2019;SEN;
+Singapore;2017;SGP;34.26117
+Solomon Islands;2019;SLB;
+Sierra Leone;2019;SLE;
+El Salvador;2018;SLV;23.1384
+San Marino;2018;SMR;36
+Somalia;2019;SOM;
+Serbia;2018;SRB;42.55736
+South Sudan;2019;SSD;
+Sao Tome and Principe;2019;STP;
+Suriname;2019;SUR;
+Slovakia;2017;SVK;35.22112
+Slovenia;2017;SVN;33.32192
+Sweden;2017;SWE;35.47829
+Eswatini;2015;SWZ;0
+Sint Maarten (Dutch part);2015;SXM;75
+Seychelles;2018;SYC;31.57895
+Syrian Arab Republic;2016;SYR;49.50636
+Turks and Caicos Islands;2019;TCA;
+Chad;2019;TCD;
+Togo;2019;TGO;
+Thailand;2016;THA;30.13622
+Tajikistan;2019;TJK;
+Turkmenistan;2019;TKM;
+Timor-Leste;2019;TLS;
+Tonga;2019;TON;
+Trinidad and Tobago;2019;TTO;
+Tunisia;2018;TUN;55.4091
+Turkiye;2014;TUR;34.68608
+Tuvalu;2019;TUV;
+Tanzania;2019;TZA;
+Uganda;2019;UGA;
+Ukraine;2018;UKR;28.78557
+Uruguay;2017;URY;43.96355
+United States;2016;USA;33.98544
+Uzbekistan;2018;UZB;24.60623
+St. Vincent and the Grenadines;2019;VCT;
+British Virgin Islands;2019;VGB;
+Virgin Islands (U.S.);2019;VIR;
+Vietnam;2016;VNM;36.50885
+Vanuatu;2019;VUT;
+Samoa;2019;WSM;
+Kosovo;2019;XKX;
+South Africa;2017;ZAF;42.75694
+Zambia;2019;ZMB;
+Zimbabwe;2015;ZWE;28.79315
