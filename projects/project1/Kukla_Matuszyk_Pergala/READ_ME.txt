@@ -2,7 +2,7 @@
 This text file contains sources of used data:
 ***************************************************************************************
 
-***cheropleth***
+***choropleth***
 
 https://www.kaggle.com/datasets/rajkumarpandey02/list-of-countries-by-sugarcane-production
 
@@ -32,4 +32,20 @@ Images are from Pixabay and are licensed under Creative Commons Zero (CC0) licen
 https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions
 
 used pictures are in folder "pictures_for_graph"
+Used data: "RAW_recipes.csv"
+
+---------------------------------------------------------------------------------------
+
+***stacked***
+
+https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset
+
+Used data: "diabetes_012_health_indicators_BRFSS2015.csv.csv"
+
+---------------------------------------------------------------------------------------
+
+***radar chart***
+
+https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions
+
 Used data: "RAW_recipes.csv"
