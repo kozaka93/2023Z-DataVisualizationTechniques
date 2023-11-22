@@ -1,5 +1,5 @@
 # Inflacja w Europie w latach 2018 - 2022
-### Krzysztof Adamczyk, Jan Cwalina, Paweł Florek
+### [Krzysztof Adamczyk](https://github.com/KAdamczykk), [Jan Cwalina](https://github.com/Janusz99bis), [Paweł Florek](https://github.com/FlorekPawel)
 ## Struktura Projektu
 1. [Plots](Plots) - wszystkie wygenerowane przez nas wykresy
 2. [Poster](Poster) - plakat w wersji pdf
