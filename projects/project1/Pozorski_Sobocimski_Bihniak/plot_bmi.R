@@ -45,7 +45,7 @@ plot_bmi <- ggplot() +
   labs(
     x = "Mean Underweight (%)",
     y = "Mean Overweight (%)",
-    title = "Average Percentage of Underweight and Overweight Children"
+    title = "Underweight vs Overweight Children"
   ) +
   theme(
     plot.title = element_text(face = "bold", size = 18, hjust = 0.5, vjust = 0.5)
