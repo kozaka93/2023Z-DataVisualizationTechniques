@@ -1,7 +1,7 @@
 # Inflacja w Europie w latach 2018 - 2022
 ### Krzysztof Adamczyk, Jan Cwalina, Paweł Florek
 ## Struktura Projektu
-1. [Plots](Adamczyk_Cwalina_Florek/Plots) - wszystkie wygenerowane przez nas wykresy
+1. [Plots](projects/project1/Adamczyk_Cwalina_Florek/Plots) - wszystkie wygenerowane przez nas wykresy
 2. [Poster](Adamczyk_Cwalina_Florek/Poster) - plakat w wersji pdf
 3. [code](Adamczyk_Cwalina_Florek/code) - 3 skrypty napisane w języku R, a także baza danych
 * [lineplot_productmap.R](Adamczyk_Cwalina_Florek/code/lineplot_productmap.R) - kod generujący wykres liniowy ze zmianami cen w kazdym półroczu dla kilku krajów i całej Europy,
