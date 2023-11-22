@@ -20,7 +20,7 @@ library(svglite)
 
 # Podział na kraje
 world <- ne_countries(scale = "small", returnclass = "sf")
-df <- read.csv("../data/List of Countries by Sugarcane Production.csv") %>% # TUTAJ JEST ŚCIEŻKA DO RAMKI DANYCH
+df <- read.csv("../data/List of Countries by Sugarcane Production.csv") %>% # plik niedodany z powodu dużego rozmiaru
   mutate(production = as.numeric(str_replace_all(Production..Tons., "\\.", ""))) %>%
   group_by(Country) %>%
   summarise(Srednia_produkcja = mean(production))
