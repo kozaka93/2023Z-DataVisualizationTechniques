@@ -1,0 +1,2 @@
+link do ramki - https://www.fao.org/faostat/en/?fbclid=IwAR26slYFFRQgUaAZWA8P4q2ZDbhaL0DV89-SgVbx4meYd4oDctVsojCKToU#data/QCL
+szybkie pobieranie - https://fenixservices.fao.org/faostat/static/bulkdownloads/Production_Crops_Livestock_E_All_Data.zip

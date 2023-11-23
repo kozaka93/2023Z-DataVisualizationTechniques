@@ -1,0 +1,1 @@
+https://www-genesis.destatis.de/genesis/online?operation=abruftabelleBearbeiten&levelindex=2&levelid=1700421189811&auswahloperation=abruftabelleAuspraegungAuswaehlen&auswahlverzeichnis=ordnungsstruktur&auswahlziel=werteabruf&code=12521-0041&auswahltext=&nummer=5&variable=5&name=STAAG6&werteabruf=Value+retrieval#abreadcrumb
