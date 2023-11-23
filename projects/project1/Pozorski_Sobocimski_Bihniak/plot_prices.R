@@ -39,20 +39,26 @@ prices <- data %>%
                "date" = "date"
              )) %>%
   select(`country`, `commodity`, `date`, `mean_price`) %>%
-  arrange(`country`, `commodity`, `date`) %>% 
-  mutate(`mean_price` = if_else(format(`date`, "%Y") == "2020", 530 / (`mean_price` / 1000), 560 / (`mean_price` / 1000)))
+  arrange(`country`, `commodity`, `date`) %>%
+  mutate(`mean_price` = if_else(
+    format(`date`, "%Y") == "2020",
+    530 / (`mean_price` / 1000),
+    560 / (`mean_price` / 1000)
+  ))
 
 filtered_prices <- prices %>%
   filter(`country` == "Uganda" &
            `commodity` %in% c("Maize", "Millet", "Rice"))
 
-plot_prices <- ggplot(filtered_prices,
-       aes(
-         x = `date`,
-         y = `mean_price`,
-         group = `commodity`,
-         color = `commodity`,
-       )) +
+plot_prices <- ggplot(
+  filtered_prices,
+  aes(
+    x = `date`,
+    y = `mean_price`,
+    group = `commodity`,
+    color = `commodity`,
+  )
+) +
   geom_line(size = 1.2) +
   geom_point(size = 3) +
   labs(title = "How much can you buy by average monthly salary in Uganda?",
@@ -60,12 +66,14 @@ plot_prices <- ggplot(filtered_prices,
        color = "") +
   scale_color_manual(values = c("#1f78b4", "#33a02c", "#e31a1c")) +  # Adjust colors
   theme_minimal() +
-  theme(legend.position = "top",
-        panel.grid.major = element_blank(),
-        panel.grid.minor = element_blank(),
-        axis.text.x = element_text(angle = 45, hjust = 1),
-        axis.title.x = element_blank(), 
-        axis.title.y = element_text(margin = margin(t = 0, r = 10)),  
-        plot.title = element_text(face = "bold", size = 18, hjust = 0.5))
+  theme(
+    legend.position = "top",
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    axis.title.x = element_blank(),
+    axis.title.y = element_text(margin = margin(t = 0, r = 10)),
+    plot.title = element_text(face = "bold", size = 18, hjust = 0.5)
+  )
 
 ggsave("plot_prices.png", plot = plot_prices, dpi = 300)

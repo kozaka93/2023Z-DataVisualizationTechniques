@@ -40,28 +40,71 @@ africa_mapped_data <- mapped_data %>%
   filter(Continent == "Africa" & !is.na(Continent))
 
 # First plot - background that shows the entire World but Africa with smaller alpha
-world_map <- ggplot(filtered_mapped_data, aes(x = long, y = lat, group = group, fill = wartosc)) +
-  geom_polygon(color = "white", size = 0.1, alpha = 0.5) +
-
-  scale_fill_gradient2(low="lightblue", mid = "#FFD4D4", high = "brown", midpoint=10, name = "%", na.value = "#808080") +
+world_map <-
+  ggplot(filtered_mapped_data,
+         aes(
+           x = long,
+           y = lat,
+           group = group,
+           fill = wartosc
+         )) +
+  geom_polygon(color = "white",
+               size = 0.1,
+               alpha = 0.5) +
+  
+  scale_fill_gradient2(
+    low = "lightblue",
+    mid = "#FFD4D4",
+    high = "brown",
+    midpoint = 10,
+    name = "%",
+    na.value = "#808080"
+  ) +
   theme_void() +
-  theme(legend.position = "bottom",
-        plot.title = element_text(face = "bold", size = 18, hjust = 0.5, vjust = 1)) +
-  labs(title = "Share of population that cannot afford a calorie-sufficient diet")
+  theme(
+    legend.position = "bottom",
+    plot.title = element_text(
+      face = "bold",
+      size = 18,
+      hjust = 0.5,
+      vjust = 1
+    ),
+    plot.subtitle = element_text(
+      size = 10,
+      hjust = 0.5,
+      vjust = 1
+    )
+  ) +
+  labs(title = "Share of population that cannot afford a calorie-sufficient diet", subtitle =
+         "Data from 2017")
 
 # Focus plot - Africa
-africa_map <- ggplot(africa_mapped_data, aes(x = long, y = lat, group = group, fill = wartosc)) +
+africa_map <-
+  ggplot(africa_mapped_data,
+         aes(
+           x = long,
+           y = lat,
+           group = group,
+           fill = wartosc
+         )) +
   geom_polygon(color = "white", size = 0.1) +
-  xlim(min(filtered_mapped_data$long), max(filtered_mapped_data$long)) + 
-  ylim(min(filtered_mapped_data$lat), max(filtered_mapped_data$lat)) +
-  scale_fill_gradient2(low="lightblue", mid = "#FFD4D4", high = "brown", midpoint=10, name = "%", na.value = "#808080") +
+  xlim(min(filtered_mapped_data$long),
+       max(filtered_mapped_data$long)) +
+  ylim(min(filtered_mapped_data$lat),
+       max(filtered_mapped_data$lat)) +
+  scale_fill_gradient2(
+    low = "lightblue",
+    mid = "#FFD4D4",
+    high = "brown",
+    midpoint = 10,
+    name = "%",
+    na.value = "#808080"
+  ) +
   theme_void() +
   theme(legend.position = "none")
 
 # Join plots together
 plot_map <- world_map +
-  annotation_custom(
-    ggplotGrob(africa_map)
-  )
+  annotation_custom(ggplotGrob(africa_map))
 
 ggsave("plot_map.png", plot = plot_map, dpi = 300)
