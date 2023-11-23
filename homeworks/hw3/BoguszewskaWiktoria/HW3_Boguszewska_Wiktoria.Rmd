@@ -1,0 +1,55 @@
+---
+title: "HW3"
+author: 'Wiktoria Boguszewska'
+date: "2023-11-20"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Zaczynamy od wczytania potrzebnych bibliotek.
+```{r}
+library(ggplot2)
+library(maps)
+library(mapdata)
+library(dplyr)
+```
+
+Wczytujemy dane dotyczące śmiertelności dzieci w podziale na państwa w 2023 roku.
+```{r}
+mortality_rate <- read.csv("infant_mortality_rate.csv", sep = ",")
+mortality_rate
+```
+
+Filtrujemy dane tak aby wybrać tylko państwa europejskie.
+```{r}
+europe <- mortality_rate %>% filter(region == "Europe")
+world <- map_data("world")
+```
+
+Przechodzimy do narysowania mapy przestawiającej śmiertelność dzieci w różnych państwach w Europie na podstawie danych z 2023 roku.
+```{r}
+europe_rate <- world %>% 
+  full_join(europe, by = c("region" = "country")) %>% 
+  filter(!is.na(infantMortalityRateByCountry_deathsPer1K) | region %in% (c("Kosovo", "UK"))) %>% 
+  ggplot(aes(x = long, y = lat, group = group)) + 
+  geom_polygon(aes(fill = infantMortalityRateByCountry_deathsPer1K),color = "black", linewidth = 0.5) +
+  coord_map("mollweide", xlim = c(-10, 32), ylim = c(35, 70)) +
+  scale_fill_fermenter(palette = 7, trans="log10", direction = 1) + 
+  theme_void()+
+  theme(legend.position = "top",
+        plot.title = element_text(face = "bold", size = 16),
+        plot.subtitle = element_text(size = 11))+
+  labs(title = "Infant mortality rate in Europe",
+       subtitle = "Year 2023",
+       fill = "Number of deaths per 1000 children")
+
+europe_rate
+```
+
+```{r}
+ggsave('mortality_rate.png', bg='white', units = "px", height = 2000, width = 1820, europe_rate)
+```
+
