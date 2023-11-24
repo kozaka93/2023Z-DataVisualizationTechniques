@@ -1,7 +1,5 @@
 # P1: Żywność
 
-# P1: Żywność
-
 Autorzy: Kaniasty Adam, Kołodziej Igor, Kowalski Hubert
 
 <img src="png/Kolodziej_Kaniasty_Kowalski.png" align="center" width="600"/>
