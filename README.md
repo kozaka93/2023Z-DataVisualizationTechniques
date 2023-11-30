@@ -89,8 +89,8 @@ Previous: [Winter Semester 2022/23](https://github.com/MI2-Education/2023Z-DataV
   <tr>
     <td rowspan="2">7</td>
     <td rowspan="2">11-23</td>
-    <td rowspan="2">Presentation of P1</td>
-    <td rowspan="2">R: plotly - interactive visualization</td>
+    <td rowspan="2"><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/tree/main/projects/project1">Presentation of P1</a></td>
+    <td rowspan="2"><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/tree/main/labs/lab7">R: plotly - interactive visualization</a></td>
     <td rowspan="2">Presentation of P1</td>
     <td rowspan="2"><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/issues/240">HW3 </a>(6p)<br>P1 (20p)</td>
   </tr>
@@ -101,8 +101,8 @@ Previous: [Winter Semester 2022/23](https://github.com/MI2-Education/2023Z-DataV
     <td rowspan="2">11-30</td>
     <td rowspan="2">Dashboard</td>
     <td rowspan="2">R: Shiny - introduction</td>
-    <td rowspan="2">Introducing P2<br>Group work</td>
-    <td rowspan="2">P2 (1p)</td>
+    <td rowspan="2">Introducing P2</td>
+    <td rowspan="2"></td>
   </tr>
   <tr>
   </tr>
@@ -111,8 +111,8 @@ Previous: [Winter Semester 2022/23](https://github.com/MI2-Education/2023Z-DataV
     <td rowspan="2">12-07</td>
     <td rowspan="2">User Friendly - rules of design</td>
     <td rowspan="2">R: Shiny - exercise</td>
-    <td rowspan="2">Consultations</td>
-    <td rowspan="2">HW4 (6p)</td>
+    <td rowspan="2">Group Work</td>
+    <td rowspan="2">HW4 (6p)<br>P2 (1p)</td>
   </tr>
   <tr>
   </tr>
