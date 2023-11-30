@@ -99,7 +99,7 @@ Previous: [Winter Semester 2022/23](https://github.com/MI2-Education/2023Z-DataV
   <tr>
     <td rowspan="2">8</td>
     <td rowspan="2">11-30</td>
-    <td rowspan="2">Dashboard</td>
+    <td rowspan="2"><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/blob/main/lectures/L8-dashboard.pdf">Dashboard</a></td>
     <td rowspan="2">R: Shiny - introduction</td>
     <td rowspan="2"><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/tree/main/projects/project2">Introducing P2</a></td>
     <td rowspan="2"></td>
