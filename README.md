@@ -110,7 +110,7 @@ Previous: [Winter Semester 2022/23](https://github.com/MI2-Education/2023Z-DataV
     <td rowspan="2">9</td>
     <td rowspan="2">12-07</td>
     <td rowspan="2">User Friendly - rules of design</td>
-    <td rowspan="2">R: Shiny - exercise</td>
+    <td rowspan="2"><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/tree/main/labs/lab9">R: Shiny - exercise</a></td>
     <td rowspan="2">Group Work</td>
     <td rowspan="2"><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/issues/338">HW4 </a>(6p)<br>P2 (1p)</td>
   </tr>
