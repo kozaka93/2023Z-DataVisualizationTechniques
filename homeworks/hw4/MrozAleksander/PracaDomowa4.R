@@ -2,7 +2,7 @@ library(plotly)
 #Link do wizualizacji źródłowej: https://inzynierbudownictwa.pl/images/Agnieszka/IB%2005%202020/ceny%20rur%20instalacyjnych.jpg
 #Link do źródła: https://inzynierbudownictwa.pl/ceny-materialow-budowlanych-w-obiektach-kubaturowych-w-2019-r/
 #Pierwszy wykres jest mniej poprawny, ponieważ nie ma etykiety osi y (jest podana tylko, że jest to zł/m, ale też jest to w dziwnym miejscu),
-#dziwny dobór kolorów oraz nieprzyjazny format daty, a także brak uwzlędnienia miesięcy maj-grudzień w roku 2018 na wykresie, brak tytułu.
+#dziwny dobór kolorów oraz nieprzyjazny format daty, a także brak uwzlędnienia miesięcy maj-grudzień w roku 2019 na wykresie, brak tytułu.
 df <- data.frame(
   Produkt = c(
     "Kroćce PVC - 50 mm, tpyu P do kanalizacji wewnętrzenej",
