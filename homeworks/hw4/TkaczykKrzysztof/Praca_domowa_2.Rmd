@@ -1,0 +1,168 @@
+---
+title: "Praca domowa 4"
+author: "Krzysztof Tkaczyk"
+date: "2023-12-10"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Poprawiana wizualizacja
+
+**Link do artykułu z poprawianą wizualizacją:** <https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20231026-1>
+
+```{r, echo=FALSE, out.width="100%"}
+knitr::include_url("https://ec.europa.eu/eurostat/cache/news/maps/change-electricity-prices-s1-2023-s1-2022.html")
+
+```
+
+Na powyższej mapie problem stanowią zakresy wartości, według których kolorowano poszczególne kraje. Nie oddają one prawdziwych rozbieżności, np. Holandia, dla której wzrost cen wynosi 954% jest zaznaczona takim samym kolorem jak Litwa, w której wzrost cen jest ponad dziesięciokrotnie niższy- 88%.
+
+Przedziały sprawiaja wrażenie tak dobranych, aby wyróżnić tylko niektóre kraje wybrane przez autora. Duża grupa państw jest w jednym kolorze. Jednakże prawdziwe skrajne wartości nie są odpowiednio wyróznione.
+
+Ponadto w "Hoverinfo" nie ma podanych jednostek przy wartościach. Nie zaznaczono, że wybrano do porównania tylko kraje należące do UE.
+
+## Poprawa
+
+Zakres porównywanej wartości jest dość szeroki (-41% do 953%), przy czym mediana jest równa około 20%. Dlatego, postanowiłem zamiast mapy zastosować wykres słupkowy. Słupki dokładniej pokażą różnice wielkości niż kolory.
+
+Na słupkach zaznaczyłem wartości dla pierwszego półrocza 2022 roku oraz pierwszego półrocza 2023 roku. Informacje o procentowym wzroście podaję w oknie, które pojawia się po najechaniu kursorem na słupek.
+
+Słupki są posortowane według procentu o jaki zmieniła się cena w danym kraju.
+
+Ponadto wybrałem inną walutę, lepszą do porównywania cen energii pomiędzy krajami.
+
+## Kod
+
+```{r Przygotowanie danych, results='hide', message=FALSE, warning=FALSE}
+library(plotly)
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+
+df <- read.csv("nrg_pc_204_page_linear.csv")
+str(df)
+
+
+df %>%
+  select(geo, TIME_PERIOD, OBS_VALUE) %>%
+  filter(TIME_PERIOD %in% c("2022-S1", "2023-S1")  &
+           geo != "EU27_2020") %>%
+  pivot_wider(names_from = TIME_PERIOD, values_from = OBS_VALUE) %>%
+  mutate(
+    change = (`2023-S1` * 100) / `2022-S1` - 100,
+    changeT = ifelse(
+      change >= 0,
+      paste(
+        "Change: +",
+        round(change, 2),
+        " %<br>compared with 1st half of 2022",
+        sep = ""
+      ),
+      paste("Change: ", round(change, 2), "%<br>compared with 1st half of 2022")
+    ),
+    geo = case_match(
+      geo,
+      "AT" ~ "AUSTRIA",
+      "BE" ~ "BELGIUM",
+      "BG" ~ "BULGARIA",
+      "CY" ~ "CYPRUS",
+      "CZ" ~ "CZECHIA",
+      "DK" ~ "DENMARK",
+      "DE" ~ "GERMANY",
+      "EE" ~ "ESTONIA",
+      "EL" ~ "GREECE",
+      "ES" ~ "SPAIN",
+      "FI" ~ "FINLAND",
+      "FR" ~ "FRANCE",
+      "HR" ~ "CROATIA",
+      "HU" ~ "HUNGARY",
+      "IE" ~ "IRELAND",
+      "IT" ~ "ITALY",
+      "LT" ~ "LITHUANIA",
+      "LU" ~ "LUXEMBURG",
+      "LV" ~ "LATVIA",
+      "MT" ~ "MALTA",
+      "NL" ~ "NETHERLANDS",
+      "PL" ~ "POLAND",
+      "PT" ~ "PORTUGAL",
+      "RO" ~ "ROMANIA",
+      "SE" ~ "SWEDEN",
+      "SI" ~ "SLOVENIA",
+      "SK" ~ "SLOVAKIA"
+    )
+  ) -> df_changes
+
+df %>%
+  select(geo, TIME_PERIOD, OBS_VALUE) %>%
+  filter(TIME_PERIOD %in% c("2022-S1", "2023-S1") &
+           geo != "EU27_2020") %>%
+  mutate(TIME_PERIOD = ifelse(TIME_PERIOD == "2022-S1", "1st half of 2022", "1st half of 2023")) -> df_final
+
+df_final$geo <-
+  factor(df_final$geo, levels = unique(df_final$geo)[order(df_changes$change, decreasing = TRUE)])
+
+text_changes <- rep(df_changes$changeT, each = 2)
+
+text_changes[seq(1, length(text_changes), 2)] <- "Base: no change "
+```
+
+```{r wykres, results='asis', message=FALSE, warning=FALSE, out.width="100%"}
+plot_ly(
+  data = df_final,
+  x = ~ geo,
+  y = ~ OBS_VALUE,
+  type = "bar",
+  color = ~ TIME_PERIOD,
+  colors = "Set1",
+  text = paste0(
+    "<b>",
+    rep(df_changes$geo, each = 2),
+    "</b><br>" ,
+    text_changes,
+    "<extra>",
+    df_final$TIME_PERIOD,
+    "<br>Price (PPS/kWH): ",
+    df_final$OBS_VALUE,
+    "</extra>"
+  ),
+  hoverinfo = 'x+y+text',
+  hovertemplate = paste('<b>%{text}</b>')
+) %>%
+  layout(
+    title = list(
+      text = "<b>Electricity prices for households consumers in EU</b>",
+      font = list(size = 16),
+      x = 0.2,
+      y = 1.0,
+      xref = 'paper',
+      yref = 'paper'
+    ),
+    xaxis = list(title = "Country"),
+    yaxis = list(title = "Price (PPS / kWH)"),
+    annotations = list(
+      list(
+        x = 0.2 ,
+        y = 0.94,
+        text = "Hover over the bar to see details.",
+        font = list(size = 12),
+        showarrow = F,
+        xref = 'paper',
+        yref = 'paper'
+      ),
+      list(
+        x = 0.2 ,
+        y = 0.97,
+        text = "Comprasion between 1st half of 2022 and 1st half of 2023, sorted by change (%)",
+        font = list(size = 12),
+        showarrow = F,
+        xref = 'paper',
+        yref = 'paper'
+      )
+    ),
+    legend = list(x = 0.85,
+                  y = 0.87)
+  ) 
+```
