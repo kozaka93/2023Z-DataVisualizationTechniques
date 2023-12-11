@@ -1,0 +1,80 @@
+---
+title: "HW4"
+author: "Jan Opala"
+date: "2023-12-11"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+# ** Wykres do poprawy**
+
+```
+<img src="C:/Users/User/Downloads/prokuratura.png" alt="Wykres" width="50%">
+<br>
+[źródło wizualizacji źródłowej](https://wiadomosci.dziennik.pl/polityka/artykuly/579834,poreba-vat-wplywy-pis-po-mafia-vatowska.html)
+<br>
+**Co wymaga poprawy**
+
+- Skala jest niepoprawna. Żeby porównywanie między różnymi latami miało sens i było rzetelne, słupki wartości powinny być od poziomu 0 złotych.
+- Brak czytelnego tytułu - osoba niewprowadzona do tematu mogłaby nie wiedzieć, że chodzi tu o wpływy z VAT-u do budżetu państwa w danym roku.
+
+**Poprawiony wykres:**
+```{r}
+# Tworzę ramkę danych w oparciu o dane z wykresu. Pochodzą one z Miniesterstwa Finansów. Nie zdołałem znaleźć ramki danych, w związku z czym dane zostaly przepisane ręcznie. Również nie zdołałem znaleźć dokładnych danych dla 2008, więc skorzystałem z wykresu. Dane do mojej ramki danych wziąłem z: https://demagog.org.pl/wypowiedzi/jak-wygladaly-wplywy-z-podatku-vat-w-ostatnich-latach/ 
+vat <- c(102000000000, 99454721000, 107879702000, 120831920000, 120000697000, 113411541000, 124262243000, 123120798000, 126584120000, 156801210000, 174947071000)
+lata <- seq(from = 2008, to = 2018)
+partia <- factor(rep(c("PO", "PiS"), c(8, 3)))
+df <- data.frame(Lata = lata, VAT = vat, Partia = partia)
+library(plotly)
+library(dplyr)
+fig <- plot_ly(
+  data = df, 
+  x = ~Lata, 
+  y = ~VAT, 
+  color = ~Partia, 
+  colors = c("blue", "orange"),
+  type = "bar"
+) %>% 
+  layout(
+    title = "Wpływy z podatku VAT do budżetu państwa w latach 2008-2018",
+    yaxis = list(title = "Wartość w PLN", range = c(0, 170000000000)),
+    width = 1000,
+    xaxis = list(
+      title = "Rok",
+      range = lata,
+      tickmode = "linear",
+      tickvals = lata,
+      ticktext = lata
+    ),
+    updatemenus = list(
+      list(
+        buttons = list(
+          list(method = "restyle",
+               args = list("visible", c(TRUE, TRUE)),
+               label = "Pokaż wszystko"),
+          list(method = "restyle",
+               args = list("visible", c(TRUE, FALSE)),
+               label = "Rządy PiS"),
+          list(method = "restyle",
+               args = list("visible", c(FALSE, TRUE)),
+               label = "Rządy PO")
+        ),
+        direction = "down",
+        showactive = TRUE,
+        x = 1,
+        xanchor = "left",
+        y = 0.3,
+        yanchor = "top"
+      )
+  )
+  )
+fig
+```
+
+**Dlaczego ten wykres jest lepszy**
+
+- Skala wykresu nie jest przycięta, słupki są pokazane w całości, zatem można ilorazowo porównywać między sobą wartości w poszczególnych latach (mówić że w tym roku wpływy z podatku VAT były tyle razy większe niż w innym)
+- Dzięki czytelnemu tytułowi i etykietom można z łatwością zrozumieć, co wykres przedstawia
+- Dzięki menu jest możliwość wybrania w okresie rządów której partii chcielibyśmy porównać ze sobą wartości wpływów VAT
+
+
