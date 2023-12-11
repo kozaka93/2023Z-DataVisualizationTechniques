@@ -1,0 +1,105 @@
+---
+title: "Praca domowa 4"
+author: "Urszula Szczesna"
+date: "2023-12-11"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Znaleziony wykres do poprawienia
+
+Wykres, który znalazłam pochodzi z twittera Eurostatu <https://twitter.com/eu_eurostat/status/1730528818044240086?s=46&fbclid=IwAR3NVgfyV_Wj2hhUy8BgdYdHoTxa1quXK2FYtsRfg6mUOa6pWU1fTBdliVQ>.
+
+![](wykres.png)
+
+# Błędy w wykresie źródłowym
+Wykres kołowy nie jest nalepszym wyborem do przedstawiania danych, ponieważ ludzkie oko nie jest w satnie dobrze porównać ze sobą kątów wycinków, a co za tym idzie zazwyczaj ludzie błędnie odczytują dane. Ogólnie mówiąć kąty rozwarte są postrzegane jako większe niż w rzeczywistości są. Dodatkowe rozproszenie odbiorcy mogą stanowić kolory.
+
+## Poprawienie wykresu
+
+Oto kod potrzebny do wygenerowania ramki danych
+
+```{r eval=FALSE}
+library(plotly)
+library(ggplot2)
+library(dplyr)
+
+# tworzenie ramki danych
+df <- data.frame(x = c("Business enterprise sector", "Government sector",
+                       "Higher education sector", "Private non-profit sector"),
+                 y = c(233, 38, 76, 5))
+colnames(df) <- c("type", "value")
+
+order <- c("Private non-profit sector","Government sector", 
+          "Higher education sector", "Business enterprise sector")
+
+df$type <- factor(df$type, levels = order)
+
+# rysowanie wykresu słupkowego w ggplot2
+plot <- ggplot(df, aes(y = type, x = value, 
+                       text = paste(type, " Expenditure:", value, " EUR billions"))) +
+  geom_col(fill = "navyblue") +
+  labs(
+    title = "R&D expenditure by sector 2022",
+    x = "expenditure in EUR billions",
+    y = ""
+  ) +
+  theme_bw() +
+  theme(plot.title = element_text(size = 16, face = "bold"),
+        axis.text.y = element_text(size = 12),
+        axis.text.x = element_text(size = 10))
+
+# konwersja na wykres interktywny
+plot <- ggplotly(plot, tooltip = "text")
+plot
+
+```
+```{r echo = FALSE}
+options(warn=-1)  # Wyłącza wyświetlanie ostrzeżeń
+suppressMessages(library(plotly))
+suppressMessages(library(ggplot2))
+suppressMessages(library(dplyr))
+
+library(plotly)
+library(ggplot2)
+library(dplyr)
+
+# tworzenie ramki danych
+df <- data.frame(x = c("Business enterprise sector", "Government sector",
+                       "Higher education sector", "Private non-profit sector"),
+                 y = c(233, 38, 76, 5))
+colnames(df) <- c("type", "value")
+
+order <- c("Private non-profit sector","Government sector", 
+          "Higher education sector", "Business enterprise sector")
+
+df$type <- factor(df$type, levels = order)
+
+# rysowanie wykresu słupkowego w ggplot2
+plot <- ggplot(df, aes(y = type, x = value, 
+                       text = paste(type, " Expenditure:", value, " EUR billions"))) +
+  geom_col(fill = "navyblue") +
+  labs(
+    title = "R&D expenditure by sector 2022",
+    x = "expenditure in EUR billions",
+    y = ""
+  ) +
+  theme_bw() +
+  theme(plot.title = element_text(size = 16, face = "bold"),
+        axis.text.y = element_text(size = 12),
+        axis.text.x = element_text(size = 10))
+
+# konwersja na wykres interktywny
+
+plot <- ggplotly(plot, tooltip = "text")
+plot
+
+options(warn=0)  # Włącza ponownie wyświetlanie ostrzeżeń
+
+```
+
+## Uzasadnienie
+Nowy wykres jest bardziej przejrzysty poprzez użycie jednego kolory dla wszystkich danych. Kolejnym plusem jest uszeregowanie danych malęjąco przy czym można szybko odczytać, które sektory wydatkuja najwięcej pieniędzy. Po najechaniu na słupek dostajemy informację o dokładnej wartości wydaktowanych pieniędzy oraz o nazwie danego sektoru.
