@@ -2,9 +2,7 @@
 title: "Praca Domowa nr 4"
 author: "Michał Pytel"
 date: "2023-12-11"
-output: 
-  html_notebook: 
-    fig_height: 6
+output: html_document
 runtime: shiny
 ---
 
@@ -50,7 +48,7 @@ ui <- fluidPage(
                   selected = "Q1")
     ),
     mainPanel(
-      plotlyOutput("barplot", height = "400px")
+      plotlyOutput("barplot", height = "300px")
     )
   )
 )
