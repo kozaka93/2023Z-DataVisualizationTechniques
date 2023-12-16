@@ -1,0 +1,103 @@
+---
+title: "HW4 - plotly"
+author: "Zofia Kaminska"
+date: "2023-12-08"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## wizualizacja źródłowa
+
+::: {style="text-align: left;"}
+<img src="C:\Users\Zosia\Documents\wykres_do_poprawy.png" alt="wykres" width="700" height="400"/>
+:::
+
+Wizualizacja pochodzi z portalu F1 TV i została opublikowana 5.11.2023 <https://f1tv.formula1.com/detail/1000007664/jolyon-palmer-s-analysis-sao-paulo>
+
+Wady wykresu: Wykres nie ma tytułu. Ponadto, osobne kolory spełnieją te samą funkcję co podpisy pod nimi (rozróżnienie teamów). Odcienie tego samego koloru są użyte żeby pokazać prędkości w roznych sytuacjach i w niektórych przypadkach różnice między tymi odcieniami są średnio widoczne. Wartości na osi y nie zaczynają się od zera co zaburza proporcje między wartościami. Stacked bar plot jest tu mylący bo nie ma znaczenia wielkość danej "sekcji" tylko jej górna granica.
+
+## poprawiony wykres
+
+```{r, warning = FALSE, message = FALSE, echo=FALSE}
+
+library(plotly)
+library(dplyr)
+
+data <- data.frame(
+  Team = c('Alfa Romeo', 'Red Bull', 'Ferrari', 'Alpine', 'Alpha Tauri','Williams','McLaren','Aston Martin','Haas','Mercedes'),
+  DRS = c(340,339,339,337,335,333,331,330,330,327),
+  Tow = c(320,308,316,315,323,318,313,310,311,309),
+  Baseline = c(301,305,308,314,310,306,307,309,308,301)
+)
+
+plot <- plot_ly(data, x = ~Team, y = ~DRS, type = 'bar', name = 'DRS',
+                hovertemplate = paste('<b>Team</b>: %{x}<br><b>Top Speed</b>: %{y} km/h')) %>%
+  add_trace(y = ~Tow, name = 'Tow', visible = F,
+            hovertemplate = paste('<b>Team</b>: %{x}<br><b>Top Speed</b>: %{y} km/h')) %>%
+  add_trace(y = ~Baseline, name = 'Baseline', visible = F,
+            hovertemplate = paste('<b>Team</b>: %{x}<br><b>Top Speed</b>: %{y} km/h')) %>%
+  layout(
+    title = "Top Speeds for F1 Teams - Sao Paulo Grand Prix",
+    yaxis = list(title = "Speed (km/h)", fixedrange = FALSE, range = c(0, 350)),
+    updatemenus = list(
+      list(
+        type = "buttons",
+        direction = "down", 
+        x = 1,  
+        xanchor = "left", 
+        y = 0.3, 
+        yanchor = "bottom",
+        buttons = list(
+          list(method = "restyle",
+               args = list("visible", list(TRUE, FALSE, FALSE)),
+               label = "DRS"),
+          list(method = "restyle",
+               args = list("visible", list(FALSE, TRUE, FALSE)),
+               label = "Tow"),
+          list(method = "restyle",
+               args = list("visible", list(FALSE, FALSE, TRUE)),
+               label = "Baseline"),
+          list(method = "restyle",
+               args = list("visible", list(TRUE, TRUE, TRUE)),
+               label = "All")
+        )
+      )
+    ),
+    annotations = list(
+      list(
+        x = 1,
+        y = 0.72,  
+        xref = "paper",
+        yref = "paper",
+        text = "Type of speed:",
+        showarrow = FALSE,
+        xanchor = "left"  
+      )
+    ),
+    legend = list(x = 1, y = 0.9), 
+    hoverlabel = list(bgcolor = 'white')
+  )
+
+config(plot, displayModeBar = TRUE, 
+       modeBarButtonsToRemove = list('toImage','resetScale2d','hoverClosestCartesian','hoverCompareCartesian','sendDataToCloud', 'pan2d', 'select2d', 'lasso2d', 'zoomIn2d', 'zoomOut2d', 'hover'))
+```
+
+Zostały dodane guziki które pozwalają skupić się na konkretnym rodzaju prędkości, lub wyświetlić wszystkie, jeśli zależy nam np na porównaniu różnych prędkości dla konkretnego teamu.
+
+Wartości są od 0 żeby nie zaburzać proporcji między wartościami. Wiem, że wtedy na pierwszy rzut oka małych różnic nie widać, ALE właśnie dlatego mamy wspaniałą opcję ZOOM, po użyciu której róznice widać przepięknie, dodatkowo, po najechaniu na słupek wyświetlają się wszystkie niezbędne informacje. Został dodany też tytuł a teamy są ustawione w kolejności alfabetycznej co ułatwia szybsze znalezienie odpowiedniego. Poniżej przedstawiam screeny jakie zoom daje możliwości: 
+
+::: {style="text-align: center;"}
+<img src="C:\Users\Zosia\Documents\ferrari_wykres.png" alt="zoom1" width="400"/>
+:::
+
+\
+
+::: {style="text-align: center;"}
+<img src="C:\Users\Zosia\Documents\drs_zblizony.png" alt="zoom2" height="300"/>
+:::
+(oś y jest tu już dostosowywana jak dusza użytkownika zapragnie, więc nie moja wina jak proporcje między słupkami na zoomie będą  wyglądały na zaburzone, zakładam ze użytkownik po zoomowaniu spojrzy na oś y i zobaczy dokładniej jakie tam są wartości)
+
+Pozdrawiam serdecznie i życze miłego dnia :)
