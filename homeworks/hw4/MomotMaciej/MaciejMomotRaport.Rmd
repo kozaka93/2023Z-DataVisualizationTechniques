@@ -1,0 +1,73 @@
+---
+title: "MaciejMomotRaport"
+author: "Maciej Momot"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Wizualizacja źródłowa : <https://twitter.com/EuropeElects/status/1727211752822091948>
+
+::: {style="text-align: center;"}
+```{=html}
+<img src="C:\Users\macie\Desktop\STUDIA\SEMESTR3\Techniki Wizualizacji Danych\Prace Domowe\Praca Domowa plotly Poprawianie Wykresu\wykresZrodlowy.jpg" alt="A beautiful landscape"         
+  width="600" height="400">
+```
+:::
+
+Wizualizacja źródłowa jest bardzo nieczytelna, ze względu na wyświetlaną wartość w danych punktach, które mają białe tło i zasłaniają linie. Ponadto każda linia zakończona jest szarą dołączoną linią, która wskazuje nazwę danej partii, przez co nie ma legendy i wykres nie jest spójny. Linie są tak bardzo nachodzące na siebie, że w moim wykresie musiałem niektóre z nich usunąć. Nie dało się ich rozczytać. Generalnie wykres wygląda bardzo brzydko i nieczytelnie. Powtarzają się również kolory. Błąd w tytule. Zakres lat jest do 2021 roku.
+
+Moja poprawiona wizualizacja oraz kod potrzebny do jej wygenerowania:
+
+```{r message=FALSE, warning=FALSE}
+library(tidyr)
+library(dplyr)
+library(plotly)
+library(reshape2)
+df <- data.frame('KVP_EPP' = c(30.8,31.0,29.0,31.7,31.7, 31.9,26.5,21.8,17.7, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA),
+                 'CHU_EPP' = c(7.8,9.2,8.9,8.4,8.1,8.7,8.1,6.8,4.4,NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA),
+                 'VVD_RE' = c(NA,7.7,8.9,8.5,12.2,10.3,10.4,10.3,14.4,17.9,17.3,23.1,17.4,14.5,20.0,24.7,15.5,17.9,14.7,19.6,26.6,21.3,21.9),
+                 'D66_RE' = c(NA,NA,NA,NA,NA,NA,4.5,6.8,4.4,5.4,11.1,4.3,6.1,7.9,15.5,9.0,5.0,4.0,2.0,6.7,8.0,12.2,15.0),
+                 'PVV_ID' = c(NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,NA,NA,NA,5.9,15.4,10.0,13.0,10.9),
+                 'CDA_EPP' = c(NA,NA,NA,NA,NA,NA,NA,NA,NA,31.9,30.8,29.5,34.6,35.3,22.2,18.3,27.9,28.6,26.5,13.6,8.0,12.0,9.5),
+                 'SP_LEFT' = c(NA,NA,NA,NA,NA,NA,NA,NA,NA, 0.3,0.4,0.5,0.45,0.4,1.3,3.5,5.9,6.3,16.6,9.8,9.7,9.1,6.0),
+                 'PvdA_SD' = c(28.3,25.6,29.0,32.7,30.4,28.0,23.6,24.6,27.3,33.8,28.3,30.4,33.3,31.9,24.0,29.0,15.1,27.2,21.2,19.6,24.8,5.7,5.7),
+                 'PvdD_LEFT' = c(NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,NA,NA,0.5,2.0,1.3,1.9,3.4,3.8),
+                 'SGP_ECR' = c(2.1,2.3,2.3,2.3,2.3,2.3,2.0,2.3,2.2,2.2,2.2,2.1,2.0,1.9,1.8,1.8,1.8,1.8,1.8,1.8,1.9,2.1,2.1)
+                 )
+df$Year <- c(1946,1948,1952,1956,1959,1963,1967,1971,1972,1977,1981,1982,1986,1989,1994,1998,2002,2003,2006,2010,2012,2017,2021)
+
+melted_df <- melt(df, id.vars = "Year")
+colnames(melted_df) <- c("Year","Party","Value")
+
+melted_df <- melted_df %>%
+  mutate(Type = sapply(strsplit(as.character(Party), "_"), function(x) x[2])) %>% 
+  mutate(Name = sapply(strsplit(as.character(Party), "_"), function(x) x[1]))
+
+plot <- plot_ly(x = melted_df$Year, 
+                y = melted_df$Value,type = "scatter", 
+                mode = "lines+markers", 
+                color = melted_df$Name, 
+                colors = "Set1",
+                text = paste0("<br>Party: ", melted_df$Name,"(", melted_df$Type,")", "<br>Value: ", melted_df$Value, "%"),
+                hoverinfo = 'x+text',
+                width = 1000,
+                height = 750
+                ) %>% 
+  layout(title = "Netherlands: national parliament electoral history\nSelected relevant lists and parties 1946 - 2021",
+         xaxis = list(title = 'Year',tickmode = "array", tickvals = melted_df$Year, ticktext = melted_df$Year), 
+         yaxis = list(title = 'Percent'), 
+         plot_bgcolor = "white",
+         legend = list(
+           x = 1.05, y = 1, 
+           title = list(text = "Party"), 
+           bgcolor = "#E2E2E2"
+         )
+         )
+rangeslider(plot, start = 1945, end = 2022)
+
+```
+Powyższa wizualizacja jest lepsza, ponieważ jest czytelniejsza. Poprawiony tytuł. Po najechaniu na dany punkt wyświetla nam się rok, nazwa partii oraz procent przez nią uzyskany. Dodana została również legenda. Aby przeanalizować daną partię wystarczy kliknąć dwukrotnie na jej nazwę w legendzie i wykres staje się jeszcze czytelniejszy. Dodatkowo dodany został suwak do lepszej analizy wykresu na wybranym przez siebie przedziale.

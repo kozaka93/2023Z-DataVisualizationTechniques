@@ -1,0 +1,85 @@
+---
+title: "Techniki Wizualizacji Danych - praca domowa nr 4"
+author: "Filip Langiewicz"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(plotly)
+library(dplyr)
+```
+
+## Wykres do poprawy
+
+
+![](zly_wykres.jpg)
+
+Źródło: strona internetowa Wydziału Matematyki i Nauk Informacyjnych Politechniki Warszawskiej <https://ww4.mini.pw.edu.pl/>.
+
+Elementy wizualizacji wymagające według mnie poprawy:
+
+-   kilka państw ma bardzo podobne do siebie kolory (np. Turcja i Rwanda, Indie i Jemen),
+
+-   ciężko jest odczytać poprawną liczbę, jaką reprezentuje dany słupek z powodu braku poziomych linii pomocniczych lub interaktywności,
+
+-   nie jest podpisana oś y, a oś x podpisana jest jako 1, co nie ma sensu,
+
+-   część wykresu (nazwy państw) jest po polsku, a część (tytuł i podtytuł) po angielsku,
+
+-   szata graficzna i estetyka nie są najlepiej dobrane.
+
+## Utworzona wizualizacja i potrzebny do tego kod
+
+```{r data, echo=FALSE}
+kraje <- c("Ukraine", "Belarus", "India", "Turkey", "Azerbaijan", "China", "Egypt", "Russia", "Uzbekistan", "Nigeria", "Vietnam", "Armenia", "Bangladesh", "Ethiopia", "Yemen", "Rwanda", "Zimbabwe")
+liczba <- c(32, 29, 18, 18, 11, 7, 5, 5, 5, 4, 3, 2, 2, 2, 2, 2, 2)
+kontynenty <- c("Europe", "Europe", "Asia", "Asia", "Asia", "Asia", "Africa", "Asia", "Asia", "Africa", "Asia", "Asia", "Asia", "Africa", "Asia", "Africa", "Africa")
+
+df <- data.frame(Kraj = kraje, Liczba = liczba)
+```
+
+---
+
+```{r plot, warning=FALSE, echo=TRUE}
+
+
+
+plot_ly(df, 
+        x = ~reorder(Kraj, -Liczba), 
+        y = ~Liczba, 
+        type = 'bar',
+        width = 900,
+        color = ~kontynenty,
+        colors = c("#a5ca39","#357799", "#3b4233")) %>%
+  layout(title = list(text = '<b>The number of foreign students at the Faculty of Mathematics and Information Science</b>',
+                      font = list(size = 20)),
+         xaxis = list(title = '<b>Country</b>'),
+         yaxis = list(title = '<b>The number of students</b>',
+                      range = c(0, 36),
+                      gridcolor = "black"),
+         legend = list(title = list(text = 'Continent')),
+         annotations = list(text = 'We are pleased to inform that 13% of our students come from abroad (as of November 2022)',
+                           showarrow = FALSE,
+                           xref = 'paper',
+                           yref = 'paper',
+                           x = 0.5,
+                           y = 1.15),
+         margin = list(l = 100, 
+                       r = 100, 
+                       b = 100, 
+                       t = 100))
+
+```
+
+Według mnie ten wykres jest lepszy, ponieważ:
+
+-   podpisy państw na osi jednoznacznie określają, który słupek reprezentuje dane państwo,
+
+-   łatwo jest odczytać poprawną liczbę, jaką reprezentuje dany słupek - wystarczy na niego najechać,
+
+-   przekazuje dodatkową informację, jaką jest kontynent,
+
+-   wszystkie dane przedstawione są w jednym języku, co znacznie lepiej wygląda i umożliwia obcokrajowcom zrozumienie wykresu, 
+
+-   minimalistyczny wygląd wykresu dużo lepiej wygląda dla oka niż wcześniejszy zamysł.
