@@ -1,0 +1,89 @@
+---
+title: "HW4 raport"
+author: "Natalia Choszczyk"
+date: "2023-12-09"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Wizualizacja źródłowa
+
+::: {style="text-align: center;"}
+![](C:%5CUsers%5Cnatal%5CDesktop%5CSEM_3%5Ctwd%5CHW4%5Cwykres_zrodlowy.jpg)
+:::
+
+Źródło wykresu: <https://www150.statcan.gc.ca/n1/pub/85-002-x/2022001/article/00013-eng.htm>
+
+Wykres przedstawia informacje dotyczące przestępstw w poszczególnych prowincjach Kanady w roku 2021.
+
+Wady przedstawionego wykresu:
+
+-   wartości poszczególnych danych są mało czytelne
+
+-   ciężko jest porównać wartości przez to, że różne kategorie przęstępstw są przedstawione na jednym wykresie
+
+-   wykres nie jest wizualnie estetyczny
+
+-   ogólne dane dla Kanady są mało wyraźnie odznaczone
+
+## Wygenerowanie poprawionego wykresu:
+
+```{r message = FALSE, warning = FALSE}
+library(plotly)
+library(dplyr)
+
+canada_crime <- read.csv("canada_crime.csv", sep = ';')
+
+plot_ly(
+  data = canada_crime, 
+  x = ~Province.or.territory, 
+  y = ~Crime.Severity.Index,
+  type = 'bar',
+  marker = list(color = ifelse(canada_crime$Province.or.territory == "Canada", "black", "red"))
+  
+) %>%
+  
+layout(
+  title = list(
+    text = "Police-reported Crime Severity Indexes, by province and territory, 2021",
+    font = list(size = 14, color = "black")
+    ),
+  
+  xaxis = list(categoryorder = 'trace', title = ""),
+  yaxis = list(title = "index", range = c(0, 600)),
+  
+  updatemenus = list(
+    list(
+      x = 0.5, y = 0.95,
+      buttons = list(
+        list(method = "restyle",
+             args = list("y", list(~Crime.Severity.Index)),
+             label = "Crime severity index"
+             ),
+        
+        list(method = "restyle",
+             args = list("y", list(~Violent.Crime.Severity.Index)),
+             label = "Violent crime severity index"
+             ),
+        
+        list(method = "restyle",
+             args = list("y", list(~Non.violent.Crime.Severity.Index)),
+             label = "Non violent crime severity index"
+             )
+      ))
+  ))
+
+```
+
+## Co zostało poprawione:
+
+-   wykres jest czytelny, estetyczny, kontrastowy
+
+-   wyraźnie widać różnice między wartościami, łatwo jest je porównywać
+
+-   wykres jest interaktywny, możemy wybrać jaką kategorię chcemy analizować
+
+-   ogólne dane dla Kanady są wyraźnie wyróżnione

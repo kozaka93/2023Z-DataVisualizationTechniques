@@ -129,7 +129,7 @@ Previous: [Winter Semester 2022/23](https://github.com/MI2-Education/2023Z-DataV
   <tr>
     <td rowspan="2">11</td>
     <td rowspan="2">12-21</td>
-    <td rowspan="2">User Friendly - rules of design</td>
+    <td rowspan="2">-</td>
     <td rowspan="2"><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/tree/main/labs/lab11">Python: pandas, numpy, pandas.plot</a></td>
     <td rowspan="2">Data analysis</td>
     <td rowspan="2">P2 (2p)</td>
@@ -139,7 +139,7 @@ Previous: [Winter Semester 2022/23](https://github.com/MI2-Education/2023Z-DataV
   <tr>
     <td rowspan="2">12</td>
     <td rowspan="2">01-04</td>
-    <td rowspan="2">Other Data Visualization Tools</td>
+    <td rowspan="2">User Friendly - rules of design</td>
     <td rowspan="2">Python: matplotlib, seaborn</td>
     <td rowspan="2">Consultations</td>
     <td rowspan="2"><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/issues/408">HW5 </a>(6p)</td>
