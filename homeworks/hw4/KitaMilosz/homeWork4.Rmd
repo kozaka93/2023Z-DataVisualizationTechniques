@@ -1,0 +1,45 @@
+---
+title: "Home Work 4"
+output: html_document
+---
+
+# Niepoprawna wizualizacja
+
+
+![](C:/Users/milos/Pictures/dopoprawy.png)
+
+
+
+<br><br><br><br>
+Źródło:
+https://www.statystyczny.pl/pelen-kontrowersji-wykres-kolowy/wykres-kolowy-malzenstwa/
+<br><br>
+
+Powyższa wizualizacja to wykres kołowy który utrudnia czytelnikowi dostrzeżenie różnic pomiędzy poszczególnymi województwami. Wykres ten nie posiada tytułu, a ilość duża ilość województw i wiążąca się z tym duża ilość kolorów utrudnia rozróżnienie który wynik odnosi się do którego województwa.
+
+# Poprawiona Wizualizacja
+
+```{r pressure, echo=FALSE, message = FALSE, warning=FALSE, error=FALSE}
+library(plotly)
+library(tidyr)
+
+dane <- data.frame(Wojewodztwa = c("Dolnośląskie","Kujawsko-pomorskie","Lubelskie","Lubuskie","Łódzkie",
+                                   "Małopolskie","Mazowieckie","Opolskie","Podkarpackie","Podlaskie",
+                                   "Pomorskie","Śląskie","Świętokrzyskie","Warmińsko-mazurskie",
+                                   "Wielkopolskie","Zachodniopomorskie"),
+                   Liczba = c(13599,10294,10911,4857,11405,17361,24924,4822,11287,6135,11461,
+                              22765,6051,6978,17437,8183))
+
+
+plot_ly(dane,x = ~reorder(Wojewodztwa,-Liczba), y = ~Liczba, type = "bar", color = ~Wojewodztwa) %>%
+  layout(
+    title = list(text = "Liczba małżeństw zawartych w poszczegółnych województwach w 2014 roku", y = 0.97, font=list(size = 15)),
+    showlegend = FALSE,
+    xaxis = list(title = list(text ='Województwo'), titlefont = list(size = 15)),
+    yaxis = list(title = list(text = 'Liczba'), titlefont = list(size = 15))
+  )
+
+```
+
+<br><br>
+Wykres poprawiony jest lepszy od pierwotnego ponieważ jest on wykresem kolumnowym i pozwala w łatwy sposób zauważyć różnice pomiędzy liczbą małżeństw w poszczegółnych wojweództwach. Każda kolumna jest podpisana a więc czytelnik bez problemu wie który wynik należy do którego województwa. Do wykresu dodany również został tytuł który mówi czytelnikowi czego dotyczy podany wykres.
