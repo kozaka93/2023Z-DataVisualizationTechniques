@@ -1,0 +1,84 @@
+---
+title: "Wykres Interaktywny"
+author: "Katarzyna Rogalska"
+date: "2023-12-07"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+Wykres, który będę poprawiać i zamieniać na interaktywny to wykres słupkowy pochodzący ze strony: https://www.bankier.pl/wiadomosc/Jest-praca-w-sporcie-Zatrudnienie-w-gore-o-10-proc-8587763.html przedstawiony poniżej.
+
+
+<div style="text-align: center;">
+  <img src="C:\\Users\\rogal\\RStudio-workspace\\Hw4\\Wykres.png" alt="A beautiful landscape"         width="600" height="400">
+</div>
+
+Problemy jakie dostrzegam na wykresie:
+
+* Trudność w odczytaniu dokładnych wartości słupków, które nie są opisane
+
+* Podana dokładna wartość tylko dwóch krajów, w tym nie dla Polski, a tytuł artykułu to "Siódme poty dają pracę. Ale nie w Polsce."
+
+* Nieestetycznie wyglądająca przerwa na środku wykresu oddzielająca kraje nienależące do EU
+
+Tworzę ramkę danych z danymi z wykresu (Prawdopodobnie nie będą dokładne, własnie dlatego, że trudno je odczytać dokłądnie ze słupków)
+
+```{r,warning=FALSE, message=FALSE}
+library(dplyr)
+country<- c("Sweden","Finland","Denmark","Spain","France","Estonia","Netherlands","Ireland","Portugal","Slovenia","Greece","Luxembourg","Cyprus","Malta","Austria","Belgium","Hungary","Czechia","Italy","Latvia","Germany","Lithuania","Croatia","Slovakia",paste("<b>", "Poland", "</b>"),"Bulgaria","Romania","Iceland","Switzerland","Norway","EU")
+isInEU<-c(TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,"EU")
+employment<- c(1.4,1.2,1.2,1.1,1.1,1,1,0.9,0.9,0.9,0.8,0.8,0.7,0.7,0.7,0.6,0.6,0.6,0.6,0.6,0.6,0.5,0.5,0.4,0.4,0.3,0.2,2.7,1.1,1.1,0.8)
+df<-data.frame(country,employment,isInEU)
+df<-df %>% 
+  mutate(Opis= case_when(isInEU==TRUE ~"Is in EU",
+                            isInEU == FALSE ~"Is not in EU",
+                            isInEU=="EU"~"European Union"))
+head(df)
+```
+
+
+Stworzę wykres słupkowy, który będzie posortowany po wartości employment, nie będę oddzielała słupka EU na początek tylko wprowadzę rozróżnienie kolorem. Wykres będzie interaktywny, aby można było zobaczyć każdą wartość, która nas interesuje.
+
+
+```{r,warning=FALSE, message=FALSE}
+library(plotly)
+
+df$country <- factor(df$country, levels = df$country[order(-df$employment)])
+
+plot_ly(
+  data = df,
+  x = ~country,
+  y = ~employment,
+  type = 'bar',
+  color=~Opis,
+  colors = c("#285da0","#72a32f","#d1720d")
+)%>%
+layout(
+  title = "Employment in sport as a share of total employment in 2022",
+  legend = list(
+      x = 0.9, y = 0.9, 
+      title = list(text = "Legend"), 
+      bgcolor = "#E2E2E2"
+    ),
+  yaxis = list(range = c(0, 3.01),
+               title = " % of employment in sport"),
+  bargap = 0.2,
+  margin = list(l = 60, r = 50, b = 50, t = 50)
+  
+)
+
+
+
+```
+
+Na moim wykresie:
+
+* posortowałam wszystkie słupki malejąco, aby łatwo można było odczytać kraje w  kolejności
+
+* dodałam kolory informujące czy dany kraj znajduje się w EU czy nie, ewentualnie czy słupek reprezentuje całą Unię Europejską. Uważam, że to lepsze rozwiązanie, bo moża porównywać kraje ze sobą, ale także zobaczyć gdzie w tej hierarchii znajduje się średnia dla całek Unii Europejskiej
+
+* Zmieniłam wykres na interaktywny, dzięki czemu po najechaniu na dowolny słupek można szybko odczytać dokładną wartość
+
+* Pogrubiłam napis "Poland", bo artykuł sugeruje, że chcemy głównie zobaczyć Polskę na tle innych krajów, teraz łatwiej możemy ją znaleźć na wykresie
