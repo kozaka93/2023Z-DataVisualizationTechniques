@@ -1,0 +1,157 @@
+---
+title: "Praca domowa 5"
+output: html_document
+subtitle: "Julia Kruk, grudzień 2023"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r, message = FALSE, warning = FALSE}
+library(ggplot2)
+library(plotly)
+
+# background
+x_bg_stars <- runif(40, min = -20, max = 20)
+y_bg_stars <- runif(40, min = 1, max = 15)
+
+bg_stars <- data.frame(x = x_bg_stars, y = y_bg_stars)
+
+background <- ggplot(bg_stars, aes(x = x, y = y)) +
+  geom_point(shape = 8, size = 2.5, color = "white") +
+  theme(panel.background = element_rect(fill = "#182f37"),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        plot.background = element_rect(fill = "#182f37"),
+        axis.title = element_blank(),
+        axis.ticks = element_blank(),
+        axis.text = element_blank())
+
+background
+
+# trunk
+x_points <- c(-0.5, 0.5, 0.5, -0.5)
+y_points <- c(0, 0, 1, 1)
+
+points <- data.frame(x = x_points, y = y_points)
+
+
+tree <- background +
+  geom_polygon(data = points, aes(x = x, y = y), fill = "#65451F") +
+  xlim(c(-20, 20)) +
+  ylim(c(0, 15))
+
+tree
+
+# 1st level
+x_points <- c(-6, 6, 4, -4)
+y_points <- c(1, 1, 3, 3)
+
+points <- data.frame(x = x_points, y = y_points)
+
+tree <- tree + geom_polygon(data = points, aes(x = x, y = y), fill = "#567D30")
+
+# 2nd level
+x_points <- c(-5, 5, 3, -3)
+y_points <- c(3, 3, 5, 5)
+
+points <- data.frame(x = x_points, y = y_points)
+
+tree <- tree + geom_polygon(data = points, aes(x = x, y = y), fill = "#567D30")
+
+# 3rd level
+x_points <- c(-4, 4, 2, -2)
+y_points <- c(5, 5, 7, 7)
+
+points <- data.frame(x = x_points, y = y_points)
+
+tree <- tree + geom_polygon(data = points, aes(x = x, y = y), fill = "#567D30")
+
+
+# 4th level
+x_points <- c(-3, 3, 1, -1)
+y_points <- c(7, 7, 9, 9)
+
+points <- data.frame(x = x_points, y = y_points)
+
+tree <- tree + geom_polygon(data = points, aes(x = x, y = y), fill = "#567D30")
+
+
+# 5th level
+x_points <- c(-2, 2, 0)
+y_points <- c(9, 9, 11)
+
+points <- data.frame(x = x_points, y = y_points)
+
+tree <- tree + geom_polygon(data = points, aes(x = x, y = y), fill = "#567D30")
+tree
+
+
+# decorations 
+star_points <- data.frame(x = c(0), y = c(11.1))
+
+decoration_1 <- data.frame(x = c(-2, 2.5, -0.3, 1, 0.5),
+                           y = c(1.5, 4, 6, 8, 9.8))
+decoration_2 <- data.frame(x = c(2.1, -0.2, -3, 1.3, -0.5), 
+                           y = c(1.8, 3, 3.5, 7, 8.2))
+decoration_3 <- data.frame(x = c(-4, 3.2, 1.3, -2, 0.3), 
+                           y = c(2, 3, 4.4, 5, 7.2))
+
+
+
+colors_palette <- c("#FF9800", "#FF90BC", "#FFAD84", "#EF4040",
+                    "#FF9800", "#F1EB90", "#F3B664", "#EC8F5E",
+                    "#FF9800", "#4CB9E7", "#3559E0", "#0F2167")
+
+colors_palette <- rep(colors_palette, times = 10)
+
+plotly_tree <- ggplotly(tree)
+i = 1
+while (i <= length(colors_palette)) {
+  frame_name <- paste0("Frame", i)
+  plotly_tree <- plotly_tree %>% 
+    add_trace(x = star_points$x, y = star_points$y, 
+              type = 'scatter', mode = 'markers', 
+              marker = list(symbol = "star", size = 30, 
+                            color = colors_palette[i]), frame = frame_name) %>% 
+    add_trace(x = decoration_1$x, y = decoration_1$y,
+              type = 'scatter', mode = 'markers', 
+              marker = list(symbol = "star-diamond", size = 12, 
+                            color = colors_palette[i + 1]), 
+              frame = frame_name) %>% 
+    add_trace(x = decoration_2$x, y = decoration_2$y,
+              type = 'scatter', mode = 'markers', 
+              marker = list(symbol = "circle", size = 12,
+                            color = colors_palette[i + 2]), 
+              frame = frame_name) %>% 
+    add_trace(x = decoration_3$x, y = decoration_3$y,
+              type = 'scatter', mode = 'markers', 
+              marker = list(symbol = "diamond", size = 12, 
+                            color = colors_palette[i + 3]), 
+              frame = frame_name) %>% 
+    
+    animation_opts(frame = frame_name, transition = 2500, redraw = TRUE)
+  i = i + 4
+}
+
+
+# animation
+plotly_tree <- plotly_tree %>% 
+  animation_slider(hide = T) %>% 
+  animation_button(
+    x = 0.2, 
+    xanchor = "left",
+    y = 0.3,
+    bgcolor = "#182f37",   
+    bordercolor = "white",
+    font = list(color = "white"))
+
+plotly_tree
+
+
+
+
+```
+
