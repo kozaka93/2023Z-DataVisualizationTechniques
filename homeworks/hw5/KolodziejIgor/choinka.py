@@ -4,15 +4,18 @@ import matplotlib.animation as animation
 
 plt.style.use('dark_background')
 
+# We will use the equation for damped oscillations
+# https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/15%3A_Oscillations/15.06%3A_Damped_Oscillations
+
 # Constants
 A_0 = 1  # Amplitude
 b = 0.8  # Damping coefficient
 m = 1  # Mass
-ω = 5  # Angular frequency
-ϕ = 0  # Phase angle
+omega = 5  # Angular frequency
+fi = 0  # Phase angle
 
 t = np.linspace(0, 10, 1000)
-x = A_0 * np.exp(-b * t / (2 * m)) * np.cos(ω * t + ϕ)
+x = A_0 * np.exp(-b * t / (2 * m)) * np.cos(omega * t + fi)
 
 baubles = np.append(np.linspace(0, 9, 9), [0.5, 3.9, 4.8, 1.8, 0.9, 0.3, 2.4])
 bauble_colors = ['red', 'blue', 'orange', 'cyan', 'magenta']
@@ -36,7 +39,7 @@ plt.title('Merry Christmas!',
 
 # Ornaments
 plt.scatter(0.01, 10, marker='*', s=1500, color='yellow', zorder=3)
-plt.scatter(A_0 * np.exp(-b * baubles / (2 * m)) * np.cos(ω * baubles + ϕ), baubles,
+plt.scatter(A_0 * np.exp(-b * baubles / (2 * m)) * np.cos(omega * baubles + fi), baubles,
             marker='o',
             s=450,
             color=np.random.choice(bauble_colors, size=baubles.shape[0]),
@@ -52,7 +55,7 @@ def update(i):
     scat_snow.set_offsets(np.c_[x_snow, y_snow])  # update positions
 
     if i % 30 == 0:  # update ornaments every 10 frames
-        plt.scatter(A_0 * np.exp(-b * baubles / (2 * m)) * np.cos(ω * baubles + ϕ), baubles,
+        plt.scatter(A_0 * np.exp(-b * baubles / (2 * m)) * np.cos(omega * baubles + fi), baubles,
                     marker='o',
                     s=450,
                     color=np.random.choice(bauble_colors, size=baubles.shape[0]),
