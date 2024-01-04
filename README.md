@@ -139,8 +139,8 @@ Previous: [Winter Semester 2022/23](https://github.com/MI2-Education/2023Z-DataV
   <tr>
     <td rowspan="2">12</td>
     <td rowspan="2">01-04</td>
-    <td rowspan="2">Dear Data</td>
-    <td rowspan="2">Python: matplotlib, seaborn</td>
+    <td rowspan="2"><a href="http://www.dear-data.com/theproject"> "Dear Data" </a></td>
+    <td rowspan="2"><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/tree/main/labs/lab12">Python: matplotlib, seaborn</a></td>
     <td rowspan="2">Consultations</td>
     <td rowspan="2"><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/issues/408">HW5 </a>(6p)</td>
   </tr>
@@ -149,7 +149,7 @@ Previous: [Winter Semester 2022/23](https://github.com/MI2-Education/2023Z-DataV
   <tr>
     <td rowspan="2">13</td>
     <td rowspan="2">01-11</td>
-    <td rowspan="2">TBA</td>
+    <td rowspan="2">Revision</td>
     <td rowspan="2">Python: graphs + plotly</td>
     <td rowspan="2">Prototype</td>
     <td rowspan="2">P2 (2p)</td>
