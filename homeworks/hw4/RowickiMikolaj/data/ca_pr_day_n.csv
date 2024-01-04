@@ -1,0 +1,2705 @@
+﻿date,cases,cartodb_id,province,weekinmonth,monthname,timeframe
+2020-01-22,0,4,Alberta,4,January,January-W4
+2020-01-22,0,6,British Columbia,4,January,January-W4
+2020-01-22,0,10,Manitoba,4,January,January-W4
+2020-01-22,0,7,New Brunswick,4,January,January-W4
+2020-01-22,0,5,Newfoundland and Labrador,4,January,January-W4
+2020-01-22,0,13,Northwest Territories,4,January,January-W4
+2020-01-22,0,2,Nova Scotia,4,January,January-W4
+2020-01-22,0,11,Ontario,4,January,January-W4
+2020-01-22,0,8,Prince Edward Island,4,January,January-W4
+2020-01-22,0,1,Quebec,4,January,January-W4
+2020-01-22,0,3,Saskatchewan,4,January,January-W4
+2020-01-22,0,9,Yukon,4,January,January-W4
+2020-01-22,0,12,Nunavut,4,January,January-W4
+2020-01-23,0,4,Alberta,4,January,January-W4
+2020-01-23,0,6,British Columbia,4,January,January-W4
+2020-01-23,0,10,Manitoba,4,January,January-W4
+2020-01-23,0,7,New Brunswick,4,January,January-W4
+2020-01-23,0,5,Newfoundland and Labrador,4,January,January-W4
+2020-01-23,0,13,Northwest Territories,4,January,January-W4
+2020-01-23,0,2,Nova Scotia,4,January,January-W4
+2020-01-23,0,11,Ontario,4,January,January-W4
+2020-01-23,0,8,Prince Edward Island,4,January,January-W4
+2020-01-23,0,1,Quebec,4,January,January-W4
+2020-01-23,0,3,Saskatchewan,4,January,January-W4
+2020-01-23,0,9,Yukon,4,January,January-W4
+2020-01-23,0,12,Nunavut,4,January,January-W4
+2020-01-24,0,4,Alberta,4,January,January-W4
+2020-01-24,0,6,British Columbia,4,January,January-W4
+2020-01-24,0,10,Manitoba,4,January,January-W4
+2020-01-24,0,7,New Brunswick,4,January,January-W4
+2020-01-24,0,5,Newfoundland and Labrador,4,January,January-W4
+2020-01-24,0,13,Northwest Territories,4,January,January-W4
+2020-01-24,0,2,Nova Scotia,4,January,January-W4
+2020-01-24,0,11,Ontario,4,January,January-W4
+2020-01-24,0,8,Prince Edward Island,4,January,January-W4
+2020-01-24,0,1,Quebec,4,January,January-W4
+2020-01-24,0,3,Saskatchewan,4,January,January-W4
+2020-01-24,0,9,Yukon,4,January,January-W4
+2020-01-24,0,12,Nunavut,4,January,January-W4
+2020-01-25,0,4,Alberta,4,January,January-W4
+2020-01-25,0,6,British Columbia,4,January,January-W4
+2020-01-25,0,10,Manitoba,4,January,January-W4
+2020-01-25,0,7,New Brunswick,4,January,January-W4
+2020-01-25,0,5,Newfoundland and Labrador,4,January,January-W4
+2020-01-25,0,13,Northwest Territories,4,January,January-W4
+2020-01-25,0,2,Nova Scotia,4,January,January-W4
+2020-01-25,0,11,Ontario,4,January,January-W4
+2020-01-25,0,8,Prince Edward Island,4,January,January-W4
+2020-01-25,0,1,Quebec,4,January,January-W4
+2020-01-25,0,3,Saskatchewan,4,January,January-W4
+2020-01-25,0,9,Yukon,4,January,January-W4
+2020-01-25,0,12,Nunavut,4,January,January-W4
+2020-01-26,0,4,Alberta,4,January,January-W4
+2020-01-26,0,6,British Columbia,4,January,January-W4
+2020-01-26,0,10,Manitoba,4,January,January-W4
+2020-01-26,0,7,New Brunswick,4,January,January-W4
+2020-01-26,0,5,Newfoundland and Labrador,4,January,January-W4
+2020-01-26,0,13,Northwest Territories,4,January,January-W4
+2020-01-26,0,2,Nova Scotia,4,January,January-W4
+2020-01-26,1,11,Ontario,4,January,January-W4
+2020-01-26,0,8,Prince Edward Island,4,January,January-W4
+2020-01-26,0,1,Quebec,4,January,January-W4
+2020-01-26,0,3,Saskatchewan,4,January,January-W4
+2020-01-26,0,9,Yukon,4,January,January-W4
+2020-01-26,0,12,Nunavut,4,January,January-W4
+2020-01-27,0,4,Alberta,4,January,January-W4
+2020-01-27,0,6,British Columbia,4,January,January-W4
+2020-01-27,0,10,Manitoba,4,January,January-W4
+2020-01-27,0,7,New Brunswick,4,January,January-W4
+2020-01-27,0,5,Newfoundland and Labrador,4,January,January-W4
+2020-01-27,0,13,Northwest Territories,4,January,January-W4
+2020-01-27,0,2,Nova Scotia,4,January,January-W4
+2020-01-27,1,11,Ontario,4,January,January-W4
+2020-01-27,0,8,Prince Edward Island,4,January,January-W4
+2020-01-27,0,1,Quebec,4,January,January-W4
+2020-01-27,0,3,Saskatchewan,4,January,January-W4
+2020-01-27,0,9,Yukon,4,January,January-W4
+2020-01-27,0,12,Nunavut,4,January,January-W4
+2020-01-28,0,4,Alberta,4,January,January-W4
+2020-01-28,1,6,British Columbia,4,January,January-W4
+2020-01-28,0,10,Manitoba,4,January,January-W4
+2020-01-28,0,7,New Brunswick,4,January,January-W4
+2020-01-28,0,5,Newfoundland and Labrador,4,January,January-W4
+2020-01-28,0,13,Northwest Territories,4,January,January-W4
+2020-01-28,0,2,Nova Scotia,4,January,January-W4
+2020-01-28,1,11,Ontario,4,January,January-W4
+2020-01-28,0,8,Prince Edward Island,4,January,January-W4
+2020-01-28,0,1,Quebec,4,January,January-W4
+2020-01-28,0,3,Saskatchewan,4,January,January-W4
+2020-01-28,0,9,Yukon,4,January,January-W4
+2020-01-28,0,12,Nunavut,4,January,January-W4
+2020-01-29,0,4,Alberta,4,January,January-W4
+2020-01-29,1,6,British Columbia,4,January,January-W4
+2020-01-29,0,10,Manitoba,4,January,January-W4
+2020-01-29,0,7,New Brunswick,4,January,January-W4
+2020-01-29,0,5,Newfoundland and Labrador,4,January,January-W4
+2020-01-29,0,13,Northwest Territories,4,January,January-W4
+2020-01-29,0,2,Nova Scotia,4,January,January-W4
+2020-01-29,1,11,Ontario,4,January,January-W4
+2020-01-29,0,8,Prince Edward Island,4,January,January-W4
+2020-01-29,0,1,Quebec,4,January,January-W4
+2020-01-29,0,3,Saskatchewan,4,January,January-W4
+2020-01-29,0,9,Yukon,4,January,January-W4
+2020-01-29,0,12,Nunavut,4,January,January-W4
+2020-01-30,0,4,Alberta,4,January,January-W4
+2020-01-30,1,6,British Columbia,4,January,January-W4
+2020-01-30,0,10,Manitoba,4,January,January-W4
+2020-01-30,0,7,New Brunswick,4,January,January-W4
+2020-01-30,0,5,Newfoundland and Labrador,4,January,January-W4
+2020-01-30,0,13,Northwest Territories,4,January,January-W4
+2020-01-30,0,2,Nova Scotia,4,January,January-W4
+2020-01-30,1,11,Ontario,4,January,January-W4
+2020-01-30,0,8,Prince Edward Island,4,January,January-W4
+2020-01-30,0,1,Quebec,4,January,January-W4
+2020-01-30,0,3,Saskatchewan,4,January,January-W4
+2020-01-30,0,9,Yukon,4,January,January-W4
+2020-01-30,0,12,Nunavut,4,January,January-W4
+2020-01-31,0,4,Alberta,4,January,January-W4
+2020-01-31,1,6,British Columbia,4,January,January-W4
+2020-01-31,0,10,Manitoba,4,January,January-W4
+2020-01-31,0,7,New Brunswick,4,January,January-W4
+2020-01-31,0,5,Newfoundland and Labrador,4,January,January-W4
+2020-01-31,0,13,Northwest Territories,4,January,January-W4
+2020-01-31,0,2,Nova Scotia,4,January,January-W4
+2020-01-31,3,11,Ontario,4,January,January-W4
+2020-01-31,0,8,Prince Edward Island,4,January,January-W4
+2020-01-31,0,1,Quebec,4,January,January-W4
+2020-01-31,0,3,Saskatchewan,4,January,January-W4
+2020-01-31,0,9,Yukon,4,January,January-W4
+2020-01-31,0,12,Nunavut,4,January,January-W4
+2020-02-01,0,4,Alberta,1,February,February-W1
+2020-02-01,1,6,British Columbia,1,February,February-W1
+2020-02-01,0,10,Manitoba,1,February,February-W1
+2020-02-01,0,7,New Brunswick,1,February,February-W1
+2020-02-01,0,5,Newfoundland and Labrador,1,February,February-W1
+2020-02-01,0,13,Northwest Territories,1,February,February-W1
+2020-02-01,0,2,Nova Scotia,1,February,February-W1
+2020-02-01,3,11,Ontario,1,February,February-W1
+2020-02-01,0,8,Prince Edward Island,1,February,February-W1
+2020-02-01,0,1,Quebec,1,February,February-W1
+2020-02-01,0,3,Saskatchewan,1,February,February-W1
+2020-02-01,0,9,Yukon,1,February,February-W1
+2020-02-01,0,12,Nunavut,1,February,February-W1
+2020-02-02,0,4,Alberta,1,February,February-W1
+2020-02-02,1,6,British Columbia,1,February,February-W1
+2020-02-02,0,10,Manitoba,1,February,February-W1
+2020-02-02,0,7,New Brunswick,1,February,February-W1
+2020-02-02,0,5,Newfoundland and Labrador,1,February,February-W1
+2020-02-02,0,13,Northwest Territories,1,February,February-W1
+2020-02-02,0,2,Nova Scotia,1,February,February-W1
+2020-02-02,3,11,Ontario,1,February,February-W1
+2020-02-02,0,8,Prince Edward Island,1,February,February-W1
+2020-02-02,0,1,Quebec,1,February,February-W1
+2020-02-02,0,3,Saskatchewan,1,February,February-W1
+2020-02-02,0,9,Yukon,1,February,February-W1
+2020-02-02,0,12,Nunavut,1,February,February-W1
+2020-02-03,0,4,Alberta,1,February,February-W1
+2020-02-03,1,6,British Columbia,1,February,February-W1
+2020-02-03,0,10,Manitoba,1,February,February-W1
+2020-02-03,0,7,New Brunswick,1,February,February-W1
+2020-02-03,0,5,Newfoundland and Labrador,1,February,February-W1
+2020-02-03,0,13,Northwest Territories,1,February,February-W1
+2020-02-03,0,2,Nova Scotia,1,February,February-W1
+2020-02-03,3,11,Ontario,1,February,February-W1
+2020-02-03,0,8,Prince Edward Island,1,February,February-W1
+2020-02-03,0,1,Quebec,1,February,February-W1
+2020-02-03,0,3,Saskatchewan,1,February,February-W1
+2020-02-03,0,9,Yukon,1,February,February-W1
+2020-02-03,0,12,Nunavut,1,February,February-W1
+2020-02-04,0,4,Alberta,1,February,February-W1
+2020-02-04,1,6,British Columbia,1,February,February-W1
+2020-02-04,0,10,Manitoba,1,February,February-W1
+2020-02-04,0,7,New Brunswick,1,February,February-W1
+2020-02-04,0,5,Newfoundland and Labrador,1,February,February-W1
+2020-02-04,0,13,Northwest Territories,1,February,February-W1
+2020-02-04,0,2,Nova Scotia,1,February,February-W1
+2020-02-04,3,11,Ontario,1,February,February-W1
+2020-02-04,0,8,Prince Edward Island,1,February,February-W1
+2020-02-04,0,1,Quebec,1,February,February-W1
+2020-02-04,0,3,Saskatchewan,1,February,February-W1
+2020-02-04,0,9,Yukon,1,February,February-W1
+2020-02-04,0,12,Nunavut,1,February,February-W1
+2020-02-05,0,4,Alberta,1,February,February-W1
+2020-02-05,2,6,British Columbia,1,February,February-W1
+2020-02-05,0,10,Manitoba,1,February,February-W1
+2020-02-05,0,7,New Brunswick,1,February,February-W1
+2020-02-05,0,5,Newfoundland and Labrador,1,February,February-W1
+2020-02-05,0,13,Northwest Territories,1,February,February-W1
+2020-02-05,0,2,Nova Scotia,1,February,February-W1
+2020-02-05,3,11,Ontario,1,February,February-W1
+2020-02-05,0,8,Prince Edward Island,1,February,February-W1
+2020-02-05,0,1,Quebec,1,February,February-W1
+2020-02-05,0,3,Saskatchewan,1,February,February-W1
+2020-02-05,0,9,Yukon,1,February,February-W1
+2020-02-05,0,12,Nunavut,1,February,February-W1
+2020-02-06,0,4,Alberta,1,February,February-W1
+2020-02-06,2,6,British Columbia,1,February,February-W1
+2020-02-06,0,10,Manitoba,1,February,February-W1
+2020-02-06,0,7,New Brunswick,1,February,February-W1
+2020-02-06,0,5,Newfoundland and Labrador,1,February,February-W1
+2020-02-06,0,13,Northwest Territories,1,February,February-W1
+2020-02-06,0,2,Nova Scotia,1,February,February-W1
+2020-02-06,3,11,Ontario,1,February,February-W1
+2020-02-06,0,8,Prince Edward Island,1,February,February-W1
+2020-02-06,0,1,Quebec,1,February,February-W1
+2020-02-06,0,3,Saskatchewan,1,February,February-W1
+2020-02-06,0,9,Yukon,1,February,February-W1
+2020-02-06,0,12,Nunavut,1,February,February-W1
+2020-02-07,0,4,Alberta,1,February,February-W1
+2020-02-07,4,6,British Columbia,1,February,February-W1
+2020-02-07,0,10,Manitoba,1,February,February-W1
+2020-02-07,0,7,New Brunswick,1,February,February-W1
+2020-02-07,0,5,Newfoundland and Labrador,1,February,February-W1
+2020-02-07,0,13,Northwest Territories,1,February,February-W1
+2020-02-07,0,2,Nova Scotia,1,February,February-W1
+2020-02-07,3,11,Ontario,1,February,February-W1
+2020-02-07,0,8,Prince Edward Island,1,February,February-W1
+2020-02-07,0,1,Quebec,1,February,February-W1
+2020-02-07,0,3,Saskatchewan,1,February,February-W1
+2020-02-07,0,9,Yukon,1,February,February-W1
+2020-02-07,0,12,Nunavut,1,February,February-W1
+2020-02-08,0,4,Alberta,2,February,February-W2
+2020-02-08,4,6,British Columbia,2,February,February-W2
+2020-02-08,0,10,Manitoba,2,February,February-W2
+2020-02-08,0,7,New Brunswick,2,February,February-W2
+2020-02-08,0,5,Newfoundland and Labrador,2,February,February-W2
+2020-02-08,0,13,Northwest Territories,2,February,February-W2
+2020-02-08,0,2,Nova Scotia,2,February,February-W2
+2020-02-08,3,11,Ontario,2,February,February-W2
+2020-02-08,0,8,Prince Edward Island,2,February,February-W2
+2020-02-08,0,1,Quebec,2,February,February-W2
+2020-02-08,0,3,Saskatchewan,2,February,February-W2
+2020-02-08,0,9,Yukon,2,February,February-W2
+2020-02-08,0,12,Nunavut,2,February,February-W2
+2020-02-09,0,4,Alberta,2,February,February-W2
+2020-02-09,4,6,British Columbia,2,February,February-W2
+2020-02-09,0,10,Manitoba,2,February,February-W2
+2020-02-09,0,7,New Brunswick,2,February,February-W2
+2020-02-09,0,5,Newfoundland and Labrador,2,February,February-W2
+2020-02-09,0,13,Northwest Territories,2,February,February-W2
+2020-02-09,0,2,Nova Scotia,2,February,February-W2
+2020-02-09,3,11,Ontario,2,February,February-W2
+2020-02-09,0,8,Prince Edward Island,2,February,February-W2
+2020-02-09,0,1,Quebec,2,February,February-W2
+2020-02-09,0,3,Saskatchewan,2,February,February-W2
+2020-02-09,0,9,Yukon,2,February,February-W2
+2020-02-09,0,12,Nunavut,2,February,February-W2
+2020-02-10,0,4,Alberta,2,February,February-W2
+2020-02-10,4,6,British Columbia,2,February,February-W2
+2020-02-10,0,10,Manitoba,2,February,February-W2
+2020-02-10,0,7,New Brunswick,2,February,February-W2
+2020-02-10,0,5,Newfoundland and Labrador,2,February,February-W2
+2020-02-10,0,13,Northwest Territories,2,February,February-W2
+2020-02-10,0,2,Nova Scotia,2,February,February-W2
+2020-02-10,3,11,Ontario,2,February,February-W2
+2020-02-10,0,8,Prince Edward Island,2,February,February-W2
+2020-02-10,0,1,Quebec,2,February,February-W2
+2020-02-10,0,3,Saskatchewan,2,February,February-W2
+2020-02-10,0,9,Yukon,2,February,February-W2
+2020-02-10,0,12,Nunavut,2,February,February-W2
+2020-02-11,0,4,Alberta,2,February,February-W2
+2020-02-11,4,6,British Columbia,2,February,February-W2
+2020-02-11,0,10,Manitoba,2,February,February-W2
+2020-02-11,0,7,New Brunswick,2,February,February-W2
+2020-02-11,0,5,Newfoundland and Labrador,2,February,February-W2
+2020-02-11,0,13,Northwest Territories,2,February,February-W2
+2020-02-11,0,2,Nova Scotia,2,February,February-W2
+2020-02-11,3,11,Ontario,2,February,February-W2
+2020-02-11,0,8,Prince Edward Island,2,February,February-W2
+2020-02-11,0,1,Quebec,2,February,February-W2
+2020-02-11,0,3,Saskatchewan,2,February,February-W2
+2020-02-11,0,9,Yukon,2,February,February-W2
+2020-02-11,0,12,Nunavut,2,February,February-W2
+2020-02-12,0,4,Alberta,2,February,February-W2
+2020-02-12,4,6,British Columbia,2,February,February-W2
+2020-02-12,0,10,Manitoba,2,February,February-W2
+2020-02-12,0,7,New Brunswick,2,February,February-W2
+2020-02-12,0,5,Newfoundland and Labrador,2,February,February-W2
+2020-02-12,0,13,Northwest Territories,2,February,February-W2
+2020-02-12,0,2,Nova Scotia,2,February,February-W2
+2020-02-12,3,11,Ontario,2,February,February-W2
+2020-02-12,0,8,Prince Edward Island,2,February,February-W2
+2020-02-12,0,1,Quebec,2,February,February-W2
+2020-02-12,0,3,Saskatchewan,2,February,February-W2
+2020-02-12,0,9,Yukon,2,February,February-W2
+2020-02-12,0,12,Nunavut,2,February,February-W2
+2020-02-13,0,4,Alberta,2,February,February-W2
+2020-02-13,4,6,British Columbia,2,February,February-W2
+2020-02-13,0,10,Manitoba,2,February,February-W2
+2020-02-13,0,7,New Brunswick,2,February,February-W2
+2020-02-13,0,5,Newfoundland and Labrador,2,February,February-W2
+2020-02-13,0,13,Northwest Territories,2,February,February-W2
+2020-02-13,0,2,Nova Scotia,2,February,February-W2
+2020-02-13,3,11,Ontario,2,February,February-W2
+2020-02-13,0,8,Prince Edward Island,2,February,February-W2
+2020-02-13,0,1,Quebec,2,February,February-W2
+2020-02-13,0,3,Saskatchewan,2,February,February-W2
+2020-02-13,0,9,Yukon,2,February,February-W2
+2020-02-13,0,12,Nunavut,2,February,February-W2
+2020-02-14,0,4,Alberta,2,February,February-W2
+2020-02-14,4,6,British Columbia,2,February,February-W2
+2020-02-14,0,10,Manitoba,2,February,February-W2
+2020-02-14,0,7,New Brunswick,2,February,February-W2
+2020-02-14,0,5,Newfoundland and Labrador,2,February,February-W2
+2020-02-14,0,13,Northwest Territories,2,February,February-W2
+2020-02-14,0,2,Nova Scotia,2,February,February-W2
+2020-02-14,3,11,Ontario,2,February,February-W2
+2020-02-14,0,8,Prince Edward Island,2,February,February-W2
+2020-02-14,0,1,Quebec,2,February,February-W2
+2020-02-14,0,3,Saskatchewan,2,February,February-W2
+2020-02-14,0,9,Yukon,2,February,February-W2
+2020-02-14,0,12,Nunavut,2,February,February-W2
+2020-02-15,0,4,Alberta,3,February,February-W3
+2020-02-15,4,6,British Columbia,3,February,February-W3
+2020-02-15,0,10,Manitoba,3,February,February-W3
+2020-02-15,0,7,New Brunswick,3,February,February-W3
+2020-02-15,0,5,Newfoundland and Labrador,3,February,February-W3
+2020-02-15,0,13,Northwest Territories,3,February,February-W3
+2020-02-15,0,2,Nova Scotia,3,February,February-W3
+2020-02-15,3,11,Ontario,3,February,February-W3
+2020-02-15,0,8,Prince Edward Island,3,February,February-W3
+2020-02-15,0,1,Quebec,3,February,February-W3
+2020-02-15,0,3,Saskatchewan,3,February,February-W3
+2020-02-15,0,9,Yukon,3,February,February-W3
+2020-02-15,0,12,Nunavut,3,February,February-W3
+2020-02-16,0,4,Alberta,3,February,February-W3
+2020-02-16,4,6,British Columbia,3,February,February-W3
+2020-02-16,0,10,Manitoba,3,February,February-W3
+2020-02-16,0,7,New Brunswick,3,February,February-W3
+2020-02-16,0,5,Newfoundland and Labrador,3,February,February-W3
+2020-02-16,0,13,Northwest Territories,3,February,February-W3
+2020-02-16,0,2,Nova Scotia,3,February,February-W3
+2020-02-16,3,11,Ontario,3,February,February-W3
+2020-02-16,0,8,Prince Edward Island,3,February,February-W3
+2020-02-16,0,1,Quebec,3,February,February-W3
+2020-02-16,0,3,Saskatchewan,3,February,February-W3
+2020-02-16,0,9,Yukon,3,February,February-W3
+2020-02-16,0,12,Nunavut,3,February,February-W3
+2020-02-17,0,4,Alberta,3,February,February-W3
+2020-02-17,5,6,British Columbia,3,February,February-W3
+2020-02-17,0,10,Manitoba,3,February,February-W3
+2020-02-17,0,7,New Brunswick,3,February,February-W3
+2020-02-17,0,5,Newfoundland and Labrador,3,February,February-W3
+2020-02-17,0,13,Northwest Territories,3,February,February-W3
+2020-02-17,0,2,Nova Scotia,3,February,February-W3
+2020-02-17,3,11,Ontario,3,February,February-W3
+2020-02-17,0,8,Prince Edward Island,3,February,February-W3
+2020-02-17,0,1,Quebec,3,February,February-W3
+2020-02-17,0,3,Saskatchewan,3,February,February-W3
+2020-02-17,0,9,Yukon,3,February,February-W3
+2020-02-17,0,12,Nunavut,3,February,February-W3
+2020-02-18,0,4,Alberta,3,February,February-W3
+2020-02-18,5,6,British Columbia,3,February,February-W3
+2020-02-18,0,10,Manitoba,3,February,February-W3
+2020-02-18,0,7,New Brunswick,3,February,February-W3
+2020-02-18,0,5,Newfoundland and Labrador,3,February,February-W3
+2020-02-18,0,13,Northwest Territories,3,February,February-W3
+2020-02-18,0,2,Nova Scotia,3,February,February-W3
+2020-02-18,3,11,Ontario,3,February,February-W3
+2020-02-18,0,8,Prince Edward Island,3,February,February-W3
+2020-02-18,0,1,Quebec,3,February,February-W3
+2020-02-18,0,3,Saskatchewan,3,February,February-W3
+2020-02-18,0,9,Yukon,3,February,February-W3
+2020-02-18,0,12,Nunavut,3,February,February-W3
+2020-02-19,0,4,Alberta,3,February,February-W3
+2020-02-19,5,6,British Columbia,3,February,February-W3
+2020-02-19,0,10,Manitoba,3,February,February-W3
+2020-02-19,0,7,New Brunswick,3,February,February-W3
+2020-02-19,0,5,Newfoundland and Labrador,3,February,February-W3
+2020-02-19,0,13,Northwest Territories,3,February,February-W3
+2020-02-19,0,2,Nova Scotia,3,February,February-W3
+2020-02-19,3,11,Ontario,3,February,February-W3
+2020-02-19,0,8,Prince Edward Island,3,February,February-W3
+2020-02-19,0,1,Quebec,3,February,February-W3
+2020-02-19,0,3,Saskatchewan,3,February,February-W3
+2020-02-19,0,9,Yukon,3,February,February-W3
+2020-02-19,0,12,Nunavut,3,February,February-W3
+2020-02-20,0,4,Alberta,3,February,February-W3
+2020-02-20,5,6,British Columbia,3,February,February-W3
+2020-02-20,0,10,Manitoba,3,February,February-W3
+2020-02-20,0,7,New Brunswick,3,February,February-W3
+2020-02-20,0,5,Newfoundland and Labrador,3,February,February-W3
+2020-02-20,0,13,Northwest Territories,3,February,February-W3
+2020-02-20,0,2,Nova Scotia,3,February,February-W3
+2020-02-20,3,11,Ontario,3,February,February-W3
+2020-02-20,0,8,Prince Edward Island,3,February,February-W3
+2020-02-20,0,1,Quebec,3,February,February-W3
+2020-02-20,0,3,Saskatchewan,3,February,February-W3
+2020-02-20,0,9,Yukon,3,February,February-W3
+2020-02-20,0,12,Nunavut,3,February,February-W3
+2020-02-21,0,4,Alberta,3,February,February-W3
+2020-02-21,6,6,British Columbia,3,February,February-W3
+2020-02-21,0,10,Manitoba,3,February,February-W3
+2020-02-21,0,7,New Brunswick,3,February,February-W3
+2020-02-21,0,5,Newfoundland and Labrador,3,February,February-W3
+2020-02-21,0,13,Northwest Territories,3,February,February-W3
+2020-02-21,0,2,Nova Scotia,3,February,February-W3
+2020-02-21,3,11,Ontario,3,February,February-W3
+2020-02-21,0,8,Prince Edward Island,3,February,February-W3
+2020-02-21,0,1,Quebec,3,February,February-W3
+2020-02-21,0,3,Saskatchewan,3,February,February-W3
+2020-02-21,0,9,Yukon,3,February,February-W3
+2020-02-21,0,12,Nunavut,3,February,February-W3
+2020-02-22,0,4,Alberta,4,February,February-W4
+2020-02-22,6,6,British Columbia,4,February,February-W4
+2020-02-22,0,10,Manitoba,4,February,February-W4
+2020-02-22,0,7,New Brunswick,4,February,February-W4
+2020-02-22,0,5,Newfoundland and Labrador,4,February,February-W4
+2020-02-22,0,13,Northwest Territories,4,February,February-W4
+2020-02-22,0,2,Nova Scotia,4,February,February-W4
+2020-02-22,3,11,Ontario,4,February,February-W4
+2020-02-22,0,8,Prince Edward Island,4,February,February-W4
+2020-02-22,0,1,Quebec,4,February,February-W4
+2020-02-22,0,3,Saskatchewan,4,February,February-W4
+2020-02-22,0,9,Yukon,4,February,February-W4
+2020-02-22,0,12,Nunavut,4,February,February-W4
+2020-02-23,0,4,Alberta,4,February,February-W4
+2020-02-23,6,6,British Columbia,4,February,February-W4
+2020-02-23,0,10,Manitoba,4,February,February-W4
+2020-02-23,0,7,New Brunswick,4,February,February-W4
+2020-02-23,0,5,Newfoundland and Labrador,4,February,February-W4
+2020-02-23,0,13,Northwest Territories,4,February,February-W4
+2020-02-23,0,2,Nova Scotia,4,February,February-W4
+2020-02-23,3,11,Ontario,4,February,February-W4
+2020-02-23,0,8,Prince Edward Island,4,February,February-W4
+2020-02-23,0,1,Quebec,4,February,February-W4
+2020-02-23,0,3,Saskatchewan,4,February,February-W4
+2020-02-23,0,9,Yukon,4,February,February-W4
+2020-02-23,0,12,Nunavut,4,February,February-W4
+2020-02-24,0,4,Alberta,4,February,February-W4
+2020-02-24,6,6,British Columbia,4,February,February-W4
+2020-02-24,0,10,Manitoba,4,February,February-W4
+2020-02-24,0,7,New Brunswick,4,February,February-W4
+2020-02-24,0,5,Newfoundland and Labrador,4,February,February-W4
+2020-02-24,0,13,Northwest Territories,4,February,February-W4
+2020-02-24,0,2,Nova Scotia,4,February,February-W4
+2020-02-24,4,11,Ontario,4,February,February-W4
+2020-02-24,0,8,Prince Edward Island,4,February,February-W4
+2020-02-24,0,1,Quebec,4,February,February-W4
+2020-02-24,0,3,Saskatchewan,4,February,February-W4
+2020-02-24,0,9,Yukon,4,February,February-W4
+2020-02-24,0,12,Nunavut,4,February,February-W4
+2020-02-25,0,4,Alberta,4,February,February-W4
+2020-02-25,7,6,British Columbia,4,February,February-W4
+2020-02-25,0,10,Manitoba,4,February,February-W4
+2020-02-25,0,7,New Brunswick,4,February,February-W4
+2020-02-25,0,5,Newfoundland and Labrador,4,February,February-W4
+2020-02-25,0,13,Northwest Territories,4,February,February-W4
+2020-02-25,0,2,Nova Scotia,4,February,February-W4
+2020-02-25,4,11,Ontario,4,February,February-W4
+2020-02-25,0,8,Prince Edward Island,4,February,February-W4
+2020-02-25,0,1,Quebec,4,February,February-W4
+2020-02-25,0,3,Saskatchewan,4,February,February-W4
+2020-02-25,0,9,Yukon,4,February,February-W4
+2020-02-25,0,12,Nunavut,4,February,February-W4
+2020-02-26,0,4,Alberta,4,February,February-W4
+2020-02-26,7,6,British Columbia,4,February,February-W4
+2020-02-26,0,10,Manitoba,4,February,February-W4
+2020-02-26,0,7,New Brunswick,4,February,February-W4
+2020-02-26,0,5,Newfoundland and Labrador,4,February,February-W4
+2020-02-26,0,13,Northwest Territories,4,February,February-W4
+2020-02-26,0,2,Nova Scotia,4,February,February-W4
+2020-02-26,4,11,Ontario,4,February,February-W4
+2020-02-26,0,8,Prince Edward Island,4,February,February-W4
+2020-02-26,0,1,Quebec,4,February,February-W4
+2020-02-26,0,3,Saskatchewan,4,February,February-W4
+2020-02-26,0,9,Yukon,4,February,February-W4
+2020-02-26,0,12,Nunavut,4,February,February-W4
+2020-02-27,0,4,Alberta,4,February,February-W4
+2020-02-27,7,6,British Columbia,4,February,February-W4
+2020-02-27,0,10,Manitoba,4,February,February-W4
+2020-02-27,0,7,New Brunswick,4,February,February-W4
+2020-02-27,0,5,Newfoundland and Labrador,4,February,February-W4
+2020-02-27,0,13,Northwest Territories,4,February,February-W4
+2020-02-27,0,2,Nova Scotia,4,February,February-W4
+2020-02-27,6,11,Ontario,4,February,February-W4
+2020-02-27,0,8,Prince Edward Island,4,February,February-W4
+2020-02-27,0,1,Quebec,4,February,February-W4
+2020-02-27,0,3,Saskatchewan,4,February,February-W4
+2020-02-27,0,9,Yukon,4,February,February-W4
+2020-02-27,0,12,Nunavut,4,February,February-W4
+2020-02-28,0,4,Alberta,4,February,February-W4
+2020-02-28,7,6,British Columbia,4,February,February-W4
+2020-02-28,0,10,Manitoba,4,February,February-W4
+2020-02-28,0,7,New Brunswick,4,February,February-W4
+2020-02-28,0,5,Newfoundland and Labrador,4,February,February-W4
+2020-02-28,0,13,Northwest Territories,4,February,February-W4
+2020-02-28,0,2,Nova Scotia,4,February,February-W4
+2020-02-28,6,11,Ontario,4,February,February-W4
+2020-02-28,0,8,Prince Edward Island,4,February,February-W4
+2020-02-28,1,1,Quebec,4,February,February-W4
+2020-02-28,0,3,Saskatchewan,4,February,February-W4
+2020-02-28,0,9,Yukon,4,February,February-W4
+2020-02-28,0,12,Nunavut,4,February,February-W4
+2020-02-29,0,4,Alberta,4,February,February-W4
+2020-02-29,8,6,British Columbia,4,February,February-W4
+2020-02-29,0,10,Manitoba,4,February,February-W4
+2020-02-29,0,7,New Brunswick,4,February,February-W4
+2020-02-29,0,5,Newfoundland and Labrador,4,February,February-W4
+2020-02-29,0,13,Northwest Territories,4,February,February-W4
+2020-02-29,0,2,Nova Scotia,4,February,February-W4
+2020-02-29,11,11,Ontario,4,February,February-W4
+2020-02-29,0,8,Prince Edward Island,4,February,February-W4
+2020-02-29,1,1,Quebec,4,February,February-W4
+2020-02-29,0,3,Saskatchewan,4,February,February-W4
+2020-02-29,0,9,Yukon,4,February,February-W4
+2020-02-29,0,12,Nunavut,4,February,February-W4
+2020-03-01,0,4,Alberta,1,March,March-W1
+2020-03-01,8,6,British Columbia,1,March,March-W1
+2020-03-01,0,10,Manitoba,1,March,March-W1
+2020-03-01,0,7,New Brunswick,1,March,March-W1
+2020-03-01,0,5,Newfoundland and Labrador,1,March,March-W1
+2020-03-01,0,13,Northwest Territories,1,March,March-W1
+2020-03-01,0,2,Nova Scotia,1,March,March-W1
+2020-03-01,15,11,Ontario,1,March,March-W1
+2020-03-01,0,8,Prince Edward Island,1,March,March-W1
+2020-03-01,1,1,Quebec,1,March,March-W1
+2020-03-01,0,3,Saskatchewan,1,March,March-W1
+2020-03-01,0,9,Yukon,1,March,March-W1
+2020-03-01,0,12,Nunavut,1,March,March-W1
+2020-03-02,0,4,Alberta,1,March,March-W1
+2020-03-02,8,6,British Columbia,1,March,March-W1
+2020-03-02,0,10,Manitoba,1,March,March-W1
+2020-03-02,0,7,New Brunswick,1,March,March-W1
+2020-03-02,0,5,Newfoundland and Labrador,1,March,March-W1
+2020-03-02,0,13,Northwest Territories,1,March,March-W1
+2020-03-02,0,2,Nova Scotia,1,March,March-W1
+2020-03-02,18,11,Ontario,1,March,March-W1
+2020-03-02,0,8,Prince Edward Island,1,March,March-W1
+2020-03-02,1,1,Quebec,1,March,March-W1
+2020-03-02,0,3,Saskatchewan,1,March,March-W1
+2020-03-02,0,9,Yukon,1,March,March-W1
+2020-03-02,0,12,Nunavut,1,March,March-W1
+2020-03-03,0,4,Alberta,1,March,March-W1
+2020-03-03,9,6,British Columbia,1,March,March-W1
+2020-03-03,0,10,Manitoba,1,March,March-W1
+2020-03-03,0,7,New Brunswick,1,March,March-W1
+2020-03-03,0,5,Newfoundland and Labrador,1,March,March-W1
+2020-03-03,0,13,Northwest Territories,1,March,March-W1
+2020-03-03,0,2,Nova Scotia,1,March,March-W1
+2020-03-03,20,11,Ontario,1,March,March-W1
+2020-03-03,0,8,Prince Edward Island,1,March,March-W1
+2020-03-03,1,1,Quebec,1,March,March-W1
+2020-03-03,0,3,Saskatchewan,1,March,March-W1
+2020-03-03,0,9,Yukon,1,March,March-W1
+2020-03-03,0,12,Nunavut,1,March,March-W1
+2020-03-04,0,4,Alberta,1,March,March-W1
+2020-03-04,12,6,British Columbia,1,March,March-W1
+2020-03-04,0,10,Manitoba,1,March,March-W1
+2020-03-04,0,7,New Brunswick,1,March,March-W1
+2020-03-04,0,5,Newfoundland and Labrador,1,March,March-W1
+2020-03-04,0,13,Northwest Territories,1,March,March-W1
+2020-03-04,0,2,Nova Scotia,1,March,March-W1
+2020-03-04,20,11,Ontario,1,March,March-W1
+2020-03-04,0,8,Prince Edward Island,1,March,March-W1
+2020-03-04,1,1,Quebec,1,March,March-W1
+2020-03-04,0,3,Saskatchewan,1,March,March-W1
+2020-03-04,0,9,Yukon,1,March,March-W1
+2020-03-04,0,12,Nunavut,1,March,March-W1
+2020-03-05,0,4,Alberta,1,March,March-W1
+2020-03-05,13,6,British Columbia,1,March,March-W1
+2020-03-05,0,10,Manitoba,1,March,March-W1
+2020-03-05,0,7,New Brunswick,1,March,March-W1
+2020-03-05,0,5,Newfoundland and Labrador,1,March,March-W1
+2020-03-05,0,13,Northwest Territories,1,March,March-W1
+2020-03-05,0,2,Nova Scotia,1,March,March-W1
+2020-03-05,22,11,Ontario,1,March,March-W1
+2020-03-05,0,8,Prince Edward Island,1,March,March-W1
+2020-03-05,2,1,Quebec,1,March,March-W1
+2020-03-05,0,3,Saskatchewan,1,March,March-W1
+2020-03-05,0,9,Yukon,1,March,March-W1
+2020-03-05,0,12,Nunavut,1,March,March-W1
+2020-03-06,1,4,Alberta,1,March,March-W1
+2020-03-06,21,6,British Columbia,1,March,March-W1
+2020-03-06,0,10,Manitoba,1,March,March-W1
+2020-03-06,0,7,New Brunswick,1,March,March-W1
+2020-03-06,0,5,Newfoundland and Labrador,1,March,March-W1
+2020-03-06,0,13,Northwest Territories,1,March,March-W1
+2020-03-06,0,2,Nova Scotia,1,March,March-W1
+2020-03-06,25,11,Ontario,1,March,March-W1
+2020-03-06,0,8,Prince Edward Island,1,March,March-W1
+2020-03-06,2,1,Quebec,1,March,March-W1
+2020-03-06,0,3,Saskatchewan,1,March,March-W1
+2020-03-06,0,9,Yukon,1,March,March-W1
+2020-03-06,0,12,Nunavut,1,March,March-W1
+2020-03-07,2,4,Alberta,1,March,March-W1
+2020-03-07,21,6,British Columbia,1,March,March-W1
+2020-03-07,0,10,Manitoba,1,March,March-W1
+2020-03-07,0,7,New Brunswick,1,March,March-W1
+2020-03-07,0,5,Newfoundland and Labrador,1,March,March-W1
+2020-03-07,0,13,Northwest Territories,1,March,March-W1
+2020-03-07,0,2,Nova Scotia,1,March,March-W1
+2020-03-07,28,11,Ontario,1,March,March-W1
+2020-03-07,0,8,Prince Edward Island,1,March,March-W1
+2020-03-07,3,1,Quebec,1,March,March-W1
+2020-03-07,0,3,Saskatchewan,1,March,March-W1
+2020-03-07,0,9,Yukon,1,March,March-W1
+2020-03-07,0,12,Nunavut,1,March,March-W1
+2020-03-08,4,4,Alberta,2,March,March-W2
+2020-03-08,27,6,British Columbia,2,March,March-W2
+2020-03-08,0,10,Manitoba,2,March,March-W2
+2020-03-08,0,7,New Brunswick,2,March,March-W2
+2020-03-08,0,5,Newfoundland and Labrador,2,March,March-W2
+2020-03-08,0,13,Northwest Territories,2,March,March-W2
+2020-03-08,0,2,Nova Scotia,2,March,March-W2
+2020-03-08,29,11,Ontario,2,March,March-W2
+2020-03-08,0,8,Prince Edward Island,2,March,March-W2
+2020-03-08,4,1,Quebec,2,March,March-W2
+2020-03-08,0,3,Saskatchewan,2,March,March-W2
+2020-03-08,0,9,Yukon,2,March,March-W2
+2020-03-08,0,12,Nunavut,2,March,March-W2
+2020-03-09,7,4,Alberta,2,March,March-W2
+2020-03-09,32,6,British Columbia,2,March,March-W2
+2020-03-09,0,10,Manitoba,2,March,March-W2
+2020-03-09,0,7,New Brunswick,2,March,March-W2
+2020-03-09,0,5,Newfoundland and Labrador,2,March,March-W2
+2020-03-09,0,13,Northwest Territories,2,March,March-W2
+2020-03-09,0,2,Nova Scotia,2,March,March-W2
+2020-03-09,34,11,Ontario,2,March,March-W2
+2020-03-09,0,8,Prince Edward Island,2,March,March-W2
+2020-03-09,4,1,Quebec,2,March,March-W2
+2020-03-09,0,3,Saskatchewan,2,March,March-W2
+2020-03-09,0,9,Yukon,2,March,March-W2
+2020-03-09,0,12,Nunavut,2,March,March-W2
+2020-03-10,7,4,Alberta,2,March,March-W2
+2020-03-10,32,6,British Columbia,2,March,March-W2
+2020-03-10,0,10,Manitoba,2,March,March-W2
+2020-03-10,0,7,New Brunswick,2,March,March-W2
+2020-03-10,0,5,Newfoundland and Labrador,2,March,March-W2
+2020-03-10,0,13,Northwest Territories,2,March,March-W2
+2020-03-10,0,2,Nova Scotia,2,March,March-W2
+2020-03-10,36,11,Ontario,2,March,March-W2
+2020-03-10,0,8,Prince Edward Island,2,March,March-W2
+2020-03-10,4,1,Quebec,2,March,March-W2
+2020-03-10,0,3,Saskatchewan,2,March,March-W2
+2020-03-10,0,9,Yukon,2,March,March-W2
+2020-03-10,0,12,Nunavut,2,March,March-W2
+2020-03-11,19,4,Alberta,2,March,March-W2
+2020-03-11,39,6,British Columbia,2,March,March-W2
+2020-03-11,0,10,Manitoba,2,March,March-W2
+2020-03-11,1,7,New Brunswick,2,March,March-W2
+2020-03-11,0,5,Newfoundland and Labrador,2,March,March-W2
+2020-03-11,0,13,Northwest Territories,2,March,March-W2
+2020-03-11,0,2,Nova Scotia,2,March,March-W2
+2020-03-11,41,11,Ontario,2,March,March-W2
+2020-03-11,0,8,Prince Edward Island,2,March,March-W2
+2020-03-11,8,1,Quebec,2,March,March-W2
+2020-03-11,0,3,Saskatchewan,2,March,March-W2
+2020-03-11,0,9,Yukon,2,March,March-W2
+2020-03-11,0,12,Nunavut,2,March,March-W2
+2020-03-12,19,4,Alberta,2,March,March-W2
+2020-03-12,46,6,British Columbia,2,March,March-W2
+2020-03-12,0,10,Manitoba,2,March,March-W2
+2020-03-12,1,7,New Brunswick,2,March,March-W2
+2020-03-12,0,5,Newfoundland and Labrador,2,March,March-W2
+2020-03-12,0,13,Northwest Territories,2,March,March-W2
+2020-03-12,0,2,Nova Scotia,2,March,March-W2
+2020-03-12,42,11,Ontario,2,March,March-W2
+2020-03-12,0,8,Prince Edward Island,2,March,March-W2
+2020-03-12,9,1,Quebec,2,March,March-W2
+2020-03-12,0,3,Saskatchewan,2,March,March-W2
+2020-03-12,0,9,Yukon,2,March,March-W2
+2020-03-12,0,12,Nunavut,2,March,March-W2
+2020-03-13,29,4,Alberta,2,March,March-W2
+2020-03-13,64,6,British Columbia,2,March,March-W2
+2020-03-13,4,10,Manitoba,2,March,March-W2
+2020-03-13,1,7,New Brunswick,2,March,March-W2
+2020-03-13,0,5,Newfoundland and Labrador,2,March,March-W2
+2020-03-13,0,13,Northwest Territories,2,March,March-W2
+2020-03-13,0,2,Nova Scotia,2,March,March-W2
+2020-03-13,74,11,Ontario,2,March,March-W2
+2020-03-13,0,8,Prince Edward Island,2,March,March-W2
+2020-03-13,17,1,Quebec,2,March,March-W2
+2020-03-13,2,3,Saskatchewan,2,March,March-W2
+2020-03-13,0,9,Yukon,2,March,March-W2
+2020-03-13,0,12,Nunavut,2,March,March-W2
+2020-03-14,29,4,Alberta,2,March,March-W2
+2020-03-14,64,6,British Columbia,2,March,March-W2
+2020-03-14,4,10,Manitoba,2,March,March-W2
+2020-03-14,1,7,New Brunswick,2,March,March-W2
+2020-03-14,0,5,Newfoundland and Labrador,2,March,March-W2
+2020-03-14,0,13,Northwest Territories,2,March,March-W2
+2020-03-14,0,2,Nova Scotia,2,March,March-W2
+2020-03-14,79,11,Ontario,2,March,March-W2
+2020-03-14,0,8,Prince Edward Island,2,March,March-W2
+2020-03-14,17,1,Quebec,2,March,March-W2
+2020-03-14,2,3,Saskatchewan,2,March,March-W2
+2020-03-14,0,9,Yukon,2,March,March-W2
+2020-03-14,0,12,Nunavut,2,March,March-W2
+2020-03-15,39,4,Alberta,3,March,March-W3
+2020-03-15,73,6,British Columbia,3,March,March-W3
+2020-03-15,4,10,Manitoba,3,March,March-W3
+2020-03-15,2,7,New Brunswick,3,March,March-W3
+2020-03-15,1,5,Newfoundland and Labrador,3,March,March-W3
+2020-03-15,0,13,Northwest Territories,3,March,March-W3
+2020-03-15,0,2,Nova Scotia,3,March,March-W3
+2020-03-15,104,11,Ontario,3,March,March-W3
+2020-03-15,1,8,Prince Edward Island,3,March,March-W3
+2020-03-15,24,1,Quebec,3,March,March-W3
+2020-03-15,2,3,Saskatchewan,3,March,March-W3
+2020-03-15,0,9,Yukon,3,March,March-W3
+2020-03-15,0,12,Nunavut,3,March,March-W3
+2020-03-16,56,4,Alberta,3,March,March-W3
+2020-03-16,103,6,British Columbia,3,March,March-W3
+2020-03-16,7,10,Manitoba,3,March,March-W3
+2020-03-16,6,7,New Brunswick,3,March,March-W3
+2020-03-16,1,5,Newfoundland and Labrador,3,March,March-W3
+2020-03-16,0,13,Northwest Territories,3,March,March-W3
+2020-03-16,5,2,Nova Scotia,3,March,March-W3
+2020-03-16,177,11,Ontario,3,March,March-W3
+2020-03-16,1,8,Prince Edward Island,3,March,March-W3
+2020-03-16,50,1,Quebec,3,March,March-W3
+2020-03-16,7,3,Saskatchewan,3,March,March-W3
+2020-03-16,0,9,Yukon,3,March,March-W3
+2020-03-16,0,12,Nunavut,3,March,March-W3
+2020-03-17,74,4,Alberta,3,March,March-W3
+2020-03-17,103,6,British Columbia,3,March,March-W3
+2020-03-17,8,10,Manitoba,3,March,March-W3
+2020-03-17,8,7,New Brunswick,3,March,March-W3
+2020-03-17,3,5,Newfoundland and Labrador,3,March,March-W3
+2020-03-17,0,13,Northwest Territories,3,March,March-W3
+2020-03-17,7,2,Nova Scotia,3,March,March-W3
+2020-03-17,185,11,Ontario,3,March,March-W3
+2020-03-17,1,8,Prince Edward Island,3,March,March-W3
+2020-03-17,74,1,Quebec,3,March,March-W3
+2020-03-17,7,3,Saskatchewan,3,March,March-W3
+2020-03-17,0,9,Yukon,3,March,March-W3
+2020-03-17,0,12,Nunavut,3,March,March-W3
+2020-03-18,97,4,Alberta,3,March,March-W3
+2020-03-18,186,6,British Columbia,3,March,March-W3
+2020-03-18,15,10,Manitoba,3,March,March-W3
+2020-03-18,11,7,New Brunswick,3,March,March-W3
+2020-03-18,3,5,Newfoundland and Labrador,3,March,March-W3
+2020-03-18,0,13,Northwest Territories,3,March,March-W3
+2020-03-18,12,2,Nova Scotia,3,March,March-W3
+2020-03-18,221,11,Ontario,3,March,March-W3
+2020-03-18,1,8,Prince Edward Island,3,March,March-W3
+2020-03-18,94,1,Quebec,3,March,March-W3
+2020-03-18,8,3,Saskatchewan,3,March,March-W3
+2020-03-18,0,9,Yukon,3,March,March-W3
+2020-03-18,0,12,Nunavut,3,March,March-W3
+2020-03-19,119,4,Alberta,3,March,March-W3
+2020-03-19,231,6,British Columbia,3,March,March-W3
+2020-03-19,17,10,Manitoba,3,March,March-W3
+2020-03-19,11,7,New Brunswick,3,March,March-W3
+2020-03-19,3,5,Newfoundland and Labrador,3,March,March-W3
+2020-03-19,0,13,Northwest Territories,3,March,March-W3
+2020-03-19,14,2,Nova Scotia,3,March,March-W3
+2020-03-19,257,11,Ontario,3,March,March-W3
+2020-03-19,2,8,Prince Edward Island,3,March,March-W3
+2020-03-19,121,1,Quebec,3,March,March-W3
+2020-03-19,16,3,Saskatchewan,3,March,March-W3
+2020-03-19,0,9,Yukon,3,March,March-W3
+2020-03-19,0,12,Nunavut,3,March,March-W3
+2020-03-20,146,4,Alberta,3,March,March-W3
+2020-03-20,271,6,British Columbia,3,March,March-W3
+2020-03-20,17,10,Manitoba,3,March,March-W3
+2020-03-20,11,7,New Brunswick,3,March,March-W3
+2020-03-20,4,5,Newfoundland and Labrador,3,March,March-W3
+2020-03-20,0,13,Northwest Territories,3,March,March-W3
+2020-03-20,15,2,Nova Scotia,3,March,March-W3
+2020-03-20,308,11,Ontario,3,March,March-W3
+2020-03-20,2,8,Prince Edward Island,3,March,March-W3
+2020-03-20,139,1,Quebec,3,March,March-W3
+2020-03-20,20,3,Saskatchewan,3,March,March-W3
+2020-03-20,0,9,Yukon,3,March,March-W3
+2020-03-20,0,12,Nunavut,3,March,March-W3
+2020-03-21,195,4,Alberta,3,March,March-W3
+2020-03-21,424,6,British Columbia,3,March,March-W3
+2020-03-21,18,10,Manitoba,3,March,March-W3
+2020-03-21,17,7,New Brunswick,3,March,March-W3
+2020-03-21,6,5,Newfoundland and Labrador,3,March,March-W3
+2020-03-21,0,13,Northwest Territories,3,March,March-W3
+2020-03-21,21,2,Nova Scotia,3,March,March-W3
+2020-03-21,377,11,Ontario,3,March,March-W3
+2020-03-21,2,8,Prince Edward Island,3,March,March-W3
+2020-03-21,181,1,Quebec,3,March,March-W3
+2020-03-21,26,3,Saskatchewan,3,March,March-W3
+2020-03-21,0,9,Yukon,3,March,March-W3
+2020-03-21,0,12,Nunavut,3,March,March-W3
+2020-03-22,259,4,Alberta,4,March,March-W4
+2020-03-22,424,6,British Columbia,4,March,March-W4
+2020-03-22,20,10,Manitoba,4,March,March-W4
+2020-03-22,17,7,New Brunswick,4,March,March-W4
+2020-03-22,9,5,Newfoundland and Labrador,4,March,March-W4
+2020-03-22,0,13,Northwest Territories,4,March,March-W4
+2020-03-22,28,2,Nova Scotia,4,March,March-W4
+2020-03-22,425,11,Ontario,4,March,March-W4
+2020-03-22,3,8,Prince Edward Island,4,March,March-W4
+2020-03-22,219,1,Quebec,4,March,March-W4
+2020-03-22,52,3,Saskatchewan,4,March,March-W4
+2020-03-22,0,9,Yukon,4,March,March-W4
+2020-03-22,0,12,Nunavut,4,March,March-W4
+2020-03-23,301,4,Alberta,4,March,March-W4
+2020-03-23,472,6,British Columbia,4,March,March-W4
+2020-03-23,20,10,Manitoba,4,March,March-W4
+2020-03-23,17,7,New Brunswick,4,March,March-W4
+2020-03-23,24,5,Newfoundland and Labrador,4,March,March-W4
+2020-03-23,0,13,Northwest Territories,4,March,March-W4
+2020-03-23,41,2,Nova Scotia,4,March,March-W4
+2020-03-23,503,11,Ontario,4,March,March-W4
+2020-03-23,3,8,Prince Edward Island,4,March,March-W4
+2020-03-23,628,1,Quebec,4,March,March-W4
+2020-03-23,66,3,Saskatchewan,4,March,March-W4
+2020-03-23,0,9,Yukon,4,March,March-W4
+2020-03-23,0,12,Nunavut,4,March,March-W4
+2020-03-24,359,4,Alberta,4,March,March-W4
+2020-03-24,617,6,British Columbia,4,March,March-W4
+2020-03-24,21,10,Manitoba,4,March,March-W4
+2020-03-24,18,7,New Brunswick,4,March,March-W4
+2020-03-24,35,5,Newfoundland and Labrador,4,March,March-W4
+2020-03-24,0,13,Northwest Territories,4,March,March-W4
+2020-03-24,51,2,Nova Scotia,4,March,March-W4
+2020-03-24,588,11,Ontario,4,March,March-W4
+2020-03-24,3,8,Prince Edward Island,4,March,March-W4
+2020-03-24,1013,1,Quebec,4,March,March-W4
+2020-03-24,72,3,Saskatchewan,4,March,March-W4
+2020-03-24,0,9,Yukon,4,March,March-W4
+2020-03-24,0,12,Nunavut,4,March,March-W4
+2020-03-25,358,4,Alberta,4,March,March-W4
+2020-03-25,617,6,British Columbia,4,March,March-W4
+2020-03-25,35,10,Manitoba,4,March,March-W4
+2020-03-25,18,7,New Brunswick,4,March,March-W4
+2020-03-25,35,5,Newfoundland and Labrador,4,March,March-W4
+2020-03-25,0,13,Northwest Territories,4,March,March-W4
+2020-03-25,68,2,Nova Scotia,4,March,March-W4
+2020-03-25,688,11,Ontario,4,March,March-W4
+2020-03-25,5,8,Prince Edward Island,4,March,March-W4
+2020-03-25,1342,1,Quebec,4,March,March-W4
+2020-03-25,72,3,Saskatchewan,4,March,March-W4
+2020-03-25,0,9,Yukon,4,March,March-W4
+2020-03-25,0,12,Nunavut,4,March,March-W4
+2020-03-26,486,4,Alberta,4,March,March-W4
+2020-03-26,725,6,British Columbia,4,March,March-W4
+2020-03-26,36,10,Manitoba,4,March,March-W4
+2020-03-26,33,7,New Brunswick,4,March,March-W4
+2020-03-26,82,5,Newfoundland and Labrador,4,March,March-W4
+2020-03-26,1,13,Northwest Territories,4,March,March-W4
+2020-03-26,73,2,Nova Scotia,4,March,March-W4
+2020-03-26,858,11,Ontario,4,March,March-W4
+2020-03-26,5,8,Prince Edward Island,4,March,March-W4
+2020-03-26,1632,1,Quebec,4,March,March-W4
+2020-03-26,95,3,Saskatchewan,4,March,March-W4
+2020-03-26,3,9,Yukon,4,March,March-W4
+2020-03-26,0,12,Nunavut,4,March,March-W4
+2020-03-27,542,4,Alberta,4,March,March-W4
+2020-03-27,725,6,British Columbia,4,March,March-W4
+2020-03-27,39,10,Manitoba,4,March,March-W4
+2020-03-27,45,7,New Brunswick,4,March,March-W4
+2020-03-27,102,5,Newfoundland and Labrador,4,March,March-W4
+2020-03-27,1,13,Northwest Territories,4,March,March-W4
+2020-03-27,90,2,Nova Scotia,4,March,March-W4
+2020-03-27,994,11,Ontario,4,March,March-W4
+2020-03-27,9,8,Prince Edward Island,4,March,March-W4
+2020-03-27,2024,1,Quebec,4,March,March-W4
+2020-03-27,95,3,Saskatchewan,4,March,March-W4
+2020-03-27,3,9,Yukon,4,March,March-W4
+2020-03-27,0,12,Nunavut,4,March,March-W4
+2020-03-28,542,4,Alberta,4,March,March-W4
+2020-03-28,884,6,British Columbia,4,March,March-W4
+2020-03-28,64,10,Manitoba,4,March,March-W4
+2020-03-28,51,7,New Brunswick,4,March,March-W4
+2020-03-28,120,5,Newfoundland and Labrador,4,March,March-W4
+2020-03-28,1,13,Northwest Territories,4,March,March-W4
+2020-03-28,110,2,Nova Scotia,4,March,March-W4
+2020-03-28,1144,11,Ontario,4,March,March-W4
+2020-03-28,11,8,Prince Edward Island,4,March,March-W4
+2020-03-28,2498,1,Quebec,4,March,March-W4
+2020-03-28,134,3,Saskatchewan,4,March,March-W4
+2020-03-28,4,9,Yukon,4,March,March-W4
+2020-03-28,0,12,Nunavut,4,March,March-W4
+2020-03-29,621,4,Alberta,4,March,March-W4
+2020-03-29,884,6,British Columbia,4,March,March-W4
+2020-03-29,72,10,Manitoba,4,March,March-W4
+2020-03-29,66,7,New Brunswick,4,March,March-W4
+2020-03-29,135,5,Newfoundland and Labrador,4,March,March-W4
+2020-03-29,1,13,Northwest Territories,4,March,March-W4
+2020-03-29,122,2,Nova Scotia,4,March,March-W4
+2020-03-29,1355,11,Ontario,4,March,March-W4
+2020-03-29,11,8,Prince Edward Island,4,March,March-W4
+2020-03-29,2840,1,Quebec,4,March,March-W4
+2020-03-29,156,3,Saskatchewan,4,March,March-W4
+2020-03-29,4,9,Yukon,4,March,March-W4
+2020-03-29,0,12,Nunavut,4,March,March-W4
+2020-03-30,661,4,Alberta,4,March,March-W4
+2020-03-30,970,6,British Columbia,4,March,March-W4
+2020-03-30,96,10,Manitoba,4,March,March-W4
+2020-03-30,68,7,New Brunswick,4,March,March-W4
+2020-03-30,148,5,Newfoundland and Labrador,4,March,March-W4
+2020-03-30,1,13,Northwest Territories,4,March,March-W4
+2020-03-30,127,2,Nova Scotia,4,March,March-W4
+2020-03-30,1706,11,Ontario,4,March,March-W4
+2020-03-30,18,8,Prince Edward Island,4,March,March-W4
+2020-03-30,3430,1,Quebec,4,March,March-W4
+2020-03-30,156,3,Saskatchewan,4,March,March-W4
+2020-03-30,4,9,Yukon,4,March,March-W4
+2020-03-30,0,12,Nunavut,4,March,March-W4
+2020-03-31,690,4,Alberta,4,March,March-W4
+2020-03-31,1013,6,British Columbia,4,March,March-W4
+2020-03-31,103,10,Manitoba,4,March,March-W4
+2020-03-31,70,7,New Brunswick,4,March,March-W4
+2020-03-31,152,5,Newfoundland and Labrador,4,March,March-W4
+2020-03-31,1,13,Northwest Territories,4,March,March-W4
+2020-03-31,147,2,Nova Scotia,4,March,March-W4
+2020-03-31,1966,11,Ontario,4,March,March-W4
+2020-03-31,21,8,Prince Edward Island,4,March,March-W4
+2020-03-31,4162,1,Quebec,4,March,March-W4
+2020-03-31,184,3,Saskatchewan,4,March,March-W4
+2020-03-31,5,9,Yukon,4,March,March-W4
+2020-03-31,0,12,Nunavut,4,March,March-W4
+2020-04-01,754,4,Alberta,1,April,April-W1
+2020-04-01,1013,6,British Columbia,1,April,April-W1
+2020-04-01,127,10,Manitoba,1,April,April-W1
+2020-04-01,81,7,New Brunswick,1,April,April-W1
+2020-04-01,175,5,Newfoundland and Labrador,1,April,April-W1
+2020-04-01,2,13,Northwest Territories,1,April,April-W1
+2020-04-01,173,2,Nova Scotia,1,April,April-W1
+2020-04-01,2392,11,Ontario,1,April,April-W1
+2020-04-01,21,8,Prince Edward Island,1,April,April-W1
+2020-04-01,4611,1,Quebec,1,April,April-W1
+2020-04-01,193,3,Saskatchewan,1,April,April-W1
+2020-04-01,5,9,Yukon,1,April,April-W1
+2020-04-01,0,12,Nunavut,1,April,April-W1
+2020-04-02,969,4,Alberta,1,April,April-W1
+2020-04-02,1121,6,British Columbia,1,April,April-W1
+2020-04-02,167,10,Manitoba,1,April,April-W1
+2020-04-02,91,7,New Brunswick,1,April,April-W1
+2020-04-02,183,5,Newfoundland and Labrador,1,April,April-W1
+2020-04-02,2,13,Northwest Territories,1,April,April-W1
+2020-04-02,193,2,Nova Scotia,1,April,April-W1
+2020-04-02,2793,11,Ontario,1,April,April-W1
+2020-04-02,22,8,Prince Edward Island,1,April,April-W1
+2020-04-02,5518,1,Quebec,1,April,April-W1
+2020-04-02,206,3,Saskatchewan,1,April,April-W1
+2020-04-02,6,9,Yukon,1,April,April-W1
+2020-04-02,0,12,Nunavut,1,April,April-W1
+2020-04-03,969,4,Alberta,1,April,April-W1
+2020-04-03,1174,6,British Columbia,1,April,April-W1
+2020-04-03,182,10,Manitoba,1,April,April-W1
+2020-04-03,91,7,New Brunswick,1,April,April-W1
+2020-04-03,195,5,Newfoundland and Labrador,1,April,April-W1
+2020-04-03,2,13,Northwest Territories,1,April,April-W1
+2020-04-03,207,2,Nova Scotia,1,April,April-W1
+2020-04-03,3255,11,Ontario,1,April,April-W1
+2020-04-03,22,8,Prince Edward Island,1,April,April-W1
+2020-04-03,6101,1,Quebec,1,April,April-W1
+2020-04-03,220,3,Saskatchewan,1,April,April-W1
+2020-04-03,6,9,Yukon,1,April,April-W1
+2020-04-03,0,12,Nunavut,1,April,April-W1
+2020-04-04,1075,4,Alberta,1,April,April-W1
+2020-04-04,1203,6,British Columbia,1,April,April-W1
+2020-04-04,182,10,Manitoba,1,April,April-W1
+2020-04-04,91,7,New Brunswick,1,April,April-W1
+2020-04-04,195,5,Newfoundland and Labrador,1,April,April-W1
+2020-04-04,4,13,Northwest Territories,1,April,April-W1
+2020-04-04,236,2,Nova Scotia,1,April,April-W1
+2020-04-04,3630,11,Ontario,1,April,April-W1
+2020-04-04,22,8,Prince Edward Island,1,April,April-W1
+2020-04-04,6101,1,Quebec,1,April,April-W1
+2020-04-04,220,3,Saskatchewan,1,April,April-W1
+2020-04-04,6,9,Yukon,1,April,April-W1
+2020-04-04,0,12,Nunavut,1,April,April-W1
+2020-04-05,1181,4,Alberta,1,April,April-W1
+2020-04-05,1203,6,British Columbia,1,April,April-W1
+2020-04-05,203,10,Manitoba,1,April,April-W1
+2020-04-05,98,7,New Brunswick,1,April,April-W1
+2020-04-05,217,5,Newfoundland and Labrador,1,April,April-W1
+2020-04-05,4,13,Northwest Territories,1,April,April-W1
+2020-04-05,262,2,Nova Scotia,1,April,April-W1
+2020-04-05,4354,11,Ontario,1,April,April-W1
+2020-04-05,22,8,Prince Edward Island,1,April,April-W1
+2020-04-05,7944,1,Quebec,1,April,April-W1
+2020-04-05,249,3,Saskatchewan,1,April,April-W1
+2020-04-05,6,9,Yukon,1,April,April-W1
+2020-04-05,0,12,Nunavut,1,April,April-W1
+2020-04-06,1250,4,Alberta,1,April,April-W1
+2020-04-06,1266,6,British Columbia,1,April,April-W1
+2020-04-06,203,10,Manitoba,1,April,April-W1
+2020-04-06,103,7,New Brunswick,1,April,April-W1
+2020-04-06,226,5,Newfoundland and Labrador,1,April,April-W1
+2020-04-06,5,13,Northwest Territories,1,April,April-W1
+2020-04-06,293,2,Nova Scotia,1,April,April-W1
+2020-04-06,4347,11,Ontario,1,April,April-W1
+2020-04-06,22,8,Prince Edward Island,1,April,April-W1
+2020-04-06,8580,1,Quebec,1,April,April-W1
+2020-04-06,249,3,Saskatchewan,1,April,April-W1
+2020-04-06,6,9,Yukon,1,April,April-W1
+2020-04-06,0,12,Nunavut,1,April,April-W1
+2020-04-07,1373,4,Alberta,1,April,April-W1
+2020-04-07,1266,6,British Columbia,1,April,April-W1
+2020-04-07,217,10,Manitoba,1,April,April-W1
+2020-04-07,105,7,New Brunswick,1,April,April-W1
+2020-04-07,228,5,Newfoundland and Labrador,1,April,April-W1
+2020-04-07,5,13,Northwest Territories,1,April,April-W1
+2020-04-07,310,2,Nova Scotia,1,April,April-W1
+2020-04-07,4726,11,Ontario,1,April,April-W1
+2020-04-07,22,8,Prince Edward Island,1,April,April-W1
+2020-04-07,9340,1,Quebec,1,April,April-W1
+2020-04-07,260,3,Saskatchewan,1,April,April-W1
+2020-04-07,7,9,Yukon,1,April,April-W1
+2020-04-07,0,12,Nunavut,1,April,April-W1
+2020-04-08,1373,4,Alberta,2,April,April-W2
+2020-04-08,1291,6,British Columbia,2,April,April-W2
+2020-04-08,217,10,Manitoba,2,April,April-W2
+2020-04-08,105,7,New Brunswick,2,April,April-W2
+2020-04-08,228,5,Newfoundland and Labrador,2,April,April-W2
+2020-04-08,5,13,Northwest Territories,2,April,April-W2
+2020-04-08,310,2,Nova Scotia,2,April,April-W2
+2020-04-08,5276,11,Ontario,2,April,April-W2
+2020-04-08,25,8,Prince Edward Island,2,April,April-W2
+2020-04-08,10031,1,Quebec,2,April,April-W2
+2020-04-08,260,3,Saskatchewan,2,April,April-W2
+2020-04-08,7,9,Yukon,2,April,April-W2
+2020-04-08,0,12,Nunavut,2,April,April-W2
+2020-04-09,1423,4,Alberta,2,April,April-W2
+2020-04-09,1336,6,British Columbia,2,April,April-W2
+2020-04-09,221,10,Manitoba,2,April,April-W2
+2020-04-09,108,7,New Brunswick,2,April,April-W2
+2020-04-09,232,5,Newfoundland and Labrador,2,April,April-W2
+2020-04-09,5,13,Northwest Territories,2,April,April-W2
+2020-04-09,342,2,Nova Scotia,2,April,April-W2
+2020-04-09,5759,11,Ontario,2,April,April-W2
+2020-04-09,25,8,Prince Edward Island,2,April,April-W2
+2020-04-09,10912,1,Quebec,2,April,April-W2
+2020-04-09,271,3,Saskatchewan,2,April,April-W2
+2020-04-09,7,9,Yukon,2,April,April-W2
+2020-04-09,0,12,Nunavut,2,April,April-W2
+2020-04-10,1451,4,Alberta,2,April,April-W2
+2020-04-10,1370,6,British Columbia,2,April,April-W2
+2020-04-10,230,10,Manitoba,2,April,April-W2
+2020-04-10,112,7,New Brunswick,2,April,April-W2
+2020-04-10,239,5,Newfoundland and Labrador,2,April,April-W2
+2020-04-10,5,13,Northwest Territories,2,April,April-W2
+2020-04-10,407,2,Nova Scotia,2,April,April-W2
+2020-04-10,6237,11,Ontario,2,April,April-W2
+2020-04-10,25,8,Prince Edward Island,2,April,April-W2
+2020-04-10,11677,1,Quebec,2,April,April-W2
+2020-04-10,285,3,Saskatchewan,2,April,April-W2
+2020-04-10,8,9,Yukon,2,April,April-W2
+2020-04-10,0,12,Nunavut,2,April,April-W2
+2020-04-11,1567,4,Alberta,2,April,April-W2
+2020-04-11,1445,6,British Columbia,2,April,April-W2
+2020-04-11,243,10,Manitoba,2,April,April-W2
+2020-04-11,112,7,New Brunswick,2,April,April-W2
+2020-04-11,241,5,Newfoundland and Labrador,2,April,April-W2
+2020-04-11,5,13,Northwest Territories,2,April,April-W2
+2020-04-11,428,2,Nova Scotia,2,April,April-W2
+2020-04-11,6648,11,Ontario,2,April,April-W2
+2020-04-11,25,8,Prince Edward Island,2,April,April-W2
+2020-04-11,12292,1,Quebec,2,April,April-W2
+2020-04-11,289,3,Saskatchewan,2,April,April-W2
+2020-04-11,8,9,Yukon,2,April,April-W2
+2020-04-11,0,12,Nunavut,2,April,April-W2
+2020-04-12,1567,4,Alberta,2,April,April-W2
+2020-04-12,1445,6,British Columbia,2,April,April-W2
+2020-04-12,242,10,Manitoba,2,April,April-W2
+2020-04-12,114,7,New Brunswick,2,April,April-W2
+2020-04-12,242,5,Newfoundland and Labrador,2,April,April-W2
+2020-04-12,5,13,Northwest Territories,2,April,April-W2
+2020-04-12,445,2,Nova Scotia,2,April,April-W2
+2020-04-12,7049,11,Ontario,2,April,April-W2
+2020-04-12,25,8,Prince Edward Island,2,April,April-W2
+2020-04-12,12846,1,Quebec,2,April,April-W2
+2020-04-12,298,3,Saskatchewan,2,April,April-W2
+2020-04-12,8,9,Yukon,2,April,April-W2
+2020-04-12,0,12,Nunavut,2,April,April-W2
+2020-04-13,1732,4,Alberta,2,April,April-W2
+2020-04-13,1490,6,British Columbia,2,April,April-W2
+2020-04-13,246,10,Manitoba,2,April,April-W2
+2020-04-13,116,7,New Brunswick,2,April,April-W2
+2020-04-13,244,5,Newfoundland and Labrador,2,April,April-W2
+2020-04-13,5,13,Northwest Territories,2,April,April-W2
+2020-04-13,474,2,Nova Scotia,2,April,April-W2
+2020-04-13,7470,11,Ontario,2,April,April-W2
+2020-04-13,25,8,Prince Edward Island,2,April,April-W2
+2020-04-13,13557,1,Quebec,2,April,April-W2
+2020-04-13,300,3,Saskatchewan,2,April,April-W2
+2020-04-13,8,9,Yukon,2,April,April-W2
+2020-04-13,0,12,Nunavut,2,April,April-W2
+2020-04-14,1870,4,Alberta,2,April,April-W2
+2020-04-14,1490,6,British Columbia,2,April,April-W2
+2020-04-14,246,10,Manitoba,2,April,April-W2
+2020-04-14,116,7,New Brunswick,2,April,April-W2
+2020-04-14,244,5,Newfoundland and Labrador,2,April,April-W2
+2020-04-14,5,13,Northwest Territories,2,April,April-W2
+2020-04-14,517,2,Nova Scotia,2,April,April-W2
+2020-04-14,7953,11,Ontario,2,April,April-W2
+2020-04-14,25,8,Prince Edward Island,2,April,April-W2
+2020-04-14,14248,1,Quebec,2,April,April-W2
+2020-04-14,300,3,Saskatchewan,2,April,April-W2
+2020-04-14,8,9,Yukon,2,April,April-W2
+2020-04-14,0,12,Nunavut,2,April,April-W2
+2020-04-15,1870,4,Alberta,3,April,April-W3
+2020-04-15,1517,6,British Columbia,3,April,April-W3
+2020-04-15,246,10,Manitoba,3,April,April-W3
+2020-04-15,117,7,New Brunswick,3,April,April-W3
+2020-04-15,247,5,Newfoundland and Labrador,3,April,April-W3
+2020-04-15,5,13,Northwest Territories,3,April,April-W3
+2020-04-15,549,2,Nova Scotia,3,April,April-W3
+2020-04-15,8447,11,Ontario,3,April,April-W3
+2020-04-15,26,8,Prince Edward Island,3,April,April-W3
+2020-04-15,14860,1,Quebec,3,April,April-W3
+2020-04-15,304,3,Saskatchewan,3,April,April-W3
+2020-04-15,8,9,Yukon,3,April,April-W3
+2020-04-15,0,12,Nunavut,3,April,April-W3
+2020-04-16,1996,4,Alberta,3,April,April-W3
+2020-04-16,1561,6,British Columbia,3,April,April-W3
+2020-04-16,250,10,Manitoba,3,April,April-W3
+2020-04-16,117,7,New Brunswick,3,April,April-W3
+2020-04-16,252,5,Newfoundland and Labrador,3,April,April-W3
+2020-04-16,5,13,Northwest Territories,3,April,April-W3
+2020-04-16,579,2,Nova Scotia,3,April,April-W3
+2020-04-16,9840,11,Ontario,3,April,April-W3
+2020-04-16,26,8,Prince Edward Island,3,April,April-W3
+2020-04-16,15857,1,Quebec,3,April,April-W3
+2020-04-16,305,3,Saskatchewan,3,April,April-W3
+2020-04-16,8,9,Yukon,3,April,April-W3
+2020-04-16,0,12,Nunavut,3,April,April-W3
+2020-04-17,2397,4,Alberta,3,April,April-W3
+2020-04-17,1575,6,British Columbia,3,April,April-W3
+2020-04-17,250,10,Manitoba,3,April,April-W3
+2020-04-17,117,7,New Brunswick,3,April,April-W3
+2020-04-17,256,5,Newfoundland and Labrador,3,April,April-W3
+2020-04-17,5,13,Northwest Territories,3,April,April-W3
+2020-04-17,606,2,Nova Scotia,3,April,April-W3
+2020-04-17,10456,11,Ontario,3,April,April-W3
+2020-04-17,26,8,Prince Edward Island,3,April,April-W3
+2020-04-17,16798,1,Quebec,3,April,April-W3
+2020-04-17,307,3,Saskatchewan,3,April,April-W3
+2020-04-17,8,9,Yukon,3,April,April-W3
+2020-04-17,0,12,Nunavut,3,April,April-W3
+2020-04-18,2562,4,Alberta,3,April,April-W3
+2020-04-18,1618,6,British Columbia,3,April,April-W3
+2020-04-18,253,10,Manitoba,3,April,April-W3
+2020-04-18,117,7,New Brunswick,3,April,April-W3
+2020-04-18,257,5,Newfoundland and Labrador,3,April,April-W3
+2020-04-18,5,13,Northwest Territories,3,April,April-W3
+2020-04-18,649,2,Nova Scotia,3,April,April-W3
+2020-04-18,11013,11,Ontario,3,April,April-W3
+2020-04-18,26,8,Prince Edward Island,3,April,April-W3
+2020-04-18,17521,1,Quebec,3,April,April-W3
+2020-04-18,313,3,Saskatchewan,3,April,April-W3
+2020-04-18,9,9,Yukon,3,April,April-W3
+2020-04-18,0,12,Nunavut,3,April,April-W3
+2020-04-19,2803,4,Alberta,3,April,April-W3
+2020-04-19,1647,6,British Columbia,3,April,April-W3
+2020-04-19,254,10,Manitoba,3,April,April-W3
+2020-04-19,118,7,New Brunswick,3,April,April-W3
+2020-04-19,257,5,Newfoundland and Labrador,3,April,April-W3
+2020-04-19,5,13,Northwest Territories,3,April,April-W3
+2020-04-19,675,2,Nova Scotia,3,April,April-W3
+2020-04-19,11561,11,Ontario,3,April,April-W3
+2020-04-19,26,8,Prince Edward Island,3,April,April-W3
+2020-04-19,17950,1,Quebec,3,April,April-W3
+2020-04-19,315,3,Saskatchewan,3,April,April-W3
+2020-04-19,9,9,Yukon,3,April,April-W3
+2020-04-19,0,12,Nunavut,3,April,April-W3
+2020-04-20,2908,4,Alberta,3,April,April-W3
+2020-04-20,1647,6,British Columbia,3,April,April-W3
+2020-04-20,254,10,Manitoba,3,April,April-W3
+2020-04-20,118,7,New Brunswick,3,April,April-W3
+2020-04-20,257,5,Newfoundland and Labrador,3,April,April-W3
+2020-04-20,5,13,Northwest Territories,3,April,April-W3
+2020-04-20,721,2,Nova Scotia,3,April,April-W3
+2020-04-20,12063,11,Ontario,3,April,April-W3
+2020-04-20,26,8,Prince Edward Island,3,April,April-W3
+2020-04-20,19319,1,Quebec,3,April,April-W3
+2020-04-20,316,3,Saskatchewan,3,April,April-W3
+2020-04-20,11,9,Yukon,3,April,April-W3
+2020-04-20,0,12,Nunavut,3,April,April-W3
+2020-04-21,3095,4,Alberta,3,April,April-W3
+2020-04-21,1724,6,British Columbia,3,April,April-W3
+2020-04-21,255,10,Manitoba,3,April,April-W3
+2020-04-21,118,7,New Brunswick,3,April,April-W3
+2020-04-21,257,5,Newfoundland and Labrador,3,April,April-W3
+2020-04-21,5,13,Northwest Territories,3,April,April-W3
+2020-04-21,737,2,Nova Scotia,3,April,April-W3
+2020-04-21,12715,11,Ontario,3,April,April-W3
+2020-04-21,26,8,Prince Edward Island,3,April,April-W3
+2020-04-21,20126,1,Quebec,3,April,April-W3
+2020-04-21,320,3,Saskatchewan,3,April,April-W3
+2020-04-21,11,9,Yukon,3,April,April-W3
+2020-04-21,0,12,Nunavut,3,April,April-W3
+2020-04-22,3401,4,Alberta,4,April,April-W4
+2020-04-22,1795,6,British Columbia,4,April,April-W4
+2020-04-22,257,10,Manitoba,4,April,April-W4
+2020-04-22,118,7,New Brunswick,4,April,April-W4
+2020-04-22,256,5,Newfoundland and Labrador,4,April,April-W4
+2020-04-22,5,13,Northwest Territories,4,April,April-W4
+2020-04-22,772,2,Nova Scotia,4,April,April-W4
+2020-04-22,13718,11,Ontario,4,April,April-W4
+2020-04-22,26,8,Prince Edward Island,4,April,April-W4
+2020-04-22,20965,1,Quebec,4,April,April-W4
+2020-04-22,326,3,Saskatchewan,4,April,April-W4
+2020-04-22,11,9,Yukon,4,April,April-W4
+2020-04-22,0,12,Nunavut,4,April,April-W4
+2020-04-23,3720,4,Alberta,4,April,April-W4
+2020-04-23,1824,6,British Columbia,4,April,April-W4
+2020-04-23,262,10,Manitoba,4,April,April-W4
+2020-04-23,118,7,New Brunswick,4,April,April-W4
+2020-04-23,256,5,Newfoundland and Labrador,4,April,April-W4
+2020-04-23,5,13,Northwest Territories,4,April,April-W4
+2020-04-23,827,2,Nova Scotia,4,April,April-W4
+2020-04-23,14068,11,Ontario,4,April,April-W4
+2020-04-23,26,8,Prince Edward Island,4,April,April-W4
+2020-04-23,21838,1,Quebec,4,April,April-W4
+2020-04-23,331,3,Saskatchewan,4,April,April-W4
+2020-04-23,11,9,Yukon,4,April,April-W4
+2020-04-23,0,12,Nunavut,4,April,April-W4
+2020-04-24,4017,4,Alberta,4,April,April-W4
+2020-04-24,1853,6,British Columbia,4,April,April-W4
+2020-04-24,263,10,Manitoba,4,April,April-W4
+2020-04-24,118,7,New Brunswick,4,April,April-W4
+2020-04-24,256,5,Newfoundland and Labrador,4,April,April-W4
+2020-04-24,5,13,Northwest Territories,4,April,April-W4
+2020-04-24,850,2,Nova Scotia,4,April,April-W4
+2020-04-24,14550,11,Ontario,4,April,April-W4
+2020-04-24,26,8,Prince Edward Island,4,April,April-W4
+2020-04-24,22616,1,Quebec,4,April,April-W4
+2020-04-24,341,3,Saskatchewan,4,April,April-W4
+2020-04-24,11,9,Yukon,4,April,April-W4
+2020-04-24,0,12,Nunavut,4,April,April-W4
+2020-04-25,4233,4,Alberta,4,April,April-W4
+2020-04-25,1948,6,British Columbia,4,April,April-W4
+2020-04-25,267,10,Manitoba,4,April,April-W4
+2020-04-25,118,7,New Brunswick,4,April,April-W4
+2020-04-25,257,5,Newfoundland and Labrador,4,April,April-W4
+2020-04-25,5,13,Northwest Territories,4,April,April-W4
+2020-04-25,865,2,Nova Scotia,4,April,April-W4
+2020-04-25,15012,11,Ontario,4,April,April-W4
+2020-04-25,26,8,Prince Edward Island,4,April,April-W4
+2020-04-25,23267,1,Quebec,4,April,April-W4
+2020-04-25,349,3,Saskatchewan,4,April,April-W4
+2020-04-25,11,9,Yukon,4,April,April-W4
+2020-04-25,0,12,Nunavut,4,April,April-W4
+2020-04-26,4480,4,Alberta,4,April,April-W4
+2020-04-26,1948,6,British Columbia,4,April,April-W4
+2020-04-26,271,10,Manitoba,4,April,April-W4
+2020-04-26,118,7,New Brunswick,4,April,April-W4
+2020-04-26,258,5,Newfoundland and Labrador,4,April,April-W4
+2020-04-26,5,13,Northwest Territories,4,April,April-W4
+2020-04-26,873,2,Nova Scotia,4,April,April-W4
+2020-04-26,15568,11,Ontario,4,April,April-W4
+2020-04-26,26,8,Prince Edward Island,4,April,April-W4
+2020-04-26,24109,1,Quebec,4,April,April-W4
+2020-04-26,353,3,Saskatchewan,4,April,April-W4
+2020-04-26,11,9,Yukon,4,April,April-W4
+2020-04-26,0,12,Nunavut,4,April,April-W4
+2020-04-27,4696,4,Alberta,4,April,April-W4
+2020-04-27,1998,6,British Columbia,4,April,April-W4
+2020-04-27,273,10,Manitoba,4,April,April-W4
+2020-04-27,118,7,New Brunswick,4,April,April-W4
+2020-04-27,258,5,Newfoundland and Labrador,4,April,April-W4
+2020-04-27,5,13,Northwest Territories,4,April,April-W4
+2020-04-27,900,2,Nova Scotia,4,April,April-W4
+2020-04-27,15970,11,Ontario,4,April,April-W4
+2020-04-27,26,8,Prince Edward Island,4,April,April-W4
+2020-04-27,24983,1,Quebec,4,April,April-W4
+2020-04-27,365,3,Saskatchewan,4,April,April-W4
+2020-04-27,11,9,Yukon,4,April,April-W4
+2020-04-27,0,12,Nunavut,4,April,April-W4
+2020-04-28,4850,4,Alberta,4,April,April-W4
+2020-04-28,2053,6,British Columbia,4,April,April-W4
+2020-04-28,273,10,Manitoba,4,April,April-W4
+2020-04-28,118,7,New Brunswick,4,April,April-W4
+2020-04-28,258,5,Newfoundland and Labrador,4,April,April-W4
+2020-04-28,5,13,Northwest Territories,4,April,April-W4
+2020-04-28,915,2,Nova Scotia,4,April,April-W4
+2020-04-28,16500,11,Ontario,4,April,April-W4
+2020-04-28,27,8,Prince Edward Island,4,April,April-W4
+2020-04-28,25761,1,Quebec,4,April,April-W4
+2020-04-28,366,3,Saskatchewan,4,April,April-W4
+2020-04-28,11,9,Yukon,4,April,April-W4
+2020-04-28,0,12,Nunavut,4,April,April-W4
+2020-04-29,5165,4,Alberta,4,April,April-W4
+2020-04-29,2087,6,British Columbia,4,April,April-W4
+2020-04-29,275,10,Manitoba,4,April,April-W4
+2020-04-29,118,7,New Brunswick,4,April,April-W4
+2020-04-29,258,5,Newfoundland and Labrador,4,April,April-W4
+2020-04-29,5,13,Northwest Territories,4,April,April-W4
+2020-04-29,935,2,Nova Scotia,4,April,April-W4
+2020-04-29,16978,11,Ontario,4,April,April-W4
+2020-04-29,27,8,Prince Edward Island,4,April,April-W4
+2020-04-29,26610,1,Quebec,4,April,April-W4
+2020-04-29,383,3,Saskatchewan,4,April,April-W4
+2020-04-29,11,9,Yukon,4,April,April-W4
+2020-04-29,0,12,Nunavut,4,April,April-W4
+2020-04-30,5355,4,Alberta,4,April,April-W4
+2020-04-30,2112,6,British Columbia,4,April,April-W4
+2020-04-30,277,10,Manitoba,4,April,April-W4
+2020-04-30,118,7,New Brunswick,4,April,April-W4
+2020-04-30,258,5,Newfoundland and Labrador,4,April,April-W4
+2020-04-30,5,13,Northwest Territories,4,April,April-W4
+2020-04-30,947,2,Nova Scotia,4,April,April-W4
+2020-04-30,17395,11,Ontario,4,April,April-W4
+2020-04-30,27,8,Prince Edward Island,4,April,April-W4
+2020-04-30,27550,1,Quebec,4,April,April-W4
+2020-04-30,389,3,Saskatchewan,4,April,April-W4
+2020-04-30,11,9,Yukon,4,April,April-W4
+2020-04-30,0,12,Nunavut,4,April,April-W4
+2020-05-01,5573,4,Alberta,1,May,May-W1
+2020-05-01,2145,6,British Columbia,1,May,May-W1
+2020-05-01,281,10,Manitoba,1,May,May-W1
+2020-05-01,118,7,New Brunswick,1,May,May-W1
+2020-05-01,259,5,Newfoundland and Labrador,1,May,May-W1
+2020-05-01,5,13,Northwest Territories,1,May,May-W1
+2020-05-01,959,2,Nova Scotia,1,May,May-W1
+2020-05-01,17880,11,Ontario,1,May,May-W1
+2020-05-01,27,8,Prince Edward Island,1,May,May-W1
+2020-05-01,28656,1,Quebec,1,May,May-W1
+2020-05-01,415,3,Saskatchewan,1,May,May-W1
+2020-05-01,11,9,Yukon,1,May,May-W1
+2020-05-01,0,12,Nunavut,1,May,May-W1
+2020-05-02,5670,4,Alberta,1,May,May-W1
+2020-05-02,2171,6,British Columbia,1,May,May-W1
+2020-05-02,282,10,Manitoba,1,May,May-W1
+2020-05-02,118,7,New Brunswick,1,May,May-W1
+2020-05-02,259,5,Newfoundland and Labrador,1,May,May-W1
+2020-05-02,5,13,Northwest Territories,1,May,May-W1
+2020-05-02,963,2,Nova Scotia,1,May,May-W1
+2020-05-02,18321,11,Ontario,1,May,May-W1
+2020-05-02,27,8,Prince Edward Island,1,May,May-W1
+2020-05-02,29664,1,Quebec,1,May,May-W1
+2020-05-02,421,3,Saskatchewan,1,May,May-W1
+2020-05-02,11,9,Yukon,1,May,May-W1
+2020-05-02,0,12,Nunavut,1,May,May-W1
+2020-05-03,5766,4,Alberta,1,May,May-W1
+2020-05-03,2171,6,British Columbia,1,May,May-W1
+2020-05-03,282,10,Manitoba,1,May,May-W1
+2020-05-03,118,7,New Brunswick,1,May,May-W1
+2020-05-03,259,5,Newfoundland and Labrador,1,May,May-W1
+2020-05-03,5,13,Northwest Territories,1,May,May-W1
+2020-05-03,971,2,Nova Scotia,1,May,May-W1
+2020-05-03,18574,11,Ontario,1,May,May-W1
+2020-05-03,27,8,Prince Edward Island,1,May,May-W1
+2020-05-03,31873,1,Quebec,1,May,May-W1
+2020-05-03,433,3,Saskatchewan,1,May,May-W1
+2020-05-03,11,9,Yukon,1,May,May-W1
+2020-05-03,0,12,Nunavut,1,May,May-W1
+2020-05-04,5836,4,Alberta,1,May,May-W1
+2020-05-04,2224,6,British Columbia,1,May,May-W1
+2020-05-04,283,10,Manitoba,1,May,May-W1
+2020-05-04,118,7,New Brunswick,1,May,May-W1
+2020-05-04,259,5,Newfoundland and Labrador,1,May,May-W1
+2020-05-04,5,13,Northwest Territories,1,May,May-W1
+2020-05-04,985,2,Nova Scotia,1,May,May-W1
+2020-05-04,19097,11,Ontario,1,May,May-W1
+2020-05-04,27,8,Prince Edward Island,1,May,May-W1
+2020-05-04,32631,1,Quebec,1,May,May-W1
+2020-05-04,467,3,Saskatchewan,1,May,May-W1
+2020-05-04,11,9,Yukon,1,May,May-W1
+2020-05-04,0,12,Nunavut,1,May,May-W1
+2020-05-05,5893,4,Alberta,1,May,May-W1
+2020-05-05,2232,6,British Columbia,1,May,May-W1
+2020-05-05,284,10,Manitoba,1,May,May-W1
+2020-05-05,119,7,New Brunswick,1,May,May-W1
+2020-05-05,259,5,Newfoundland and Labrador,1,May,May-W1
+2020-05-05,5,13,Northwest Territories,1,May,May-W1
+2020-05-05,991,2,Nova Scotia,1,May,May-W1
+2020-05-05,19468,11,Ontario,1,May,May-W1
+2020-05-05,27,8,Prince Edward Island,1,May,May-W1
+2020-05-05,33425,1,Quebec,1,May,May-W1
+2020-05-05,487,3,Saskatchewan,1,May,May-W1
+2020-05-05,11,9,Yukon,1,May,May-W1
+2020-05-05,0,12,Nunavut,1,May,May-W1
+2020-05-06,5963,4,Alberta,1,May,May-W1
+2020-05-06,2255,6,British Columbia,1,May,May-W1
+2020-05-06,286,10,Manitoba,1,May,May-W1
+2020-05-06,120,7,New Brunswick,1,May,May-W1
+2020-05-06,259,5,Newfoundland and Labrador,1,May,May-W1
+2020-05-06,5,13,Northwest Territories,1,May,May-W1
+2020-05-06,998,2,Nova Scotia,1,May,May-W1
+2020-05-06,19910,11,Ontario,1,May,May-W1
+2020-05-06,27,8,Prince Edward Island,1,May,May-W1
+2020-05-06,34334,1,Quebec,1,May,May-W1
+2020-05-06,512,3,Saskatchewan,1,May,May-W1
+2020-05-06,11,9,Yukon,1,May,May-W1
+2020-05-06,0,12,Nunavut,1,May,May-W1
+2020-05-07,6017,4,Alberta,1,May,May-W1
+2020-05-07,2288,6,British Columbia,1,May,May-W1
+2020-05-07,283,10,Manitoba,1,May,May-W1
+2020-05-07,120,7,New Brunswick,1,May,May-W1
+2020-05-07,261,5,Newfoundland and Labrador,1,May,May-W1
+2020-05-07,5,13,Northwest Territories,1,May,May-W1
+2020-05-07,1007,2,Nova Scotia,1,May,May-W1
+2020-05-07,20388,11,Ontario,1,May,May-W1
+2020-05-07,27,8,Prince Edward Island,1,May,May-W1
+2020-05-07,35249,1,Quebec,1,May,May-W1
+2020-05-07,531,3,Saskatchewan,1,May,May-W1
+2020-05-07,11,9,Yukon,1,May,May-W1
+2020-05-07,0,12,Nunavut,1,May,May-W1
+2020-05-08,6098,4,Alberta,2,May,May-W2
+2020-05-08,2315,6,British Columbia,2,May,May-W2
+2020-05-08,284,10,Manitoba,2,May,May-W2
+2020-05-08,120,7,New Brunswick,2,May,May-W2
+2020-05-08,261,5,Newfoundland and Labrador,2,May,May-W2
+2020-05-08,5,13,Northwest Territories,2,May,May-W2
+2020-05-08,1008,2,Nova Scotia,2,May,May-W2
+2020-05-08,20826,11,Ontario,2,May,May-W2
+2020-05-08,27,8,Prince Edward Island,2,May,May-W2
+2020-05-08,36161,1,Quebec,2,May,May-W2
+2020-05-08,544,3,Saskatchewan,2,May,May-W2
+2020-05-08,11,9,Yukon,2,May,May-W2
+2020-05-08,0,12,Nunavut,2,May,May-W2
+2020-05-09,6157,4,Alberta,2,May,May-W2
+2020-05-09,2330,6,British Columbia,2,May,May-W2
+2020-05-09,284,10,Manitoba,2,May,May-W2
+2020-05-09,120,7,New Brunswick,2,May,May-W2
+2020-05-09,261,5,Newfoundland and Labrador,2,May,May-W2
+2020-05-09,5,13,Northwest Territories,2,May,May-W2
+2020-05-09,1011,2,Nova Scotia,2,May,May-W2
+2020-05-09,21148,11,Ontario,2,May,May-W2
+2020-05-09,27,8,Prince Edward Island,2,May,May-W2
+2020-05-09,36997,1,Quebec,2,May,May-W2
+2020-05-09,553,3,Saskatchewan,2,May,May-W2
+2020-05-09,11,9,Yukon,2,May,May-W2
+2020-05-09,0,12,Nunavut,2,May,May-W2
+2020-05-10,6253,4,Alberta,2,May,May-W2
+2020-05-10,2330,6,British Columbia,2,May,May-W2
+2020-05-10,287,10,Manitoba,2,May,May-W2
+2020-05-10,120,7,New Brunswick,2,May,May-W2
+2020-05-10,261,5,Newfoundland and Labrador,2,May,May-W2
+2020-05-10,5,13,Northwest Territories,2,May,May-W2
+2020-05-10,1018,2,Nova Scotia,2,May,May-W2
+2020-05-10,21469,11,Ontario,2,May,May-W2
+2020-05-10,27,8,Prince Edward Island,2,May,May-W2
+2020-05-10,37732,1,Quebec,2,May,May-W2
+2020-05-10,564,3,Saskatchewan,2,May,May-W2
+2020-05-10,11,9,Yukon,2,May,May-W2
+2020-05-10,0,12,Nunavut,2,May,May-W2
+2020-05-11,6300,4,Alberta,2,May,May-W2
+2020-05-11,2353,6,British Columbia,2,May,May-W2
+2020-05-11,289,10,Manitoba,2,May,May-W2
+2020-05-11,120,7,New Brunswick,2,May,May-W2
+2020-05-11,261,5,Newfoundland and Labrador,2,May,May-W2
+2020-05-11,5,13,Northwest Territories,2,May,May-W2
+2020-05-11,1019,2,Nova Scotia,2,May,May-W2
+2020-05-11,21817,11,Ontario,2,May,May-W2
+2020-05-11,27,8,Prince Edward Island,2,May,May-W2
+2020-05-11,38480,1,Quebec,2,May,May-W2
+2020-05-11,568,3,Saskatchewan,2,May,May-W2
+2020-05-11,11,9,Yukon,2,May,May-W2
+2020-05-11,0,12,Nunavut,2,May,May-W2
+2020-05-12,6345,4,Alberta,2,May,May-W2
+2020-05-12,2360,6,British Columbia,2,May,May-W2
+2020-05-12,290,10,Manitoba,2,May,May-W2
+2020-05-12,120,7,New Brunswick,2,May,May-W2
+2020-05-12,261,5,Newfoundland and Labrador,2,May,May-W2
+2020-05-12,5,13,Northwest Territories,2,May,May-W2
+2020-05-12,1020,2,Nova Scotia,2,May,May-W2
+2020-05-12,22158,11,Ontario,2,May,May-W2
+2020-05-12,27,8,Prince Edward Island,2,May,May-W2
+2020-05-12,39235,1,Quebec,2,May,May-W2
+2020-05-12,573,3,Saskatchewan,2,May,May-W2
+2020-05-12,11,9,Yukon,2,May,May-W2
+2020-05-12,0,12,Nunavut,2,May,May-W2
+2020-05-13,6407,4,Alberta,2,May,May-W2
+2020-05-13,2376,6,British Columbia,2,May,May-W2
+2020-05-13,290,10,Manitoba,2,May,May-W2
+2020-05-13,120,7,New Brunswick,2,May,May-W2
+2020-05-13,261,5,Newfoundland and Labrador,2,May,May-W2
+2020-05-13,5,13,Northwest Territories,2,May,May-W2
+2020-05-13,1024,2,Nova Scotia,2,May,May-W2
+2020-05-13,22516,11,Ontario,2,May,May-W2
+2020-05-13,27,8,Prince Edward Island,2,May,May-W2
+2020-05-13,39940,1,Quebec,2,May,May-W2
+2020-05-13,577,3,Saskatchewan,2,May,May-W2
+2020-05-13,11,9,Yukon,2,May,May-W2
+2020-05-13,0,12,Nunavut,2,May,May-W2
+2020-05-14,6457,4,Alberta,2,May,May-W2
+2020-05-14,2392,6,British Columbia,2,May,May-W2
+2020-05-14,289,10,Manitoba,2,May,May-W2
+2020-05-14,120,7,New Brunswick,2,May,May-W2
+2020-05-14,261,5,Newfoundland and Labrador,2,May,May-W2
+2020-05-14,5,13,Northwest Territories,2,May,May-W2
+2020-05-14,1026,2,Nova Scotia,2,May,May-W2
+2020-05-14,22865,11,Ontario,2,May,May-W2
+2020-05-14,27,8,Prince Edward Island,2,May,May-W2
+2020-05-14,40732,1,Quebec,2,May,May-W2
+2020-05-14,582,3,Saskatchewan,2,May,May-W2
+2020-05-14,11,9,Yukon,2,May,May-W2
+2020-05-14,0,12,Nunavut,2,May,May-W2
+2020-05-15,6515,4,Alberta,3,May,May-W3
+2020-05-15,2407,6,British Columbia,3,May,May-W3
+2020-05-15,289,10,Manitoba,3,May,May-W3
+2020-05-15,120,7,New Brunswick,3,May,May-W3
+2020-05-15,260,5,Newfoundland and Labrador,3,May,May-W3
+2020-05-15,5,13,Northwest Territories,3,May,May-W3
+2020-05-15,1034,2,Nova Scotia,3,May,May-W3
+2020-05-15,23258,11,Ontario,3,May,May-W3
+2020-05-15,27,8,Prince Edward Island,3,May,May-W3
+2020-05-15,41429,1,Quebec,3,May,May-W3
+2020-05-15,590,3,Saskatchewan,3,May,May-W3
+2020-05-15,11,9,Yukon,3,May,May-W3
+2020-05-15,0,12,Nunavut,3,May,May-W3
+2020-05-16,6587,4,Alberta,3,May,May-W3
+2020-05-16,2428,6,British Columbia,3,May,May-W3
+2020-05-16,289,10,Manitoba,3,May,May-W3
+2020-05-16,120,7,New Brunswick,3,May,May-W3
+2020-05-16,260,5,Newfoundland and Labrador,3,May,May-W3
+2020-05-16,5,13,Northwest Territories,3,May,May-W3
+2020-05-16,1037,2,Nova Scotia,3,May,May-W3
+2020-05-16,23645,11,Ontario,3,May,May-W3
+2020-05-16,27,8,Prince Edward Island,3,May,May-W3
+2020-05-16,42192,1,Quebec,3,May,May-W3
+2020-05-16,591,3,Saskatchewan,3,May,May-W3
+2020-05-16,11,9,Yukon,3,May,May-W3
+2020-05-16,0,12,Nunavut,3,May,May-W3
+2020-05-17,6644,4,Alberta,3,May,May-W3
+2020-05-17,2428,6,British Columbia,3,May,May-W3
+2020-05-17,289,10,Manitoba,3,May,May-W3
+2020-05-17,120,7,New Brunswick,3,May,May-W3
+2020-05-17,260,5,Newfoundland and Labrador,3,May,May-W3
+2020-05-17,5,13,Northwest Territories,3,May,May-W3
+2020-05-17,1040,2,Nova Scotia,3,May,May-W3
+2020-05-17,23974,11,Ontario,3,May,May-W3
+2020-05-17,27,8,Prince Edward Island,3,May,May-W3
+2020-05-17,42928,1,Quebec,3,May,May-W3
+2020-05-17,592,3,Saskatchewan,3,May,May-W3
+2020-05-17,11,9,Yukon,3,May,May-W3
+2020-05-17,0,12,Nunavut,3,May,May-W3
+2020-05-18,6683,4,Alberta,3,May,May-W3
+2020-05-18,2444,6,British Columbia,3,May,May-W3
+2020-05-18,290,10,Manitoba,3,May,May-W3
+2020-05-18,120,7,New Brunswick,3,May,May-W3
+2020-05-18,260,5,Newfoundland and Labrador,3,May,May-W3
+2020-05-18,5,13,Northwest Territories,3,May,May-W3
+2020-05-18,1043,2,Nova Scotia,3,May,May-W3
+2020-05-18,24286,11,Ontario,3,May,May-W3
+2020-05-18,27,8,Prince Edward Island,3,May,May-W3
+2020-05-18,43636,1,Quebec,3,May,May-W3
+2020-05-18,592,3,Saskatchewan,3,May,May-W3
+2020-05-18,11,9,Yukon,3,May,May-W3
+2020-05-18,0,12,Nunavut,3,May,May-W3
+2020-05-19,6716,4,Alberta,3,May,May-W3
+2020-05-19,2446,6,British Columbia,3,May,May-W3
+2020-05-19,290,10,Manitoba,3,May,May-W3
+2020-05-19,120,7,New Brunswick,3,May,May-W3
+2020-05-19,260,5,Newfoundland and Labrador,3,May,May-W3
+2020-05-19,5,13,Northwest Territories,3,May,May-W3
+2020-05-19,1044,2,Nova Scotia,3,May,May-W3
+2020-05-19,24755,11,Ontario,3,May,May-W3
+2020-05-19,27,8,Prince Edward Island,3,May,May-W3
+2020-05-19,44206,1,Quebec,3,May,May-W3
+2020-05-19,599,3,Saskatchewan,3,May,May-W3
+2020-05-19,11,9,Yukon,3,May,May-W3
+2020-05-19,0,12,Nunavut,3,May,May-W3
+2020-05-20,6735,4,Alberta,3,May,May-W3
+2020-05-20,2467,6,British Columbia,3,May,May-W3
+2020-05-20,290,10,Manitoba,3,May,May-W3
+2020-05-20,120,7,New Brunswick,3,May,May-W3
+2020-05-20,260,5,Newfoundland and Labrador,3,May,May-W3
+2020-05-20,5,13,Northwest Territories,3,May,May-W3
+2020-05-20,1045,2,Nova Scotia,3,May,May-W3
+2020-05-20,25197,11,Ontario,3,May,May-W3
+2020-05-20,27,8,Prince Edward Island,3,May,May-W3
+2020-05-20,44784,1,Quebec,3,May,May-W3
+2020-05-20,620,3,Saskatchewan,3,May,May-W3
+2020-05-20,11,9,Yukon,3,May,May-W3
+2020-05-20,0,12,Nunavut,3,May,May-W3
+2020-05-21,6768,4,Alberta,3,May,May-W3
+2020-05-21,2479,6,British Columbia,3,May,May-W3
+2020-05-21,290,10,Manitoba,3,May,May-W3
+2020-05-21,121,7,New Brunswick,3,May,May-W3
+2020-05-21,260,5,Newfoundland and Labrador,3,May,May-W3
+2020-05-21,5,13,Northwest Territories,3,May,May-W3
+2020-05-21,1046,2,Nova Scotia,3,May,May-W3
+2020-05-21,25595,11,Ontario,3,May,May-W3
+2020-05-21,27,8,Prince Edward Island,3,May,May-W3
+2020-05-21,45504,1,Quebec,3,May,May-W3
+2020-05-21,622,3,Saskatchewan,3,May,May-W3
+2020-05-21,11,9,Yukon,3,May,May-W3
+2020-05-21,0,12,Nunavut,3,May,May-W3
+2020-05-22,6800,4,Alberta,4,May,May-W4
+2020-05-22,2507,6,British Columbia,4,May,May-W4
+2020-05-22,292,10,Manitoba,4,May,May-W4
+2020-05-22,121,7,New Brunswick,4,May,May-W4
+2020-05-22,260,5,Newfoundland and Labrador,4,May,May-W4
+2020-05-22,5,13,Northwest Territories,4,May,May-W4
+2020-05-22,1048,2,Nova Scotia,4,May,May-W4
+2020-05-22,26085,11,Ontario,4,May,May-W4
+2020-05-22,27,8,Prince Edward Island,4,May,May-W4
+2020-05-22,46150,1,Quebec,4,May,May-W4
+2020-05-22,627,3,Saskatchewan,4,May,May-W4
+2020-05-22,11,9,Yukon,4,May,May-W4
+2020-05-22,0,12,Nunavut,4,May,May-W4
+2020-05-23,6818,4,Alberta,4,May,May-W4
+2020-05-23,2517,6,British Columbia,4,May,May-W4
+2020-05-23,292,10,Manitoba,4,May,May-W4
+2020-05-23,121,7,New Brunswick,4,May,May-W4
+2020-05-23,260,5,Newfoundland and Labrador,4,May,May-W4
+2020-05-23,5,13,Northwest Territories,4,May,May-W4
+2020-05-23,1049,2,Nova Scotia,4,May,May-W4
+2020-05-23,26560,11,Ontario,4,May,May-W4
+2020-05-23,27,8,Prince Edward Island,4,May,May-W4
+2020-05-23,46847,1,Quebec,4,May,May-W4
+2020-05-23,630,3,Saskatchewan,4,May,May-W4
+2020-05-23,11,9,Yukon,4,May,May-W4
+2020-05-23,0,12,Nunavut,4,May,May-W4
+2020-05-24,6860,4,Alberta,4,May,May-W4
+2020-05-24,2517,6,British Columbia,4,May,May-W4
+2020-05-24,292,10,Manitoba,4,May,May-W4
+2020-05-24,121,7,New Brunswick,4,May,May-W4
+2020-05-24,260,5,Newfoundland and Labrador,4,May,May-W4
+2020-05-24,5,13,Northwest Territories,4,May,May-W4
+2020-05-24,1050,2,Nova Scotia,4,May,May-W4
+2020-05-24,26897,11,Ontario,4,May,May-W4
+2020-05-24,27,8,Prince Edward Island,4,May,May-W4
+2020-05-24,47420,1,Quebec,4,May,May-W4
+2020-05-24,632,3,Saskatchewan,4,May,May-W4
+2020-05-24,11,9,Yukon,4,May,May-W4
+2020-05-24,0,12,Nunavut,4,May,May-W4
+2020-05-25,6879,4,Alberta,4,May,May-W4
+2020-05-25,2530,6,British Columbia,4,May,May-W4
+2020-05-25,292,10,Manitoba,4,May,May-W4
+2020-05-25,121,7,New Brunswick,4,May,May-W4
+2020-05-25,260,5,Newfoundland and Labrador,4,May,May-W4
+2020-05-25,5,13,Northwest Territories,4,May,May-W4
+2020-05-25,1051,2,Nova Scotia,4,May,May-W4
+2020-05-25,27302,11,Ontario,4,May,May-W4
+2020-05-25,27,8,Prince Edward Island,4,May,May-W4
+2020-05-25,47993,1,Quebec,4,May,May-W4
+2020-05-25,634,3,Saskatchewan,4,May,May-W4
+2020-05-25,11,9,Yukon,4,May,May-W4
+2020-05-25,0,12,Nunavut,4,May,May-W4
+2020-05-26,6901,4,Alberta,4,May,May-W4
+2020-05-26,2541,6,British Columbia,4,May,May-W4
+2020-05-26,292,10,Manitoba,4,May,May-W4
+2020-05-26,122,7,New Brunswick,4,May,May-W4
+2020-05-26,260,5,Newfoundland and Labrador,4,May,May-W4
+2020-05-26,5,13,Northwest Territories,4,May,May-W4
+2020-05-26,1052,2,Nova Scotia,4,May,May-W4
+2020-05-26,27624,11,Ontario,4,May,May-W4
+2020-05-26,27,8,Prince Edward Island,4,May,May-W4
+2020-05-26,48607,1,Quebec,4,May,May-W4
+2020-05-26,634,3,Saskatchewan,4,May,May-W4
+2020-05-26,11,9,Yukon,4,May,May-W4
+2020-05-26,0,12,Nunavut,4,May,May-W4
+2020-05-27,6926,4,Alberta,4,May,May-W4
+2020-05-27,2550,6,British Columbia,4,May,May-W4
+2020-05-27,292,10,Manitoba,4,May,May-W4
+2020-05-27,123,7,New Brunswick,4,May,May-W4
+2020-05-27,260,5,Newfoundland and Labrador,4,May,May-W4
+2020-05-27,5,13,Northwest Territories,4,May,May-W4
+2020-05-27,1053,2,Nova Scotia,4,May,May-W4
+2020-05-27,27943,11,Ontario,4,May,May-W4
+2020-05-27,27,8,Prince Edward Island,4,May,May-W4
+2020-05-27,49148,1,Quebec,4,May,May-W4
+2020-05-27,637,3,Saskatchewan,4,May,May-W4
+2020-05-27,11,9,Yukon,4,May,May-W4
+2020-05-27,0,12,Nunavut,4,May,May-W4
+2020-05-28,6955,4,Alberta,4,May,May-W4
+2020-05-28,2558,6,British Columbia,4,May,May-W4
+2020-05-28,294,10,Manitoba,4,May,May-W4
+2020-05-28,126,7,New Brunswick,4,May,May-W4
+2020-05-28,261,5,Newfoundland and Labrador,4,May,May-W4
+2020-05-28,5,13,Northwest Territories,4,May,May-W4
+2020-05-28,1055,2,Nova Scotia,4,May,May-W4
+2020-05-28,28320,11,Ontario,4,May,May-W4
+2020-05-28,27,8,Prince Edward Island,4,May,May-W4
+2020-05-28,49711,1,Quebec,4,May,May-W4
+2020-05-28,639,3,Saskatchewan,4,May,May-W4
+2020-05-28,11,9,Yukon,4,May,May-W4
+2020-05-28,0,12,Nunavut,4,May,May-W4
+2020-05-29,6979,4,Alberta,4,May,May-W4
+2020-05-29,2562,6,British Columbia,4,May,May-W4
+2020-05-29,294,10,Manitoba,4,May,May-W4
+2020-05-29,128,7,New Brunswick,4,May,May-W4
+2020-05-29,261,5,Newfoundland and Labrador,4,May,May-W4
+2020-05-29,5,13,Northwest Territories,4,May,May-W4
+2020-05-29,1055,2,Nova Scotia,4,May,May-W4
+2020-05-29,28700,11,Ontario,4,May,May-W4
+2020-05-29,27,8,Prince Edward Island,4,May,May-W4
+2020-05-29,50232,1,Quebec,4,May,May-W4
+2020-05-29,641,3,Saskatchewan,4,May,May-W4
+2020-05-29,11,9,Yukon,4,May,May-W4
+2020-05-29,0,12,Nunavut,4,May,May-W4
+2020-05-30,6992,4,Alberta,4,May,May-W4
+2020-05-30,2573,6,British Columbia,4,May,May-W4
+2020-05-30,294,10,Manitoba,4,May,May-W4
+2020-05-30,129,7,New Brunswick,4,May,May-W4
+2020-05-30,261,5,Newfoundland and Labrador,4,May,May-W4
+2020-05-30,5,13,Northwest Territories,4,May,May-W4
+2020-05-30,1056,2,Nova Scotia,4,May,May-W4
+2020-05-30,29023,11,Ontario,4,May,May-W4
+2020-05-30,27,8,Prince Edward Island,4,May,May-W4
+2020-05-30,50651,1,Quebec,4,May,May-W4
+2020-05-30,645,3,Saskatchewan,4,May,May-W4
+2020-05-30,11,9,Yukon,4,May,May-W4
+2020-05-30,0,12,Nunavut,4,May,May-W4
+2020-05-31,7010,4,Alberta,4,May,May-W4
+2020-05-31,2573,6,British Columbia,4,May,May-W4
+2020-05-31,295,10,Manitoba,4,May,May-W4
+2020-05-31,132,7,New Brunswick,4,May,May-W4
+2020-05-31,261,5,Newfoundland and Labrador,4,May,May-W4
+2020-05-31,5,13,Northwest Territories,4,May,May-W4
+2020-05-31,1056,2,Nova Scotia,4,May,May-W4
+2020-05-31,29390,11,Ontario,4,May,May-W4
+2020-05-31,27,8,Prince Edward Island,4,May,May-W4
+2020-05-31,51059,1,Quebec,4,May,May-W4
+2020-05-31,646,3,Saskatchewan,4,May,May-W4
+2020-05-31,11,9,Yukon,4,May,May-W4
+2020-05-31,0,12,Nunavut,4,May,May-W4
+2020-06-01,7044,4,Alberta,1,June,June-W1
+2020-06-01,2597,6,British Columbia,1,June,June-W1
+2020-06-01,295,10,Manitoba,1,June,June-W1
+2020-06-01,132,7,New Brunswick,1,June,June-W1
+2020-06-01,261,5,Newfoundland and Labrador,1,June,June-W1
+2020-06-01,5,13,Northwest Territories,1,June,June-W1
+2020-06-01,1057,2,Nova Scotia,1,June,June-W1
+2020-06-01,29845,11,Ontario,1,June,June-W1
+2020-06-01,27,8,Prince Edward Island,1,June,June-W1
+2020-06-01,51354,1,Quebec,1,June,June-W1
+2020-06-01,646,3,Saskatchewan,1,June,June-W1
+2020-06-01,11,9,Yukon,1,June,June-W1
+2020-06-01,0,12,Nunavut,1,June,June-W1
+2020-06-02,7057,4,Alberta,1,June,June-W1
+2020-06-02,2601,6,British Columbia,1,June,June-W1
+2020-06-02,297,10,Manitoba,1,June,June-W1
+2020-06-02,133,7,New Brunswick,1,June,June-W1
+2020-06-02,261,5,Newfoundland and Labrador,1,June,June-W1
+2020-06-02,5,13,Northwest Territories,1,June,June-W1
+2020-06-02,1057,2,Nova Scotia,1,June,June-W1
+2020-06-02,30259,11,Ontario,1,June,June-W1
+2020-06-02,27,8,Prince Edward Island,1,June,June-W1
+2020-06-02,51593,1,Quebec,1,June,June-W1
+2020-06-02,646,3,Saskatchewan,1,June,June-W1
+2020-06-02,11,9,Yukon,1,June,June-W1
+2020-06-02,0,12,Nunavut,1,June,June-W1
+2020-06-03,7076,4,Alberta,1,June,June-W1
+2020-06-03,2623,6,British Columbia,1,June,June-W1
+2020-06-03,298,10,Manitoba,1,June,June-W1
+2020-06-03,135,7,New Brunswick,1,June,June-W1
+2020-06-03,261,5,Newfoundland and Labrador,1,June,June-W1
+2020-06-03,5,13,Northwest Territories,1,June,June-W1
+2020-06-03,1058,2,Nova Scotia,1,June,June-W1
+2020-06-03,30603,11,Ontario,1,June,June-W1
+2020-06-03,27,8,Prince Edward Island,1,June,June-W1
+2020-06-03,51884,1,Quebec,1,June,June-W1
+2020-06-03,647,3,Saskatchewan,1,June,June-W1
+2020-06-03,11,9,Yukon,1,June,June-W1
+2020-06-03,0,12,Nunavut,1,June,June-W1
+2020-06-04,7091,4,Alberta,1,June,June-W1
+2020-06-04,2632,6,British Columbia,1,June,June-W1
+2020-06-04,298,10,Manitoba,1,June,June-W1
+2020-06-04,136,7,New Brunswick,1,June,June-W1
+2020-06-04,261,5,Newfoundland and Labrador,1,June,June-W1
+2020-06-04,5,13,Northwest Territories,1,June,June-W1
+2020-06-04,1058,2,Nova Scotia,1,June,June-W1
+2020-06-04,30946,11,Ontario,1,June,June-W1
+2020-06-04,27,8,Prince Edward Island,1,June,June-W1
+2020-06-04,52143,1,Quebec,1,June,June-W1
+2020-06-04,648,3,Saskatchewan,1,June,June-W1
+2020-06-04,11,9,Yukon,1,June,June-W1
+2020-06-04,0,12,Nunavut,1,June,June-W1
+2020-06-05,7098,4,Alberta,1,June,June-W1
+2020-06-05,2632,6,British Columbia,1,June,June-W1
+2020-06-05,300,10,Manitoba,1,June,June-W1
+2020-06-05,136,7,New Brunswick,1,June,June-W1
+2020-06-05,261,5,Newfoundland and Labrador,1,June,June-W1
+2020-06-05,5,13,Northwest Territories,1,June,June-W1
+2020-06-05,1058,2,Nova Scotia,1,June,June-W1
+2020-06-05,31359,11,Ontario,1,June,June-W1
+2020-06-05,27,8,Prince Edward Island,1,June,June-W1
+2020-06-05,52398,1,Quebec,1,June,June-W1
+2020-06-05,649,3,Saskatchewan,1,June,June-W1
+2020-06-05,11,9,Yukon,1,June,June-W1
+2020-06-05,0,12,Nunavut,1,June,June-W1
+2020-06-06,7138,4,Alberta,1,June,June-W1
+2020-06-06,2632,6,British Columbia,1,June,June-W1
+2020-06-06,300,10,Manitoba,1,June,June-W1
+2020-06-06,136,7,New Brunswick,1,June,June-W1
+2020-06-06,261,5,Newfoundland and Labrador,1,June,June-W1
+2020-06-06,5,13,Northwest Territories,1,June,June-W1
+2020-06-06,1058,2,Nova Scotia,1,June,June-W1
+2020-06-06,31620,11,Ontario,1,June,June-W1
+2020-06-06,27,8,Prince Edward Island,1,June,June-W1
+2020-06-06,52624,1,Quebec,1,June,June-W1
+2020-06-06,650,3,Saskatchewan,1,June,June-W1
+2020-06-06,11,9,Yukon,1,June,June-W1
+2020-06-06,0,12,Nunavut,1,June,June-W1
+2020-06-07,7138,4,Alberta,1,June,June-W1
+2020-06-07,2632,6,British Columbia,1,June,June-W1
+2020-06-07,300,10,Manitoba,1,June,June-W1
+2020-06-07,137,7,New Brunswick,1,June,June-W1
+2020-06-07,261,5,Newfoundland and Labrador,1,June,June-W1
+2020-06-07,5,13,Northwest Territories,1,June,June-W1
+2020-06-07,1059,2,Nova Scotia,1,June,June-W1
+2020-06-07,32096,11,Ontario,1,June,June-W1
+2020-06-07,27,8,Prince Edward Island,1,June,June-W1
+2020-06-07,52849,1,Quebec,1,June,June-W1
+2020-06-07,650,3,Saskatchewan,1,June,June-W1
+2020-06-07,11,9,Yukon,1,June,June-W1
+2020-06-07,0,12,Nunavut,1,June,June-W1
+2020-06-08,7202,4,Alberta,2,June,June-W2
+2020-06-08,2659,6,British Columbia,2,June,June-W2
+2020-06-08,300,10,Manitoba,2,June,June-W2
+2020-06-08,146,7,New Brunswick,2,June,June-W2
+2020-06-08,261,5,Newfoundland and Labrador,2,June,June-W2
+2020-06-08,5,13,Northwest Territories,2,June,June-W2
+2020-06-08,1059,2,Nova Scotia,2,June,June-W2
+2020-06-08,32395,11,Ontario,2,June,June-W2
+2020-06-08,27,8,Prince Edward Island,2,June,June-W2
+2020-06-08,53047,1,Quebec,2,June,June-W2
+2020-06-08,654,3,Saskatchewan,2,June,June-W2
+2020-06-08,11,9,Yukon,2,June,June-W2
+2020-06-08,0,12,Nunavut,2,June,June-W2
+2020-06-09,7229,4,Alberta,2,June,June-W2
+2020-06-09,2669,6,British Columbia,2,June,June-W2
+2020-06-09,300,10,Manitoba,2,June,June-W2
+2020-06-09,147,7,New Brunswick,2,June,June-W2
+2020-06-09,261,5,Newfoundland and Labrador,2,June,June-W2
+2020-06-09,5,13,Northwest Territories,2,June,June-W2
+2020-06-09,1060,2,Nova Scotia,2,June,June-W2
+2020-06-09,32678,11,Ontario,2,June,June-W2
+2020-06-09,27,8,Prince Edward Island,2,June,June-W2
+2020-06-09,53185,1,Quebec,2,June,June-W2
+2020-06-09,656,3,Saskatchewan,2,June,June-W2
+2020-06-09,11,9,Yukon,2,June,June-W2
+2020-06-09,0,12,Nunavut,2,June,June-W2
+2020-06-10,7276,4,Alberta,2,June,June-W2
+2020-06-10,2680,6,British Columbia,2,June,June-W2
+2020-06-10,300,10,Manitoba,2,June,June-W2
+2020-06-10,151,7,New Brunswick,2,June,June-W2
+2020-06-10,261,5,Newfoundland and Labrador,2,June,June-W2
+2020-06-10,5,13,Northwest Territories,2,June,June-W2
+2020-06-10,1061,2,Nova Scotia,2,June,June-W2
+2020-06-10,32936,11,Ontario,2,June,June-W2
+2020-06-10,27,8,Prince Edward Island,2,June,June-W2
+2020-06-10,53341,1,Quebec,2,June,June-W2
+2020-06-10,658,3,Saskatchewan,2,June,June-W2
+2020-06-10,11,9,Yukon,2,June,June-W2
+2020-06-10,0,12,Nunavut,2,June,June-W2
+2020-06-11,7316,4,Alberta,2,June,June-W2
+2020-06-11,2694,6,British Columbia,2,June,June-W2
+2020-06-11,300,10,Manitoba,2,June,June-W2
+2020-06-11,153,7,New Brunswick,2,June,June-W2
+2020-06-11,261,5,Newfoundland and Labrador,2,June,June-W2
+2020-06-11,5,13,Northwest Territories,2,June,June-W2
+2020-06-11,1061,2,Nova Scotia,2,June,June-W2
+2020-06-11,33173,11,Ontario,2,June,June-W2
+2020-06-11,27,8,Prince Edward Island,2,June,June-W2
+2020-06-11,53485,1,Quebec,2,June,June-W2
+2020-06-11,660,3,Saskatchewan,2,June,June-W2
+2020-06-11,11,9,Yukon,2,June,June-W2
+2020-06-11,0,12,Nunavut,2,June,June-W2
+2020-06-12,7346,4,Alberta,2,June,June-W2
+2020-06-12,2709,6,British Columbia,2,June,June-W2
+2020-06-12,301,10,Manitoba,2,June,June-W2
+2020-06-12,154,7,New Brunswick,2,June,June-W2
+2020-06-12,261,5,Newfoundland and Labrador,2,June,June-W2
+2020-06-12,5,13,Northwest Territories,2,June,June-W2
+2020-06-12,1061,2,Nova Scotia,2,June,June-W2
+2020-06-12,33378,11,Ontario,2,June,June-W2
+2020-06-12,27,8,Prince Edward Island,2,June,June-W2
+2020-06-12,53666,1,Quebec,2,June,June-W2
+2020-06-12,663,3,Saskatchewan,2,June,June-W2
+2020-06-12,11,9,Yukon,2,June,June-W2
+2020-06-12,0,12,Nunavut,2,June,June-W2
+2020-06-13,7383,4,Alberta,2,June,June-W2
+2020-06-13,2709,6,British Columbia,2,June,June-W2
+2020-06-13,303,10,Manitoba,2,June,June-W2
+2020-06-13,157,7,New Brunswick,2,June,June-W2
+2020-06-13,261,5,Newfoundland and Labrador,2,June,June-W2
+2020-06-13,5,13,Northwest Territories,2,June,June-W2
+2020-06-13,1061,2,Nova Scotia,2,June,June-W2
+2020-06-13,33625,11,Ontario,2,June,June-W2
+2020-06-13,27,8,Prince Edward Island,2,June,June-W2
+2020-06-13,53824,1,Quebec,2,June,June-W2
+2020-06-13,664,3,Saskatchewan,2,June,June-W2
+2020-06-13,11,9,Yukon,2,June,June-W2
+2020-06-13,0,12,Nunavut,2,June,June-W2
+2020-06-14,7433,4,Alberta,2,June,June-W2
+2020-06-14,2709,6,British Columbia,2,June,June-W2
+2020-06-14,304,10,Manitoba,2,June,June-W2
+2020-06-14,157,7,New Brunswick,2,June,June-W2
+2020-06-14,261,5,Newfoundland and Labrador,2,June,June-W2
+2020-06-14,5,13,Northwest Territories,2,June,June-W2
+2020-06-14,1061,2,Nova Scotia,2,June,June-W2
+2020-06-14,33806,11,Ontario,2,June,June-W2
+2020-06-14,27,8,Prince Edward Island,2,June,June-W2
+2020-06-14,53952,1,Quebec,2,June,June-W2
+2020-06-14,665,3,Saskatchewan,2,June,June-W2
+2020-06-14,11,9,Yukon,2,June,June-W2
+2020-06-14,0,12,Nunavut,2,June,June-W2
+2020-06-15,7453,4,Alberta,3,June,June-W3
+2020-06-15,2745,6,British Columbia,3,June,June-W3
+2020-06-15,304,10,Manitoba,3,June,June-W3
+2020-06-15,160,7,New Brunswick,3,June,June-W3
+2020-06-15,261,5,Newfoundland and Labrador,3,June,June-W3
+2020-06-15,5,13,Northwest Territories,3,June,June-W3
+2020-06-15,1061,2,Nova Scotia,3,June,June-W3
+2020-06-15,33986,11,Ontario,3,June,June-W3
+2020-06-15,27,8,Prince Edward Island,3,June,June-W3
+2020-06-15,54054,1,Quebec,3,June,June-W3
+2020-06-15,683,3,Saskatchewan,3,June,June-W3
+2020-06-15,11,9,Yukon,3,June,June-W3
+2020-06-15,0,12,Nunavut,3,June,June-W3
+2020-06-16,7482,4,Alberta,3,June,June-W3
+2020-06-16,2756,6,British Columbia,3,June,June-W3
+2020-06-16,304,10,Manitoba,3,June,June-W3
+2020-06-16,163,7,New Brunswick,3,June,June-W3
+2020-06-16,261,5,Newfoundland and Labrador,3,June,June-W3
+2020-06-16,5,13,Northwest Territories,3,June,June-W3
+2020-06-16,1061,2,Nova Scotia,3,June,June-W3
+2020-06-16,34174,11,Ontario,3,June,June-W3
+2020-06-16,27,8,Prince Edward Island,3,June,June-W3
+2020-06-16,54146,1,Quebec,3,June,June-W3
+2020-06-16,684,3,Saskatchewan,3,June,June-W3
+2020-06-16,11,9,Yukon,3,June,June-W3
+2020-06-16,0,12,Nunavut,3,June,June-W3
+2020-06-17,7530,4,Alberta,3,June,June-W3
+2020-06-17,2775,6,British Columbia,3,June,June-W3
+2020-06-17,306,10,Manitoba,3,June,June-W3
+2020-06-17,164,7,New Brunswick,3,June,June-W3
+2020-06-17,261,5,Newfoundland and Labrador,3,June,June-W3
+2020-06-17,5,13,Northwest Territories,3,June,June-W3
+2020-06-17,1061,2,Nova Scotia,3,June,June-W3
+2020-06-17,34382,11,Ontario,3,June,June-W3
+2020-06-17,27,8,Prince Edward Island,3,June,June-W3
+2020-06-17,54263,1,Quebec,3,June,June-W3
+2020-06-17,693,3,Saskatchewan,3,June,June-W3
+2020-06-17,11,9,Yukon,3,June,June-W3
+2020-06-17,0,12,Nunavut,3,June,June-W3
+2020-06-18,7579,4,Alberta,3,June,June-W3
+2020-06-18,2783,6,British Columbia,3,June,June-W3
+2020-06-18,308,10,Manitoba,3,June,June-W3
+2020-06-18,164,7,New Brunswick,3,June,June-W3
+2020-06-18,261,5,Newfoundland and Labrador,3,June,June-W3
+2020-06-18,5,13,Northwest Territories,3,June,June-W3
+2020-06-18,1061,2,Nova Scotia,3,June,June-W3
+2020-06-18,34574,11,Ontario,3,June,June-W3
+2020-06-18,27,8,Prince Edward Island,3,June,June-W3
+2020-06-18,54383,1,Quebec,3,June,June-W3
+2020-06-18,708,3,Saskatchewan,3,June,June-W3
+2020-06-18,11,9,Yukon,3,June,June-W3
+2020-06-18,0,12,Nunavut,3,June,June-W3
+2020-06-19,7625,4,Alberta,3,June,June-W3
+2020-06-19,2790,6,British Columbia,3,June,June-W3
+2020-06-19,311,10,Manitoba,3,June,June-W3
+2020-06-19,164,7,New Brunswick,3,June,June-W3
+2020-06-19,261,5,Newfoundland and Labrador,3,June,June-W3
+2020-06-19,5,13,Northwest Territories,3,June,June-W3
+2020-06-19,1061,2,Nova Scotia,3,June,June-W3
+2020-06-19,34780,11,Ontario,3,June,June-W3
+2020-06-19,27,8,Prince Edward Island,3,June,June-W3
+2020-06-19,54550,1,Quebec,3,June,June-W3
+2020-06-19,716,3,Saskatchewan,3,June,June-W3
+2020-06-19,11,9,Yukon,3,June,June-W3
+2020-06-19,0,12,Nunavut,3,June,June-W3
+2020-06-20,7673,4,Alberta,3,June,June-W3
+2020-06-20,2790,6,British Columbia,3,June,June-W3
+2020-06-20,313,10,Manitoba,3,June,June-W3
+2020-06-20,164,7,New Brunswick,3,June,June-W3
+2020-06-20,261,5,Newfoundland and Labrador,3,June,June-W3
+2020-06-20,5,13,Northwest Territories,3,June,June-W3
+2020-06-20,1061,2,Nova Scotia,3,June,June-W3
+2020-06-20,35044,11,Ontario,3,June,June-W3
+2020-06-20,27,8,Prince Edward Island,3,June,June-W3
+2020-06-20,54674,1,Quebec,3,June,June-W3
+2020-06-20,726,3,Saskatchewan,3,June,June-W3
+2020-06-20,11,9,Yukon,3,June,June-W3
+2020-06-20,0,12,Nunavut,3,June,June-W3
+2020-06-21,7704,4,Alberta,3,June,June-W3
+2020-06-21,2790,6,British Columbia,3,June,June-W3
+2020-06-21,313,10,Manitoba,3,June,June-W3
+2020-06-21,164,7,New Brunswick,3,June,June-W3
+2020-06-21,261,5,Newfoundland and Labrador,3,June,June-W3
+2020-06-21,5,13,Northwest Territories,3,June,June-W3
+2020-06-21,1061,2,Nova Scotia,3,June,June-W3
+2020-06-21,35217,11,Ontario,3,June,June-W3
+2020-06-21,27,8,Prince Edward Island,3,June,June-W3
+2020-06-21,54766,1,Quebec,3,June,June-W3
+2020-06-21,746,3,Saskatchewan,3,June,June-W3
+2020-06-21,11,9,Yukon,3,June,June-W3
+2020-06-21,0,12,Nunavut,3,June,June-W3
+2020-06-22,7736,4,Alberta,4,June,June-W4
+2020-06-22,2822,6,British Columbia,4,June,June-W4
+2020-06-22,314,10,Manitoba,4,June,June-W4
+2020-06-22,164,7,New Brunswick,4,June,June-W4
+2020-06-22,261,5,Newfoundland and Labrador,4,June,June-W4
+2020-06-22,5,13,Northwest Territories,4,June,June-W4
+2020-06-22,1061,2,Nova Scotia,4,June,June-W4
+2020-06-22,35418,11,Ontario,4,June,June-W4
+2020-06-22,27,8,Prince Edward Island,4,June,June-W4
+2020-06-22,54835,1,Quebec,4,June,June-W4
+2020-06-22,751,3,Saskatchewan,4,June,June-W4
+2020-06-22,11,9,Yukon,4,June,June-W4
+2020-06-22,0,12,Nunavut,4,June,June-W4
+2020-06-23,7781,4,Alberta,4,June,June-W4
+2020-06-23,2835,6,British Columbia,4,June,June-W4
+2020-06-23,314,10,Manitoba,4,June,June-W4
+2020-06-23,165,7,New Brunswick,4,June,June-W4
+2020-06-23,261,5,Newfoundland and Labrador,4,June,June-W4
+2020-06-23,5,13,Northwest Territories,4,June,June-W4
+2020-06-23,1061,2,Nova Scotia,4,June,June-W4
+2020-06-23,35657,11,Ontario,4,June,June-W4
+2020-06-23,27,8,Prince Edward Island,4,June,June-W4
+2020-06-23,54884,1,Quebec,4,June,June-W4
+2020-06-23,753,3,Saskatchewan,4,June,June-W4
+2020-06-23,11,9,Yukon,4,June,June-W4
+2020-06-23,0,12,Nunavut,4,June,June-W4
+2020-06-24,7825,4,Alberta,4,June,June-W4
+2020-06-24,2849,6,British Columbia,4,June,June-W4
+2020-06-24,315,10,Manitoba,4,June,June-W4
+2020-06-24,165,7,New Brunswick,4,June,June-W4
+2020-06-24,261,5,Newfoundland and Labrador,4,June,June-W4
+2020-06-24,5,13,Northwest Territories,4,June,June-W4
+2020-06-24,1061,2,Nova Scotia,4,June,June-W4
+2020-06-24,35861,11,Ontario,4,June,June-W4
+2020-06-24,27,8,Prince Edward Island,4,June,June-W4
+2020-06-24,54937,1,Quebec,4,June,June-W4
+2020-06-24,757,3,Saskatchewan,4,June,June-W4
+2020-06-24,11,9,Yukon,4,June,June-W4
+2020-06-24,0,12,Nunavut,4,June,June-W4
+2020-06-25,7851,4,Alberta,4,June,June-W4
+2020-06-25,2869,6,British Columbia,4,June,June-W4
+2020-06-25,316,10,Manitoba,4,June,June-W4
+2020-06-25,165,7,New Brunswick,4,June,June-W4
+2020-06-25,261,5,Newfoundland and Labrador,4,June,June-W4
+2020-06-25,5,13,Northwest Territories,4,June,June-W4
+2020-06-25,1061,2,Nova Scotia,4,June,June-W4
+2020-06-25,36046,11,Ontario,4,June,June-W4
+2020-06-25,27,8,Prince Edward Island,4,June,June-W4
+2020-06-25,55079,1,Quebec,4,June,June-W4
+2020-06-25,759,3,Saskatchewan,4,June,June-W4
+2020-06-25,11,9,Yukon,4,June,June-W4
+2020-06-25,0,12,Nunavut,4,June,June-W4
+2020-06-26,7888,4,Alberta,4,June,June-W4
+2020-06-26,2878,6,British Columbia,4,June,June-W4
+2020-06-26,318,10,Manitoba,4,June,June-W4
+2020-06-26,165,7,New Brunswick,4,June,June-W4
+2020-06-26,261,5,Newfoundland and Labrador,4,June,June-W4
+2020-06-26,5,13,Northwest Territories,4,June,June-W4
+2020-06-26,1061,2,Nova Scotia,4,June,June-W4
+2020-06-26,36151,11,Ontario,4,June,June-W4
+2020-06-26,27,8,Prince Edward Island,4,June,June-W4
+2020-06-26,55079,1,Quebec,4,June,June-W4
+2020-06-26,772,3,Saskatchewan,4,June,June-W4
+2020-06-26,11,9,Yukon,4,June,June-W4
+2020-06-26,0,12,Nunavut,4,June,June-W4
+2020-06-27,7957,4,Alberta,4,June,June-W4
+2020-06-27,2878,6,British Columbia,4,June,June-W4
+2020-06-27,322,10,Manitoba,4,June,June-W4
+2020-06-27,165,7,New Brunswick,4,June,June-W4
+2020-06-27,261,5,Newfoundland and Labrador,4,June,June-W4
+2020-06-27,5,13,Northwest Territories,4,June,June-W4
+2020-06-27,1061,2,Nova Scotia,4,June,June-W4
+2020-06-27,36322,11,Ontario,4,June,June-W4
+2020-06-27,27,8,Prince Edward Island,4,June,June-W4
+2020-06-27,55079,1,Quebec,4,June,June-W4
+2020-06-27,777,3,Saskatchewan,4,June,June-W4
+2020-06-27,11,9,Yukon,4,June,June-W4
+2020-06-27,0,12,Nunavut,4,June,June-W4
+2020-06-28,7996,4,Alberta,4,June,June-W4
+2020-06-28,2878,6,British Columbia,4,June,June-W4
+2020-06-28,322,10,Manitoba,4,June,June-W4
+2020-06-28,165,7,New Brunswick,4,June,June-W4
+2020-06-28,261,5,Newfoundland and Labrador,4,June,June-W4
+2020-06-28,5,13,Northwest Territories,4,June,June-W4
+2020-06-28,1061,2,Nova Scotia,4,June,June-W4
+2020-06-28,36597,11,Ontario,4,June,June-W4
+2020-06-28,27,8,Prince Edward Island,4,June,June-W4
+2020-06-28,55079,1,Quebec,4,June,June-W4
+2020-06-28,778,3,Saskatchewan,4,June,June-W4
+2020-06-28,11,9,Yukon,4,June,June-W4
+2020-06-28,0,12,Nunavut,4,June,June-W4
+2020-06-29,8067,4,Alberta,4,June,June-W4
+2020-06-29,2904,6,British Columbia,4,June,June-W4
+2020-06-29,324,10,Manitoba,4,June,June-W4
+2020-06-29,165,7,New Brunswick,4,June,June-W4
+2020-06-29,261,5,Newfoundland and Labrador,4,June,June-W4
+2020-06-29,5,13,Northwest Territories,4,June,June-W4
+2020-06-29,1061,2,Nova Scotia,4,June,June-W4
+2020-06-29,36823,11,Ontario,4,June,June-W4
+2020-06-29,27,8,Prince Edward Island,4,June,June-W4
+2020-06-29,55390,1,Quebec,4,June,June-W4
+2020-06-29,779,3,Saskatchewan,4,June,June-W4
+2020-06-29,11,9,Yukon,4,June,June-W4
+2020-06-29,0,12,Nunavut,4,June,June-W4
+2020-06-30,8108,4,Alberta,4,June,June-W4
+2020-06-30,2916,6,British Columbia,4,June,June-W4
+2020-06-30,325,10,Manitoba,4,June,June-W4
+2020-06-30,165,7,New Brunswick,4,June,June-W4
+2020-06-30,261,5,Newfoundland and Labrador,4,June,June-W4
+2020-06-30,5,13,Northwest Territories,4,June,June-W4
+2020-06-30,1062,2,Nova Scotia,4,June,June-W4
+2020-06-30,36961,11,Ontario,4,June,June-W4
+2020-06-30,27,8,Prince Edward Island,4,June,June-W4
+2020-06-30,55458,1,Quebec,4,June,June-W4
+2020-06-30,785,3,Saskatchewan,4,June,June-W4
+2020-06-30,11,9,Yukon,4,June,June-W4
+2020-06-30,0,12,Nunavut,4,June,June-W4
+2020-07-01,8108,4,Alberta,1,July,July-W1
+2020-07-01,2916,6,British Columbia,1,July,July-W1
+2020-07-01,325,10,Manitoba,1,July,July-W1
+2020-07-01,165,7,New Brunswick,1,July,July-W1
+2020-07-01,261,5,Newfoundland and Labrador,1,July,July-W1
+2020-07-01,5,13,Northwest Territories,1,July,July-W1
+2020-07-01,1063,2,Nova Scotia,1,July,July-W1
+2020-07-01,37085,11,Ontario,1,July,July-W1
+2020-07-01,27,8,Prince Edward Island,1,July,July-W1
+2020-07-01,55524,1,Quebec,1,July,July-W1
+2020-07-01,785,3,Saskatchewan,1,July,July-W1
+2020-07-01,11,9,Yukon,1,July,July-W1
+2020-07-01,0,12,Nunavut,1,July,July-W1
+2020-07-02,8202,4,Alberta,1,July,July-W1
+2020-07-02,2940,6,British Columbia,1,July,July-W1
+2020-07-02,325,10,Manitoba,1,July,July-W1
+2020-07-02,165,7,New Brunswick,1,July,July-W1
+2020-07-02,261,5,Newfoundland and Labrador,1,July,July-W1
+2020-07-02,5,13,Northwest Territories,1,July,July-W1
+2020-07-02,1064,2,Nova Scotia,1,July,July-W1
+2020-07-02,37242,11,Ontario,1,July,July-W1
+2020-07-02,27,8,Prince Edward Island,1,July,July-W1
+2020-07-02,55593,1,Quebec,1,July,July-W1
+2020-07-02,795,3,Saskatchewan,1,July,July-W1
+2020-07-02,11,9,Yukon,1,July,July-W1
+2020-07-02,0,12,Nunavut,1,July,July-W1
+2020-07-03,8259,4,Alberta,1,July,July-W1
+2020-07-03,2947,6,British Columbia,1,July,July-W1
+2020-07-03,325,10,Manitoba,1,July,July-W1
+2020-07-03,165,7,New Brunswick,1,July,July-W1
+2020-07-03,261,5,Newfoundland and Labrador,1,July,July-W1
+2020-07-03,5,13,Northwest Territories,1,July,July-W1
+2020-07-03,1064,2,Nova Scotia,1,July,July-W1
+2020-07-03,37407,11,Ontario,1,July,July-W1
+2020-07-03,27,8,Prince Edward Island,1,July,July-W1
+2020-07-03,55682,1,Quebec,1,July,July-W1
+2020-07-03,796,3,Saskatchewan,1,July,July-W1
+2020-07-03,11,9,Yukon,1,July,July-W1
+2020-07-03,0,12,Nunavut,1,July,July-W1
+2020-07-04,8259,4,Alberta,1,July,July-W1
+2020-07-04,2947,6,British Columbia,1,July,July-W1
+2020-07-04,325,10,Manitoba,1,July,July-W1
+2020-07-04,165,7,New Brunswick,1,July,July-W1
+2020-07-04,261,5,Newfoundland and Labrador,1,July,July-W1
+2020-07-04,5,13,Northwest Territories,1,July,July-W1
+2020-07-04,1064,2,Nova Scotia,1,July,July-W1
+2020-07-04,37525,11,Ontario,1,July,July-W1
+2020-07-04,30,8,Prince Edward Island,1,July,July-W1
+2020-07-04,55784,1,Quebec,1,July,July-W1
+2020-07-04,796,3,Saskatchewan,1,July,July-W1
+2020-07-04,11,9,Yukon,1,July,July-W1
+2020-07-04,0,12,Nunavut,1,July,July-W1
+2020-07-05,8259,4,Alberta,1,July,July-W1
+2020-07-05,2947,6,British Columbia,1,July,July-W1
+2020-07-05,325,10,Manitoba,1,July,July-W1
+2020-07-05,165,7,New Brunswick,1,July,July-W1
+2020-07-05,261,5,Newfoundland and Labrador,1,July,July-W1
+2020-07-05,5,13,Northwest Territories,1,July,July-W1
+2020-07-05,1064,2,Nova Scotia,1,July,July-W1
+2020-07-05,37653,11,Ontario,1,July,July-W1
+2020-07-05,32,8,Prince Edward Island,1,July,July-W1
+2020-07-05,55863,1,Quebec,1,July,July-W1
+2020-07-05,796,3,Saskatchewan,1,July,July-W1
+2020-07-05,11,9,Yukon,1,July,July-W1
+2020-07-05,0,12,Nunavut,1,July,July-W1
+2020-07-06,8389,4,Alberta,1,July,July-W1
+2020-07-06,2978,6,British Columbia,1,July,July-W1
+2020-07-06,325,10,Manitoba,1,July,July-W1
+2020-07-06,165,7,New Brunswick,1,July,July-W1
+2020-07-06,261,5,Newfoundland and Labrador,1,July,July-W1
+2020-07-06,5,13,Northwest Territories,1,July,July-W1
+2020-07-06,1065,2,Nova Scotia,1,July,July-W1
+2020-07-06,37829,11,Ontario,1,July,July-W1
+2020-07-06,32,8,Prince Edward Island,1,July,July-W1
+2020-07-06,55937,1,Quebec,1,July,July-W1
+2020-07-06,805,3,Saskatchewan,1,July,July-W1
+2020-07-06,11,9,Yukon,1,July,July-W1
+2020-07-06,0,12,Nunavut,1,July,July-W1
+2020-07-07,8436,4,Alberta,1,July,July-W1
+2020-07-07,2990,6,British Columbia,1,July,July-W1
+2020-07-07,325,10,Manitoba,1,July,July-W1
+2020-07-07,165,7,New Brunswick,1,July,July-W1
+2020-07-07,261,5,Newfoundland and Labrador,1,July,July-W1
+2020-07-07,5,13,Northwest Territories,1,July,July-W1
+2020-07-07,1065,2,Nova Scotia,1,July,July-W1
+2020-07-07,37917,11,Ontario,1,July,July-W1
+2020-07-07,32,8,Prince Edward Island,1,July,July-W1
+2020-07-07,55997,1,Quebec,1,July,July-W1
+2020-07-07,806,3,Saskatchewan,1,July,July-W1
+2020-07-07,11,9,Yukon,1,July,July-W1
+2020-07-07,0,12,Nunavut,1,July,July-W1
+2020-07-08,8482,4,Alberta,2,July,July-W2
+2020-07-08,3008,6,British Columbia,2,July,July-W2
+2020-07-08,325,10,Manitoba,2,July,July-W2
+2020-07-08,165,7,New Brunswick,2,July,July-W2
+2020-07-08,261,5,Newfoundland and Labrador,2,July,July-W2
+2020-07-08,5,13,Northwest Territories,2,July,July-W2
+2020-07-08,1066,2,Nova Scotia,2,July,July-W2
+2020-07-08,38079,11,Ontario,2,July,July-W2
+2020-07-08,32,8,Prince Edward Island,2,July,July-W2
+2020-07-08,56079,1,Quebec,2,July,July-W2
+2020-07-08,808,3,Saskatchewan,2,July,July-W2
+2020-07-08,11,9,Yukon,2,July,July-W2
+2020-07-08,0,12,Nunavut,2,July,July-W2
+2020-07-09,8519,4,Alberta,2,July,July-W2
+2020-07-09,3028,6,British Columbia,2,July,July-W2
+2020-07-09,325,10,Manitoba,2,July,July-W2
+2020-07-09,166,7,New Brunswick,2,July,July-W2
+2020-07-09,261,5,Newfoundland and Labrador,2,July,July-W2
+2020-07-09,5,13,Northwest Territories,2,July,July-W2
+2020-07-09,1066,2,Nova Scotia,2,July,July-W2
+2020-07-09,38200,11,Ontario,2,July,July-W2
+2020-07-09,33,8,Prince Edward Island,2,July,July-W2
+2020-07-09,56216,1,Quebec,2,July,July-W2
+2020-07-09,813,3,Saskatchewan,2,July,July-W2
+2020-07-09,11,9,Yukon,2,July,July-W2
+2020-07-09,0,12,Nunavut,2,July,July-W2
+2020-07-10,8596,4,Alberta,2,July,July-W2
+2020-07-10,3053,6,British Columbia,2,July,July-W2
+2020-07-10,325,10,Manitoba,2,July,July-W2
+2020-07-10,166,7,New Brunswick,2,July,July-W2
+2020-07-10,262,5,Newfoundland and Labrador,2,July,July-W2
+2020-07-10,5,13,Northwest Territories,2,July,July-W2
+2020-07-10,1066,2,Nova Scotia,2,July,July-W2
+2020-07-10,38323,11,Ontario,2,July,July-W2
+2020-07-10,33,8,Prince Edward Island,2,July,July-W2
+2020-07-10,56316,1,Quebec,2,July,July-W2
+2020-07-10,815,3,Saskatchewan,2,July,July-W2
+2020-07-10,11,9,Yukon,2,July,July-W2
+2020-07-10,0,12,Nunavut,2,July,July-W2
+2020-07-11,8596,4,Alberta,2,July,July-W2
+2020-07-11,3053,6,British Columbia,2,July,July-W2
+2020-07-11,325,10,Manitoba,2,July,July-W2
+2020-07-11,166,7,New Brunswick,2,July,July-W2
+2020-07-11,262,5,Newfoundland and Labrador,2,July,July-W2
+2020-07-11,5,13,Northwest Territories,2,July,July-W2
+2020-07-11,1066,2,Nova Scotia,2,July,July-W2
+2020-07-11,38398,11,Ontario,2,July,July-W2
+2020-07-11,33,8,Prince Edward Island,2,July,July-W2
+2020-07-11,56407,1,Quebec,2,July,July-W2
+2020-07-11,815,3,Saskatchewan,2,July,July-W2
+2020-07-11,11,9,Yukon,2,July,July-W2
+2020-07-11,0,12,Nunavut,2,July,July-W2
+2020-07-12,8596,4,Alberta,2,July,July-W2
+2020-07-12,3053,6,British Columbia,2,July,July-W2
+2020-07-12,325,10,Manitoba,2,July,July-W2
+2020-07-12,166,7,New Brunswick,2,July,July-W2
+2020-07-12,262,5,Newfoundland and Labrador,2,July,July-W2
+2020-07-12,5,13,Northwest Territories,2,July,July-W2
+2020-07-12,1066,2,Nova Scotia,2,July,July-W2
+2020-07-12,38481,11,Ontario,2,July,July-W2
+2020-07-12,34,8,Prince Edward Island,2,July,July-W2
+2020-07-12,56521,1,Quebec,2,July,July-W2
+2020-07-12,815,3,Saskatchewan,2,July,July-W2
+2020-07-12,11,9,Yukon,2,July,July-W2
+2020-07-12,0,12,Nunavut,2,July,July-W2
+2020-07-13,8826,4,Alberta,2,July,July-W2
+2020-07-13,3053,6,British Columbia,2,July,July-W2
+2020-07-13,325,10,Manitoba,2,July,July-W2
+2020-07-13,166,7,New Brunswick,2,July,July-W2
+2020-07-13,262,5,Newfoundland and Labrador,2,July,July-W2
+2020-07-13,5,13,Northwest Territories,2,July,July-W2
+2020-07-13,1066,2,Nova Scotia,2,July,July-W2
+2020-07-13,38730,11,Ontario,2,July,July-W2
+2020-07-13,35,8,Prince Edward Island,2,July,July-W2
+2020-07-13,56621,1,Quebec,2,July,July-W2
+2020-07-13,871,3,Saskatchewan,2,July,July-W2
+2020-07-13,11,9,Yukon,2,July,July-W2
+2020-07-13,0,12,Nunavut,2,July,July-W2
+2020-07-14,8912,4,Alberta,2,July,July-W2
+2020-07-14,3128,6,British Columbia,2,July,July-W2
+2020-07-14,330,10,Manitoba,2,July,July-W2
+2020-07-14,167,7,New Brunswick,2,July,July-W2
+2020-07-14,262,5,Newfoundland and Labrador,2,July,July-W2
+2020-07-14,5,13,Northwest Territories,2,July,July-W2
+2020-07-14,1066,2,Nova Scotia,2,July,July-W2
+2020-07-14,38814,11,Ontario,2,July,July-W2
+2020-07-14,36,8,Prince Edward Island,2,July,July-W2
+2020-07-14,56730,1,Quebec,2,July,July-W2
+2020-07-14,876,3,Saskatchewan,2,July,July-W2
+2020-07-14,11,9,Yukon,2,July,July-W2
+2020-07-14,0,12,Nunavut,2,July,July-W2
+2020-07-15,8994,4,Alberta,3,July,July-W3
+2020-07-15,3149,6,British Columbia,3,July,July-W3
+2020-07-15,330,10,Manitoba,3,July,July-W3
+2020-07-15,168,7,New Brunswick,3,July,July-W3
+2020-07-15,262,5,Newfoundland and Labrador,3,July,July-W3
+2020-07-15,5,13,Northwest Territories,3,July,July-W3
+2020-07-15,1067,2,Nova Scotia,3,July,July-W3
+2020-07-15,38918,11,Ontario,3,July,July-W3
+2020-07-15,36,8,Prince Edward Island,3,July,July-W3
+2020-07-15,56859,1,Quebec,3,July,July-W3
+2020-07-15,881,3,Saskatchewan,3,July,July-W3
+2020-07-15,11,9,Yukon,3,July,July-W3
+2020-07-15,0,12,Nunavut,3,July,July-W3
+2020-07-16,9114,4,Alberta,3,July,July-W3
+2020-07-16,3170,6,British Columbia,3,July,July-W3
+2020-07-16,331,10,Manitoba,3,July,July-W3
+2020-07-16,168,7,New Brunswick,3,July,July-W3
+2020-07-16,262,5,Newfoundland and Labrador,3,July,July-W3
+2020-07-16,5,13,Northwest Territories,3,July,July-W3
+2020-07-16,1067,2,Nova Scotia,3,July,July-W3
+2020-07-16,39043,11,Ontario,3,July,July-W3
+2020-07-16,36,8,Prince Edward Island,3,July,July-W3
+2020-07-16,57001,1,Quebec,3,July,July-W3
+2020-07-16,923,3,Saskatchewan,3,July,July-W3
+2020-07-16,11,9,Yukon,3,July,July-W3
+2020-07-16,0,12,Nunavut,3,July,July-W3
+2020-07-17,9219,4,Alberta,3,July,July-W3
+2020-07-17,3198,6,British Columbia,3,July,July-W3
+2020-07-17,336,10,Manitoba,3,July,July-W3
+2020-07-17,168,7,New Brunswick,3,July,July-W3
+2020-07-17,262,5,Newfoundland and Labrador,3,July,July-W3
+2020-07-17,5,13,Northwest Territories,3,July,July-W3
+2020-07-17,1067,2,Nova Scotia,3,July,July-W3
+2020-07-17,39164,11,Ontario,3,July,July-W3
+2020-07-17,36,8,Prince Edward Island,3,July,July-W3
+2020-07-17,57142,1,Quebec,3,July,July-W3
+2020-07-17,936,3,Saskatchewan,3,July,July-W3
+2020-07-17,13,9,Yukon,3,July,July-W3
+2020-07-17,0,12,Nunavut,3,July,July-W3
+2020-07-18,9219,4,Alberta,3,July,July-W3
+2020-07-18,3198,6,British Columbia,3,July,July-W3
+2020-07-18,337,10,Manitoba,3,July,July-W3
+2020-07-18,168,7,New Brunswick,3,July,July-W3
+2020-07-18,262,5,Newfoundland and Labrador,3,July,July-W3
+2020-07-18,5,13,Northwest Territories,3,July,July-W3
+2020-07-18,1067,2,Nova Scotia,3,July,July-W3
+2020-07-18,39316,11,Ontario,3,July,July-W3
+2020-07-18,36,8,Prince Edward Island,3,July,July-W3
+2020-07-18,57300,1,Quebec,3,July,July-W3
+2020-07-18,941,3,Saskatchewan,3,July,July-W3
+2020-07-18,13,9,Yukon,3,July,July-W3
+2020-07-18,0,12,Nunavut,3,July,July-W3
+2020-07-19,9219,4,Alberta,3,July,July-W3
+2020-07-19,3198,6,British Columbia,3,July,July-W3
+2020-07-19,343,10,Manitoba,3,July,July-W3
+2020-07-19,169,7,New Brunswick,3,July,July-W3
+2020-07-19,262,5,Newfoundland and Labrador,3,July,July-W3
+2020-07-19,5,13,Northwest Territories,3,July,July-W3
+2020-07-19,1067,2,Nova Scotia,3,July,July-W3
+2020-07-19,39434,11,Ontario,3,July,July-W3
+2020-07-19,36,8,Prince Edward Island,3,July,July-W3
+2020-07-19,57466,1,Quebec,3,July,July-W3
+2020-07-19,943,3,Saskatchewan,3,July,July-W3
+2020-07-19,13,9,Yukon,3,July,July-W3
+2020-07-19,0,12,Nunavut,3,July,July-W3
+2020-07-20,9587,4,Alberta,3,July,July-W3
+2020-07-20,3300,6,British Columbia,3,July,July-W3
+2020-07-20,354,10,Manitoba,3,July,July-W3
+2020-07-20,170,7,New Brunswick,3,July,July-W3
+2020-07-20,262,5,Newfoundland and Labrador,3,July,July-W3
+2020-07-20,5,13,Northwest Territories,3,July,July-W3
+2020-07-20,1067,2,Nova Scotia,3,July,July-W3
+2020-07-20,39553,11,Ontario,3,July,July-W3
+2020-07-20,36,8,Prince Edward Island,3,July,July-W3
+2020-07-20,57616,1,Quebec,3,July,July-W3
+2020-07-20,962,3,Saskatchewan,3,July,July-W3
+2020-07-20,13,9,Yukon,3,July,July-W3
+2020-07-20,0,12,Nunavut,3,July,July-W3
+2020-07-21,9728,4,Alberta,3,July,July-W3
+2020-07-21,3328,6,British Columbia,3,July,July-W3
+2020-07-21,366,10,Manitoba,3,July,July-W3
+2020-07-21,170,7,New Brunswick,3,July,July-W3
+2020-07-21,263,5,Newfoundland and Labrador,3,July,July-W3
+2020-07-21,5,13,Northwest Territories,3,July,July-W3
+2020-07-21,1067,2,Nova Scotia,3,July,July-W3
+2020-07-21,39718,11,Ontario,3,July,July-W3
+2020-07-21,36,8,Prince Edward Island,3,July,July-W3
+2020-07-21,57796,1,Quebec,3,July,July-W3
+2020-07-21,970,3,Saskatchewan,3,July,July-W3
+2020-07-21,13,9,Yukon,3,July,July-W3
+2020-07-21,0,12,Nunavut,3,July,July-W3
+2020-07-22,9728,4,Alberta,4,July,July-W4
+2020-07-22,3328,6,British Columbia,4,July,July-W4
+2020-07-22,374,10,Manitoba,4,July,July-W4
+2020-07-22,170,7,New Brunswick,4,July,July-W4
+2020-07-22,264,5,Newfoundland and Labrador,4,July,July-W4
+2020-07-22,5,13,Northwest Territories,4,July,July-W4
+2020-07-22,1067,2,Nova Scotia,4,July,July-W4
+2020-07-22,39824,11,Ontario,4,July,July-W4
+2020-07-22,36,8,Prince Edward Island,4,July,July-W4
+2020-07-22,57938,1,Quebec,4,July,July-W4
+2020-07-22,1030,3,Saskatchewan,4,July,July-W4
+2020-07-22,13,9,Yukon,4,July,July-W4
+2020-07-22,0,12,Nunavut,4,July,July-W4
+2020-07-23,9975,4,Alberta,4,July,July-W4
+2020-07-23,3392,6,British Columbia,4,July,July-W4
+2020-07-23,375,10,Manitoba,4,July,July-W4
+2020-07-23,170,7,New Brunswick,4,July,July-W4
+2020-07-23,264,5,Newfoundland and Labrador,4,July,July-W4
+2020-07-23,5,13,Northwest Territories,4,July,July-W4
+2020-07-23,1067,2,Nova Scotia,4,July,July-W4
+2020-07-23,39936,11,Ontario,4,July,July-W4
+2020-07-23,36,8,Prince Edward Island,4,July,July-W4
+2020-07-23,58080,1,Quebec,4,July,July-W4
+2020-07-23,1072,3,Saskatchewan,4,July,July-W4
+2020-07-23,13,9,Yukon,4,July,July-W4
+2020-07-23,0,12,Nunavut,4,July,July-W4
+2020-07-24,10086,4,Alberta,4,July,July-W4
+2020-07-24,3392,6,British Columbia,4,July,July-W4
+2020-07-24,384,10,Manitoba,4,July,July-W4
+2020-07-24,170,7,New Brunswick,4,July,July-W4
+2020-07-24,265,5,Newfoundland and Labrador,4,July,July-W4
+2020-07-24,5,13,Northwest Territories,4,July,July-W4
+2020-07-24,1067,2,Nova Scotia,4,July,July-W4
+2020-07-24,40341,11,Ontario,4,July,July-W4
+2020-07-24,36,8,Prince Edward Island,4,July,July-W4
+2020-07-24,58243,1,Quebec,4,July,July-W4
+2020-07-24,1099,3,Saskatchewan,4,July,July-W4
+2020-07-24,14,9,Yukon,4,July,July-W4
+2020-07-24,0,12,Nunavut,4,July,July-W4
+2020-07-25,10086,4,Alberta,4,July,July-W4
+2020-07-25,3419,6,British Columbia,4,July,July-W4
+2020-07-25,388,10,Manitoba,4,July,July-W4
+2020-07-25,170,7,New Brunswick,4,July,July-W4
+2020-07-25,265,5,Newfoundland and Labrador,4,July,July-W4
+2020-07-25,5,13,Northwest Territories,4,July,July-W4
+2020-07-25,1067,2,Nova Scotia,4,July,July-W4
+2020-07-25,40457,11,Ontario,4,July,July-W4
+2020-07-25,36,8,Prince Edward Island,4,July,July-W4
+2020-07-25,58414,1,Quebec,4,July,July-W4
+2020-07-25,1136,3,Saskatchewan,4,July,July-W4
+2020-07-25,14,9,Yukon,4,July,July-W4
+2020-07-25,0,12,Nunavut,4,July,July-W4
+2020-07-26,10086,4,Alberta,4,July,July-W4
+2020-07-26,3419,6,British Columbia,4,July,July-W4
+2020-07-26,394,10,Manitoba,4,July,July-W4
+2020-07-26,170,7,New Brunswick,4,July,July-W4
+2020-07-26,266,5,Newfoundland and Labrador,4,July,July-W4
+2020-07-26,5,13,Northwest Territories,4,July,July-W4
+2020-07-26,1067,2,Nova Scotia,4,July,July-W4
+2020-07-26,40558,11,Ontario,4,July,July-W4
+2020-07-26,36,8,Prince Edward Island,4,July,July-W4
+2020-07-26,58583,1,Quebec,4,July,July-W4
+2020-07-26,1178,3,Saskatchewan,4,July,July-W4
+2020-07-26,14,9,Yukon,4,July,July-W4
+2020-07-26,0,12,Nunavut,4,July,July-W4
+2020-07-27,10390,4,Alberta,4,July,July-W4
+2020-07-27,3500,6,British Columbia,4,July,July-W4
+2020-07-27,400,10,Manitoba,4,July,July-W4
+2020-07-27,170,7,New Brunswick,4,July,July-W4
+2020-07-27,266,5,Newfoundland and Labrador,4,July,July-W4
+2020-07-27,5,13,Northwest Territories,4,July,July-W4
+2020-07-27,1067,2,Nova Scotia,4,July,July-W4
+2020-07-27,40673,11,Ontario,4,July,July-W4
+2020-07-27,36,8,Prince Edward Island,4,July,July-W4
+2020-07-27,58728,1,Quebec,4,July,July-W4
+2020-07-27,1209,3,Saskatchewan,4,July,July-W4
+2020-07-27,14,9,Yukon,4,July,July-W4
+2020-07-27,0,12,Nunavut,4,July,July-W4
+2020-07-28,10470,4,Alberta,4,July,July-W4
+2020-07-28,3523,6,British Columbia,4,July,July-W4
+2020-07-28,405,10,Manitoba,4,July,July-W4
+2020-07-28,170,7,New Brunswick,4,July,July-W4
+2020-07-28,266,5,Newfoundland and Labrador,4,July,July-W4
+2020-07-28,5,13,Northwest Territories,4,July,July-W4
+2020-07-28,1067,2,Nova Scotia,4,July,July-W4
+2020-07-28,40787,11,Ontario,4,July,July-W4
+2020-07-28,36,8,Prince Edward Island,4,July,July-W4
+2020-07-28,58897,1,Quebec,4,July,July-W4
+2020-07-28,1218,3,Saskatchewan,4,July,July-W4
+2020-07-28,14,9,Yukon,4,July,July-W4
+2020-07-28,0,12,Nunavut,4,July,July-W4
+2020-07-29,10603,4,Alberta,4,July,July-W4
+2020-07-29,3562,6,British Columbia,4,July,July-W4
+2020-07-29,407,10,Manitoba,4,July,July-W4
+2020-07-29,170,7,New Brunswick,4,July,July-W4
+2020-07-29,266,5,Newfoundland and Labrador,4,July,July-W4
+2020-07-29,5,13,Northwest Territories,4,July,July-W4
+2020-07-29,1067,2,Nova Scotia,4,July,July-W4
+2020-07-29,40873,11,Ontario,4,July,July-W4
+2020-07-29,36,8,Prince Edward Island,4,July,July-W4
+2020-07-29,59073,1,Quebec,4,July,July-W4
+2020-07-29,1268,3,Saskatchewan,4,July,July-W4
+2020-07-29,14,9,Yukon,4,July,July-W4
+2020-07-29,0,12,Nunavut,4,July,July-W4
+2020-07-30,10716,4,Alberta,4,July,July-W4
+2020-07-30,3591,6,British Columbia,4,July,July-W4
+2020-07-30,409,10,Manitoba,4,July,July-W4
+2020-07-30,170,7,New Brunswick,4,July,July-W4
+2020-07-30,266,5,Newfoundland and Labrador,4,July,July-W4
+2020-07-30,5,13,Northwest Territories,4,July,July-W4
+2020-07-30,1067,2,Nova Scotia,4,July,July-W4
+2020-07-30,40953,11,Ontario,4,July,July-W4
+2020-07-30,36,8,Prince Edward Island,4,July,July-W4
+2020-07-30,59131,1,Quebec,4,July,July-W4
+2020-07-30,1306,3,Saskatchewan,4,July,July-W4
+2020-07-30,14,9,Yukon,4,July,July-W4
+2020-07-30,0,12,Nunavut,4,July,July-W4
+2020-07-31,10843,4,Alberta,4,July,July-W4
+2020-07-31,3641,6,British Columbia,4,July,July-W4
+2020-07-31,415,10,Manitoba,4,July,July-W4
+2020-07-31,170,7,New Brunswick,4,July,July-W4
+2020-07-31,266,5,Newfoundland and Labrador,4,July,July-W4
+2020-07-31,5,13,Northwest Territories,4,July,July-W4
+2020-07-31,1069,2,Nova Scotia,4,July,July-W4
+2020-07-31,41178,11,Ontario,4,July,July-W4
+2020-07-31,36,8,Prince Edward Island,4,July,July-W4
+2020-07-31,59312,1,Quebec,4,July,July-W4
+2020-07-31,1319,3,Saskatchewan,4,July,July-W4
+2020-07-31,14,9,Yukon,4,July,July-W4
+2020-07-31,0,12,Nunavut,4,July,July-W4
+2020-08-01,10843,4,Alberta,1,July,July-W1
+2020-08-01,3641,6,British Columbia,1,July,July-W1
+2020-08-01,417,10,Manitoba,1,July,July-W1
+2020-08-01,170,7,New Brunswick,1,July,July-W1
+2020-08-01,266,5,Newfoundland and Labrador,1,July,July-W1
+2020-08-01,5,13,Northwest Territories,1,July,July-W1
+2020-08-01,1069,2,Nova Scotia,1,July,July-W1
+2020-08-01,41257,11,Ontario,1,July,July-W1
+2020-08-01,36,8,Prince Edward Island,1,July,July-W1
+2020-08-01,59458,1,Quebec,1,July,July-W1
+2020-08-01,1334,3,Saskatchewan,1,July,July-W1
+2020-08-01,14,9,Yukon,1,July,July-W1
+2020-08-01,0,12,Nunavut,1,July,July-W1
+2020-08-02,10843,4,Alberta,1,July,July-W1
+2020-08-02,3641,6,British Columbia,1,July,July-W1
+2020-08-02,435,10,Manitoba,1,July,July-W1
+2020-08-02,170,7,New Brunswick,1,July,July-W1
+2020-08-02,266,5,Newfoundland and Labrador,1,July,July-W1
+2020-08-02,5,13,Northwest Territories,1,July,July-W1
+2020-08-02,1071,2,Nova Scotia,1,July,July-W1
+2020-08-02,41333,11,Ontario,1,July,July-W1
+2020-08-02,36,8,Prince Edward Island,1,July,July-W1
+2020-08-02,59599,1,Quebec,1,July,July-W1
+2020-08-02,1342,3,Saskatchewan,1,July,July-W1
+2020-08-02,14,9,Yukon,1,July,July-W1
+2020-08-02,0,12,Nunavut,1,July,July-W1
+2020-08-03,10843,4,Alberta,1,July,July-W1
+2020-08-03,3641,6,British Columbia,1,July,July-W1
+2020-08-03,442,10,Manitoba,1,July,July-W1
+2020-08-03,170,7,New Brunswick,1,July,July-W1
+2020-08-03,266,5,Newfoundland and Labrador,1,July,July-W1
+2020-08-03,5,13,Northwest Territories,1,July,July-W1
+2020-08-03,1071,2,Nova Scotia,1,July,July-W1
+2020-08-03,41391,11,Ontario,1,July,July-W1
+2020-08-03,36,8,Prince Edward Island,1,July,July-W1
+2020-08-03,59722,1,Quebec,1,July,July-W1
+2020-08-03,1359,3,Saskatchewan,1,July,July-W1
+2020-08-03,14,9,Yukon,1,July,July-W1
+2020-08-03,0,12,Nunavut,1,July,July-W1
+2020-08-04,11146,4,Alberta,1,July,July-W1
+2020-08-04,3787,6,British Columbia,1,July,July-W1
+2020-08-04,443,10,Manitoba,1,July,July-W1
+2020-08-04,170,7,New Brunswick,1,July,July-W1
+2020-08-04,266,5,Newfoundland and Labrador,1,July,July-W1
+2020-08-04,5,13,Northwest Territories,1,July,July-W1
+2020-08-04,1071,2,Nova Scotia,1,July,July-W1
+2020-08-04,41495,11,Ontario,1,July,July-W1
+2020-08-04,36,8,Prince Edward Island,1,July,July-W1
+2020-08-04,59845,1,Quebec,1,July,July-W1
+2020-08-04,1368,3,Saskatchewan,1,July,July-W1
+2020-08-04,14,9,Yukon,1,July,July-W1
+2020-08-04,0,12,Nunavut,1,July,July-W1
+2020-08-05,11240,4,Alberta,1,July,July-W1
+2020-08-05,3834,6,British Columbia,1,July,July-W1
+2020-08-05,444,10,Manitoba,1,July,July-W1
+2020-08-05,174,7,New Brunswick,1,July,July-W1
+2020-08-05,266,5,Newfoundland and Labrador,1,July,July-W1
+2020-08-05,5,13,Northwest Territories,1,July,July-W1
+2020-08-05,1071,2,Nova Scotia,1,July,July-W1
+2020-08-05,41560,11,Ontario,1,July,July-W1
+2020-08-05,36,8,Prince Edward Island,1,July,July-W1
+2020-08-05,60000,1,Quebec,1,July,July-W1
+2020-08-05,1376,3,Saskatchewan,1,July,July-W1
+2020-08-05,14,9,Yukon,1,July,July-W1
+2020-08-05,0,12,Nunavut,1,July,July-W1
+2020-08-06,11296,4,Alberta,1,July,July-W1
+2020-08-06,3881,6,British Columbia,1,July,July-W1
+2020-08-06,474,10,Manitoba,1,July,July-W1
+2020-08-06,176,7,New Brunswick,1,July,July-W1
+2020-08-06,266,5,Newfoundland and Labrador,1,July,July-W1
+2020-08-06,5,13,Northwest Territories,1,July,July-W1
+2020-08-06,1071,2,Nova Scotia,1,July,July-W1
+2020-08-06,41635,11,Ontario,1,July,July-W1
+2020-08-06,36,8,Prince Edward Island,1,July,July-W1
+2020-08-06,60133,1,Quebec,1,July,July-W1
+2020-08-06,1387,3,Saskatchewan,1,July,July-W1
+2020-08-06,14,9,Yukon,1,July,July-W1
+2020-08-06,0,12,Nunavut,1,July,July-W1
+2020-08-07,11430,4,Alberta,1,July,July-W1
+2020-08-07,3934,6,British Columbia,1,July,July-W1
+2020-08-07,491,10,Manitoba,1,July,July-W1
+2020-08-07,176,7,New Brunswick,1,July,July-W1
+2020-08-07,267,5,Newfoundland and Labrador,1,July,July-W1
+2020-08-07,5,13,Northwest Territories,1,July,July-W1
+2020-08-07,1071,2,Nova Scotia,1,July,July-W1
+2020-08-07,41815,11,Ontario,1,July,July-W1
+2020-08-07,36,8,Prince Edward Island,1,July,July-W1
+2020-08-07,60241,1,Quebec,1,July,July-W1
+2020-08-07,1409,3,Saskatchewan,1,July,July-W1
+2020-08-07,15,9,Yukon,1,July,July-W1
+2020-08-07,0,12,Nunavut,1,July,July-W1
+2020-08-08,11430,4,Alberta,2,August,August-W2
+2020-08-08,3934,6,British Columbia,2,August,August-W2
+2020-08-08,507,10,Manitoba,2,August,August-W2
+2020-08-08,176,7,New Brunswick,2,August,August-W2
+2020-08-08,267,5,Newfoundland and Labrador,2,August,August-W2
+2020-08-08,5,13,Northwest Territories,2,August,August-W2
+2020-08-08,1071,2,Nova Scotia,2,August,August-W2
+2020-08-08,41894,11,Ontario,2,August,August-W2
+2020-08-08,36,8,Prince Edward Island,2,August,August-W2
+2020-08-08,60367,1,Quebec,2,August,August-W2
+2020-08-08,1433,3,Saskatchewan,2,August,August-W2
+2020-08-08,15,9,Yukon,2,August,August-W2
+2020-08-08,0,12,Nunavut,2,August,August-W2
+2020-08-09,11430,4,Alberta,2,August,August-W2
+2020-08-09,3934,6,British Columbia,2,August,August-W2
+2020-08-09,542,10,Manitoba,2,August,August-W2
+2020-08-09,176,7,New Brunswick,2,August,August-W2
+2020-08-09,267,5,Newfoundland and Labrador,2,August,August-W2
+2020-08-09,5,13,Northwest Territories,2,August,August-W2
+2020-08-09,1071,2,Nova Scotia,2,August,August-W2
+2020-08-09,41962,11,Ontario,2,August,August-W2
+2020-08-09,36,8,Prince Edward Island,2,August,August-W2
+2020-08-09,60471,1,Quebec,2,August,August-W2
+2020-08-09,1445,3,Saskatchewan,2,August,August-W2
+2020-08-09,15,9,Yukon,2,August,August-W2
+2020-08-09,0,12,Nunavut,2,August,August-W2
+2020-08-10,11687,4,Alberta,2,August,August-W2
+2020-08-10,4065,6,British Columbia,2,August,August-W2
+2020-08-10,558,10,Manitoba,2,August,August-W2
+2020-08-10,176,7,New Brunswick,2,August,August-W2
+2020-08-10,268,5,Newfoundland and Labrador,2,August,August-W2
+2020-08-10,5,13,Northwest Territories,2,August,August-W2
+2020-08-10,1071,2,Nova Scotia,2,August,August-W2
+2020-08-10,42082,11,Ontario,2,August,August-W2
+2020-08-10,36,8,Prince Edward Island,2,August,August-W2
+2020-08-10,60627,1,Quebec,2,August,August-W2
+2020-08-10,1450,3,Saskatchewan,2,August,August-W2
+2020-08-10,15,9,Yukon,2,August,August-W2
+2020-08-10,0,12,Nunavut,2,August,August-W2
+2020-08-11,11772,4,Alberta,2,August,August-W2
+2020-08-11,4111,6,British Columbia,2,August,August-W2
+2020-08-11,562,10,Manitoba,2,August,August-W2
+2020-08-11,177,7,New Brunswick,2,August,August-W2
+2020-08-11,268,5,Newfoundland and Labrador,2,August,August-W2
+2020-08-11,5,13,Northwest Territories,2,August,August-W2
+2020-08-11,1071,2,Nova Scotia,2,August,August-W2
+2020-08-11,42162,11,Ontario,2,August,August-W2
+2020-08-11,36,8,Prince Edward Island,2,August,August-W2
+2020-08-11,60718,1,Quebec,2,August,August-W2
+2020-08-11,1479,3,Saskatchewan,2,August,August-W2
+2020-08-11,15,9,Yukon,2,August,August-W2
+2020-08-11,0,12,Nunavut,2,August,August-W2
+2020-08-12,11893,4,Alberta,2,August,August-W2
+2020-08-12,4111,6,British Columbia,2,August,August-W2
+2020-08-12,578,10,Manitoba,2,August,August-W2
+2020-08-12,178,7,New Brunswick,2,August,August-W2
+2020-08-12,268,5,Newfoundland and Labrador,2,August,August-W2
+2020-08-12,5,13,Northwest Territories,2,August,August-W2
+2020-08-12,1071,2,Nova Scotia,2,August,August-W2
+2020-08-12,42233,11,Ontario,2,August,August-W2
+2020-08-12,41,8,Prince Edward Island,2,August,August-W2
+2020-08-12,60813,1,Quebec,2,August,August-W2
+2020-08-12,1484,3,Saskatchewan,2,August,August-W2
+2020-08-12,15,9,Yukon,2,August,August-W2
+2020-08-12,0,12,Nunavut,2,August,August-W2
+2020-08-13,11969,4,Alberta,2,August,August-W2
+2020-08-13,4274,6,British Columbia,2,August,August-W2
+2020-08-13,603,10,Manitoba,2,August,August-W2
+2020-08-13,180,7,New Brunswick,2,August,August-W2
+2020-08-13,268,5,Newfoundland and Labrador,2,August,August-W2
+2020-08-13,5,13,Northwest Territories,2,August,August-W2
+2020-08-13,1071,2,Nova Scotia,2,August,August-W2
+2020-08-13,42313,11,Ontario,2,August,August-W2
+2020-08-13,41,8,Prince Edward Island,2,August,August-W2
+2020-08-13,60917,1,Quebec,2,August,August-W2
+2020-08-13,1511,3,Saskatchewan,2,August,August-W2
+2020-08-13,15,9,Yukon,2,August,August-W2
+2020-08-13,0,12,Nunavut,2,August,August-W2
+2020-08-14,12053,4,Alberta,2,August,August-W2
+2020-08-14,4358,6,British Columbia,2,August,August-W2
+2020-08-14,643,10,Manitoba,2,August,August-W2
+2020-08-14,180,7,New Brunswick,2,August,August-W2
+2020-08-14,268,5,Newfoundland and Labrador,2,August,August-W2
+2020-08-14,5,13,Northwest Territories,2,August,August-W2
+2020-08-14,1072,2,Nova Scotia,2,August,August-W2
+2020-08-14,42412,11,Ontario,2,August,August-W2
+2020-08-14,41,8,Prince Edward Island,2,August,August-W2
+2020-08-14,61004,1,Quebec,2,August,August-W2
+2020-08-14,1541,3,Saskatchewan,2,August,August-W2
+2020-08-14,15,9,Yukon,2,August,August-W2
+2020-08-14,0,12,Nunavut,2,August,August-W2
+2020-08-15,12053,4,Alberta,3,August,August-W3
+2020-08-15,4358,6,British Columbia,3,August,August-W3
+2020-08-15,663,10,Manitoba,3,August,August-W3
+2020-08-15,184,7,New Brunswick,3,August,August-W3
+2020-08-15,268,5,Newfoundland and Labrador,3,August,August-W3
+2020-08-15,5,13,Northwest Territories,3,August,August-W3
+2020-08-15,1074,2,Nova Scotia,3,August,August-W3
+2020-08-15,42501,11,Ontario,3,August,August-W3
+2020-08-15,41,8,Prince Edward Island,3,August,August-W3
+2020-08-15,61084,1,Quebec,3,August,August-W3
+2020-08-15,1566,3,Saskatchewan,3,August,August-W3
+2020-08-15,15,9,Yukon,3,August,August-W3
+2020-08-15,0,12,Nunavut,3,August,August-W3
+2020-08-16,12053,4,Alberta,3,August,August-W3
+2020-08-16,4358,6,British Columbia,3,August,August-W3
+2020-08-16,697,10,Manitoba,3,August,August-W3
+2020-08-16,186,7,New Brunswick,3,August,August-W3
+2020-08-16,268,5,Newfoundland and Labrador,3,August,August-W3
+2020-08-16,5,13,Northwest Territories,3,August,August-W3
+2020-08-16,1074,2,Nova Scotia,3,August,August-W3
+2020-08-16,42563,11,Ontario,3,August,August-W3
+2020-08-16,41,8,Prince Edward Island,3,August,August-W3
+2020-08-16,61151,1,Quebec,3,August,August-W3
+2020-08-16,1580,3,Saskatchewan,3,August,August-W3
+2020-08-16,15,9,Yukon,3,August,August-W3
+2020-08-16,0,12,Nunavut,3,August,August-W3

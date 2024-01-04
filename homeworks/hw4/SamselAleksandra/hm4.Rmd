@@ -1,0 +1,117 @@
+---
+title: "Praca domowa 4"
+author: "Samsel Aleksandra"
+date: "2023-12-10"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Wizualizacja i źródła
+
+Poniższa wizualizacja pochodzi z programu *Wiadomości* programu telewizyjnego 
+TVP1 z roku 2021.
+
+![](wydatki.png)
+
+### Co jest nie tak?
+
+Oś pionowa wykresu nie zaczyna się od 0, co wprowadza złudzenie większej różnicy 
+w wartościach dla kolejnych lat. Dodatkowo barkuje wartości, np. z lat 2017 - 2019,
+co też nie zostało odnotowane w żaden sposób na wykresie. Ostatnim mankamentem 
+jest nieoznaczenie lat 2023, 2027 jako prognozy a nie, tak jak przedstawiają 
+pozostałe słupki, rzeczywiste wartości.
+
+### Poprawiony wykres
+
+```{r kod, , error=FALSE, warning=FALSE, message=FALSE, results="markup"}
+library(plotly)
+
+df <- data.frame(
+        year = c(2009:2027),
+        data = c(0.048, 0.047, 0.045, 0.044, 0.046, 0.044, 0.044, 0.045, 0.046, 
+                 0.045, 0.046, 0.05, 0.053, NA, 0.06, NA, NA, NA, 0.07)
+)
+
+df_lightblue <- df[1:7, ]
+df_lightgreen <- df[8:13, ]
+df_orange <- df[14:19, ]
+
+p <- plot_ly() %>%
+        add_bars(data = df_lightblue, x = ~year, y = ~data, name = 'Rząd PO-PSL', marker = list(color = 'lightblue')) %>%
+        add_bars(data = df_lightgreen, x = ~year, y = ~data, name = 'Rząd PIS', marker = list(color = 'lightgreen')) %>%
+        add_bars(data = df_orange, x = ~year, y = ~data, name = 'Prognoza', marker = list(color = 'orange'))
+
+updatemenus <- list(
+        list(type = 'dropdown',
+             buttons = list(
+                     list(method = 'update',
+                          args = list(
+                                  list(visible = list(TRUE, TRUE, TRUE), showlegend = list(TRUE, TRUE, TRUE)),
+                                  list(xaxis = list(range = c(2008.5, 2027.5), 
+                                                    tickvals = df$year,
+                                                    rangeslider = list(type = 'linear', visible = TRUE)),
+                                       legend = list(visible = TRUE, x = 1.01, xanchor = 'left', y = .8, yanchor = 'top'))),
+                          label = 'Wszystkie'),
+                     list(method = 'update',
+                          args = list(
+                                  list(visible = list(TRUE, FALSE, FALSE), showlegend = list(FALSE, FALSE, FALSE)), 
+                                  list(xaxis = list(range = c(2008.5, 2015.5), tickvals = df$year),
+                                       legend = list(visible = FALSE))),
+                          label = 'Rząd PO-PSL'),
+                     list(method = 'update',
+                          args = list(
+                                  list(visible = list(FALSE, TRUE, FALSE), showlegend = list(FALSE, FALSE, FALSE)), 
+                                  list(xaxis = list(range = c(2015.5, 2021.5), tickvals = df$year),
+                                       legend = list(visible = FALSE))),
+                          label = 'Rząd PIS')), 
+             direction = 'down', showactive = TRUE, 
+             x = 1.05, xanchor = 'left', y = .95, yanchor = 'top'
+        )
+)
+        
+p <- p %>%         
+        layout(title = list(text = 'Wydatki na ochronę zdrowia jako % PKB',
+                            x = 0, y = 1.1, xref = 'paper',  yref = 'paper'),
+               xaxis = list(title = 'Rok', tickvals = df$year,
+                        rangeslider = list(type = 'linear', visible = TRUE),
+                        range = c(2008.5, 2027.5), type = 'linear'),
+               yaxis = list(title = "", tickformat = '.0%', 
+                             hoverformat = '.1%'),
+               legend = list(visible = FALSE, x = 1.01, xanchor = 'left', y = .8, yanchor = 'top'),
+               updatemenus = updatemenus)
+
+
+
+for(i in which(is.na(df$data))){
+        p <- p %>% add_annotations(
+                x = df$year[i],
+                y = 0,
+                text = "Brak danych",
+                showarrow = FALSE,
+                xanchor = 'center',
+                yanchor = 'bottom',
+                textangle = 90
+        )
+}
+```
+
+
+
+```{r wykres, echo=FALSE, warning=FALSE}
+p
+```
+
+### Co zostało poprawione?
+
+Po pierwsze skala pionowa zaczyna się od 0. Po drugie do wykresu zostały dodane 
+brakujące dane dla lat 2017 - 2019 (z tego samego źródła, 
+czyli z GUSu). Na wykresie został również zaznaczony brak danych dla lat 2022,
+2024-2026. Dodatkowo został wprowadzony nowy kolor oznaczający, że dane przedstawiają
+prognozowane wartości. Na dole wykresu znajduje się suwak, dzięki któremu możemy wybrać 
+interesujący nas zakres lat (zbyt duża ilość danych może być przytłaczająca).
+Dodatkowo po prawej stronie można wybrać interesującą nas kadencję rządu do porównania.
+Ostatnim  elementem są dokładne wartości, które możemy zobaczyć po najechaniu na
+wybrany słupek.

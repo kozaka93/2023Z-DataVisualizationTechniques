@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TWD 5</title>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3f3f3;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    
+    animation: snow 10s linear infinite;
+  
+  }
+.wood{
+	width:60px;
+	height:20px;
+	background-color:brown;
+	transform:translate(-50%,-50%);
+	position:absolute;
+	bottom:-330px;
+	left:50%;
+}
+  .tree {
+    width: 0;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 300px solid #2ecc71;
+    position: relative;
+    z-index:10;
+  }
+
+  .bombshell {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border:0;
+    position: absolute;
+    z-index:20;
+	transform:translate(-50%,-50%);
+    background-color:#c0392b;
+    cursor: pointer;
+    transition: transform 0.3s;
+    text-align:center;
+    padding:2px;
+    color:white;
+    
+  }
+
+  .bombshell:hover {
+    transform: scale(1.2) translate(-50%,-50%) ;
+  }
+
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 30;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    text-align: center;
+  }
+  
+  
+  @keyframes snow {
+    0% {background-color: #f3f3f3;}
+    50% {background-color: #e0e0e0;}
+    100% {background-color: #f3f3f3;}
+  }
+
+
+  .light {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: yellow;
+    box-shadow: 0 0 10px yellow;
+    opacity: 0;
+    transition: opacity 0.5s;
+    z-index: 15;
+    animation: twinkle 3s infinite alternate;
+  }
+
+  @keyframes twinkle {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  
+  .close{
+  cursor:pointer;
+  }
+
+  
+</style>
+</head>
+<body>
+<div class="tree">
+ 
+  <div class="bombshell" style="top:10px; left:0px;" id="bomb0">0</div>
+  <div class="bombshell" style="top:50px; left:10px;" id="bomb1">1</div>
+  <div class="bombshell" style="top:80px; left:-20px;" id="bomb2">2</div>
+    <div class="bombshell" style="top:120px; left:40px;" id="bomb3">3</div>
+  <div class="bombshell" style="top:150px; left:-20px;" id="bomb4">4</div>
+    <div class="bombshell" style="top:190px; left:80px;" id="bomb5">5</div>
+  <div class="bombshell" style="top:200px; left:-60px;" id="bomb6">6</div>
+  <div class="bombshell" style="top:240px; left:-10px;" id="bomb7">7</div>
+  <div class="bombshell" style="top:260px; left:-85px;" id="bomb8">8</div>
+  <div class="bombshell" style="top:280px; left:90px;" id="bomb9">9</div>
+  
+  <div class="light" style="top:60px; left:15px;"></div>
+  <div class="light" style="top:100px; left:-15px;"></div>
+  <div class="light" style="top:140px; left:25px;"></div>
+   <div class="light" style="top:180px; left:-30px;"></div>
+    <div class="light" style="top:220px; left:40px;"></div>
+     <div class="light" style="top:280px; left:-84px;"></div>
+  <div class="wood"></div>
+</div>
+
+
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p id="modalText">Bombshell Text Here</p>
+  </div>
+</div>
+
+<script>
+
+  var bombshellTexts = [
+   "Zero (0): Koncepcja zera jako liczby była rewolucyjna w matematyce. Pochodzi z Indii około 5 wieku i została później przekazana światu zachodniemu przez arabskich matematyków. Zero jest jedyną liczbą całkowitą, która nie jest ani dodatnia, ani ujemna i w wielu kulturach kojarzona jest z pojęciem próżni lub nicości.",
+  "Jeden (1): W matematyce jeden jest elementem neutralnym mnożenia, co oznacza, że każda liczba pomnożona przez jeden pozostaje tą samą liczbą. To jedyna dodatnia liczba całkowita, która nie jest ani liczbą pierwszą, ani złożoną.",
+  "Dwa (2): Dwa to jedyna parzysta liczba pierwsza, co czyni ją wyjątkową wśród wszystkich liczb. Jest także podstawą systemu dwójkowego, fundamentalnego dla cyfrowego przetwarzania danych.",
+  "Trzy (3): Trzy to pierwsza nieparzysta liczba pierwsza, a trójkąt, z jego trzema bokami, to jedyny wielokąt, który jest stabilny i nie wymaga dodatkowych informacji do określenia jego kształtu (co czyni go fundamentalnym w budownictwie i projektowaniu).",
+  "Cztery (4): Cztery to liczba symbolizująca stabilność i solidność w wielu kulturach. W matematyce jest to kwadrat liczby dwa, co czyni go pierwszą liczbą kwadratową.",
+  "Pięć (5): Pięć jest liczbą Fibonacciego, pojawiającą się naturalnie w wielu kontekstach biologicznych, na przykład w układzie kwiatów i muszli. To także liczba ludzkich zmysłów.",
+  "Sześć (6): Sześć jest pierwszą liczbą doskonałą w matematyce, co oznacza, że suma jej dzielników (1, 2 i 3) jest równa jej samej. Jest to również liczba boków i wierzchołków sześciokąta.",
+  "Siedem (7): Siedem często postrzegane jest jako liczba magiczna i święta w wielu kulturach i religiach. W tygodniu jest siedem dni, a w systemie tonacji muzycznych siedem różnych dźwięków.",
+  "Osiem (8): Osiem to liczba szczęścia w chińskiej kulturze i symbolizuje bogactwo i dobrobyt. W matematyce to sześcian liczby dwa.",
+  "Dziewięć (9): Dziewięć to kwadrat liczby trzy i ma interesującą właściwość w systemie dziesiętnym: dowolna wielokrotność dziewięciu, zsumowana cyfra po cyfrze, zawsze da w wyniku dziewięć (na przykład 18: 1 + 8 = 9)."
+  ];
+
+  
+  document.querySelectorAll('.bombshell').forEach(bomb => {
+    bomb.addEventListener('click', function() {
+      var bombId = this.id.replace('bomb', ''); 
+      var modal = document.getElementById("myModal");
+      var modalText = document.getElementById("modalText");
+      modalText.innerHTML = bombshellTexts[bombId]; 
+      modal.style.display = "block";
+    });
+  });
+
+
+  var span = document.getElementsByClassName("close")[0];
+  span.onclick = function() {
+    var modal = document.getElementById("myModal");
+    modal.style.display = "none";
+  }
+
+
+  window.onclick = function(event) {
+    var modal = document.getElementById("myModal");
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  
+
+</script>
+</body>
+</html>
+

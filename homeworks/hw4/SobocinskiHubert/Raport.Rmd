@@ -1,0 +1,93 @@
+---
+title: "Praca domowa nr 4"
+author: "Hubert Sobociński"
+date: "2023-12-10"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Poprawiany wykres
+Źródło: <https://wyniki.dlamaturzysty.info/s/4059/80875-Zdawalnosc-matury-wg-wojewodztw.htm>
+```{r, echo=FALSE, out.width='65%'}
+knitr::include_graphics("C:/studia/2rok/TWD/homeworkPlotly/oryginalnyWykres.png")
+```
+
+## Co jest źle?
+- oś z procentami nie jest od 0
+- poszególne lata są w nieintuicyjnej kolejności
+- kolumn dla poszczególnych wojewódźtw jest za dużo co utrudnia odczyt
+- słaby dobór kolorów
+
+## Poprawiony wykres
+
+
+```{r eval=FALSE}
+library(plotly)
+library(dplyr)
+library(tidyr)
+library(shiny)
+x <- data.frame(wojewodztwo = c("dolnośląskie", "kujawsko-pomorskie", "lubelskie",
+                                "lubuskie", "łódźkie", "małopolskie", "mazowieckie",
+                                "opolskie", "podkarpackie", "podlaskie",
+                                "pomorskie", "śląskie", "świętokrzykie",
+                                "warmińsko-mazurskie", "wielkopolskie",
+                                "zachodniopomorskie"),
+                rok2019 = c(79, 78, 80, 80, 80, 85, 82, 80, 81, 84, 79,
+                           80, 80, 77, 81, 77),
+                rok2018 = c(77, 78, 79, 80, 79, 83, 81, 78, 81, 81, 77,
+                            79, 80, 77, 79, 77),
+                rok2017 = c(76, 78, 78, 80, 80, 83, 80, 78, 78, 80, 78,
+                            77, 78, 74, 78, 74),
+                rok2016 = c(77, 79, 79, 82, 80, 82, 82, 79, 80, 81, 79,
+                            78, 80, 76, 78, 76))
+
+data <- x %>% 
+  pivot_longer(cols = -wojewodztwo,
+               names_to = "lata",
+               values_to = "procent") 
+
+ui <- fluidPage(
+  titlePanel("Procent zdawalności matur w poszczególnych latach dla danych wojewódźtw"),
+  sidebarLayout(
+    sidebarPanel(
+      selectInput("wojewodztwo", "Wybierz wojewodźtwo:", choices = unique(data$wojewodztwo))
+    ),
+    mainPanel(
+      plotlyOutput("barChart")
+    )
+  )
+)
+
+server <- function(input, output) {
+  filtered_data <- reactive({
+    data %>% filter(wojewodztwo == input$wojewodztwo)
+  })
+
+  output$barChart <- renderPlotly({
+    plot_ly(filtered_data(), x = ~lata, y = ~procent, type = 'bar', name = 'Percentage',
+            color = ~lata) %>%
+      layout(title = paste("Zdawanlość dla wojewódźtwa: ", input$wojewodztwo),
+             xaxis = list(title = "Lata", tickvals = ~lata, ticktext = c("2019", "2018", "2017", "2016")),
+             yaxis = list(title = "Procent(%)", range = c(0, 85)),
+             showlegend = FALSE)
+  })
+}
+
+shinyApp(ui = ui, server = server)
+```
+```{r, echo=FALSE, out.width='100%'}
+knitr::include_graphics("C:/studia/2rok/TWD/homeworkPlotly/poprawionyWykres.png")
+```
+
+## Dlaczego mój wykres jest lepszy?
+- możliwość wyboru na suwaku danego wojewódźtwa, przez jest zwiększona czytalność i wykres nie jest bardzo długi
+- lepiej dobrane kolory ułatwiają odczyt
+- skala zaczynająca się od 0 nie manipuluje przekazu
+
+
+
+
+

@@ -1,0 +1,178 @@
+---
+title: "HW4"
+author: "Gabriela Majstrak"
+output: html_document
+date: "2023-12-09"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+<br>
+<br>
+<br>
+
+# **Wykres do poprawy**
+![](C:\Users\Administrator\Pictures\do_poprawy.PNG)
+[Stąd pochodzi wizualizacja zródłowa](https://www.wnp.pl/parlamentarny/sondaze/powyborcze-przemeblowanie-w-rankingu-zaufania-do-politykow-jest-wielki-przegrany,1359.html?fbclid=IwAR3SWeMUklqfzJIA3-cGNAc7Xw6yz9sZTUcW4QciwA26F3IIfyo_Bm2zCm4)
+
+<br>
+
+
+**Co według mnie wymaga poprawy:**
+
+* Po pierwsze wykres powinien mieć tytuł
+* Kolory do kolejnych poziomów zaufania są przyporządkowane bardzo nieintuicyjnie,
+  Np. kolor czerwony kojarzy nam się raczej z negatywnymi emocjami, 
+  A więc zdecydowana nieufność powinna być oznaczona tym kolorem, a jest zupełnie 
+  przeciwnie
+* Politycy są ustawieni całkowicie losowo, nie ma w tym żadnej intuicji.
+* Każdy polityk powinien być podpisany z imienia i nazwiska
+* ciężko jest odczytać, kto np ma największe zaufania, kto największą obojętność, kto najmniejsze zaufanie i jakie mają wartości
+* na osi y nie ma skali, cięzko odczytuje się wartości danego słupka
+
+
+<br>
+<br>
+
+## **Wykres poprawiony:**
+
+
+```{r, echo= FALSE, warning=FALSE, message=FALSE}
+library(plotly)
+library(tidyr)
+library(dplyr)
+
+df <- data.frame(
+  imie_nazwisko = c('Rafał Trzaskowski', 'Szymon Hołownia', 'Andrzej Duda', 'Donald Tusk', 'Władysław Kosiniak-Kamysz', 'Robert Biedroń',
+                    'Mateusz Morawiecki','Włodzimierz Czarzasty', 'Tomasz Grocki', 'Elżbieta Witek'),
+  zdecydowanie_ufa = c(31.2, 11.9, 22.3, 22.5, 11.2, 6.2, 17.4, 8.6, 14.7, 14.7),
+  raczej_ufa = c(17.7, 33.1, 19.2, 18.1, 29.2, 28.1, 16.6, 23.1, 16.5, 15.4),
+  obojętność = c(13.0, 22.7, 11.9, 10.1, 24.3, 23.1, 7.0, 23.6, 20.1, 14.0),
+  raczej_nie_ufa = c(8.6, 13.2, 10.6, 18.1, 16.4, 11.7, 14.2, 11.5, 7.8, 9.9),
+  zdecydowanie_nie_ufa = c(26.2, 17.2, 35.9, 31.1, 16.2, 29.0, 44.7, 21.5, 26.3, 38)
+)
+
+df <- df %>% mutate(nie_udzielono_odpowiedzi = 100 - zdecydowanie_ufa - raczej_ufa - obojętność - raczej_nie_ufa - zdecydowanie_nie_ufa)
+
+imie_nazwisko_order <- c("Robert Biedroń", "Włodzimierz Czarzasty", "Władysław Kosiniak-Kamysz", "Szymon Hołownia", "Elżbieta Witek", "Tomasz Grocki", "Mateusz Morawiecki", "Andrzej Duda", "Donald Tusk", "Rafał Trzaskowski")
+df$imie_nazwisko <- factor(df$imie_nazwisko, levels = imie_nazwisko_order)
+
+updatemenus <- list(
+  x=1.9,
+  y= 0.45,
+  active = 0,
+  type = 'buttons',
+  buttons = list(
+    list(
+      label= 'Zdecydowanie nie Ufa',
+      method = 'update',
+      args= list(list(visible = c(FALSE, FALSE, FALSE, FALSE, FALSE, TRUE)),
+                 list(title = 'Zdecydowanie nie Ufa'))
+    ),
+    list(
+      label= 'Raczej nie Ufa',
+      method = 'update',
+      args= list(list(visible = c(FALSE, FALSE, FALSE, FALSE, TRUE, FALSE)), 
+                 list(title = 'Raczej nie Ufa'))
+    ),
+    list(
+      label= 'Obojętność',
+      method = 'update',
+      args= list(list(visible = c(FALSE, FALSE, FALSE, TRUE, FALSE, FALSE)),
+                 list(title ='Obojętność'))
+    ),
+    list(
+      label= 'Raczej Ufa',
+      method = 'update',
+      args= list(list(visible = c(FALSE, FALSE, TRUE, FALSE, FALSE, FALSE)), 
+                 list(title = 'Raczej Ufa'))
+    ),
+    list(
+      label= 'Zdecydowanie Ufa',
+      method = 'update',
+      args= list(list(visible = c(FALSE, TRUE, FALSE, FALSE, FALSE, FALSE)),
+                 list(title = 'Zdecydowanie Ufa'))
+    ),
+    list(
+      label= 'Nie udzielono odpowiedzi',
+      method = 'update',
+      args= list(list(visible = c(TRUE, FALSE, FALSE, FALSE, FALSE, FALSE)),
+                 list(title = 'Nie udzielono Odpowiedzi'))
+    ),
+    list(
+      label = 'Wszystkie odpowiedzi',
+      method = 'update',
+      args = list(
+        list(visible = c(TRUE, TRUE, TRUE, TRUE, TRUE,TRUE)),
+        list(title = 'wszystkie odpowiedzi')
+      )
+    ),
+    list(
+      label = 'Sortuj rosnąco',
+      method = 'relayout',
+      args = list(xaxis = list(categoryorder = 'array', categoryarray = df$imie_nazwisko))
+    ),
+    list(
+      label = 'Sortuj malejąco',
+      method = 'relayout',
+      args = list(xaxis = list(categoryorder = 'array', categoryarray = rev(df$imie_nazwisko)))
+    )
+  )
+)
+
+fig <- plot_ly(data = df, type = 'bar', orientation = 'h') %>%
+  add_trace(data = df[order(df$zdecydowanie_ufa),], x = ~zdecydowanie_ufa, y = ~imie_nazwisko,name = 'Zdecydowanie Ufa', marker = list(color = 'green')) %>%
+  add_trace(data = df[order(df$raczej_ufa),], x = ~raczej_ufa, y = ~imie_nazwisko, name = 'Raczej Ufa', marker = list(color = '#47C8FF')) %>%
+  add_trace(data = df[order(df$obojętność),], x = ~obojętność, y = ~imie_nazwisko, name = 'Obojętność', marker = list(color='#FDE74C')) %>%
+  add_trace(data = df[order(df$raczej_nie_ufa),], x = ~raczej_nie_ufa, y = ~imie_nazwisko, name = 'Raczej nie Ufa', marker = list(color='orange')) %>%
+  add_trace(data = df[order(df$zdecydowanie_nie_ufa),], x = ~zdecydowanie_nie_ufa,y = ~imie_nazwisko, name = 'Zdecydowanie nie Ufa', marker = list(color = 'red')) %>%
+  add_trace(data = df[order(df$nie_udzielono_odpowiedzi),], x = ~nie_udzielono_odpowiedzi, y = ~imie_nazwisko, name = 'Nie udzielono odpowiedzi', marker =list(color= 'grey')) %>%
+  layout(
+    width = 900,
+    barmode ='stack',
+    title ='Zaufanie do polityków',
+    xaxis = list(title = "poziom w %", range = c(0,100) ),
+    yaxis = list(title = list(text =" Imię i Nazwisko polityka", standoff = 25)),
+    updatemenus = list(updatemenus),
+    annotations =
+      list(
+        showlegend = FALSE,
+        x = 1.45,
+        y = 0.52,  
+        xref = "paper",
+        yref = "paper",
+        text = "Rodzaj zaufania:",
+        showarrow = FALSE,
+        xanchor = "left"  
+      ),
+    
+    legend = list(x = 1.35, y = 1.0), 
+    hoverlabel = list(bgcolor = 'white')
+    
+  )
+
+fig
+
+
+
+
+```
+
+**Dlaczego poprawiony wykres jest lepszy?**
+
+* Posiada tytuł zmieniający się w zależności od klikniętego guzika
+* Kolor poziomów zaufania są dobrane bardziej intuicyjnie(zdecydowana nieufność - czerwony, zdecydowane zaufanie - zielony)
+* Można sprawdzić każdy poziom zaufania oraz to kto ma najwięcej procent tego poziomu, kto najmniej, a przez najechanie na dany      słupek można dokładnie sprawdzić jego wartość
+* Można sprawdzić wszystkie poziomy naraz i zobaczyć, który polityk ma np. w sumie największe zaufanie, "raczej zaufanie" i          obojętność
+
+
+
+
+<br>
+<br>
+
+
+
+
+

@@ -1,0 +1,105 @@
+---
+title: "HW4 raport"
+author: "Michał Zajączkowski"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Wizualizacja źródłowa
+
+![](oryginalnyWykres.jpg)
+
+Źródło: <https://www.businessinsider.com/the-27-worst-charts-of-all-time-2013-6?IR=T#start-looking-at-this-chart-long-enough-you-can-actually-feel-your-brain-twitching-25>.
+
+Elementy wymagające poprawy:
+
+-   przede wszystkim wysokość słupków wydaje się nie mieć żadnego znaczenia,
+
+-   brakuje legendy opisującej kolory słupków,
+
+## Poprawiona wizualizacja
+
+Kod potrzebny do wydenerowania poprawionej wizualizacji:
+
+```{r plot, warning=FALSE, echo=TRUE}
+library(plotly)
+
+usage_frequency <- c("1-9 Times", "10-29 Times", "Daily")
+
+cocaine_actual_use <- c(0.3, 0.2, 0)
+cocaine_perceived_use <- c(48.4, 5.3, 1.2)
+
+alcohol_actual_use <- c(56.9, 21.1, 1.4)
+alcohol_perceived_use <- c(30.9, 56.3, 11.2)
+
+opiates_actual_use <- c(0.7, 0, 0)
+opiates_perceived_use <- c(29.4, 2.4, 0.4)
+
+df <- data.frame(usage_frequency, cocaine_actual_use, cocaine_perceived_use, alcohol_actual_use, alcohol_perceived_use, opiates_actual_use, opiates_perceived_use)
+
+plot_ly(
+  data = df,
+  x = ~ usage_frequency,
+  type = "bar",
+  y = ~ alcohol_actual_use,
+  name = "Actual use",
+  marker = list(color = "deepblue"),
+  hovertemplate = ~paste0("Actual use: ", alcohol_actual_use, "%")
+
+) %>% add_trace(
+  y = ~ alcohol_perceived_use,
+  name = "Perceived use",
+  marker = list(color = "tomato"),
+  hovertemplate = ~paste0("Perceived use: ", alcohol_perceived_use, "%")
+
+) %>%
+  layout(
+    title = "Percentage of students by the frequency of drugs use",
+    xaxis = list(title = "Frequency of drugs use over the last 30 days"),
+    yaxis = list(title = "Percentage of students", range = c(0, 57)),
+    barmode = "group",
+    updatemenus = list(list(
+      x = 1,
+      y = 1,
+      buttons = list(
+        list(
+          method = "restyle",
+          args = list("y", list(
+            alcohol_actual_use, alcohol_perceived_use
+          )),
+          label = "Alcohol"
+        ),
+        list(
+          method = "restyle",
+          args = list("y", list(
+            cocaine_actual_use, cocaine_perceived_use
+          )),
+          label = "Cocaine"
+        ),
+        list(
+          method = "restyle",
+          args = list("y", list(
+            opiates_actual_use, opiates_perceived_use
+          )),
+          label = "Opiates"
+        )
+
+      )
+    ))
+  )
+
+```
+
+Co zostało poprawione:
+
+-   wysokość słupków przedstawia procent studentów,
+
+-   dodana została legenda opisująca kolory wykresu,
+
+-   dodano podpis osi y,
+
+-   interaktywność wykresu pozwala na sprawdzenie dokładnych wartości po najechaniu na wybrany słupek oraz na zmiane kategorii substancji, dla której wykes będzie wyświetlany.

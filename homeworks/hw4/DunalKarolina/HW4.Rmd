@@ -1,0 +1,67 @@
+---
+title: "HW4 - wykres plotly"
+author: "Karolina Dunal"
+date: "2023-12-08"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Wykres, który będę poprawiać pochodzi z programu Fox News i dotyczy
+procentu bezrobocia w roku 2011 podczas kadencji Baracka Obamy.
+
+Strona na której został znaleziony wykres: <https://www.washingtonpost.com/blogs/erik-wemple/post/fox-newss-unemployment-chart-better-graphics/2011/12/12/gIQAUVgNqO_blog.html>
+Oryginalny wykres:
+
+<div style="text-align: center;">
+  <img src="/Users/Karolina/Desktop/uni/3_semestr/TWD/DunalKarolina/unemployment_fox.png" width="600" height="400">
+</div>
+
+**Błędy i elementy wymagające poprawy na danym wykresie**
+
+Pierwszym z błędów na powyższym wykresie jest niepoprawne umieszczenie niektórych punktów wykresu. Możemy zauwarzyć, że wartość 8.6% w listopadzie znajduje się natej samej wysokości co 9.0%. Oś OY rozpoczyna się od wartości 8, a nie 0, co może powodować odbieranie różnic w wartościach przedstawionych na wykresie jako znacznie większych niż są w rzeczywistości.Także przeniesienie roku do tytułu w szczególności, że podtytuł "Under president Obama" może się odnosić do znacznie obszerniejszego okresu czasu.
+
+Utworzenie ramki danych:
+``` {r message = FALSE, warning = FALSE}
+library(dplyr)
+library(plotly)
+
+months <- c("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov")
+percent <- c(9.0, 8.9, 8.8, 9.0, 9.1, 9.2, 9.1, 9.1, 9.1, 9.0, 8.6)
+
+df <- data.frame(months, percent)
+```
+
+Wygenerowanie poprawionego wykresu w plotly:
+``` {r message = FALSE, warning = FALSE}
+df$months <- factor(df$months, levels = c("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov"))
+months_full <- c("January", "February", "March", "April", "May", "June", "July","August", "September", "October", "November")
+
+plot_ly(
+  df,
+  x = ~months,
+  y = ~percent,
+  type = "scatter",
+  mode = "markers+lines",
+  marker = list(size = 10, color = "darkorange"),
+  line = list(color = "darkorange"),
+  text = ~paste("Month: ", months_full, "<br>Percent: ", percent , "%"),
+  hoverinfo = "text"
+) %>% 
+  layout(
+  title = list(text = "Unemployment Rate in USA in 2011<br><sup>under president Obama<br><sup>",
+               font = list(size = 18)),
+  xaxis = list(title = "Month"),
+  yaxis = list(title = "Unemployment rate", 
+               range = c(0, max(df$percent) + 1.5), 
+               dtick = 1, tickformat = ".1f", ticksuffix = "%"),
+   margin = list(t = 50)
+  )
+```
+
+**Wprowadzone poprawki**
+
+Punkty na wykresie odpowiadają odpowienim wartościom. Dzięki interaktywności wykresu można przybliżyć go do wybranego zakresu, jeśli jest potrzeba dokładniejszego przebadania różnic w wartościach, dlatego też oś OY została przeskalowana, aby zaczynała się w punkcie zero, dzięki czemu widać, że w rzeczywistości różnice w wartościach nie są aż tak duże. Po najechaniu na każdy z punktów widoczna pełna nazwa miesiąca, którego dotyczy pomiar wraz z dokładną wartością w %. Rok przeniesiony do tytułu wraz z dodaniem informacji jakiego kraju dotyczy wykres, a także dodane podpisy osi OX i OY, co zwiększa czytelność wykresu.
+

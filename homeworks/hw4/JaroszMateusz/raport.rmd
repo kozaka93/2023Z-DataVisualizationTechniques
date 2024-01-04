@@ -1,0 +1,89 @@
+---
+title: "HW4 - plotly"
+author: "Mateusz Jarosz"
+date: "2023-12-10"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Wizualizacja źródłowa
+
+::: {style="text-align: left;"}
+<img src=".\badChart.png" alt="wykres" width="600" height="800"/>
+:::
+
+Źródło: <https://de.wikipedia.org/wiki/K%C3%BChlschifffahrt>
+
+#### Błędy w wizualizacji
+Głównym błędem w wizualizacji jest zastosowanie wykresu 3D - porównanie poszczególnych wartości dla różnych lat jest bardzo trudne przez perspektywę. Wykres jest nieczytelny.
+
+## Wizualizacja poprawiona
+
+```{r, warning = FALSE, message = FALSE, echo=FALSE}
+library(dplyr)
+library(plotly)
+
+data <- data.frame(
+  product = c("Banany", "Banany", "Banany", "Banany", "Banany","Banany",
+              "Ryby", "Ryby", "Ryby", "Ryby", "Ryby", "Ryby",
+              "Mięso", "Mięso", "Mięso", "Mięso", "Mięso", "Mięso",
+              "Inne", "Inne", "Inne", "Inne", "Inne", "Inne",
+              "Owoce sezonowe", "Owoce sezonowe", "Owoce sezonowe", "Owoce sezonowe", "Owoce sezonowe", "Owoce sezonowe",
+              "Cytrusy", "Cytrusy", "Cytrusy", "Cytrusy", "Cytrusy", "Cytrusy",
+              "Owoce egzotyczne", "Owoce egzotyczne", "Owoce egzotyczne", "Owoce egzotyczne", "Owoce egzotyczne", "Owoce egzotyczne",
+              "Nabiał", "Nabiał", "Nabiał", "Nabiał", "Nabiał", "Nabiał"),
+  amount = c(7.3, 14.3, 13.9, 14.7, 15, 15.1,
+             2, 12, 12.1, 12, 13, 13.7,
+             4, 10, 11, 12, 12, 13,
+             2, 8, 8.1, 8.7, 9.1, 9.8,
+             2, 4, 4.2, 5, 5.3, 6.2,
+             4, 5.5, 5.6, 5.7, 5.8, 6,
+             0.6, 1.5, 1.6, 1.8 ,2, 2.3,
+             1.4, 1.6, 1.6, 1.6, 2, 2),
+  year = c(1985, 2001, 2002, 2003, 2004, 2005,
+           1985, 2001, 2002, 2003, 2004, 2005,
+           1985, 2001, 2002, 2003, 2004, 2005,
+           1985, 2001, 2002, 2003, 2004, 2005,
+           1985, 2001, 2002, 2003, 2004, 2005,
+           1985, 2001, 2002, 2003, 2004, 2005,
+           1985, 2001, 2002, 2003, 2004, 2005,
+           1985, 2001, 2002, 2003, 2004, 2005))
+
+ plot_ly(
+  data = data,
+  x = ~product,
+  y = ~amount,
+  color = ~factor(year),
+  colors = 'Spectral',
+  type = 'bar'
+) %>% 
+  layout(
+    title = list(
+      text = "Globalny transport towarów chłodniczych w milionach ton w latach 1985-2005"
+      ),
+    xaxis = list(
+      title = list(text = "Produkt")
+      ),
+    yaxis = list(
+      title = list(text = "Ilość w mln. ton"),
+      range = c(0, 16)
+      ),
+    legend = list(
+      y = 0.5,
+      title = list(text = "Rok")
+      ),
+    barmode = 'group',
+    margin = list(
+      l = 50, 
+      r = 50, 
+      b = 75, 
+      t = 75)
+  )
+```
+
+#### Zalety w wizualizacji
+Zastosowanie wykresu słupkowego sprawia, że odczytywanie danych oraz porównywanie ich wartości dla poszczególnych lat jest zdecydowanie łatwiejsze.
+

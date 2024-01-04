@@ -1,0 +1,7 @@
+body {
+	background: #f4f4f4;
+}
+#canvas_holder {
+	width: 90vw;
+	min-height: 90vh;
+}
