@@ -17,8 +17,7 @@ prezent3 = data.frame(x = c(0.3, 0.3, 0.5, 0.5), y = c(-0.11, -0.09, -0.09, -0.1
 sniegX <- runif(200, -1, 1)
 sniegY <- runif(200, -0.2, 1)
 snieg <- data.frame(sniegX, sniegY)
-
-gas <- data.frame(x = -0.5, y = -0.1, image = "C:/studia/2rok/TWD/homeworkChoinka/gasnica.png")
+gwiazda = data.frame(x = c(0), y = c(1))
 bombka1 <- data.frame(x = -0.2,y = 0.8, image = "C:/studia/2rok/TWD/homeworkChoinka/bombka2.png")
 bombka2 <- data.frame(x = 0.1,y = 0.6, image = "C:/studia/2rok/TWD/homeworkChoinka/bombka2.png")
 bombka3 <- data.frame(x = -0.25,y = 0.48, image = "C:/studia/2rok/TWD/homeworkChoinka/bombka2.png")
@@ -38,7 +37,7 @@ ggplot()+
   geom_polygon(data = prezent2, aes(x = x, y = y), fill = "yellow") +
   geom_polygon(data = prezent3, aes(x = x, y = y), fill = "yellow") +
   geom_area(data = x4, aes(x = x, y = y),fill = "brown") +
-  geom_star(gw, mapping = aes(x = x, y = y), colour = "yellow", fill = 'yellow', size = 15)+
+  geom_star(gwiazda, mapping = aes(x = x, y = y), colour = "yellow", fill = 'yellow', size = 15)+
   geom_image(data = bombka1, aes(x = x, y = y, image = image), size = 0.06) +
   geom_image(data = bombka2, aes(x = x, y = y, image = image), size = 0.06) +
   geom_image(data = bombka3, aes(x = x, y = y, image = image), size = 0.06) +
@@ -49,7 +48,6 @@ ggplot()+
   geom_image(data = bombka8, aes(x = x, y = y, image = image), size = 0.12) +
   geom_image(data = bombka9, aes(x = x, y = y, image = image), size = 0.12) +
   geom_image(data = bombka10, aes(x = x, y = y, image = image), size = 0.1) +
-  geom_image(data = gas, aes(x = x, y = y, image = image), size =0.08) +
   geom_point(data = snieg, aes(x = sniegX, y = sniegY), color = "white", shape = 8) +
   theme_void()+
   theme(legend.position = "none",
