@@ -150,7 +150,7 @@ Previous: [Winter Semester 2022/23](https://github.com/MI2-Education/2023Z-DataV
     <td rowspan="2">13</td>
     <td rowspan="2">01-11</td>
     <td rowspan="2">Revision</td>
-    <td rowspan="2">Python: graphs + plotly</td>
+    <td rowspan="2">Python: plotly</td>
     <td rowspan="2">Prototype</td>
     <td rowspan="2">P2 (2p)</td>
   </tr>
@@ -160,9 +160,9 @@ Previous: [Winter Semester 2022/23](https://github.com/MI2-Education/2023Z-DataV
     <td rowspan="2">14</td>
     <td rowspan="2">01-18</td>
     <td rowspan="2">Test</td>
-    <td rowspan="2">Python: matplotlib, seaborn - advanced</td>
+    <td rowspan="2">Python: graphs + matplotlib, seaborn - advanced</td>
     <td rowspan="2">Consultations</td>
-    <td rowspan="2">HW6 (6p)<br>T (10p)</td>
+    <td rowspan="2">T (10p)</td>
   </tr>
   <tr>
   </tr>
@@ -172,7 +172,7 @@ Previous: [Winter Semester 2022/23](https://github.com/MI2-Education/2023Z-DataV
     <td rowspan="2">Presentation of P2 (part 1)</td>
     <td rowspan="2">Python: EDA</td>
     <td rowspan="2">Presentation of P2 (part 2)</td>
-    <td rowspan="2">P2 (24p)</td>
+    <td rowspan="2">HW6 (6p)<br>P2 (24p)</td>
   </tr>
   <tr>
   </tr>
