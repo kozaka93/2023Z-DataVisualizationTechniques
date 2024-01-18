@@ -172,7 +172,7 @@ Previous: [Winter Semester 2022/23](https://github.com/MI2-Education/2023Z-DataV
     <td rowspan="2">Presentation of P2 (part 1)</td>
     <td rowspan="2">Python: advanced seaborn + EDA</td>
     <td rowspan="2">Presentation of P2 (part 2)</td>
-    <td rowspan="2">HW6 (6p)<br>P2 (24p)</td>
+      <td rowspan="2"><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/issues/476">HW6 </a>(6p)<br/> P2 (24p)</td>
   </tr>
   <tr>
   </tr>
