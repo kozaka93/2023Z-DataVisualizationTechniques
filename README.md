@@ -160,7 +160,7 @@ Previous: [Winter Semester 2022/23](https://github.com/MI2-Education/2023Z-DataV
     <td rowspan="2">14</td>
     <td rowspan="2">01-18</td>
     <td rowspan="2"><i>Test</i></td>
-    <td rowspan="2"><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/tree/main/labs/lab14">Python: graphs + matplotlib, seaborn - advanced</a></td>
+    <td rowspan="2"><a href="https://github.com/kozaka93/2023Z-DataVisualizationTechniques/tree/main/labs/lab14">Python: graphs + advanced matplotlib</a></td>
     <td rowspan="2">Consultations</td>
     <td rowspan="2">T (10p)</td>
   </tr>
@@ -170,7 +170,7 @@ Previous: [Winter Semester 2022/23](https://github.com/MI2-Education/2023Z-DataV
     <td rowspan="2">15</td>
     <td rowspan="2">01-25</td>
     <td rowspan="2">Presentation of P2 (part 1)</td>
-    <td rowspan="2">Python: EDA</td>
+    <td rowspan="2">Python: advanced seaborn + EDA</td>
     <td rowspan="2">Presentation of P2 (part 2)</td>
     <td rowspan="2">HW6 (6p)<br>P2 (24p)</td>
   </tr>
