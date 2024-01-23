@@ -1,0 +1,265 @@
+Repository /home/beart/programowanie/studia/PDU/pdu_2023_projekt_2/.git
+755c4b8, wejj, 2023-05-29, prezka
+a799b45, kuba-kapron, 2023-05-29, prezentacja
+c47c65c, wejj, 2023-05-29, lepiej brzmiące nazwy z mniejszą ilością śmieci
+dfdc106, WujekHussein, 2023-05-29, Delete kingstonowe_gowno directory
+439da48, miloszkita, 2023-05-29, Add files via upload
+f0083a4, kuba-kapron, 2023-05-29, apka
+ca3610e, kuba-kapron, 2023-05-29, ---
+7df4306, wejj, 2023-05-27, sory za zrobienie drugiego brancha przez przypadek, mam nadzieje, że jest git kek
+4d10db7, kuba-kapron, 2023-05-26, .
+1d22f86, kuba-kapron, 2023-05-22, 4
+974ee5e, kuba-kapron, 2023-05-22, _
+
+Repository /home/beart/programowanie/studia/PDU/pdu_2023/.git
+473f192, kuba-kapron, 2023-06-10, projekt pandas - wstepnie zrobione
+0f4046d, kuba-kapron, 2023-05-23, Lab13
+1ea8065, kuba-kapron, 2023-05-22, zadanie 9.3 -- iloczyn skalarny
+078513f, kuba-kapron, 2023-05-16, poczatek pythona
+6352bfe, Kuba, 2023-04-28, dosyłanie
+3a44c93, kuba-kapron, 2023-04-28, Delete .Rhistory
+8600d88, Kuba, 2023-04-28, wgranie do repo folderu z PDU
+
+Repository /home/beart/programowanie/studia/AiSD/algorithms_and_data_structures_2023/.git
+e4ceb15, kuba-kapron, 2024-01-16, init
+
+Repository /home/beart/programowanie/studia/TWD/Projekt2/linux_me_project/.git
+ae425e4, Norbert Frydrysiak, 2024-01-21, norbert bash and git data update
+52cc626, Norbert Frydrysiak, 2024-01-21, add mateusz python dependencies graph
+359d32f, Norbert Frydrysiak, 2024-01-21, name fix for mateusz python dependecies
+172f01e, vecel, 2024-01-21, Merge branch 'master' of https://github.com/fantasy2fry/linux_me_project
+881ea47, vecel, 2024-01-21, add mateusz python dependencies data
+4aec0d2, kuba-kapron, 2024-01-21, tiny change to README
+d0dba62, Jakub Kaproń, 2024-01-21, Merge pull request #19 from fantasy2fry/feat-kuba-rlibs
+e240533, kuba-kapron, 2024-01-21, Add description to r-libs and update histogram labs
+41a78fa, Jakub Kaproń, 2024-01-21, Merge pull request #18 from fantasy2fry/feat-kuba-rlibs
+28e276a, kuba-kapron, 2024-01-21, merged from main and resolved conflicts
+f492627, kuba-kapron, 2024-01-21, Apperance updates in server r-libs
+d977b08, kuba-kapron, 2024-01-20, Add Graph of dependencies to python-libs
+23859a7, vecel, 2024-01-20, add icons
+f992bea, Jakub Kaproń, 2024-01-20, Merge pull request #17 from fantasy2fry/master
+3f0905b, vecel, 2024-01-20, update data
+bc5ca0e, Mateusz Karandys, 2024-01-20, Merge pull request #16 from fantasy2fry/bash-history-features
+35a8b89, vecel, 2024-01-20, hide plot modebar
+613dec7, vecel, 2024-01-20, add bash history tab description
+e84101c, Norbert Frydrysiak, 2024-01-20, about section done and xaxis and yaxis titles in git section add
+338bb77, Norbert Frydrysiak, 2024-01-20, heatmap colors change and README huge change
+8a8b181, Norbert Frydrysiak, 2024-01-18, heatmap files local in imports and scale change
+2da0d5b, Jakub Kaproń, 2024-01-18, Merge pull request #15 from fantasy2fry/master
+b0faa9b, Jakub Kaproń, 2024-01-18, Merge pull request #14 from fantasy2fry/feat-kuba-rlibs
+9f137da, Norbert Frydrysiak, 2024-01-18, python dependecies norbert add
+a98f2de, Norbert Frydrysiak, 2024-01-18, python dependecies quick command found
+400c169, Norbert Frydrysiak, 2024-01-18, 18 jan git stats norbert update
+30f062c, Norbert Frydrysiak, 2024-01-18, python description & sys packs one input del
+5d6fc13, Norbert Frydrysiak, 2024-01-17, git part finish prototype
+e4d19f9, Norbert Frydrysiak, 2024-01-17, git message analysis add
+3ddd557, kuba-kapron, 2024-01-14, add histogram to r-libs
+8212cdb, kuba-kapron, 2024-01-12, add infoboxes to r-libs
+72f94a3, kuba-kapron, 2024-01-11, update TODO
+44e7b18, Norbert Frydrysiak, 2024-01-11, Merge branch 'feat-norbert-syspacks'
+3854155, Norbert Frydrysiak, 2024-01-11, todo to git_stats add 2
+822bcf0, Jakub Kaproń, 2024-01-11, Merge pull request #12 from fantasy2fry/feat-kuba-rlibs
+8e07afd, kuba-kapron, 2024-01-11, update Kuba's data
+27e21ae, Norbert Frydrysiak, 2024-01-11, todo to git_stats add
+a931220, Norbert Frydrysiak, 2024-01-11, git stats norbert update and about_ui small change
+1babf65, Norbert Frydrysiak, 2024-01-11, python libs tab added
+71f9368, Norbert Frydrysiak, 2024-01-11, Merge pull request #11 from fantasy2fry/feat-kuba-rlibs
+91d3a47, Norbert Frydrysiak, 2024-01-11, Merge pull request #10 from fantasy2fry/feat-norbert-syspacks
+b6d0c6a, Norbert Frydrysiak, 2024-01-11, Merge branch 'master' into feat-norbert-syspacks
+1821dee, Norbert Frydrysiak, 2024-01-11, system_packages version beta, added python libs tab choice
+55bd68a, kuba-kapron, 2024-01-11, added import of Mateusz's r-libs in r_libs_server.R
+2d6a274, Jakub Kaproń, 2024-01-11, Merge pull request #9 from fantasy2fry/feat-kuba-rlibs
+719f759, Jakub Kaproń, 2024-01-11, Merge pull request #8 from fantasy2fry/master
+16e490b, kuba-kapron, 2024-01-11, updated tutorial on how to get r-libs data in README
+a5cf327, Mateusz Karandys, 2024-01-11, Merge pull request #7 from fantasy2fry/about
+f078bf2, vecel, 2024-01-11, about tab template
+3f34050, vecel, 2024-01-11, small text fix
+4eecada, vecel, 2024-01-11, add mateusz r libs
+b9cdb3f, Norbert Frydrysiak, 2024-01-10, calendar heatmap add :D :D :D
+07ee372, Norbert Frydrysiak, 2024-01-10, git-stats 3 short info add and data update
+0c50789, Norbert Frydrysiak, 2024-01-09, figthting with calendar plot (aka heatmap) and some adding of boxes from shinydashboard
+8214bdb, Norbert Frydrysiak, 2024-01-08, my plan for git stats add
+b30dd48, kuba-kapron, 2024-01-08, added selectable number of most frequently imported packages to show in the network plot
+b12b8a5, kuba-kapron, 2024-01-08, added person selection in r-libs
+b97ed2c, Jakub Kaproń, 2024-01-08, Merge pull request #6 from fantasy2fry/master
+7486353, Norbert Frydrysiak, 2024-01-08, norbert r-libs add
+808ab35, kuba-kapron, 2024-01-08, add basic packages' imports network
+2404483, Jakub Kaproń, 2024-01-04, Merge pull request #5 from fantasy2fry/feat-kuba-rlibs
+39e693f, kuba-kapron, 2024-01-04, fixed missing r_libs_server.R import and added simple r libs data-loading function
+22cbb33, kuba-kapron, 2024-01-03, Merge pull request #4 from fantasy2fry/feat-kuba-rlibs
+744f541, kuba-kapron, 2024-01-03, update app.R with ui and server functions for r libs
+3268c79, kuba-kapron, 2024-01-03, Merge branch 'master' into feat-kuba-rlibs with updated readme and kuba's r libs data
+b3966f5, kuba-kapron, 2024-01-03, initialize ui and server functions for r libs
+93b561a, kuba-kapron, 2023-12-30, Kuba's r libs and deletion of a placeholder text file
+39cb2ac, kuba-kapron, 2023-12-30, update REAMDE with info on r-libs
+f1ff0fa, vecel, 2023-12-26, remove todo
+b64f8e0, vecel, 2023-12-26, sequences table description
+6b2d9bc, vecel, 2023-12-26, most used commands sequences table
+7fd5c2f, vecel, 2023-12-26, write consecutiveCombinations function
+3c1256c, vecel, 2023-12-25, add shinycssloaders spinners
+b40b990, vecel, 2023-12-25, column layout
+c80a9c1, vecel, 2023-12-25, move styles to app.R
+70c393e, vecel, 2023-12-25, add styles for tabBox
+d50e08d, vecel, 2023-12-25, add boxes and dt table
+8575caa, Norbert Frydrysiak, 2023-12-21, bash plots modification and one plot added to pacakges analysis
+f8822b7, Norbert Frydrysiak, 2023-12-19, Merge pull request #3 from fantasy2fry/feat-norbert-syspacks
+89eac5a, Norbert Frydrysiak, 2023-12-19, norbert linux bash commends added to dataframe
+a50f917, Norbert Frydrysiak, 2023-12-18, syspacks first plot working a little bit add
+6dc6e44, Norbert Frydrysiak, 2023-12-18, Merge pull request #2 from fantasy2fry/feat-norbert-syspacks
+f155826, Norbert Frydrysiak, 2023-12-18, syspacks first plot that it is not working XD add
+1871a99, kuba-kapron, 2023-12-18, Kuba's data without r libs
+c1b5d91, Norbert Frydrysiak, 2023-12-17, Norbert git stats and first attempt for sys packs part add
+37223dc, vecel, 2023-12-17, heatmap sketch
+d443b69, vecel, 2023-12-17, update date in git statistics
+f876185, vecel, 2023-12-17, data preprocessing for git statistics server
+26a0071, vecel, 2023-12-17, add temporary files
+e22d221, vecel, 2023-12-17, add temporary kuba's file and move initialization to server
+8a184f3, vecel, 2023-12-17, untrack .Rhistory
+f64cd9e, vecel, 2023-12-17, reactivity and basic plot
+51940f7, vecel, 2023-12-13, bash history tab layout
+31554a2, vecel, 2023-12-13, add libraries
+8ac7098, vecel, 2023-12-13, dplyr import
+86ae50c, vecel, 2023-12-11, small changes in bash tab
+9e3875c, vecel, 2023-12-11, add ui ids
+b3cf3b5, Norbert Frydrysiak, 2023-12-09, Merge pull request #1 from fantasy2fry/dashboard
+9670619, vecel, 2023-12-08, init
+813a09c, vecel, 2023-12-08, git stats command
+f82a622, vecel, 2023-12-07, mateusz data for bash, python and system
+982234a, Norbert Frydrysiak, 2023-12-07, README start and tmp files add
+6e6037f, Norbert Frydrysiak, 2023-12-07, init
+
+Repository /home/beart/programowanie/studia/ZPOiF/my_repos/po_2023_kapronj/.git
+92e49a1, kuba-kapron, 2023-11-27, zpoif - zadanie oceniane 5
+d524cd5, kuba-kapron, 2023-11-20, zadanie oceniane 4 zpoif
+88d4cb1, kuba-kapron, 2023-11-13, zpoif - zadanie oceniane 3a
+f34db8f, kuba-kapron, 2023-11-06, zpoif - zadanie oceniane 2a
+07909d4, kuba-kapron, 2023-10-30, zadanie ocenianie 1 - zpoif
+438f289, kuba-kapron, 2023-06-12, zadanie 4a
+03e02ac, kuba-kapron, 2023-05-29, zadanie oceniane 3
+8fe6910, kuba-kapron, 2023-05-23, zadania z zajęć z modułu 3
+1a51704, kuba-kapron, 2023-05-08, zadanie oceniane nr 2c
+54e5e39, kuba-kapron, 2023-04-03, Zadanie Oceniane nr 1a
+554d145, kuba-kapron, 2023-03-20, lab05
+19a6ae4, 327282 kapron jakub, 2023-03-13, aaa
+f8ee30a, 327282 kapron jakub, 2023-03-13, Zadanie pozdrowienia
+
+Repository /home/beart/programowanie/studia/ZPOiF/my_repos/zpoif_2023_lessons/.git
+7b7d27a, Maciej Bednarz, 2023-11-27, Komponenty do zadania ocenianego nr 5a.
+1ea34b2, Maciej Bednarz, 2023-11-21, Komponenty do zadania 3c.
+fd15996, Maciej Bednarz, 2023-11-20, Merge branch 'master' of https://github.com/bednarzm/zpoif_2023_lessons
+51cb80a, Maciej Bednarz, 2023-11-20, Zadanie 4a
+e5d03b1, Maciej Bednarz, 2023-11-13, Zadanie 3b.
+17aa103, Maciej Bednarz, 2023-11-13, Zadanie 3a
+dfd08a0, Maciej Bednarz, 2023-11-12, Komponenty do kontrolnych zadań Jachty i Okręty.
+c23da8b, Maciej Bednarz, 2023-11-05, Jedno z dobrych rozwiazan zadania "Media".
+272c10e, Maciej Bednarz, 2023-10-29, Rozwiązanie zadania: Nawiedzone.
+5e203de, Maciej Bednarz, 2023-10-23, Memory
+29e2f86, Maciej Bednarz, 2023-10-16, DebugMe
+a92cd25, Maciej Bednarz, 2023-10-10, Empty repo init.
+
+Repository /home/beart/programowanie/studia/ZPOiF/my_repos/zpoif_2023_training/.git
+0453e75, kuba-kapron, 2023-11-13, jachty 03 - nie jestem pewny ostatniej metody
+b9a8598, kuba-kapron, 2023-11-06, Media02 - skonczone
+ae3fce8, kuba-kapron, 2023-11-06, Merge branch 'main' of https://github.com/kuba-kapron/zpoif_2023_training
+75185aa, kuba-kapron, 2023-11-06, Media02 - klasa ComplexFunction do dokonczenia
+ae35778, kuba-kapron, 2023-10-30, Delete Nawiedzone/src/pl/edu/pw/mini/zpoif/task1 directory
+efe2d9e, kuba-kapron, 2023-10-30, nawiedzone bez demonstratora i folder poprawiony
+fc5c861, kuba-kapron, 2023-10-30, nawiedzone bez demonstratora
+
+Repository /home/beart/programowanie/studia/ZPOiF/my_repos/zpoif_2023_kitam_kapronj/.git
+78ccb18, miloszkita, 2024-01-21, Merge pull request #14 from bednarzm/feature-UI-milosz
+fe41cbd, Jakub Kaproń, 2024-01-20, Merge pull request #13 from bednarzm/feature-UI-kuba
+cf1af9b, kuba-kapron, 2024-01-20, Add writing NBP API data at app startup and modify NBP API client to not obstruct the work of the app when user is offline
+619e3dd, Jakub Kaproń, 2024-01-20, Merge pull request #12 from bednarzm/main
+98d73b8, Jakub Kaproń, 2024-01-20, Merge pull request #11 from bednarzm/feature-api-client
+6c00b85, kuba-kapron, 2024-01-20, Modified NBPAPI client get strings from query methods to write to .json
+7b5061c, kuba-kapron, 2024-01-20, Add GraphDataLoader class
+6bab044, kuba-kapron, 2024-01-20, update resources structure
+84f5e8e, Jakub Kaproń, 2024-01-20, Merge pull request #10 from bednarzm/main
+02c4488, Jakub Kaproń, 2024-01-20, Merge pull request #9 from bednarzm/feature-api-client
+4220fe3, kuba-kapron, 2024-01-19, update .gitignore
+5558850, Milosz Kita, 2024-01-18, added background and class to create background
+bdac3a1, kuba-kapron, 2024-01-18, Merge branch 'main' into feature-UI-milosz
+4f11265, Jakub Kaproń, 2024-01-18, Merge pull request #7 from bednarzm/main
+3e4bb8c, kuba-kapron, 2024-01-18, init jsons with data from nbp api
+8cf32c2, kuba-kapron, 2024-01-18, Changed date fields in *ExchangeRate clases from Day to String
+7bfb74f, kuba-kapron, 2024-01-18, update source directory in pom.xml
+7bd0c0f, Jakub Kaproń, 2024-01-18, Merge pull request #6 from bednarzm/feature-api-client
+e331cc2, kuba-kapron, 2024-01-18, change project structure
+2e58808, kuba-kapron, 2024-01-18, Added method that converts deserialized data to instances of Currency...Rate (used to plotting)
+319adcb, kuba-kapron, 2024-01-18, Add class for deserializing json with exch. rates tables
+cf78fd0, kuba-kapron, 2024-01-18, Simplified GoldExchangeRate constructor
+5bc8bd4, miloszkita, 2024-01-17, Merge pull request #5 from bednarzm/main
+b39a96e, Milosz Kita, 2024-01-17, changed buttons
+a0dcf73, Jakub Kaproń, 2024-01-17, Merge pull request #4 from bednarzm/main
+feea7d7, kuba-kapron, 2024-01-17, Added .idea/ to .gitignore
+ece1f33, Jakub Kaproń, 2024-01-17, Merge pull request #3 from bednarzm/feature-UI-kuba
+5fa2862, kuba-kapron, 2024-01-17, Fixed package name in MainWindow.java
+9bc16b4, kuba-kapron, 2024-01-14, add CurrencyExchangeRate class
+7fe2b18, kuba-kapron, 2024-01-14, add method for currency exchange rate api query
+5802285, kuba-kapron, 2024-01-14, modify .gitignore
+48c7203, miloszkita, 2024-01-11, Merge pull request #2 from bednarzm/feature-UI-milosz
+2f972d3, Milosz Kita, 2024-01-11, UI added chart to window
+32097de, Jakub Kaproń, 2024-01-10, Merge pull request #1 from bednarzm/feature-api-client
+23376d8, kuba-kapron, 2024-01-10, renaming .api package to .apiclients and adding GoldExchangeRate class to store json info from NBP API with temporal testing class
+29d77e9, kuba-kapron, 2024-01-10, .gitignore with pom.xml with maven dependencies
+a835792, kuba-kapron, 2023-12-31, add basic ui and basic NBP api enquiry (Happy New Year\!)
+
+Repository /home/beart/programowanie/studia/ZPOiF/my_repos/java_advanced_examples/.git
+348e10f, Maciej Bednarz, 2018-11-18, Lab4 Refleksje i adnotacje.
+151c434, Maciej Bednarz, 2018-11-05, Lab2 examples - Lambda expressions.
+b0a3167, Maciej Bednarz, 2018-10-28, Lab1 examples.
+e7eed7b, bednarzm, 2018-10-14, Initial commit
+
+Repository /home/beart/programowanie/studia/PO/my_repos/po_2023_kapronj/.git
+438f289, kuba-kapron, 2023-06-12, zadanie 4a
+03e02ac, kuba-kapron, 2023-05-29, zadanie oceniane 3
+8fe6910, kuba-kapron, 2023-05-23, zadania z zajęć z modułu 3
+1a51704, kuba-kapron, 2023-05-08, zadanie oceniane nr 2c
+54e5e39, kuba-kapron, 2023-04-03, Zadanie Oceniane nr 1a
+554d145, kuba-kapron, 2023-03-20, lab05
+19a6ae4, 327282 kapron jakub, 2023-03-13, aaa
+f8ee30a, 327282 kapron jakub, 2023-03-13, Zadanie pozdrowienia
+
+Repository /home/beart/programowanie/studia/PO/my_repos/po_2023_training/.git
+0ba7c19, kuba-kapron, 2023-05-29, kebab niedokonczony
+1e5b408, kuba-kapron, 2023-05-29, kebab 03 -- poczatek
+9735ea9, kuba-kapron, 2023-05-28, zadanie 3. - odloty 2022
+90745e5, kuba-kapron, 2023-05-08, przejscie graniczne - chyba zrobione
+89fe665, kuba-kapron, 2023-05-08, biblioteka - control() do dokonczenia
+58753c9, kuba-kapron, 2023-05-08, przejscie graniczne - w trackie
+11d8997, kuba-kapron, 2023-05-06, polecenie niezrozumiałe, biore się za jakieś inne zadanie
+455e605, kuba-kapron, 2023-05-03, Pralnia - chyba gotowe
+8d96de0, kuba-kapron, 2023-05-03, Pralnia - juz duzo zrobione
+4af20fd, kuba-kapron, 2023-04-30, poczatek pralni
+d332d96, kuba-kapron, 2023-04-30, z tego roku - terminal - do zrobienia jak bede ogarnial kolekcje :)
+c0b95ab, kuba-kapron, 2023-04-01, Gornik - zrobione
+6338e06, kuba-kapron, 2023-04-01, Bozena - zrobione
+289d45c, kuba-kapron, 2023-03-31, grzybobranie - zrobione
+c2f6bc9, kuba-kapron, 2023-03-19, v1
+ac4ba83, kuba-kapron, 2023-03-18, wersja 18.03 - do poprawy w nastepnym tygodniu
+8e7ddfa, kuba-kapron, 2023-03-18, wersja 18.03 - do poprawy w nastepnym tygodniu
+d83f20f, kuba-kapron, 2023-03-18, Poczatek kreta 17.03
+
+Repository /home/beart/programowanie/studia/PO/my_repos/po_2023_lessons/.git
+edc49ae, Maciej Bednarz, 2023-06-10, Rozwiązanie zadania Reverse Engineering 1.
+92c57ae, Maciej Bednarz, 2023-05-30, Moduł 4 - UI i wątki.
+7ba63cd, Maciej Bednarz, 2023-05-29, Pliki do zadania 3c.
+f9d6025, Maciej Bednarz, 2023-05-23, Pliki do zadania Czarter
+b0eaea3, Maciej Bednarz, 2023-05-23, PLiki do zadania dla grupy wtorek 14-00
+d3c4c77, Maciej Bednarz, 2023-05-19, Pliki z danymi załączane do niektórych zadań z poprzednich lat.
+6be6748, Maciej Bednarz, 2023-05-19, Przykladowe akceptowalne rozwiazanie zadania 3 - "Odloty...".
+3997825, Maciej Bednarz, 2023-05-09, Modul3-IO
+4227726, Maciej Bednarz, 2023-04-22, * Przykladowe akceptowalne rozwiazanie zadania 2 - "Pralnia".
+7fdeca9, Maciej Bednarz, 2023-04-11, Modul2-Kolekcje
+7fdd806, Maciej Bednarz, 2023-03-31, Przykladowe akceptowalne rozwiazanie zadania 1 - "Grzybobranie".
+a990bed, Maciej Bednarz, 2023-03-31, Zagregowane (do jednego projektu) przyklady z zajęć.
+e1b642e, Maciej Bednarz, 2023-03-27, Lab06
+cfad95d, Maciej Bednarz, 2023-02-27, Lab02 topics.
+
+Repository /home/beart/programowanie/dla_sportu/cpp_learning/.git
+e6a06e7, kuba-kapron, 2023-11-03, rock paper scissors practice
+203ca19, kuba-kapron, 2023-11-02, simple calculator practice
+f62be1d, kuba-kapron, 2023-11-02, hypotenuse practice
+83814e8, kuba-kapron, 2023-11-01, hello world
+

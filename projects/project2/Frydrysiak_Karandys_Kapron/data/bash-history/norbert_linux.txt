@@ -1,0 +1,658 @@
+2023-12-03 15:18:54 history -Ql > lista_komend.txt
+2023-12-03 15:18:38 pacman -Ql > lista_pakietow.txt
+2023-12-03 15:18:24 ls
+2023-12-03 15:18:23 cd Pobrane/
+2023-12-03 15:18:09 ls -l
+2023-12-03 15:18:00 pacman -Ql
+2023-08-30 14:02:43 gimp
+2023-08-30 14:02:09 sudo pacman -Sy gimp
+2023-08-30 14:01:54 pacman -Ss gimp
+2023-08-30 14:01:47 pacman -Qs gimp
+2023-08-22 12:17:38 switcherooctl neofetch
+2023-08-22 12:17:21 switcherooctl
+2023-08-22 12:16:03 sudo pacman -Sy switcheroo-control
+2023-08-22 12:15:47 pacman -Ss switcheroo-control
+2023-08-22 12:14:42 nvidia-smi
+2023-08-22 12:13:26 man optimus
+2023-08-22 12:13:23 man optirun
+2023-08-22 12:04:05 lutris --version
+2023-08-22 12:04:01 which lutris
+2023-08-22 11:55:05 yay discord
+2023-08-22 11:53:11 yay steam
+2023-08-22 11:49:26 sensors
+2023-08-22 11:49:17 sudo thermald
+2023-08-22 11:49:14 thermald
+2023-08-22 11:48:55 sudo pacman -Sy lib32-glibc
+2023-08-22 11:48:26 sudo pacman -Sy glibc
+2023-08-22 11:47:33 sudo pacman -Sy thermald
+2023-08-22 11:46:48 lutris
+2023-08-22 11:46:12 yay lutris
+2023-08-22 11:35:53 sudo pacman -Syu
+2023-08-22 11:29:46 sudo pacman-key --refresh-keys
+2023-08-22 11:29:38 sudo pacman-key --lsign-key F3B607488DB35A47
+2023-08-22 11:29:28 sudo pacman-key --recv-keys F3B607488DB35A47 --keyserver keyserver.ubuntu.com
+2023-08-22 11:27:20 yay -Sy discord
+2023-08-22 11:26:32 sudo pacman _Syu
+2023-07-31 11:39:48 clear
+2023-07-31 11:39:30 vim
+2023-07-31 11:39:20 sudo vim pacman.conf
+2023-07-31 11:38:45 vim pacman.conf
+2023-07-31 11:38:37 ls | grep pacman
+2023-07-31 11:38:32 cd ..
+2023-07-31 11:38:19 cd /etc/pacman.d/
+2023-07-31 11:37:10 sudo pacman -Sy
+2023-07-17 23:09:30 vim init.vim
+2023-07-17 23:07:20 ls -a
+2023-07-16 21:42:01 cd
+2023-07-16 21:31:38 find . -name "2*" -mtime -17 -exec cp {} ~/Obrazy/USA_DREAM/ \;
+2023-07-16 21:30:02 find . -name "2*" -mtime -17 | count
+2023-07-16 21:29:22 find . -name "2*" -mtime -17
+2023-07-16 21:27:19 cd Camera/
+2023-07-16 21:26:37 cd DCIM
+2023-07-16 21:26:28 cd Pictures/
+2023-07-16 21:26:23 cd Internal\ storage/
+2023-06-14 12:53:04 cmatrix
+2023-06-14 12:47:42 exit
+2023-06-14 12:47:28 pip3 list
+2023-06-14 12:47:13 pip3
+2023-06-14 12:46:58 pip3 install sklearn
+2023-06-14 12:11:38 open gotowiec_projekt3.html
+2023-06-14 12:11:28 cd Dokumenty/informatyczne/iadstudia/algebra/
+2023-06-13 20:52:54 pacman -Syu
+2023-06-13 16:33:19 yay hollywood
+2023-06-13 16:33:14 yay -Ss hollywood
+2023-06-13 16:32:37 cd iadstudia/
+2023-06-13 16:32:33 cd ../..
+2023-06-13 16:32:14 jupyter notebook gotowiec_projekt3.ipynb
+2023-06-13 16:31:56 open gotowiec_projekt3.ipynb
+2023-06-12 21:22:49 cd cron.daily/
+2023-06-12 21:22:39 ls | grep cron
+2023-06-12 21:22:29 ls | grep crontab
+2023-06-12 21:22:17 cd /etc/
+2023-06-08 18:48:50 jupyter notebook
+2023-06-08 18:47:43 open gotowiec.png
+2023-06-08 18:47:35 wkhtmltoimage gotowiec_projekt3.html gotowiec.png
+2023-06-08 18:47:14 cd ../Dokumenty/informatyczne/iadstudia/algebra/
+2023-06-08 18:47:00 sudo pacman -U wkhtmltox-0.12.6-3.archlinux-x86_64.pkg.tar.xz
+2023-06-08 18:46:53 pacman -U wkhtmltox-0.12.6-3.archlinux-x86_64.pkg.tar.xz
+2023-06-08 18:46:41 cd  Pobrane/
+2023-06-08 18:45:30 yay wkhmtltoimage
+2023-06-08 18:45:16 yay -Ss wkhtml
+2023-06-08 18:44:08 jupyter nbconvert --to html gotowiec_projekt3.ipynb
+2023-06-08 18:43:42 pacman -Ss wkhtml
+2023-06-08 18:43:37 pacman -Ss wkhtmltoimage
+2023-06-08 18:41:00 pip install nbconvert[qtpdf]
+2023-06-08 18:40:46 pip install nbconvert
+2023-06-08 18:39:55 pip install nbconvert[qtpng]
+
+2023-06-08 18:39:04 pip install nbconvert[webpdf] --allow-chromium-download
+
+2023-06-08 18:38:28 pip install nbconvert[webpdf]
+
+2023-06-08 17:11:17 pip install matplotlib
+2023-06-08 15:45:32 pip install networkx
+2023-06-08 14:25:29 which python3
+2023-06-08 14:25:16 python3 -m pip install scikit-learn
+2023-06-08 14:23:55 pip list | grep sklearn
+2023-06-08 14:21:27 pip install sklearn
+2023-06-08 14:16:56 pip install scipy
+2023-06-08 14:16:50 pip list | grep scipy
+2023-06-08 14:16:43 pip list
+2023-06-08 14:16:27 man pip
+2023-06-08 09:50:13 python3 Norbert_Frydrysiak_327273_pd5.py
+2023-06-08 09:49:49 vim Norbert_Frydrysiak_327273_pd5.py
+2023-06-08 09:05:07 cd Dokumenty/informatyczne/iadstudia/pdu/pd5
+2023-06-06 21:52:05 pacman -Si cachyos-gaming-meta
+2023-06-06 21:51:34 man pacman
+2023-06-06 21:51:21 pacman -Sl cachyos-gaming-meta
+2023-06-06 21:51:18 pacman -Sl cachyos-gaming
+2023-06-06 21:50:33 pacman -Ss steam
+2023-06-06 17:00:27 neofetch
+2023-06-06 17:00:16 tlp-stat -s
+2023-06-05 20:55:25 pip install notebook
+2023-06-05 20:55:01 pip install jupyter
+2023-06-05 19:47:08 pacman -Ss spyder
+2023-06-05 19:46:58 yay -Ss spyder
+2023-06-05 16:14:43 sudo pacman -Sy libreoffice
+2023-06-04 23:10:27 sudo shutdown now
+2023-06-04 21:50:35 cd pd5
+2023-06-04 21:50:33 cd Dokumenty/informatyczne/iadstudia/pdu/
+2023-06-03 21:10:20 cd  Dokumenty/informatyczne/iadstudia/pdu/pd5
+2023-06-03 20:40:08 vim in
+2023-06-03 20:40:06 cd Dokumenty/
+2023-06-03 20:40:01 pwd
+2023-06-03 20:39:34 gem install neovim
+2023-06-03 20:38:49 sudo npm install -g neovim
+2023-06-03 20:38:31 sudo npm install -g npm@9.6.7
+2023-06-03 20:38:23 npm install -g npm@9.6.7
+2023-06-03 20:36:11 npm install -g neovim
+2023-06-03 20:33:53 echo $XDG_SESSION_TYPE
+2023-06-03 20:33:48 echo XDG_SESSION_TYPE
+2023-06-03 20:33:08 sudo pacman -Sy wl-clipboard
+2023-06-03 20:32:47 sudo pacman -Rnn xclip
+2023-06-03 20:32:40 sudo pacman -R xclip
+2023-06-03 20:32:26 pacman -Ss wl-clipboard
+2023-06-03 20:32:23 pacman -Ss wl-clipboard?
+2023-06-03 20:31:22 xclip
+2023-06-03 20:31:08 sudo pacman -Sy xclip
+2023-06-03 20:30:33 pacman -Ss xclip
+2023-06-03 20:26:09 pacman -Ss clipboard
+2023-06-03 20:26:03 pacman -Ss neovim clipboard
+2023-06-03 20:25:32 pacman -Ss neovim
+2023-06-03 20:13:53 pacman -Ss neovim-gtk
+2023-06-03 20:13:38 sudo pacman -Ss neovim-gtk
+2023-06-03 20:13:21 pacman -Qs neovim
+2023-06-03 20:09:23 cd nvim
+2023-06-03 20:09:20 cd .config
+2023-06-03 20:08:51 :q
+2023-06-03 20:08:42 vim plug.vim
+2023-06-03 20:08:38 cd autoload/
+2023-06-03 20:08:34 cd site/
+2023-06-03 20:08:30 sl
+2023-06-03 20:08:26 cd share
+2023-06-03 20:08:19 cd .local
+2023-06-03 20:07:46 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+2023-06-03 20:04:52 cat init.vim
+2023-06-03 19:57:47 python
+2023-06-03 19:57:36 pip install sqlite
+2023-06-03 19:57:33 pip install sqlite3
+2023-06-03 19:57:26 pip3 install sqlite3
+2023-06-03 19:53:07 vim pdu-2023L-pd5.pdf
+2023-06-03 19:52:50 cd ../pd5
+2023-06-03 19:52:47 cp *.gz ../pd5/
+2023-06-03 19:52:36 rm Votes.csv.gz
+2023-06-03 19:52:23 cd  pd3
+2023-06-03 19:51:46 open pdu-2023L-pd5.pdf
+2023-06-03 19:51:31 mv ~/Pobrane/pdu-2023L-pd5.pdf .
+2023-06-03 19:50:01 mv Imie_Nazwisko_nrAlbumu_pd5.py Norbert_Frydrysiak_327273_pd5.py
+2023-06-03 19:49:39 mv ~/Pobrane/*.py .
+2023-06-03 19:49:11 mkdir pd5
+2023-06-03 19:47:48 vim *.py
+2023-06-01 13:58:56 yay -Ss visual studio
+2023-05-31 20:23:01 cd po_programy/
+2023-05-31 20:22:58 cd ~/Dokumenty/informatyczne/iadstudia/
+2023-05-31 20:22:51 cd ,,
+2023-05-31 18:21:36 cd ~
+2023-05-31 18:11:05 vim Okno.java
+2023-05-31 18:10:50 vim Main.java
+2023-05-31 18:10:43 cd Biblioteka/
+2023-05-31 18:10:38 unzip *
+2023-05-31 18:10:34 cd bib
+2023-05-31 18:10:30 mv Biblioteka\(1\).zip bib/
+2023-05-31 18:10:20 mv Biblioteka\(1\).zip Bib/
+2023-05-31 18:10:11 mkdir bib
+2023-05-31 15:35:08 pacman -Ss tmux
+2023-05-31 15:03:25 pacman -Ss hollywood
+2023-05-29 21:18:45 shutdown now
+2023-05-29 20:40:06 vim Panel.java
+2023-05-29 20:39:39 cd mini/
+2023-05-29 20:39:38 cd min
+2023-05-29 20:39:33 cd src
+2023-05-29 20:39:31 cd licznik_2023/
+2023-05-29 20:39:26 cd Dokumenty/informatyczne/iadstudia/po_programy/
+2023-05-29 20:37:52 ruby
+2023-05-29 20:37:48 man gem
+2023-05-29 20:37:40 pacman -Ss gem
+2023-05-29 20:37:05 sudo pacman -Sy ruby
+2023-05-29 20:37:01 sudo pacman -Sy ruby gem
+2023-05-29 20:35:13 nvim --version
+2023-05-29 20:34:53 sudo pacman -Sy neovim-qt
+2023-05-29 20:34:09 pacman -Si neovim-qt
+2023-05-29 20:34:06 pacman -Qi neovim-qt
+2023-05-29 20:33:22 pacman -Dl neovim-qt
+2023-05-29 20:33:19 pacman -Ql neovim-qt
+2023-05-29 20:33:15 pacman -Sl neovim-qt
+2023-05-29 20:33:05 pacman -Ss neovim-qt
+2023-05-29 20:32:27 vim --version
+2023-05-29 20:32:24 vim --version | grep clipboard
+2023-05-29 20:10:02 ;s
+2023-05-29 20:10:02 cd Dokumenty/informatyczne/iadstudia/
+2023-05-29 19:26:16 git status
+2023-05-29 19:25:19 open pdu-2023L-pd4.pdf
+2023-05-29 19:22:31 mv pd4_repo/ Dominika_Gimzicka_Norbert_Frydrysiak
+2023-05-29 19:22:11 git clone https://fantasy2fry@bitbucket.org/projekt-pdu/pd4_repo.git
+2023-05-29 19:21:27 git push -u origin master
+2023-05-29 19:21:12 git commit -a
+2023-05-29 16:53:49 pacman -Ss cython
+2023-05-29 16:50:03 pip3 install pyximport
+2023-05-29 16:47:44 man cython
+2023-05-29 16:47:28 man cythonize
+2023-05-29 16:47:10 sudo pacman -Sy cython
+2023-05-29 14:45:12 rm -rf Dominika_Gimzicka_Norbert_Frydrysiak
+2023-05-29 14:43:55 vim shinyApp.R
+2023-05-29 14:43:51 vim README.txt
+2023-05-29 14:43:48 cd  Dominika_Gimzicka_Norbert_Frydrysiak/
+2023-05-29 14:42:13 zip -Ru Dominika_Gimzicka_Norbert_Frydrysiak_PD4.zip Dominika_Gimzicka_Norbert_Frydrysiak/
+2023-05-29 14:41:12 zip Dominika_Gimzicka_Norbert_Frydrysiak_PD4.zip Dominika_Gimzicka_Norbert_Frydrysiak/
+2023-05-29 14:38:48 man zip
+2023-05-29 14:38:33 zip Dominika_Gimzicka_Norbert_Frydrysiak/ Dominika_Gimzicka_Norbert_Frydrysiak.zip
+2023-05-29 14:37:26 rmdir pd4_repo/
+2023-05-29 14:37:11 mv .* ../
+2023-05-29 14:36:58 ls -A
+2023-05-29 14:36:37 cd pd4_repo/
+2023-05-29 14:36:30 mv pd4_repo/* .
+2023-05-29 14:36:08 mv pd4/* .
+2023-05-29 14:35:26 cd Dominika_Gimzicka_Norbert_Frydrysiak/
+2023-05-29 14:35:23 mkdir Dominika_Gimzicka_Norbert_Frydrysiak
+2023-05-29 14:32:14 open prezentacja.pdf
+2023-05-29 14:31:39 git add prezentacja.pdf
+2023-05-29 14:30:13 vim .gitignore
+2023-05-29 14:29:05 cd Dokumenty/informatyczne/iadstudia/pdu/pd4/
+2023-05-29 14:28:54 mv prezentacja.pdf ../Dokumenty/informatyczne/iadstudia/pdu/pd4/
+2023-05-29 14:28:36 mv PDU4\ -\ 13.pdf prezentacja.pdf
+2023-05-29 14:26:11 open PDU4\ -\ 13.pdf
+2023-05-29 14:26:04 cd ~/Pobrane/
+2023-05-29 14:25:20 cd pd4/
+2023-05-29 14:24:54 du -h pd4/
+2023-05-29 14:24:42 df -h pd4/
+2023-05-29 13:01:20 open zadanie_14.pdf
+2023-05-28 21:00:08 xrandr
+2023-05-28 09:50:27 rm -rf Zadanie_1_IO/
+2023-05-28 09:32:36 cd Zadanie_1_IO/
+2023-05-28 09:32:26 cd ../
+2023-05-28 09:31:10 cp Zadanie1Pliki.zip ../../../Zadanie_1_IO/
+2023-05-28 09:26:56 open Zadanie1Pliki.zip
+2023-05-28 09:26:09 cd Pliki\ do\ zadaia/
+2023-05-28 09:26:05 open IO_adania.pdf
+2023-05-28 09:25:49 vim IO_listingi.txt
+2023-05-28 09:25:41 open IO_teoria.pdf
+2023-05-28 09:25:33 cd IO
+2023-05-28 09:25:29 cd serializacja_strumienie/
+2023-05-27 20:33:07 man tlp
+2023-05-27 20:33:05 tlp stats
+2023-05-27 20:32:56 tlp status -s
+2023-05-27 20:32:48 systemctl status tlp.service
+2023-05-27 20:32:34 tlp stats -s
+2023-05-27 20:15:46 sudo dmesg | grep rtw
+2023-05-27 20:15:36 sudo dmesg | grep firmware
+2023-05-27 20:15:06 reboot
+2023-05-27 20:07:42 sudo pacman -Suuy
+2023-05-27 20:07:17 sudo pacman -Scc
+2023-05-27 20:05:41 sudo nano pacman.conf
+2023-05-27 19:38:24 yay -Ss discord rich presence
+2023-05-27 19:37:05 cd  Listing01/
+2023-05-27 19:37:01 cd  Listingi/
+2023-05-27 19:36:48 cd  IO/
+2023-05-27 19:35:07 rm Zwierzaki_gotowe.zip
+2023-05-27 19:34:59 unzip Zwierzaki_gotowe.zip
+2023-05-27 19:34:55 cd ../Dokumenty/informatyczne/iadstudia/po_programy/
+2023-05-27 19:34:49 mv Zwierzaki_gotowe.zip ../Dokumenty/informatyczne/iadstudia/po_programy/
+2023-05-27 19:34:23 open Zwierzaki_gotowe.zip
+2023-05-27 12:21:30 git commit -m "Dodanie pliku README.txt"
+2023-05-27 12:21:18 git add README.txt
+2023-05-27 12:20:55 git commit -am "Dodanie pliku README"
+2023-05-27 12:19:48 git commit
+2023-05-27 12:15:02 touch README.txt
+2023-05-27 12:03:50 git commit -m "FILENAME CHANGES"
+2023-05-27 12:02:25 rm .Rhistory
+2023-05-27 12:02:20 vim .Rhistory
+2023-05-27 12:02:05 git mv dominika.R plot_template_preparation.R
+2023-05-27 12:01:25 git mv test1.R data_preparation.R
+2023-05-27 11:36:14 rm convert_shinyApp_to_html.R
+2023-05-27 11:36:10 rm con
+2023-05-27 10:21:22 cd tabelki/
+2023-05-25 21:10:19 git add shinyApp.R
+2023-05-25 20:04:06 R
+2023-05-25 19:28:47 touch shinyApp.R
+2023-05-25 13:59:42 git add tabelki/*
+2023-05-25 13:59:36 git add ta
+2023-05-25 11:51:37 rm java.bat
+2023-05-25 11:51:26 vim java.bat
+2023-05-25 10:41:02 open Serializacja_teoria.pdf
+2023-05-25 10:40:57 cd Serializacja/
+2023-05-25 10:25:51 rm *.zip
+2023-05-25 10:25:45 unzip Lab_13\ -\ Serializacja.zip
+2023-05-25 10:25:37 cd se
+2023-05-25 10:25:34 mv Lab_13\ -\ Serializacja.zip Serializacja/
+2023-05-25 10:25:25 mkdir Serializacja
+2023-05-25 10:25:19 rm Lab_13\ -\ IO.zip
+2023-05-25 10:25:14 ls  IO
+2023-05-25 10:25:10 mv Listingi/ Pliki\ do\ zadaia/ *.pdf *.txt IO/
+2023-05-25 10:24:43 mkdir IO
+2023-05-25 10:23:55 unzip Lab_13\ -\ IO.zip
+2023-05-25 10:23:31 unzip *.zip
+2023-05-25 10:23:24 mv ~/Pobrane/Lab_13\ -\ * .
+2023-05-25 10:22:57 mkdir serializacja_strumienie
+2023-05-24 22:18:24 git log
+2023-05-24 20:35:04 cd Dokumenty/informatyczne/iadstudia/pdu/pd4
+2023-05-24 11:28:10 git add dominika.R
+2023-05-24 11:28:01 git add tabelki/
+2023-05-24 11:00:38 open odwolania_bez_13_Day.csv
+2023-05-24 10:58:46 open odwolania_z_13_Day.csv
+2023-05-24 10:46:32 vim dominika.R
+2023-05-24 10:46:27 touch dominika.R
+2023-05-24 10:40:07 git stats
+2023-05-24 10:34:47 ping archlinux.org
+2023-05-24 10:28:17 mkdir tabelki
+2023-05-23 17:53:55 mv nycflight* nycflight13/
+2023-05-23 17:46:00 vim zadanie-9_02.py
+2023-05-23 17:45:00 cd 23maja/
+2023-05-23 17:44:56 cd Dokumenty/informatyczne/iadstudia/pdu/pythonowe/
+2023-05-23 17:37:30 pip3 install os
+2023-05-23 17:37:03 pip3 install tempfile
+2023-05-23 17:33:02 vim zadanie-9_05-9_06.py
+2023-05-23 16:57:09 pip3 install pandas
+2023-05-23 16:38:48 open 09-numpy.pdf
+2023-05-23 16:37:21 open *.pdf
+2023-05-23 16:36:59 cd nycflight13/
+2023-05-23 16:36:43 cd 23maja
+2023-05-23 16:36:37 mv ./* 23maja/
+2023-05-23 16:36:25 mkdir 23maja
+2023-05-23 16:36:08 rm *.7z
+2023-05-23 16:35:54 7za e Lab12.7z
+2023-05-23 16:35:47 7za e Lab11.7z
+2023-05-23 16:35:34 man 7za
+2023-05-23 16:35:16 7za e *.7z
+2023-05-23 16:34:59 sudo pacman -Sy p7zip
+2023-05-23 16:33:44 pacman -Ss 7z
+2023-05-23 16:33:32 sudo pacman -Sy un7zip
+2023-05-23 16:33:29 pacman -Sy un7zip
+2023-05-23 16:33:11 unzip *.7z
+2023-05-23 16:33:02 mv ~/Pobrane/Lab12.7z ~/Pobrane/Lab11.7z .
+2023-05-23 16:32:48 man mv
+2023-05-23 16:32:06 mv . ~/Pobrane/Lab12.7z ~/Pobrane/Lab11.7z
+2023-05-23 16:31:36 mv . ~/Pobrane/*.7z
+2023-05-23 16:29:56 cd pythonowe/
+2023-05-23 16:29:51 cd  Dokumenty/informatyczne/iadstudia/pdu/
+2023-05-23 15:00:06 ls ~/Pobrane/
+2023-05-23 13:24:04 sudo dmesg | grep amd
+2023-05-23 13:23:56 sudo dmesg | grep nvidia
+2023-05-23 13:23:50 sudo dmesg | grep realtek
+2023-05-19 10:53:48 sudo powertop
+2023-05-19 10:53:44 powertop
+2023-05-19 10:53:32 sudo pacman -Sy powertop
+2023-05-18 22:24:26 bpytop
+2023-05-18 22:18:36 htop
+2023-05-18 10:31:20 vim PrzewijaneKomunikaty.java
+2023-05-18 10:31:10 cd chatgpt/
+2023-05-18 10:31:03 cd src/
+2023-05-18 10:31:01 cd przygotowania_do_trzeciego/
+2023-05-18 10:29:46 vim ButtonsExample.java
+2023-05-18 10:29:39 cd srcc
+2023-05-18 10:29:35 cd Listing3/
+2023-05-18 10:29:28 cd gui_2023/
+2023-05-17 17:05:22 cd pl/edu/pw/
+2023-05-17 17:05:09 rmdir obiektowe1dom/
+2023-05-17 17:04:51 mv * ../
+2023-05-17 17:04:39 cd obiektowe1dom/
+2023-05-17 17:04:09 git clone https://fantasy2fry@bitbucket.org/ryszard-piworun/obiektowe1dom.git
+2023-05-17 17:04:04 cd rysiu_gaming/
+2023-05-17 17:03:58 mkdir rysiu_gaming
+2023-05-16 15:10:55 man idea
+2023-05-16 14:07:02 cd pd4
+2023-05-15 18:23:14 git config --global user.email "01180700@pw.edu.pl"
+2023-05-15 18:22:21 man git
+2023-05-15 18:21:57 git branch -m master
+2023-05-15 18:21:27 git push -u origin norbert
+2023-05-15 18:21:20 git branch -m norbert
+2023-05-15 18:21:00 git push
+2023-05-15 18:20:32 git remote add origin https://fantasy2fry@bitbucket.org/projekt-pdu/pd4_repo.git
+2023-05-15 18:20:07 git add .gitignore test1.R
+2023-05-15 18:19:14 git config --global user.name "Norbert"
+2023-05-15 18:19:02 git config --global user.email ""
+2023-05-15 18:15:58 git init
+2023-05-15 18:15:13 touch .gitignore
+2023-05-14 20:52:08 git --help
+2023-05-14 20:51:58 git info
+2023-05-14 20:51:48 git-status
+2023-05-14 20:51:00 cd Dokumenty/informatyczne/iadstudia/po_programy/kontrola_promow_2023/
+2023-05-14 20:50:40 pacman -Qs git
+2023-05-14 18:58:04 open GUI*
+2023-05-14 18:57:32 open PO\ -\ Wątki*
+2023-05-14 18:57:11 cd lab_11-watki/
+2023-05-14 14:41:04 open polecenia_filmy.pdf
+2023-05-14 14:40:58 cd Rok\ 2022-23\ zim/
+2023-05-14 14:40:30 open polecenia_internet.pdf
+2023-05-14 14:40:03 open egzamin_e-biznes.pdf
+2023-05-14 14:39:05 open polecenia_abonenci.pdf
+2023-05-14 14:38:57 cd Rok\ 2017-18/
+2023-05-14 14:38:48 unzip PAD_Kolokwia.zip
+2023-05-14 14:38:45 cd R_korkijakies/
+2023-05-14 14:38:42 mv PAD_Kolokwia.zip R_korkijakies/
+2023-05-14 14:38:33 mkdir R_korkijakies
+2023-05-14 14:25:16 sudo reboot
+2023-05-11 22:49:35 sudo pacman -Sy wine
+2023-05-11 18:50:55 vim cachyos-mirrorlist
+2023-05-11 18:50:52 cd pacman.d/
+2023-05-11 18:37:25 rm dominika.zip
+2023-05-11 18:36:48 zip -r dominika.zip lab_11-watki/
+2023-05-11 18:35:55 zip lab_11-watki/ dominika.zip
+2023-05-11 18:35:02 sudo pacman -Sy zip
+2023-05-11 18:23:49 timeshift
+2023-05-11 18:23:38 sudo pacman -Sy timeshift
+2023-05-11 14:22:55 free -h
+2023-05-11 13:59:19 ls | count
+2023-05-11 13:58:47 unzip dataverse_files.zip
+2023-05-11 13:58:37 ls Pobrane/
+2023-05-11 13:58:35 mv Pobrane/dataverse_files.zip Dokumenty/informatyczne/iadstudia/pdu/pd4/
+2023-05-11 13:51:11 cd pob
+2023-05-11 13:50:58 rm *
+2023-05-11 13:50:13 open dataverse_files.zip
+2023-05-11 13:49:52 df -h
+2023-05-11 13:49:08 mkdir pd4
+2023-05-11 13:48:56 cd ../Dokumenty/informatyczne/iadstudia/pdu/
+2023-05-11 11:21:12 cd g
+2023-05-11 11:20:41 ranger
+2023-05-11 11:20:26 sudo pacman -Sy ranger
+2023-05-11 10:26:16 unzip PO\ -\ GUI.zip
+2023-05-11 10:26:09 mv PO\ -\ GUI.zip gui_2023/
+2023-05-11 10:26:03 mkdir gui_2023
+2023-05-11 10:24:57 mv PO\ -\ GUI.zip ../Dokumenty/informatyczne/iadstudia/po_programy/
+2023-05-11 10:23:56 ls Listing1/
+2023-05-11 10:23:09 sudo pacman -Sy unzip
+2023-05-10 23:35:27 yay -Ss shiny
+2023-05-10 23:35:21 yay -Ss R
+2023-05-10 23:25:18 sudo pacman -Sy tk
+2023-05-10 23:24:18 pacman -Qs R language
+2023-05-10 23:24:15 pacman -Qs Rlanguage
+2023-05-10 23:24:05 pacman -Qs R
+2023-05-10 23:23:45 pacman -Ss Rscript
+2023-05-10 23:23:37 pacman -Ss R cran
+2023-05-10 23:23:16 pacman -Ss R language
+2023-05-10 23:23:07 pacman -Ss R
+2023-05-10 23:20:51 sudo R
+2023-05-10 23:20:21 pacman -Ss libtk
+2023-05-10 17:28:54 pacman -Qi firefox
+2023-05-10 17:28:34 pacman -Qs firefox
+2023-05-09 19:44:34 pacman -Si timeshift
+2023-05-09 19:44:27 pacman -Di timeshift
+2023-05-09 19:43:43 pacman -Dl timeshift
+2023-05-09 19:43:13 pacman -Ss timeshift
+2023-05-09 19:43:06 pacman -Sl timeshift
+2023-05-09 18:00:15 mv main.py ../Dokumenty/informatyczne/iadstudia/pdu/pythonowe/9_maj_2.py
+2023-05-09 17:14:55 sudo pacman -Sy htop
+2023-05-09 17:14:52 pacman -Sy htop
+2023-05-09 16:59:54 pip install numpy
+2023-05-09 16:51:41 pip3 install numpy
+2023-05-08 20:35:34 yay rtw89
+2023-05-08 20:25:07 pacman -Ss realtek
+2023-05-08 20:24:32 yay -Ss rtw89
+2023-05-08 20:24:08 man yay
+2023-05-08 20:22:54 pacman -Qs firmware
+2023-05-08 20:22:45 pacman -Qs realtek
+2023-05-08 20:22:37 pacman -Qs rtw
+2023-05-08 17:25:48 chromium
+2023-05-08 17:24:32 sudo pacman -Sy chromium
+2023-05-07 20:26:22 open Spectrum.png
+2023-05-07 20:26:14 open splash.png
+2023-05-07 20:26:09 open Metal.png
+2023-05-07 20:26:04 open Liquid.png
+2023-05-07 20:25:55 open Lines.png
+2023-05-07 20:25:49 open GreenFeathers.png
+2023-05-07 20:25:40 open Dimensions.png
+2023-05-07 20:25:34 open DarkStreaks.png
+2023-05-07 20:25:13 open BlueFeathers.png
+2023-05-07 20:25:06 open Abstract.png
+2023-05-07 20:24:59 cd /usr/share/wallpapers/cachyos-wallpapers/
+2023-05-07 20:24:31 pacman -Ql cachyos-wallpapers
+2023-05-07 20:23:17 pacman -Qi cachyos-wallpapers
+2023-05-07 20:23:06 pacman -Qi wallpapers
+2023-05-07 20:23:02 pacman -Qsi wallpapers
+2023-05-07 20:22:18 pacman -Qs wallpapers
+2023-05-07 19:54:17 uname -a
+2023-05-07 19:54:15 uname -r
+2023-05-07 19:45:58 fish
+2023-05-07 19:07:37 sudo pacman -Sy cmatrix
+2023-05-07 19:07:34 pacman -Sy cmatrix
+2023-05-07 18:46:23 sudo dmesg | grep wifi
+2023-05-07 18:26:02 du -h
+2023-05-07 18:10:53 python3 25_kwie.py
+2023-05-07 18:10:27 vim 25_kwie.py
+2023-05-07 18:09:41 vi
+2023-05-07 18:07:39 yay neovim symlinks
+2023-05-07 18:06:19 yay lunarvim
+2023-05-07 18:05:00 pacman -Qs pycharm
+2023-05-07 18:04:52 pacman -Qs idea
+2023-05-07 18:03:04 pacman -Qs gnome desktop
+2023-05-07 18:02:58 pacman -Qs gnome
+2023-05-07 18:02:39 pacman -Ss kde desktop
+2023-05-07 18:02:30 pacman -Ss kde
+2023-05-07 18:00:47 pacman -Qs rtw89
+2023-05-07 18:00:38 pacman -Qs pip
+2023-05-07 17:59:31 bash
+2023-05-05 21:58:20 apt install ranger
+2023-05-05 21:58:05 apt
+2023-05-05 21:55:00 sudo pacman -S python-pynvim
+2023-05-05 21:46:53 cp -r ~/Dokumenty/18\ Norbert\ Frydrysiak\ -\ 22.02.2020/18\ Norbert\ Frydrysiak\ -\ 22.02.2020/ ./
+2023-05-05 21:46:25 cp ~/Dokumenty/18\ Norbert\ Frydrysiak\ -\ 22.02.2020/ .
+2023-05-05 21:45:09 sudo rm -rf .Trash-1000/*
+2023-05-05 21:45:03 rm -rf .Trash-1000/*
+2023-05-05 21:42:59 df
+2023-05-05 21:41:46 teams
+2023-05-05 21:37:42 yay microsoft teams
+2023-05-05 21:29:12 taskset --help
+2023-05-05 21:29:07 taskset
+2023-05-05 21:26:34 zsh
+2023-05-05 21:25:08 pacman -Q | grep cachyos
+2023-05-05 21:25:03 pacman -Q | grep cachyos-zsh-config
+2023-05-05 21:24:29 sudo pacman -R vim
+2023-05-05 21:23:18 ping wp.pl
+2023-05-05 21:18:28 systemctl enable tlp.service
+2023-05-05 21:18:17 systemctl enable NetworkManager-dispatcher.service
+2023-05-05 21:18:00 systemctl mask systemd-rfkill.service systemd-rfkill.socket
+2023-05-05 21:17:35 sudo tlp start
+2023-05-05 21:17:33 tlp start
+2023-05-05 21:17:26 sudo pacman -R powertop
+2023-05-05 21:14:27 sudo powertop auto tune
+2023-05-05 21:14:23 powertop auto tune
+2023-05-05 21:10:48 vim 99-cachyos-settings.conf
+2023-05-05 21:10:41 cd /etc/sysctl.d/
+2023-05-05 21:05:20 sudo cat /sys/devices/system/cpu/cpufreq/policy?/stats/time_in_state
+2023-05-05 21:05:03 sudo cat /sys/devices/system/cpu/cpufreq/policy?/stats
+2023-05-05 21:04:52 sudo cat /sys/devices/system/cpu/cpufreq/policy?/cpuinfo_cur_freq
+2023-05-05 21:04:49 cat /sys/devices/system/cpu/cpufreq/policy?/cpuinfo_cur_freq
+2023-05-05 21:01:41 sudo pacman -S python3-pip3
+2023-05-05 21:01:36 sudo pacman -S python-pip3
+2023-05-05 21:01:26 sudo pacman -S python-pip
+2023-05-05 21:01:17 sudo pacman -S python3-pip
+2023-05-05 21:00:05 python3 install pip
+2023-05-05 20:59:58 python3 -m pip install pip
+2023-05-05 20:59:32 python3 -m pip -version
+2023-05-05 20:58:50 pip install
+2023-05-05 20:58:06 sudo pacman -S firefox
+2023-05-05 20:55:45 man systemctl
+2023-05-05 20:55:16 systemctl status systemd-rfkill.socket
+2023-05-05 20:54:55 systemctl status systemd-rfkill.service
+2023-05-05 20:48:36 nvim init.vim
+2023-05-05 20:48:24 nvim
+2023-05-05 20:44:31 vim Dokumenty/init.vim
+2023-05-05 20:43:40 touch init.vim
+2023-05-05 20:43:26 mkdir nvim
+2023-05-05 20:24:41 cpupower info
+2023-05-05 20:24:32 cpupower
+2023-05-05 20:24:25 man cpupower
+2023-05-05 20:24:13 echo power
+2023-05-05 20:19:50 systemctl enable bluetooth.service
+2023-05-05 20:19:30 systemctl status bluetooth.service
+2023-05-05 20:19:26 systemctl start bluetooth.service
+2023-05-05 20:01:46 sudo pacman -S bpytop
+2023-05-05 20:01:40 sudo pacman bpytop
+2023-05-05 20:01:33 top
+2023-05-05 20:00:00 pacman -Qs tldr
+2023-05-05 19:59:50 pacman -Qs tealdeer
+2023-05-05 19:59:23 tealdeer
+2023-05-05 19:59:08 sudo pacman -S tldr
+2023-05-05 19:58:31 pacman --search discord
+2023-05-05 19:58:19 pacman -s discord
+2023-05-05 19:51:29 yay pycharm
+2023-05-05 19:51:13 sudo pacman -S pycharm-community
+2023-05-05 19:51:03 sudo pacman -S pycharm
+2023-05-05 19:50:27 sudo pacman -S curl
+2023-05-05 19:49:43 LV_BRANCH='release-1.3/neovim-0.9' bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.3/neovim-0.9/utils/installer/install.sh)
+2023-05-05 19:49:08 sudo pacman -S neovim
+2023-05-05 19:47:20 sudo pacman -S make
+2023-05-05 19:47:14 sudo pacman -S node
+2023-05-05 19:47:00 sudo pacman -S npm
+2023-05-05 19:46:43 sudo pacman -S python3
+2023-05-05 19:46:34 sudo pacman -S python
+2023-05-05 19:46:22 sudo pacman -S pip
+2023-05-05 19:46:16 pip
+2023-05-05 19:45:17 pacman -Q | grep pip
+2023-05-05 19:44:42 sudo pacman -S git make pip npm node cargo python
+2023-05-05 19:43:21 inxi -Gxx
+2023-05-05 19:42:51 glxinfo | grep -i  rendering
+2023-05-05 19:42:37 cat /proc/cmdline
+2023-05-05 19:42:23 dkms status
+2023-05-05 19:37:02 bg
+2023-05-05 19:36:24 discord
+2023-05-05 19:35:57 sudo pacman -S discord
+2023-05-05 19:35:55 pacman -S discord
+2023-05-05 19:33:16 rstudio
+2023-05-05 19:30:11 yay rstudio
+2023-05-05 19:29:19 idea
+2023-05-05 19:25:18 sudo pacman -S  powertop
+2023-05-05 19:24:25 sudo pacman -S laptop-mode
+2023-05-05 19:24:16 sudo pacman -S laptop-mode-tools
+2023-05-05 19:24:14 pacman -S laptop-mode-tools
+2023-05-05 19:21:52 pacman -Q | grep settings
+2023-05-05 19:21:43 pacman -Q
+2023-05-05 19:14:20 sudo systemctl enable --now optimus-manager.service
+2023-05-05 19:14:09 sudo pacman -S optimus-manager optimus-manager-qt
+2023-05-05 19:13:33 sudo grub-mkconfig -o /boot/grub/grub.cfg
+2023-05-05 19:13:15 sudo mkinitcpio -P
+2023-05-05 19:11:39 sudo nano grub
+2023-05-05 19:11:25 cd default/
+2023-05-05 19:08:42 sudo vim mkinitcpio.conf
+2023-05-05 19:06:59 vim mkinitcpio.conf
+2023-05-05 19:05:06 yay intellij
+2023-05-05 19:04:57 yay intellijidea
+2023-05-05 19:01:53 c;ear
+2023-05-05 19:01:46 man wifi
+2023-05-05 18:59:04 lspci -vnnn | perl -lne 'print if /^\d+\:.+(\[\S+\:\S+\])/' | grep VGA
+2023-05-05 18:56:52 sudo tlp-stat
+2023-05-05 18:56:49 tlp-stat
+2023-05-05 18:53:07 sudo pacman -S tlp-rdw
+2023-05-05 18:52:03 sudo pacman -S tlp
+2023-05-05 18:41:34 mv /run/media/fantasy2fry/ISY/obrazy/* ~/Obrazy/
+2023-05-05 18:41:05 cd /
+2023-05-05 18:40:20 ssh mini
+2023-05-05 18:40:15 cd .ssh/
+2023-05-05 18:39:46 mv .ssh/ ~
+2023-05-05 18:39:34 cd /run/media/fantasy2fry/ISY/
+2023-05-05 18:39:16 ssh
+2023-05-05 18:39:08 cd .ssh
+2023-05-05 18:28:26 mv 18\ Norbert\ Frydrysiak\ -\ 22.02.2020/ ~/Dokumenty/18\ Norbert\ Frydrysiak\ -\ 22.02.2020/
+2023-05-05 18:27:55 mv 18\ Norbert\ Frydrysiak\ -\ 22.02.2020/ ~/Dokumenty/
+2023-05-05 16:34:23 sudo sensors-detect
+2023-05-05 16:34:21 sensors-detect
+2023-05-05 16:34:11 sudo pacman -S lm_sensors
+2023-05-05 16:34:00 sudo pacman -S lm-sensors
+2023-05-05 16:33:57 pacman -S lm-sensors
+2023-05-05 16:30:21 vim .viminfo
+2023-05-05 16:30:05 yay -R neovim
+2023-05-05 16:29:51 sudo yay -R nvim
+2023-05-05 16:29:47 yay -R nvim
+2023-05-05 16:28:58 sudo pacman -R  nvim
+2023-05-05 16:28:56 pacman -R  nvim
+2023-05-05 16:27:01 cd vim
+2023-05-05 16:26:52 cd .config/
+2023-05-05 16:26:33 neovim
+2023-05-05 16:24:21 pacman -R vim
+2023-05-05 16:23:13 yay neovim
+2023-05-05 16:22:53 yay nvim
+2023-05-05 16:08:47 sudo dmesg
+2023-05-05 16:07:02 yay
+2023-05-05 16:06:44 sudo pacman -Syu yay
+2023-05-05 16:06:41 pacman -Syu yay
+2023-05-05 16:05:58 cd  Dokumenty/

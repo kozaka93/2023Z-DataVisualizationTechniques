@@ -1,0 +1,3415 @@
+    1  ls
+    2  mkdir ZamoyKoloAlgorytmiczne
+    3  cd ZamoyKoloAlgorytmiczne/
+    4  touch szc.cpp
+    5  gedit szc.cpp 
+    6  g++ szc.cpp 
+    7  ./szc
+    8  ls
+    9  g++ szc.cpp -o szc
+   10  ls -a
+   11  ./szc
+   12  g++ szc.cpp -o szc
+   13  ./szc
+   14  cd
+   15  cd Documents/
+   16  gedit git_token.txt 
+   17  cd
+   18  cd Documents/
+   19  gedit git_token.txt 
+   20  cd Projects/RedditClone/
+   21  git add .
+   22  git commit -m "add password validation"
+   23  git push
+   24  git checkout -b user-service
+   25  git status
+   26  git add .
+   27  git commit -m "add userdto and password match validation"
+   28  git checkout main
+   29  git status
+   30  git checkout main
+   31  git checkout user-service 
+   32  git status
+   33  git add src/main/java/pl/karandysm/redditclone/exceptions/
+   34  git commit -m "add registration exceptions"
+   35  git add .
+   36  git commit -m "complete user service"
+   37  git push
+   38  git branch
+   39  git checkout main 
+   40  git merge user-service 
+   41  git push
+   42  git brnch
+   43  git branch
+   44  git status
+   45  git branch -d user-service 
+   46  git branch
+   47  eclipse/eclipse/eclipse 
+   48  ls 
+   49  cd Mini/
+   50  ls
+   51  cd Java/
+   52  ls
+   53  cd my_repos/
+   54  ls
+   55  cd
+   56  cd Downloads/
+   57  ls
+   58  cd
+   59  cd Mini/Java/
+   60  ls
+   61  cd my_repos/
+   62  ls
+   63  cd ..
+   64  ls
+   65  mkdir zpoif
+   66  cd zpoif/
+   67  java -version
+   68  cd ..
+   69  mv Java/ java/
+   70  ls
+   71  cd java/
+   72  ls
+   73  cd zpoif/
+   74  java -version
+   75  mv ~/Downloads/jdk21.zip .
+   76  mv ~/Downloads/jdk11.zip .
+   77  ls
+   78  cd ..
+   79  ls
+   80  cd zpoif/
+   81  ls
+   82  unzip jdk11.zip 
+   83  ls -a
+   84  unzip jdk21.zip 
+   85  java -version
+   86  ls
+   87  mv jdk-11.0.19/ jdk11
+   88  mv jdk-21/ jdk21
+   89  ls
+   90  cd jdk21
+   91  ls
+   92  cd ..
+   93  ls
+   94  cd jdk11
+   95  ls -a
+   96  cd bin/
+   97  ls
+   98  cd ..
+   99  java -version
+  100  echo $PATH
+  101  touch Simple.java
+  102  ls
+  103  gedit Simple.java 
+  104  dir
+  105  ls
+  106  ./jdk21/bin/javac Simple.java 
+  107  ls
+  108  jdk21/bin/javac Simple.java
+  109  ./jdk21/bin/javac.exe Simple.java 
+  110  ./jdk21/bin/javac Simple.java\
+  111  ./jdk21/bin/javac Simple.java
+  112  ./jdk21/bin/javac.exe Simple.java
+  113  javac Simple.java 
+  114  ls
+  115  ~/Mini/java/zpoif/jdk11/bin/javac
+  116  ~/Mini/java/zpoif/jdk11/bin/javac.exe 
+  117  ~/Mini/java/zpoif/jdk11/bin/java Simple.java
+  118  ~/Mini/java/zpoif/jdk11/bin/java.exe Simple.java
+  119  uname -m
+  120  cd jdk11/bin/
+  121  ls javac
+  122  ls 
+  123  ls -l
+  124  cd ..
+  125  java Simple.java
+  126  javac Simple.java
+  127  ls
+  128  ./Simple.class
+  129  java Simple 
+  130  javac Simple.java
+  131  java Simple 
+  132  mv ~/Downloads/jdk-21_linux-x64_bin.tar.gz .
+  133  ls
+  134  tar -xvzf jdk-21_linux-x64_bin.tar.gz 
+  135  ls
+  136  mv jdk-21 jdk21
+  137  ./jdk21/bin/javac Simple.java 
+  138  ./jdk21/bin/java Simple
+  139  Simple.java
+  140  ./Sim
+  141  cat Simple.class 
+  142  echo $PATH
+  143  echo "{$PATH}dupa"
+  144  echo "$PATHdupa"
+  145  echo "${PATH}dupa"
+  146  echo $path
+  147  echo $Path
+  148  cd /jdk21/bin/java 
+  149  cd ./jdk21/bin/java 
+  150  cd ./jdk21/bin/
+  151  PATH=$PATH:~/Mini/java/zpoif/jdk21/bin
+  152  cho $PATH
+  153  echo $PATH
+  154  javac Simple.java
+  155  cd ..
+  156  ls
+  157  javac Simple.java 
+  158  java Simple
+  159  echo $PATH
+  160  PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+  161  echo $PATH
+  162  touch NotSimple.java
+  163  ./jdk21/bin/javac NotSimple.java 
+  164  ls -a
+  165  ln ./jdk21/bin/javac javac_ln
+  166  ls -a
+  167  javac_ln NotSimple.java 
+  168  ./javac_ln NotSimple.java 
+  169  rm javac_ln 
+  170  ls
+  171  ln -s ./jdk21/bin/javac javac_ln
+  172  javac_ln NotSimple.java
+  173  ls -l
+  174  ./jdk21/bin/java NotSimple 
+  175  ./jdk21/bin/java pl.edu.pw.mini.zpoif.karandysm.workshop.NotSimple 
+  176  ls
+  177  rm javac_ln
+  178  ln -s ./jdk21/bin
+  179  ls -
+  180  ls -a
+  181  rm bin
+  182  ln -s ./jdk21/bin binlink
+  183  binlink/javac NotSimple.java 
+  184  binlink/java NotSimple 
+  185  binlink/java pl/edu/pw/mini/zpoif/workshop/NotSimple
+  186  mv binlink javalink
+  187  ls
+  188  ln -s javalink/javac xd
+  189  ls
+  190  xd Simple.
+  191  xd Simple.java
+  192  ./xd Simple.java
+  193  mv xd javaclink
+  194  ls
+  195  ./javaclink Simple.java 
+  196  javalink/java Simple 
+  197  mkdir pl/edu/pw/mini/zpoif/karandysm/workshop
+  198  mkdir -r pl/edu/pw/mini/zpoif/karandysm/workshop
+  199  mkdir pl/edu/pw/mini/zpoif/karandysm/workshop
+  200  mkdir pl/edu/pw/mini/zpoif/karandysm/workshop/
+  201  mkdir -p pl/edu/pw/mini/zpoif/karandysm/workshop/
+  202  mv NotSimple.* pl/edu/pw/mini/zpoif/karandysm/workshop/
+  203  ls
+  204  cd pl/edu/pw/mini/zpoif/karandysm/workshop/
+  205  ls
+  206  cd -
+  207  rm javalink
+  208  ln -s ./jdk21/bin/java javalink
+  209  ./javalink Simple
+  210  ./javalink pl/edu/pw/mini/zpoif/karandysm/workshop/NotSimple
+  211  ./javaclink pl/edu/pw/mini/zpoif/karandysm/workshop/NotSimple
+  212  ls
+  213  ls -l
+  214  rm javaclink 
+  215  ls
+  216  ln -s jdk21/bin/javac javaclink
+  217  ls
+  218  javaclink pl/edu/pw/mini/zpoif/karandysm/workshop/NotSimple.java
+  219  ./javaclink pl/edu/pw/mini/zpoif/karandysm/workshop/NotSimple.java
+  220  ./javalink pl/edu/pw/mini/zpoif/karandysm/workshop/NotSimple
+  221  ./javalink Simpl
+  222  ./javalink Simple
+  223  ./javalink pl.edu.pw.mini.zpoif.karandysm.workshop.NotSimple
+  224  ./javaclink pl/edu/pw/mini/zpoif/workshop/NotSimple.java
+  225  ./javalink pl/edu/pw/mini/zpoif/workshop/NotSimple.java
+  226  ./javalink pl.edu.pw.mini.zpoif.workshop.NotSimple
+  227  ls
+  228  rm -r jdk-21_linux-x64_bin.tar.gz 
+  229  ls
+  230  ls -l
+  231  javalink Simple
+  232  ./javalink Simple
+  233  javaclink Simple.java
+  234  cd ..
+  235  ls
+  236  cd zpoif/
+  237  mkdir daleko
+  238  ls
+  239  mv pl/ daleko/
+  240  ls
+  241  cd daleko/
+  242  ls
+  243  cd ..
+  244  ./javac daleko/pl/edu/pw/mini/zpoif/workshop/NotSimple.java 
+  245  ./javaclink daleko/pl/edu/pw/mini/zpoif/workshop/NotSimple.java 
+  246  ./javalink daleko/pl/edu/pw/mini/zpoif/workshop/NotSimple
+  247  cd daleko/
+  248  ./javalink pl/edu/pw/mini/zpoif/workshop/NotSimple
+  249  cd ..
+  250  ./javalink -cp /pl/edu/pw/mini/zpoif/workshop/NotSimple
+  251  ./javalink -cp daleko /pl/edu/pw/mini/zpoif/workshop/NotSimple
+  252  ./javalink -cp "daleko" /pl/edu/pw/mini/zpoif/workshop/NotSimple
+  253  ./javalink -cp "daleko" pl/edu/pw/mini/zpoif/workshop/NotSimple
+  254  exit
+  255  cd Projects/RedditClone/
+  256  code .
+  257  git status
+  258  git add .
+  259  git commit -m "display user when registered, add header fragment"
+  260  git push
+  261  eclipse/eclipse/eclipse 
+  262  exit
+  263  cd Projects/RedditClone/
+  264  git status
+  265  git commit -m "refactor to css bem guidlines"
+  266  git branch
+  267  git add .
+  268  git commit -m "refactor to css bem guidlines"
+  269  cd Projects/Rred
+  270  cd Projects/RedditClone/
+  271  git branch
+  272  git checkout -b frontend-refactoring
+  273  git branch
+  274  code .
+  275  cd
+  276  eclipse/eclipse/eclipse 
+  277  top
+  278  sudo apt update
+  279  apt list --upgradable
+  280  sudo apt upgrade
+  281  sudo dpkg --configure -a
+  282  sudo apt update
+  283  sudo apt upgrade
+  284  sudo apt update
+  285  sudo apt install r-base
+  286  sudo apt update
+  287  df -h
+  288  ls -l /
+  289  cd /opt
+  290  ls
+  291  ls -a
+  292  cd ..
+  293  cd
+  294  ls -a
+  295  ls
+  296  sudo -i R
+  297  cd Downloads/
+  298  ls
+  299  sudo apt install ./rstudio-2023.09.0-463-amd64.deb
+  300  sudo apt install dirmngr gnupg apt-transport-https ca-certificates software-properties-common
+  301  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+  302  ls -a
+  303  cat KEYS 
+  304  rm KEYS 
+  305  sudo apt install ./rstudio-2023.09.0-463-amd64.deb
+  306  lsb_release 
+  307  lsb_release -cs
+  308  sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/'
+  309  sudo apt update
+  310  man apt-key(8)
+  311  man apt-key 8
+  312  uname
+  313  uname -a
+  314  uname -r
+  315  hostnamectl
+  316  sudo apt remove --autoremove rstudio
+  317  sudo apt update
+  318  apt-add-repository --list
+  319  apt-add-repository --help
+  320  sudo apt-add-repository --list
+  321  sudo apt --list
+  322  sudo apt list
+  323  sudo apt list --installed
+  324  sudo apt list --installed | grep -i ppa
+  325  sudo apt list --installed | grep rst
+  326  sudo apt list --installed | grep cran
+  327  sudo apt update
+  328  sudo apt install curl dirmngr apt-transport-https ca-certificates software-properties-common
+  329  cd
+  330  curl -fSsL https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo gpg --dearmor | sudo tee /usr/share/keyrings/cran.gpg >> /dev/null
+  331  cd Downloads/
+  332  ls
+  333  cd
+  334  echo deb [signed-by=/usr/share/keyrings/cran.gpg] https://cloud.r-project.org/bin/linux/ubuntu jammy-cran40/ | sudo tee /etc/apt/sources.list.d/cran.list
+  335  sudo apt update
+  336  cd /etc/apt
+  337  ls
+  338  sudo cp trusted.gpg trusted.gpg.d
+  339  sudo apt update
+  340  sudo apt list --upgradable
+  341  sudo apt install r-base r-base-dev
+  342  sudo apt update
+  343  sudo apt upgrade 
+  344  cd
+  345  R --version
+  346  cd Downloads/
+  347  ls
+  348  rstudio
+  349  ls
+  350  sudo apt install ./rstudio-2023.09.0-463-amd64.deb
+  351  sudo apt install libssl1.0.0
+  352  sudo apt install libssl1.1
+  353  sudo apt update
+  354  sudo apt-get update
+  355  history
+  356  rstudio
+  357  sudo apt-get update
+  358  man apt-get
+  359  apt-add-repository --list
+  360  add-apt-repository --list
+  361  man add-apt-repository
+  362  cd /etc/apt/sources.list.d/
+  363  ls -a
+  364  cat cran.list 
+  365  cat additional-repositories.list 
+  366  ls
+  367  ls -l
+  368  lsb_release -a
+  369  apt update
+  370  cd
+  371  cd down
+  372  cd Downloads/
+  373  ls
+  374  rm rstudio-2023.09.0-463-amd64.deb 
+  375  ls
+  376  sudo dpkg -i rstudio-2023.09.0-463-amd64.deb 
+  377  sudo apt --fix-broken install
+  378  rstudio
+  379  cd
+  380  ls -a
+  381  cd Warpinator/
+  382  ls
+  383  ls -a
+  384  cd
+  385  ls -l
+  386  ls -la
+  387  ls -a
+  388  -a
+  389  ls
+  390  cd R
+  391  ls
+  392  cd x86_64-pc-linux-gnu-library/
+  393  ls
+  394  cd 4.3/
+  395  ls
+  396  cd
+  397  rm test/
+  398  rm -r test/
+  399  cat /etc/apt/sources.list*
+  400  cat /etc/apt/sources.list
+  401  cat /etc/apt/sources.list.d/
+  402  cat /etc/apt/sources.list
+  403  cd /etc/apt/sources.list.d/
+  404  ls
+  405  cat official-package-repositories.list 
+  406  cat cran.list 
+  407  cat additional-repositories.list 
+  408  sudo add-apt-repository -r ppa:additional-repositories.list 
+  409  ls
+  410  sudo add-apt-repository -r ppa:additional-repositories.list 
+  411  sudo add-apt-repository -r additional-repositories.list 
+  412  ls
+  413  cd
+  414  sudo apt update
+  415  cd Mini/
+  416  ls
+  417  cd twd/
+  418  ls
+  419  mkdir KarandysMateusz
+  420  cd K
+  421  cd KarandysMateusz/
+  422  mv ~/Downloads/spotify-2023.csv ~/Downloads/HW1_tasks.R .
+  423  ls
+  424  ls -a
+  425  cd .m2
+  426  ls
+  427  cd repository/
+  428  ls
+  429  cd
+  430  cd Mini/
+  431  ls
+  432  cd java/
+  433  ls
+  434  cd zpoif/
+  435  ls
+  436  java --version
+  437  history
+  438  ls
+  439  ./javaclink Simple.java 
+  440  ./javalink daleko/pl/edu/pw/mini/zpoif/workshop/NotSimple
+  441  ./javalink -cp "daleko" pl/edu/pw/mini/zpoif/workshop/NotSimple
+  442  ./javaclink -cp "daleko" pl/edu/pw/mini/zpoif/workshop/NotSimple
+  443  ./javaclink -cp daleko/ pl/edu/pw/mini/zpoif/workshop/NotSimple
+  444  ./javaclink --help
+  445  ./javaclink daleko/pl/edu/pw/mini/zpoif/workshop/NotSimple.java
+  446  ./javalink -cp "daleko" pl/edu/pw/mini/zpoif/workshop/NotSimple
+  447  ./javalink -cp "daleko" pl.edu.pw.mini.zpoif.workshop.NotSimple
+  448  ./javaclink Simple.java
+  449  ./javaclink -cp "daleko" Simple.java
+  450  ls -l
+  451  mv javaclink javac21
+  452  mv javalink java21
+  453  ls
+  454  ./java21 -cp "daleko" Simple
+  455  ./java21 -cp "daleko;." Simple
+  456  ./java21  Simple
+  457  ./java21 -cp "daleko;." Simple
+  458  ./java21 -cp ".;daleko" Simple
+  459  ./java21 -cp "daleko;." Simple
+  460  ls
+  461  ./java21 -cp "daleko;." Simple.java
+  462  ls -l
+  463  ./javac21 -cp "daleko" Simple.java
+  464  ./java21 -cp "daleko;." Simple.java
+  465  chmod
+  466  chmod -a
+  467  ls -a
+  468  ls -l
+  469  ./javac21 -cp "daleko" Simple.java
+  470  ./java21 Simple.
+  471  ./java21 Simple
+  472  ./java21 -cp "daleko" Simple
+  473  ./java21 -cp "daleko;." Simple
+  474  ./java21 -cp "daleko:." Simple
+  475  ./java21 -cp ".:daleko" Simple
+  476  ls -l
+  477  ls
+  478  cd daleko/
+  479  jar cf myjar.jar "pl"
+  480  ls
+  481  cd ..
+  482  ./java21 -cp "daleko:." Simple
+  483  ./java21 -cp "daleko" NotSimple
+  484  ./java21 -cp "daleko" pl.edu.pw.mini.zpoif.workshop.NotSimple
+  485  ./java21 -cp "daleko/myjar.jar" pl.edu.pw.mini.zpoif.workshop.Notsimple
+  486  ./java21 -cp "daleko/myjar.jar" pl.edu.pw.mini.zpoif.workshop.NotSimple
+  487  ./javac21 -cp "daleko" Simple.java
+  488  ./javac21 -cp "daleko/myjar.jar" Simple.java
+  489  ./java21 -cp "daleko/myjar.jar:." Simple
+  490  ./java21 -cp "daleko:." Simple
+  491  ./java21 -cp "daleko/myjar.jar:." Simple
+  492  cd daleko/
+  493  ls
+  494  mv myjar.jar ..
+  495  ls
+  496  cd ..
+  497  ls
+  498  ./java21 -cp "daleko/myjar.jar:." Simple
+  499  mv myjar.jar daleko/
+  500  ls
+  501  cd daleko/
+  502  ls
+  503  cd ..
+  504  ls
+  505  cd daleko
+  506  touch mymanifest.txt
+  507  cd dal
+  508  ls
+  509  history
+  510  jar -cmf mymanifest.txt mymanifested.jar "pl"
+  511  ls
+  512  cd ..
+  513  ./java21 -jar daleko/mymanifested.jar 
+  514  cd 
+  515  cd Downloads/
+  516  ls
+  517  rm haunteda.pdf 
+  518  cd
+  519  cd Mini/java/
+  520  ls
+  521  cd my_repos/
+  522  ls
+  523  git clone https://github.com/bednarzm/zpoif_2023_lessons.git
+  524  ls
+  525  cd ..
+  526  ls
+  527  mkdir my_workspace
+  528  rm my_workspace/
+  529  ls
+  530  rm -r my_w
+  531  rm -r my_workspace/
+  532  ls
+  533  cd zpoif/
+  534  mkdir GetJar
+  535  ls
+  536  mv daleko/myjar.jar GetJar/lib/
+  537  cd GetJar/
+  538  ls
+  539  cd lib/
+  540  ls
+  541  cd ..
+  542  cd
+  543  cd -
+  544  ls -a
+  545  cat .classpath 
+  546  eclipse/eclipse/eclipse 
+  547  exit
+  548  cd ~
+  549  ls -a
+  550  echo $PATH
+  551  cd Mini/
+  552  ls
+  553  cd twd/
+  554  ls
+  555  cd KarandysMateusz/
+  556  ls
+  557  rm KarandysMateusz.Rproj 
+  558  ls
+  559  cd ..
+  560  ls
+  561  mkdir OnlineShopAnalysis
+  562  cat KarandysMateusz/HW1_tasks.R | grep Zad 9
+  563  cat KarandysMateusz/HW1_tasks.R | grep "Zad 9"
+  564  cat KarandysMateusz/HW1_tasks.R | grep "9"
+  565  cd ~/Downloads/
+  566  ls
+  567  mv archive.zip ../Mini/twd/OnlineShopAnalysis/
+  568  cd ../Mini/twd/OnlineShopAnalysis/
+  569  unzip archive.zip 
+  570  df -h
+  571  ls
+  572  mv archive.zip ..
+  573  ls
+  574  cd ..
+  575  rm -r OnlineShopAnalysis/
+  576  ls
+  577  git clone https://github.com/vecel/online-grocery-basket-analysis.git
+  578  ls
+  579  mv online-grocery-basket-analysis/ OnlineGroceryBasketAnalysis
+  580  cd OnlineGroceryBasketAnalysis/
+  581  ls
+  582  cd ..
+  583  cd OnlineGroceryBasketAnalysis/
+  584  mkdir data/raw-data 
+  585  mkdir -r data/raw-data
+  586  mkdir data
+  587  cd data/
+  588  mkdir raw-data
+  589  cd ..
+  590  touch .gitignore
+  591  gedit .gitignore 
+  592  mkdir reports
+  593  cd reports/
+  594  mkdir figures
+  595  cd ..
+  596  ls
+  597  ls -a
+  598  git add .
+  599  git commit -m "initial commit"
+  600  git push
+  601  ls
+  602  cd ..
+  603  ls
+  604  mv archive.zip OnlineGroceryBasketAnalysis/data/raw-data/
+  605  cd OnlineGroceryBasketAnalysis/data/raw-data/
+  606  l
+  607  unzip archive.zip 
+  608  cd ..
+  609  cd ../..
+  610  ;s
+  611  ls
+  612  rm -r OnlineShopAnalysis/
+  613  l;s
+  614  ls
+  615  cd OnlineGroceryBasketAnalysis/
+  616  ls
+  617  git checkout -b tests
+  618  pip --version
+  619  python3 -m ensurepip --upgrade
+  620  sudo apt install python3-pip
+  621  pip3 --version
+  622  df -h
+  623  pip3 install jupyterlab
+  624  df -h
+  625  echo $PATH
+  626  PATH=$PATH:~/.local/bin
+  627  echo $PATH
+  628  cd ~/.local
+  629  ls
+  630  cd
+  631  echo $PATH
+  632  echo ~
+  633  cat .profile 
+  634  echo $PATH
+  635  cat .bashrc 
+  636  gedit .bashrc 
+  637  r
+  638  R
+  639  sudo apt install libcurl4-gnutls-dev 
+  640  sudo apt install libcurl4-openssl-dev libssl-dev
+  641  sudo apt update
+  642  sudo apt upgrade
+  643  sudo apt install libfontconfig1-dev
+  644  sudo apt install libxml2-dev
+  645  sudo apt install libharfbuzz-dev libfribidi-dev
+  646  sudo apt update
+  647  sudo apt upgrade
+  648  sudo apt autoremove 
+  649  sudo apt install libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev
+  650  exit
+  651  echo $PATH
+  652  exit
+  653  R
+  654  exit
+  655  pip3 install jupyterlab-lsp
+  656  R
+  657  exit
+  658  cd Mini/twd/OnlineGroceryBasketAnalysis/
+  659  ls
+  660  jupyter lab
+  661  exit
+  662  cd Projects/RedditClone/
+  663  ls
+  664  git status
+  665  git add .
+  666  git commit -m "fix css link file name"
+  667  git status
+  668  git checkout main 
+  669  git branch
+  670  git merge frontend-refactoring 
+  671  git branch -d frontend-refactoring 
+  672  git branch
+  673  git push
+  674  cd Projects/RedditClone/
+  675  git branch
+  676  code .
+  677  git checkout main
+  678  git add .
+  679  git status
+  680  git log
+  681  git commit -m "refactor register and login sites to bem"
+  682  cd
+  683  eclipse/eclipse/eclipse 
+  684  top
+  685  cd Downloads/
+  686  ls
+  687  cd Mini/java/
+  688  ls
+  689  cd zpoif/
+  690  ls
+  691  cd ..
+  692  ls
+  693  cd zpoif/
+  694  ls
+  695  cd ..
+  696  mkdir zpoifZadania
+  697  cd zpoif
+  698  cd ..
+  699  cd zpoifZadania/
+  700  mkdir Nawiedzone
+  701  exit
+  702  exit
+  703  cd Mini/java/zpoif
+  704  ls
+  705  cd GetJar/
+  706  ls
+  707  cd ..
+  708  history
+  709  ls
+  710  ./java21 GetJar/
+  711  cd GetJar/
+  712  ls
+  713  cd bin/
+  714  ls
+  715  cd ..
+  716  ./java21 -cp "GetJar" GetJar
+  717  ./java21 -jar GetJar/
+  718  ./java21 --jar GetJar/
+  719  ./java21 -jar GetJar/
+  720  ./java21 -jar GetJar/bin/pl/edu/pw/mini/zpoif/workshop/GetJar
+  721  ls
+  722  ls -l
+  723  cd daleko/
+  724  ls
+  725  cd ..
+  726  ./java21 -jar -cp "daleko" mymaifested.jar
+  727  ./java21 -jar -cp "daleko" mymaifested
+  728  ./java21 -jar -cp "daleko:." mymaifested
+  729  ./java21 -jar daleko/mymanifest.jar
+  730  echo $PATH
+  731  ./java21 -jar GetJar
+  732  ./java21 -jar GetJar.jar
+  733  ls
+  734  ./java21 -jar "daleko"
+  735  ./java21 -jar -cp "daleko"
+  736  ./java21 -jar -cp "daleko" mymanifestedjar.ajr
+  737  ./java21 -jar -cp "daleko" mymanifested.jar
+  738  ./java21 -jar daleko/ mymanifested.jar
+  739  cd daleko/
+  740  ls
+  741  cd pl/edu/pw/mini/zpoif/workshop/
+  742  ls
+  743  cd -
+  744  cd ..
+  745  ls
+  746  ./java21 -cp "daleko" mymanifested
+  747  ./java21 -cp "daleko" mymanifested.jar
+  748  ./java21 -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8000
+  749  ls
+  750  cd ..
+  751  ls
+  752  cd zpoif
+  753  ls
+  754  cd daleko/
+  755  s
+  756  cd
+  757  ls
+  758  cd Mini/
+  759  ls
+  760  cd java/
+  761  ls
+  762  cd my_repos/
+  763  ls
+  764  cd zpoif_2023_lessons/
+  765  ls
+  766  java -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8000 DebugMe/
+  767  java -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8000 
+  768  ls
+  769  java -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8000 -jar DebugMe/
+  770  java -jar DebugMe/
+  771  jar cf DebugMe/
+  772  jar cvf DebugMe/
+  773  jar --help
+  774  jar cvf DebugMe/ debugme
+  775  ls
+  776  jar cvf DebugMe/ debugme.jar
+  777  jar cvf debugme.jar DebugMe/
+  778  ls
+  779  java -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8000 debugme.jar 
+  780  java debugme.jar
+  781  java debugme
+  782  ls
+  783  jar --help
+  784  touch manifest.txt
+  785  nano manifest.txt 
+  786  cat manifest.txt 
+  787  jar cvfm debugme.jar manifest.txt DebugMe/
+  788  java debugme.jar
+  789  java debugme
+  790  ls
+  791  java debugme
+  792  ls
+  793  java -jar debugme.jar 
+  794  java -jar debugme
+  795  java -cp "DebugMe" -jar debugme
+  796  java -cp "DebugMe" -jar debugme.jar
+  797  echo $PATH
+  798  cd ..
+  799  ls
+  800  cd ..
+  801  ls
+  802  cd zpoif
+  803  ls
+  804  ls -a
+  805  ls -l
+  806  ./jdk21/bin/java Simple
+  807  ipconfig
+  808  l
+  809  ls
+  810  cd ..
+  811  cd my_repos/
+  812  ls
+  813  cd zpoif_2023_lessons/
+  814  ;s
+  815  ls
+  816  java -jar debugme.jar 
+  817  ls
+  818  cat manifest.txt 
+  819  jar debugme.jar DebugMe/
+  820  jar -cf debugme.jar DebugMe/
+  821  mv manifest.txt DebugMe/
+  822  cd DebugMe/
+  823  jar -cf debugme.jar .
+  824  ls
+  825  java -jar debugme.jar
+  826  jar -cfm manifest.txt debugme.jar .
+  827  ls
+  828  rm manifest.txt debugme.jar 
+  829  ls
+  830  cd ..
+  831  ls
+  832  rm debugme.jar 
+  833  ls
+  834  touch manifest.txt
+  835  nano manifest.txt 
+  836  cd DebugMe/
+  837  l;s
+  838  ls
+  839  cd src/pl/pw/edu/mini/zpoif/workshop/collector/
+  840  ;s
+  841  ls
+  842  cd ..
+  843  cd -
+  844  cd ..
+  845  cd ..\
+  846  ls
+  847  cd ..
+  848  ls
+  849  cd ..
+  850  ls
+  851  cd ..
+  852  ls
+  853  cd src/
+  854  ;s
+  855  ls
+  856  cd pl/
+  857  ls
+  858  cd pw/edu/mini/zpoif/workshop/
+  859  ;s
+  860  ls
+  861  cat Demonstrator.java 
+  862  cd -
+  863  cd ..
+  864  ls
+  865  nano manifest.txt 
+  866  cat manifest.txt 
+  867  jar -cfm "manifest.txt" DebugMe/
+  868  jar -cfm "manifest.txt" DebugMe/.
+  869  ;s
+  870  ls
+  871  mv manifest.txt DebugMe/
+  872  cd DebugMe/
+  873  ls
+  874  jar -cfm "manifest.txt" .
+  875  mv manifest.txt ..
+  876  cd ..
+  877  jar -cfm debugme.jar "manifest.txt" DebugMe/
+  878  ls
+  879  java -jar debugme.jar 
+  880  java -cp DebugMe/ -jar debugme.jar 
+  881  java -cp "DebugMe/" -jar debugme.jar 
+  882  javac DebugMe/
+  883  javac --help
+  884  javac DebugMe/.
+  885  javac DebugMe/*
+  886  cd .
+  887  ls
+  888  rm debugme.jar 
+  889  rm manifest.txt 
+  890  ls
+  891  cd 
+  892  cd Downloads/
+  893  ls
+  894  mv commons-math3-3.6.1-bin.tar.gz ../Mini/java/zpoif/
+  895  cd ../Mini/java/zpoif/
+  896  ls
+  897  tar -xvzf commons-math3-3.6.1-bin.tar.gz 
+  898  ls
+  899  cd ..
+  900  ls
+  901  cd my_repos/
+  902  ls
+  903  cd zpoif_2023_lessons/
+  904  ls
+  905  cd DebugMe/
+  906  s
+  907  ls
+  908  cd ..
+  909  ls
+  910  cd ..
+  911  ls
+  912  cd zpoif
+  913  ls
+  914  rm -rf commons-math3-3.6.1
+  915  rm -rf commons-math3-3.6.1-bin.tar.gz 
+  916  cd -
+  917  cd my_repos/
+  918  ls
+  919  cd zpoif_2023_lessons/
+  920  ls
+  921  cd DebugMe/
+  922  ls
+  923  cd ..
+  924  ls
+  925  cd Examples/
+  926  ls
+  927  cd ..
+  928  git pull
+  929  ls
+  930  cd Memo/
+  931  ls
+  932  cd ..
+  933  find java
+  934  ls
+  935  echo $JAVA_HOME
+  936  echo $JAVA_HOME$
+  937  echo $JAVA
+  938  ls
+  939  which java
+  940  cd /usr/bin/java
+  941  cd /usr/bin/
+  942  ls
+  943  ls -l | grep java
+  944  cd /etc/alternatives/java
+  945  cd /etc/alternatives/
+  946  ls
+  947  ls |grep java
+  948  ls -l | grep java
+  949  cd /usr/lib/jvm/java-11-openjdk-amd64/
+  950  java --version
+  951  cd ..
+  952  cd java-11-openjdk-amd64/
+  953  ;s
+  954  ls
+  955  cd bin
+  956  ls
+  957  jconsole 
+  958  eclipse/eclipse/eclipse 
+  959  df -h
+  960  cd /
+  961  ls
+  962  cd opt/
+  963  ls
+  964  ls -a
+  965  cd ..
+  966  cd dev/
+  967  ls
+  968  cd ..
+  969  ls
+  970  cd root/
+  971  cd tmp/
+  972  l
+  973  cd ..
+  974  ls
+  975  cd var/
+  976  ls
+  977  cd backups/
+  978  ls
+  979  du
+  980  du -h
+  981  df -h
+  982  df -h .
+  983  ls -h
+  984  man ls
+  985  ls -l
+  986  ls -lh
+  987  cd ..
+  988  ls
+  989  ls -lh
+  990  exit
+  991  cd Downloads/
+  992  convert --help
+  993  sudo apt update
+  994  sudo apt upgrade
+  995  sudo apt update
+  996  df -h
+  997  convert
+  998  sudo apt install graphicsmagick-imagemagick-compat 
+  999  convert 20231023_220915.jpg 20231023_220931.jpg  -append studid.png
+ 1000  convert -resizd 1024X768 studid.png studid_2.jpeg
+ 1001  convert -resize 1024X768 studid.png studid_2.jpeg
+ 1002  convert studid.png studid.jpeg
+ 1003  cd Mini/twd/
+ 1004  ls
+ 1005  cd OnlineGroceryBasketAnalysis/
+ 1006  ls
+ 1007  cd data/
+ 1008  ls
+ 1009  exit
+ 1010  top
+ 1011  cd Mini/twd/
+ 1012  ls
+ 1013  cd OnlineGroceryBasketAnalysis/
+ 1014  jupyter lab
+ 1015  git pull
+ 1016  jupyter lab
+ 1017  cd Mini/twd/
+ 1018  cd OnlineGroceryBasketAnalysis/
+ 1019  git status
+ 1020  git add .gitignore 
+ 1021  git commit -m "add gitignore"
+ 1022  git add scripts/
+ 1023  git commit -m "add medium_orders_preprocessing script"
+ 1024  git push
+ 1025  git branch
+ 1026  git checkout main 
+ 1027  git merge tests 
+ 1028  git status
+ 1029  git push
+ 1030  cat .Rhistory 
+ 1031  cat .ipynb_checkpoints/
+ 1032  cat OnlineGroceryBasketAnalysis.Rproj 
+ 1033  git add OnlineGroceryBasketAnalysis.Rproj 
+ 1034  git commit -m "add project file"
+ 1035  git push
+ 1036  cd Mini/twd/
+ 1037  ls
+ 1038  cd OnlineGroceryBasketAnalysis/
+ 1039  ls
+ 1040  jupyter lab
+ 1041  mkdir scripts
+ 1042  jupyter lab
+ 1043  exit
+ 1044  cd Mini/twd/OnlineGroceryBasketAnalysis/
+ 1045  rm testy.R 
+ 1046  cd Mini/java/
+ 1047  ls
+ 1048  cd my_repos/
+ 1049  ls
+ 1050  cd po_2023_lessons/
+ 1051  ls
+ 1052  cd ..
+ 1053  git clone git@github.com:bednarzm/po_2023_kandysm.git
+ 1054  ls
+ 1055  git clone https://github.com/bednarzm/po_2023_kandysm.git
+ 1056  ls
+ 1057  cd po_2023_kandysm/
+ 1058  ls
+ 1059  cd Projects/RedditClone/
+ 1060  ls
+ 1061  git status
+ 1062  git add .
+ 1063  git log
+ 1064  git commit -m "add login functionality"
+ 1065  eclipse/eclipse/eclipse 
+ 1066  cd Mini/twd/OnlineGroceryBasketAnalysis/
+ 1067  ls
+ 1068  mkdir notebooks
+ 1069  jupyter lab
+ 1070  git status
+ 1071  git add scripts/medium_orders_preprocessing.r 
+ 1072  git commit -m "modify orders preprocessing"
+ 1073  jupyter lab
+ 1074  exit
+ 1075  df -h
+ 1076  cd Downloads/
+ 1077  ls
+ 1078  cd
+ 1079  ls
+ 1080  ls -lh
+ 1081  du -h
+ 1082  du eclipse/
+ 1083  du -sh eclipse/
+ 1084  ls
+ 1085  cd Warpinator/
+ 1086  ls
+ 1087  cd Za
+ 1088  cd ..
+ 1089  cd ZamoyKoloAlgorytmiczne/
+ 1090  ls
+ 1091  cd ..
+ 1092  l
+ 1093  ls
+ 1094  cd eclipse/
+ 1095  ls
+ 1096  cd ..
+ 1097  mkdir intellij
+ 1098  ls
+ 1099  cd Downloads/
+ 1100  ls
+ 1101  cd Downloads/
+ 1102  sha256sum ideaIU-2023.1.3.tar.gz 
+ 1103  cat intellij_key.sha256 
+ 1104  cd ..
+ 1105  top
+ 1106  tar -xvf Downloads/ideaIU-2023.1.3.tar.gz ./intellij
+ 1107  sudo tar -xvf Downloads/ideaIU-2023.1.3.tar.gz intellij
+ 1108  cd Downloads/
+ 1109  ls
+ 1110  rm -r ideaIU-2023.1.3.tar.gz 
+ 1111  ls
+ 1112  cd Downloads/
+ 1113  sha256sum ideaIU-2023.2.4.tar.gz 
+ 1114  cat intellij_key.sha256 
+ 1115  cd intellij/idea-IU-232.10203.10/
+ 1116  ;s
+ 1117  ls
+ 1118  cd 
+ 1119  ./intellij/idea-IU-232.10203.10/bin/idea.sh 
+ 1120  cd Projects/
+ 1121  ls
+ 1122  mkdir JetBrainsInternship
+ 1123  cd JetBrainsInternship/
+ 1124  mkdir JavaModelClassFromXml
+ 1125  cd JavaModelClassFromXml/
+ 1126  git clone https://github.com/vecel/teamcity-kotlin-dsl-shared-snippets-internship-test-task.git
+ 1127  gradle init
+ 1128  ls
+ 1129  rm -r teamcity-kotlin-dsl-shared-snippets-internship-test-task/
+ 1130  ls
+ 1131  rm -rf teamcity-kotlin-dsl-shared-snippets-internship-test-task/
+ 1132  ls
+ 1133  cd ..
+ 1134  git clone https://github.com/vecel/teamcity-kotlin-dsl-shared-snippets-internship-test-task.git
+ 1135  ls
+ 1136  rm JavaModelClassFromXml/
+ 1137  rm -r JavaModelClassFromXml/
+ 1138  mv teamcity-kotlin-dsl-shared-snippets-internship-test-task/ JavaModelClassFromXml/
+ 1139  ls
+ 1140  cd JavaModelClassFromXml/
+ 1141  ls
+ 1142  ls -a
+ 1143  sudo apt install gradle
+ 1144  gradle init
+ 1145  ls -a
+ 1146  cd ..
+ 1147  rm -rf JavaModelClassFromXml/
+ 1148  git clone https://github.com/vecel/teamcity-kotlin-dsl-shared-snippets-internship-test-task.git
+ 1149  mv teamcity-kotlin-dsl-shared-snippets-internship-test-task/ JavaModelClassFromXml/
+ 1150  cd JavaModelClassFromXml/
+ 1151  ls -a
+ 1152  cd ..
+ 1153  rm -rf JavaModelClassFromXml/
+ 1154  ls
+ 1155  history
+ 1156  git clone https://github.com/vecel/teamcity-kotlin-dsl-shared-snippets-internship-test-task.git
+ 1157  ls
+ 1158  cd teamcity-kotlin-dsl-shared-snippets-internship-test-task/
+ 1159  ls
+ 1160  cd ..
+ 1161  mv teamcity-kotlin-dsl-shared-snippets-internship-test-task/ JavaModelClassFromXml
+ 1162  ls
+ 1163  cd JavaModelClassFromXml/
+ 1164  ls
+ 1165  cd ..
+ 1166  ls
+ 1167  ls -a
+ 1168  cd JavaModelClassFromXml/
+ 1169  ls
+ 1170  ls -a
+ 1171  cd ..
+ 1172  rm -rf JavaModelClassFromXml/
+ 1173  ls
+ 1174  git clone https://github.com/vecel/teamcity-kotlin-dsl-shared-snippets-internship-test-task.git
+ 1175  mv teamcity-kotlin-dsl-shared-snippets-internship-test-task JavaModelClassFromXml
+ 1176  ls
+ 1177  cd JavaModelClassFromXml/
+ 1178  ls
+ 1179  ls -a
+ 1180  cd ..
+ 1181  rm -rf JavaModelClassFromXml/
+ 1182  ls
+ 1183  rm -rf JavaModelClassFromXml/
+ 1184  ls
+ 1185  rm -rf JavaModelClassFromXml/
+ 1186  ls
+ 1187  rm -rf JavaModelClassFromXml/
+ 1188  ls
+ 1189  cd JavaModelClassFromXml/
+ 1190  ls
+ 1191  ls -a
+ 1192  cd ..
+ 1193  ls -a
+ 1194  cd JavaModelClassFromXml/
+ 1195  ls -a
+ 1196  cd ..
+ 1197  rm -rf JavaModelClassFromXml/
+ 1198  top
+ 1199  ls
+ 1200  top
+ 1201  kill 12079\
+ 1202  kill 12079
+ 1203  top
+ 1204  eclipse/eclipse/eclipse 
+ 1205  cd Mini/java
+ 1206  ls
+ 1207  cd zpoif
+ 1208  cd ..
+ 1209  cd zpoifZadania/
+ 1210  ls
+ 1211  cd ..
+ 1212  cd zpoifZadania/
+ 1213  ls -a
+ 1214  cd Nawiedzone/
+ 1215  ls -a
+ 1216  cd ..
+ 1217  cd my_repos/
+ 1218  ls
+ 1219  cd po_2023_kandysm/
+ 1220  ls
+ 1221  cd ..
+ 1222  ls
+ 1223  git clone https://github.com/bednarzm/zpoif_2020_komponenty_do_zadan.git
+ 1224  ls
+ 1225  cd zpoif_2020_komponenty_do_zadan/
+ 1226  ls
+ 1227  cd ..
+ 1228  ls
+ 1229  cd zpoif_2023_lessons/
+ 1230  ls
+ 1231  cd ..
+ 1232  ls
+ 1233  git clone https://github.com/vecel/java-exercises.git
+ 1234  ls
+ 1235  cd java-exercises/
+ 1236  mkdir Przesluchanie
+ 1237  ls
+ 1238  cd ..
+ 1239  cd zpoif_2020_komponenty_do_zadan/
+ 1240  ls
+ 1241  cd Lab5-task2a
+ 1242  ls
+ 1243  cd src/
+ 1244  ls
+ 1245  cd pl/edu/pw/mini/zpoif/graded/second/main/
+ 1246  ;s
+ 1247  ls
+ 1248  cd -
+ 1249  cd ..
+ 1250  ls
+ 1251  cp src/ ../../java-exercises/Przesluchanie/src
+ 1252  cp -r src/ ../../java-exercises/Przesluchanie/src
+ 1253  ls
+ 1254  cd ..
+ 1255  ls
+ 1256  cd ../java-exercises/Przesluchanie/
+ 1257  ls
+ 1258  cd src/
+ 1259  ls
+ 1260  mv src/ ..
+ 1261  mv src/ ../
+ 1262  mv -r src/ ../
+ 1263  ls
+ 1264  cd src/
+ 1265  ls
+ 1266  mv pl/ ..
+ 1267  ls
+ 1268  cd ..
+ 1269  ls
+ 1270  rm -r src
+ 1271  ls
+ 1272  cd Mini/twd/
+ 1273  ls
+ 1274  cd OnlineGroceryBasketAnalysis/
+ 1275  ls
+ 1276  cd scripts/
+ 1277  ls
+ 1278  rm .ipynb_checkpoints/
+ 1279  rm -rf .ipynb_checkpoints/
+ 1280  ls
+ 1281  cd ..
+ 1282  git status 
+ 1283  git add .gitignore scripts/ notebooks/
+ 1284  git status
+ 1285  git restore --staged notebooks/
+ 1286  git status
+ 1287  git commit -m "update .gitignore, remove redundant file"
+ 1288  git push
+ 1289  jupyter lab
+ 1290  cd Projects/JetBrainsInternship/
+ 1291  ls
+ 1292  rmdir xmltojavaparser/
+ 1293  rmdir -r xmltojavaparser/
+ 1294  ls
+ 1295  rm -rf xmltojavaparser/
+ 1296  ls
+ 1297  mkdir JavaModelClassFromXml
+ 1298  ls -a
+ 1299  cd JavaModelClassFromXml/
+ 1300  ls
+ 1301  git init
+ 1302  ls -a
+ 1303  cat .gitignore 
+ 1304  git add .
+ 1305  git commit -m "Initial commit"
+ 1306  git remote add https://github.com/vecel/teamcity-kotlin-dsl-shared-snippets-internship-test-task.git
+ 1307  git push
+ 1308  git remote add teamcity-kotlin-dsl-shared-snippets-internship-test-task  https://github.com/vecel/teamcity-kotlin-dsl-shared-snippets-internship-test-task.git
+ 1309  git push
+ 1310  git push teamcity-kotlin-dsl-shared-snippets-internship-test-task 
+ 1311  ls -a
+ 1312  git pull
+ 1313  git branch --set-upstream-to=teamcity-kotlin-dsl-shared-snippets-internship-test-task main
+ 1314  git pull teamcity-kotlin-dsl-shared-snippets-internship-test-task 
+ 1315  git branch
+ 1316  git status
+ 1317  git push
+ 1318  git push teamcity-kotlin-dsl-shared-snippets-internship-test-task 
+ 1319  git add .
+ 1320  git commit -m "Initial commit"
+ 1321  git push
+ 1322  git push teamcity-kotlin-dsl-shared-snippets-internship-test-task 
+ 1323  git remote
+ 1324  git remote -v
+ 1325  ls
+ 1326  git fetch 
+ 1327  ls
+ 1328  git pull
+ 1329  git pull teamcity-kotlin-dsl-shared-snippets-internship-test-task 
+ 1330  git pull teamcity-kotlin-dsl-shared-snippets-internship-test-task main
+ 1331  ls
+ 1332  git config pull.rebase merge
+ 1333  git pull teamcity-kotlin-dsl-shared-snippets-internship-test-task main
+ 1334  git config pull.rebase false
+ 1335  git pull teamcity-kotlin-dsl-shared-snippets-internship-test-task main
+ 1336  git status
+ 1337  git push teamcity-kotlin-dsl-shared-snippets-internship-test-task 
+ 1338  git pull --help
+ 1339  git pull teamcity-kotlin-dsl-shared-snippets-internship-test-task main
+ 1340  git branch
+ 1341  git pull teamcity-kotlin-dsl-shared-snippets-internship-test-task main --alow-unrelated-histories
+ 1342  git pull teamcity-kotlin-dsl-shared-snippets-internship-test-task main --allow-unrelated-histories
+ 1343  git status
+ 1344  git add .gitignore 
+ 1345  git status
+ 1346  git commit -m "Initial commit"
+ 1347  git push teamcity-kotlin-dsl-shared-snippets-internship-test-task 
+ 1348  exit
+ 1349  cd Mini/twd/OnlineGroceryBasketAnalysis/
+ 1350  jupyter lab
+ 1351  git status
+ 1352  git add notebooks/ plots/
+ 1353  git commit -m "add visualization"
+ 1354  git push
+ 1355  git pull
+ 1356  git branch
+ 1357  git status
+ 1358  git pull
+ 1359  git config pull.rebase false
+ 1360  git pull
+ 1361  git status
+ 1362  git push
+ 1363  cd
+ 1364  ls
+ 1365  ./intellij/idea-IU-232.10203.10/bin/idea.sh 
+ 1366  exit
+ 1367  eclipse/eclipse/eclipse 
+ 1368  exit
+ 1369  cd Projects/
+ 1370  ls
+ 1371  cd JetBrainsInternship/
+ 1372  ls
+ 1373  mkdir xmls
+ 1374  cd xmls/
+ 1375  touch test.xml
+ 1376  nano test.xml 
+ 1377  cd Mini/java/
+ 1378  ls
+ 1379  cd my_repos/
+ 1380  ls
+ 1381  cd po_2023_kandysm/
+ 1382  ls
+ 1383  mkdir Zpoif_oceniane_1
+ 1384  git status
+ 1385  ls
+ 1386  cd ..
+ 1387  ls
+ 1388  cd zpoif_2023_lessons/
+ 1389  ls
+ 1390  git pull
+ 1391  ls
+ 1392  cd Examples/
+ 1393  ls
+ 1394  cat init.txt 
+ 1395  cd ..
+ 1396  ls
+ 1397  cd ..
+ 1398  cd po_2023_kandysm/
+ 1399  ls
+ 1400  cd ..
+ 1401  ls
+ 1402  cd po_2023_kandysm/
+ 1403  ls
+ 1404  cd Zpoif_oceniane_1/
+ 1405  ls
+ 1406  cd bin/
+ 1407  ls
+ 1408  cd ..
+ 1409  ls
+ 1410  git status
+ 1411  ls
+ 1412  cd ..
+ 1413  ls
+ 1414  cd Zpoif_oceniane_1/
+ 1415  ls
+ 1416  cd src/
+ 1417  ;s
+ 1418  ls
+ 1419  cd ..
+ 1420  ls
+ 1421  git status
+ 1422  cd Zpoif_oceniane_1/
+ 1423  ls -a
+ 1424  cd ..
+ 1425  git add Zpoif_oceniane_1/
+ 1426  git status
+ 1427  git commit -m "Zpoif zadanie oceniane klasy wewnetrzne, lokalne i anonimowe"
+ 1428  git push
+ 1429  ls
+ 1430  cd Zadanie_oceniane_1a/
+ 1431  ls -a
+ 1432  cd ..
+ 1433  ls
+ 1434  git status
+ 1435  ls -a
+ 1436  git rm --cached Zpoif_oceniane_1/bin/
+ 1437  git rm -r --cached Zpoif_oceniane_1/bin/
+ 1438  git status
+ 1439  git commit -m "Remove bin directory"
+ 1440  git push
+ 1441  git status
+ 1442  touch .gitignore
+ 1443  nano .gitignore 
+ 1444  git add .
+ 1445  git status
+ 1446  git add .
+ 1447  git commit -m "Add .gitignore"
+ 1448  git push
+ 1449  git status
+ 1450  git add .
+ 1451  git commit -m "Move Straszydlak class to Mieszkanie"
+ 1452  git push
+ 1453  cd
+ 1454  ./intellij/idea-IU-232.10203.10/bin/idea.sh 
+ 1455  exit
+ 1456  df -h
+ 1457  java --version
+ 1458  sudo apt update
+ 1459  sudo apt upgrade
+ 1460  df -h
+ 1461  sudo apt update
+ 1462  sudo apt autoremove && sudo apt autoclean 
+ 1463  sudo apt update
+ 1464  sudo apt install default-jdk
+ 1465  sudo apt install openjdk-17-jdk
+ 1466  java -version
+ 1467  cd Projects/
+ 1468  ls
+ 1469  cd JetBrainsInternship/
+ 1470  ls
+ 1471  rm -rf JavaModelClassFromXml/
+ 1472  ls
+ 1473  cd JavaModelClassFromXml/
+ 1474  ls
+ 1475  cd src/
+ 1476  ls
+ 1477  cd main/java/
+ 1478  ls
+ 1479  cd com/
+ 1480  ls
+ 1481  cd karandys/
+ 1482  ls
+ 1483  cd jbinternshiptask/
+ 1484  ls
+ 1485  cd -
+ 1486  cd ../../
+ 1487  ;s
+ 1488  ls
+ 1489  cd ..
+ 1490  cd ../..
+ 1491  ;s
+ 1492  ls
+ 1493  git add .
+ 1494  git init
+ 1495  git add .
+ 1496  git commit -m "initial commit"
+ 1497  cd
+ 1498  cd Projects/JetBrainsInternship/
+ 1499  ls
+ 1500  cd xmls/
+ 1501  ls
+ 1502  cat test.xml 
+ 1503  java -version
+ 1504  whereis java
+ 1505  javahome
+ 1506  echo $JAVA_HOME
+ 1507  df -h
+ 1508  which java
+ 1509  cd ..
+ 1510  ls
+ 1511  rm -rf JavaModelClassFromXml/
+ 1512  mkdir JavaClassFileFromXml
+ 1513  ls
+ 1514  cd JavaClassFileFromXml/
+ 1515  ls
+ 1516  cd ..
+ 1517  ls
+ 1518  rm -rf Java*
+ 1519  ls
+ 1520  cd JavaClassFileFromXml/
+ 1521  ls
+ 1522  cd ..
+ 1523  rm -rf JavaClassFileFromXml/
+ 1524  ls
+ 1525  rm -rf JavaClassFileFromXml/
+ 1526  ls
+ 1527  which java
+ 1528  cd /usr/bin/java
+ 1529  cd /usr/bin/
+ 1530  ls
+ 1531  cd -
+ 1532  ls
+ 1533  ls -a
+ 1534  cd JavaModelClassFromXml/
+ 1535  ls -a
+ 1536  git status
+ 1537  cd ..
+ 1538  cd xmls/
+ 1539  ls
+ 1540  nano test.xml 
+ 1541  cat test.xml 
+ 1542  nano test.xml 
+ 1543  cat test.xml 
+ 1544  nano test.xml 
+ 1545  cat test.xml 
+ 1546  ls
+ 1547  cd ..
+ 1548  ls
+ 1549  cat outputMyClass.java 
+ 1550  ls
+ 1551  mkdir output
+ 1552  ls
+ 1553  cd output/
+ 1554  ls
+ 1555  cat MyClass.java 
+ 1556  cd ..
+ 1557  cd xmls/
+ 1558  nano test.xml 
+ 1559  cd ..
+ 1560  git status
+ 1561  ls -a
+ 1562  cd JavaModelClassFromXml/
+ 1563  ls -a
+ 1564  git status
+ 1565  git push
+ 1566  git remote add origin https://github.com/vecel/TeamCity-Kotlin-DSL-Shared-Snippets.git
+ 1567  git branch -M main
+ 1568  git push -u origin main
+ 1569  git log
+ 1570  git revert 
+ 1571  git log
+ 1572  git revert fbf0c43c56a75433ea9f1cf778d1de2aaf674c98
+ 1573  git status
+ 1574  git log
+ 1575  ls
+ 1576  cd src/
+ 1577  ;s
+ 1578  ls
+ 1579  cd main/
+ 1580  ls
+ 1581  cd resources/
+ 1582  ls
+ 1583  cd ..
+ 1584  ls
+ 1585  git pull
+ 1586  ls
+ 1587  git fetch
+ 1588  ls
+ 1589  git fetch origin
+ 1590  ls
+ 1591  git log
+ 1592  git cherry-pick fbf0c43c56a75433ea9f1cf778d1de2aaf674c98
+ 1593  ls
+ 1594  cd src/main/java/
+ 1595  ls
+ 1596  cd ..
+ 1597  cd ../..
+ 1598  ls
+ 1599  git push
+ 1600  ls
+ 1601  nano .gitignore 
+ 1602  ls
+ 1603  git rm --cached .idea/
+ 1604  git rm -r --cached .idea/
+ 1605  git status
+ 1606  git add .
+ 1607  git commit -m "remove .idea directory"
+ 1608  git push
+ 1609  git log
+ 1610  git status
+ 1611  git rm -r --cached .idea/
+ 1612  git status
+ 1613  git commit -m "remove .idea directory"
+ 1614  git push
+ 1615  git commit --amend 
+ 1616  ./intellij/idea-IU-232.10203.10/bin/idea.sh 
+ 1617  cd ZamoyKoloAlgorytmiczne/
+ 1618  ls
+ 1619  g++ chm.cpp -o chm
+ 1620  ./chm 
+ 1621  g++ lic.cpp -o lic
+ 1622  ./lic
+ 1623  g++ lic.cpp -o lic
+ 1624  ./lic
+ 1625  g++ lic.cpp -o lic
+ 1626  ./lic
+ 1627  g++ lic.cpp -o lic
+ 1628  ./lic
+ 1629  g++ lic.cpp -o lic
+ 1630  ./lic
+ 1631  cd ZamoyKoloAlgorytmiczne/
+ 1632  ls
+ 1633  touch chm.cpp
+ 1634  gedit chm.cpp 
+ 1635  touch lic.cpp
+ 1636  gedit lic.cpp 
+ 1637  eclipse/eclipse/eclipse 
+ 1638  cd Mini/
+ 1639  ls
+ 1640  cd  java/
+ 1641  l
+ 1642  ls
+ 1643  cd my_repos/
+ 1644  ls
+ 1645  cd java-exercises/
+ 1646  ls
+ 1647  mkdir Radiostacje
+ 1648  /bin/python3 /home/mateusz/Mini/StrukturyDanych/heap_demonstrator.py
+ 1649  /bin/python3 /home/mateusz/Mini/StrukturyDanych/leftist_heap.py
+ 1650  /bin/python3 /home/mateusz/Mini/StrukturyDanych/heap_demonstrator.py
+ 1651  ls
+ 1652  cd Mini/
+ 1653  ls
+ 1654  mkdi StrukturyDanych
+ 1655  mkdir StrukturyDanych
+ 1656  cd StrukturyDanych/
+ 1657  touch heap.py beap.py leftist_heap.py binomial_heap.py
+ 1658  code .
+ 1659  exit
+ 1660  cd Mini/twd/
+ 1661  ls
+ 1662  cd KarandysMateusz/
+ 1663  ls
+ 1664  cd ..
+ 1665  mkdir hw1
+ 1666  mv KarandysMateusz/ hw1/
+ 1667  ls
+ 1668  cd hw1/
+ 1669  ls
+ 1670  mv KarandysMateusz/ ..
+ 1671  ls
+ 1672  cd ..
+ 1673  ls
+ 1674  mv KarandysMateusz/* hw1/
+ 1675  ls
+ 1676  cd KarandysMateusz/
+ 1677  ls
+ 1678  cd ..
+ 1679  cd hw1/
+ 1680  ls
+ 1681  la -a
+ 1682  cd ..
+ 1683  cd KarandysMateusz/
+ 1684  ls -a
+ 1685  rm .*
+ 1686  rm -rf .*
+ 1687  ls
+ 1688  ls -a
+ 1689  cd ../hw1/
+ 1690  ls
+ 1691  sudo apt update
+ 1692  df -h
+ 1693  sudo apt upgrade
+ 1694  df -h
+ 1695  sudo apt install texlive
+ 1696  sudo apt install texlive-full 
+ 1697  sudo apt install texlive
+ 1698  sudo apt install texlive-latex-extra
+ 1699  df -h
+ 1700  cd 
+ 1701  cd Downloads/
+ 1702  ls
+ 1703  cd Mini/java/
+ 1704  cd my_repos/
+ 1705  ls
+ 1706  cd java-exercises/
+ 1707  mkdir Czekoladki
+ 1708  eclipse/eclipse/eclipse 
+ 1709  exit
+ 1710  cd Mini/twd/OnlineGroceryBasketAnalysis/
+ 1711  jupyter lab
+ 1712  cd Mini/java/
+ 1713  cd my_repos/
+ 1714  cd po_2023_kandysm/
+ 1715  ls
+ 1716  mkdir Zpoif_oceniane_2
+ 1717  ls
+ 1718  mv Zpoif_oceniane_2 Zpoif_oceniane_21
+ 1719  ls
+ 1720  mv Zpoif_oceniane_21 Zpoif_oceniane_2a
+ 1721  ls
+ 1722  git status
+ 1723  git add Zpoif_oceniane_2a
+ 1724  git status
+ 1725  git add Zpoif_oceniane_2/
+ 1726  git status
+ 1727  git restore --staged Zpoif_oceniane_2a/
+ 1728  git status
+ 1729  git commit -m "task2"
+ 1730  git push
+ 1731  eclipse/eclipse/eclipse 
+ 1732  exit
+ 1733  cd Projects/
+ 1734  cd JetBrainsInternship/
+ 1735  ls
+ 1736  cd JavaModelClassFromXml/
+ 1737  ls
+ 1738  ls -a
+ 1739  cd ..
+ 1740  ls -a
+ 1741  cd JavaModelClassFromXml/
+ 1742  ls -a
+ 1743  rm -rf .git
+ 1744  ls -a
+ 1745  cat .gitignore 
+ 1746  cd .idea/
+ 1747  ls
+ 1748  cd ..
+ 1749  rm .gitignore 
+ 1750  l
+ 1751  ls -a
+ 1752  git init
+ 1753  ls -a
+ 1754  touch .gitignore
+ 1755  nano .git
+ 1756  nano .gitignore 
+ 1757  git status
+ 1758  git add .gitignore 
+ 1759  git commit -m "Initial commit"
+ 1760  git status
+ 1761  git add src/main/java/com/karandys/jbinternshiptask/xmlparser/XmlProcessor.java 
+ 1762  git add src/main/java/com/karandys/jbinternshiptask/xmlparser/JavaModelClassGenerator.java 
+ 1763  git commit -m "Initial commit"
+ 1764  git add src/main/java/com/karandys/jbinternshiptask/xmlparser/
+ 1765  git commit -m "Add XmlProcessor and JavaModelClassGenerator"
+ 1766  git restore --staged src/
+ 1767  git status
+ 1768  git add src/main/java/com/karandys/jbinternshiptask/xmlparser/
+ 1769  git commit -m "Initial commit"
+ 1770  git reset --soft
+ 1771  git status
+ 1772  git log
+ 1773  git reset --soft HEAD~1
+ 1774  git status
+ 1775  git log
+ 1776  git status
+ 1777  git add src/main/
+ 1778  git commit -m "Fix XmlProcessor and JavaModelClassGenerator"
+ 1779  ls
+ 1780  cd ../xmls/
+ 1781  ls
+ 1782  cd ..
+ 1783  cd JavaModelClassFromXml/
+ 1784  git add src/
+ 1785  git commit -m "Add directory output argument"
+ 1786  git status
+ 1787  it add .
+ 1788  git commit -m "Initial commit"
+ 1789  git add .
+ 1790  git commit -m "Initial commit"
+ 1791  git log
+ 1792  cd ../xmls/
+ 1793  ls
+ 1794  touch test2.xml
+ 1795  gedit test2.xml 
+ 1796  cd ../JavaModelClassFromXml/
+ 1797  git statsu
+ 1798  git status
+ 1799  git add .
+ 1800  git commit -m "Handle exception, add docstrings"
+ 1801  git remote add origin https://github.com/vecel/TeamCity-Kotlin-DSL-Shared-Snippets.git
+ 1802  git branch -M main
+ 1803  git push -u origin main
+ 1804  git status
+ 1805  git rm -r target/
+ 1806  git status
+ 1807  git add .gitignore 
+ 1808  git commit -m "Update .gitignore"
+ 1809  git status
+ 1810  git push
+ 1811  ./intellij/idea-IU-232.10203.10/bin/idea.sh 
+ 1812  cd Projects/JetBrainsInternship/JavaModelClassFromXml/
+ 1813  git add src/main/java/com/karandys/jbinternshiptask/
+ 1814  git commit -m "Add main class, handle I/O"
+ 1815  git push
+ 1816  cd Mini/java/my_repos/java-exercises/
+ 1817  mkdir Playground
+ 1818  eclipse/eclipse/eclipse 
+ 1819  top
+ 1820  exit
+ 1821  cd Mini/java/my_repos/
+ 1822  ls
+ 1823  cd java-exercises/
+ 1824  mkdir Auta
+ 1825  cd ..
+ 1826  ls
+ 1827  cd zpoif_2020_komponenty_do_zadan/
+ 1828  ls
+ 1829  cd Lab7-zadanie4-a/
+ 1830  ls
+ 1831  cp src ../../java-exercises/Auta/
+ 1832  cp -r src ../../java-exercises/Auta/
+ 1833  cd Mini/java/my_repos/java-exercises/
+ 1834  cd Aut
+ 1835  cd Auta/
+ 1836  ls
+ 1837  ls -a
+ 1838  ls
+ 1839  exit
+ 1840  eclipse/eclipse/eclipse 
+ 1841  cd Documents/
+ 1842  ls
+ 1843  mkdir JavaWyklady
+ 1844  cd ..
+ 1845  eclipse/eclipse/eclipse 
+ 1846  cd Mini/java/
+ 1847  cd my_repos/
+ 1848  ls
+ 1849  cd zpoif_2023_lessons/
+ 1850  ls
+ 1851  git pull
+ 1852  cd ..
+ 1853  cd po_2023_kandysm/
+ 1854  ls
+ 1855  mkdir Zpoif_oceniane_3
+ 1856  ls
+ 1857  git status
+ 1858  git add Zpoif_oceniane_3/
+ 1859  git status
+ 1860  git commit -m "Zadanko 3"
+ 1861  git push
+ 1862  exit
+ 1863  cd ZamoyKoloAlgorytmiczne/
+ 1864  history
+ 1865  history | grep g++
+ 1866  g++ tab.cpp -o tab
+ 1867  ./tab
+ 1868  cd ZamoyKoloAlgorytmiczne/
+ 1869  ls
+ 1870  touch tab.cpp
+ 1871  gedit tab.cpp 
+ 1872  df -h
+ 1873  pdflatex --version
+ 1874  sudo apt update
+ 1875  sudo apt upgrade
+ 1876  sudo apt install texstudio
+ 1877  texstudio 
+ 1878  cd Mini/mntmp/
+ 1879  ls
+ 1880  exit
+ 1881  cd Mini/java/
+ 1882  cd my_repos/
+ 1883  ls
+ 1884  cd java-exercises/
+ 1885  mkdir Winda
+ 1886  cd ..
+ 1887  cd zpoif_2020_komponenty_do_zadan/
+ 1888  ls
+ 1889  cd Lab8-zadanie5a-solution/
+ 1890  ls
+ 1891  cd ..
+ 1892  cd Lab8-zadanie5-a/
+ 1893  ls
+ 1894  cp src ../../java-exercises/Winda/
+ 1895  cp -r src ../../java-exercises/Winda/
+ 1896  eclipse/eclipse/eclipse 
+ 1897  texstudio 
+ 1898  cd Mini/java/
+ 1899  cd my_repos/
+ 1900  ls
+ 1901  cd po_2023_kandysm/
+ 1902  ls
+ 1903  mkdir Zpoif_oceniane_4
+ 1904  cd ..
+ 1905  ls
+ 1906  cd zpoif_2023_lessons/
+ 1907  ;s
+ 1908  ls
+ 1909  git pull
+ 1910  ls
+ 1911  cd Puchacz/
+ 1912  ls
+ 1913  cp src ../../po_2023_kandysm/Zpoif_oceniane_4/
+ 1914  cp -r src ../../po_2023_kandysm/Zpoif_oceniane_4/
+ 1915  cd ..
+ 1916  cd po_2023_kandysm/
+ 1917  cd Zpoif_oceniane_4
+ 1918  ;s
+ 1919  ls
+ 1920  git status
+ 1921  cd ..
+ 1922  git status
+ 1923  git add Zpoif_oceniane_4/
+ 1924  git commit -m "zadanko 4"
+ 1925  git push
+ 1926  eclipse/eclipse/eclipse 
+ 1927  cd Mini/twd/
+ 1928  mkdir hw3
+ 1929  exit
+ 1930  sudo apt install libudunits2-dev
+ 1931  sudo apt install libgdal-dev
+ 1932  df -h
+ 1933  eclipse/eclipse/eclipse 
+ 1934  exit
+ 1935  eclipse/eclipse/eclipse 
+ 1936  texstudio 
+ 1937  exit
+ 1938  eclipse/eclipse/eclipse 
+ 1939  texstudio 
+ 1940  cd Mini/java/my_repos/po_2023_kandysm/
+ 1941  ls
+ 1942  mkdir Zpoif_oceniane_5
+ 1943  cd ..
+ 1944  cd zpoif_2023_lessons/
+ 1945  ls
+ 1946  git pull
+ 1947  ls -a
+ 1948  cd adnotacje1/
+ 1949  ls
+ 1950  cp -r src ../../po_2023_kandysm/Zpoif_oceniane_5/
+ 1951  cd ..
+ 1952  cd po_2023_kandysm/
+ 1953  ls
+ 1954  cd Zpoif_oceniane_5
+ 1955  ls
+ 1956  cd src/
+ 1957  ;s
+ 1958  ls 
+ 1959  cd ..
+ 1960  ls
+ 1961  cd ..
+ 1962  ls
+ 1963  git add Zpoif_oceniane_5/
+ 1964  git status
+ 1965  git commit -m "zadanko o mafii"
+ 1966  git push
+ 1967  eclipse/eclipse/eclipse 
+ 1968  cd Projects/RedditClone/
+ 1969  ls
+ 1970  git status
+ 1971  git add .
+ 1972  git commit -m "Hide jsessionid in url, minor fixes"
+ 1973  git push
+ 1974  cd Projects/RedditClone/
+ 1975  ls
+ 1976  git status
+ 1977  git add .
+ 1978  git commit -m "add simple tests"
+ 1979  git status
+ 1980  git add .
+ 1981  git commit -m "add test"
+ 1982  git push
+ 1983  eclipse/eclipse/eclipse 
+ 1984  cd Projects/RedditClone/
+ 1985  ls
+ 1986  git status
+ 1987  git add .
+ 1988  git commit -m "user logout"
+ 1989  git add .
+ 1990  git commit -m "add constants classes"
+ 1991  git status
+ 1992  git add .
+ 1993  git commit -m "create Community, Post and Comment classes and repositories"
+ 1994  git push
+ 1995  history
+ 1996  ls -a
+ 1997  cat .bashrc 
+ 1998  gedit .bashrc 
+ 1999  eclipse/eclipse/eclipse 
+ 2000  /bin/python3 /home/mateusz/Mini/StrukturyDanych/heap_demonstrator.py
+ 2001  ls
+ 2002  cd Mini/
+ 2003  ls
+ 2004  cd StrukturyDanych/
+ 2005  ls
+ 2006  touch fibonacci_heap.py
+ 2007  code .
+ 2008  history 
+ 2009  eclipse/eclipse/eclipse 
+ 2010  cd Projects/RedditClone/
+ 2011  ls
+ 2012  code .
+ 2013  git status
+ 2014  git add .
+ 2015  git commit -m "create community fragment html and css"
+ 2016  git add .
+ 2017  git commit -m "rename community-fragment-style to community-fragment"
+ 2018  l
+ 2019  ls
+ 2020  cd
+ 2021  ls
+ 2022  cd Mini/
+ 2023  ls
+ 2024  cd mntmp/
+ 2025  ls
+ 2026  rm -r tabele/
+ 2027  ls
+ 2028  texstudio 
+ 2029  git init
+ 2030  touch .gitignore
+ 2031  gedit .gitignore 
+ 2032  ls
+ 2033  ls -l
+ 2034  git status
+ 2035  git add .
+ 2036  git commit -m "final commit"
+ 2037  git push -u origin main
+ 2038  ls
+ 2039  touch README.md
+ 2040  gedit README.md 
+ 2041  git status
+ 2042  git rm -f .Rhistory 
+ 2043  rm -f .Rhistory 
+ 2044  git add README.md 
+ 2045  git commit -m "add README"
+ 2046  git push
+ 2047  exit
+ 2048  cd Projects/RedditClone/
+ 2049  ls
+ 2050  code .
+ 2051  eclipse/eclipse/eclipse 
+ 2052  cd ZamoyKoloAlgorytmiczne/
+ 2053  exit
+ 2054  history
+ 2055  cd ZamoyKoloAlgorytmiczne/
+ 2056  ls
+ 2057  touch spa.cpp
+ 2058  vim spa.cpp 
+ 2059  sudo apt update
+ 2060  sudo apt upgrade 
+ 2061  df -h
+ 2062  vim spa.cpp 
+ 2063  sudo apt install vim
+ 2064  vim spa.cpp 
+ 2065  g++ -o spa.cpp 
+ 2066  g++ -o spa.cpp spa
+ 2067  ls
+ 2068  history | grep g++
+ 2069  g++ spa.cpp -o spa
+ 2070  ls
+ 2071  vim
+ 2072  ls
+ 2073  cd /usr/bin/ld
+ 2074  cd /usr/bin/
+ 2075  ls
+ 2076  ls | grep spa
+ 2077  cd -
+ 2078  ls
+ 2079  touch spa.cpp
+ 2080  vim spa.cpp 
+ 2081  ls
+ 2082  g++ spa.cpp -o spa
+ 2083  vim spa.cpp 
+ 2084  g++ spa.cpp -o spa
+ 2085  ./spa
+ 2086  vim spa.cpp 
+ 2087  g++ spa.cpp -o spa
+ 2088  ./spa
+ 2089  vim spa.cpp 
+ 2090  g++ spa.cpp -o spa
+ 2091  ./spa
+ 2092  vim spa.cpp 
+ 2093  g++ spa.cpp -o spa
+ 2094  vim spa.cpp 
+ 2095  g++ spa.cpp -o spa
+ 2096  ./spa
+ 2097  vim spa.cpp 
+ 2098  g++ spa.cpp -o spa
+ 2099  ./spa
+ 2100  vim spa.cpp 
+ 2101  g++ spa.cpp -o spa
+ 2102  ./spa
+ 2103  exit
+ 2104  eclipse/eclipse/eclipse 
+ 2105  history
+ 2106  cd Projects/RedditClone/
+ 2107  ls
+ 2108  git status
+ 2109  git add .
+ 2110  git commit -m "login authentication"
+ 2111  hisotry
+ 2112  history 
+ 2113  code .
+ 2114  git status
+ 2115  git add src/main/resources/*
+ 2116  git status
+ 2117  git commit -m "post in community view"
+ 2118  git push
+ 2119  ls
+ 2120  cd Mini/
+ 2121  ls
+ 2122  cd twd/
+ 2123  ls
+ 2124  git clone https://github.com/fantasy2fry/linux_me_project.git
+ 2125  ls
+ 2126  cd linux_me_project/
+ 2127  ls
+ 2128  cd data/
+ 2129  ls
+ 2130  cd bash-history/
+ 2131  ls
+ 2132  history 
+ 2133  ls
+ 2134  history > mateusz_bash_history.txt
+ 2135  cd ..
+ 2136  ls
+ 2137  cd python-libs/
+ 2138  ls
+ 2139  pip freeze > mateusz_python_libs.txt
+ 2140  ls
+ 2141  cat mateusz_python_libs.txt 
+ 2142  cd ..
+ 2143  cd bash-history/
+ 2144  cat mateusz_bash_history.txt 
+ 2145  cd ..
+ 2146  ls
+ 2147  cd r-libs/
+ 2148  ls
+ 2149  cd ..
+ 2150  ls
+ 2151  cd system-packages/
+ 2152  ls
+ 2153  apt list --installed > mateusz_system_packages.txt
+ 2154  ls
+ 2155  ls -l
+ 2156  ls -lh
+ 2157  cat mateusz_system_packages.txt 
+ 2158  cd ..
+ 2159  ls
+ 2160  cd ..
+ 2161  ls
+ 2162  git status
+ 2163  git add .
+ 2164  git origin
+ 2165  git branch -v
+ 2166  git status
+ 2167  git commit -m "mateusz data for bash, python and system"
+ 2168  git push
+ 2169  git log
+ 2170  cd
+ 2171  ls
+ 2172  cd -
+ 2173  ls
+ 2174  cd ..
+ 2175  ls
+ 2176  mkdir bash_test
+ 2177  cd bash_test/
+ 2178  ls
+ 2179  touch collect_git_stats.sh
+ 2180  vim collect_git_stats.sh 
+ 2181  ls
+ 2182  vim collect_git_stats.sh 
+ 2183  ./collect_git_stats.sh 
+ 2184  vim collect_git_stats.sh 
+ 2185  gedit collect_git_stats.sh 
+ 2186  chmod +x collect_git_stats.sh 
+ 2187  ./collect_git_stats.sh 
+ 2188  gedit collect_git_stats.sh 
+ 2189  ls
+ 2190  cd
+ 2191  ls
+ 2192  cd -
+ 2193  cd Downloads/
+ 2194  ls
+ 2195  mv github-recovery-codes.txt ../Documents/
+ 2196  cd ../Documents/
+ 2197  ls
+ 2198  cat github-recovery-codes.txt 
+ 2199  exit
+ 2200  git log
+ 2201  git log .
+ 2202  git log -- 
+ 2203  find ~/ -maxdepth 3 -name .git -execdir git log \;
+ 2204  find ~/ -maxdepth 3 -name .git -execdir git log; echo . \;
+ 2205  find ~/ -maxdepth 3 -name .git -execdir sh -c 'echo {} && git log -n 1' \;
+ 2206  find ~/ -maxdepth 3 -name .git -execdir sh -c 'echo "Processing $(realpath "{}")" && git log -n 1' \;
+ 2207  cd Mini/twd/
+ 2208  ls
+ 2209  cd bash_test/
+ 2210  ls
+ 2211  vim collect_git_stats.sh 
+ 2212  gedit collect_git_stats.sh 
+ 2213  ls -l
+ 2214  ./collect_git_stats.sh 
+ 2215  q
+ 2216  gedit collect_git_stats.sh 
+ 2217  ./collect_git_stats.sh 
+ 2218  ls
+ 2219  cat result.txt 
+ 2220  gedit collect_git_stats.sh 
+ 2221  ./collect_git_stats.sh 
+ 2222  ls -lh
+ 2223  gedit result.txt 
+ 2224  gedit collect_git_stats.sh 
+ 2225  ./collect_git_stats.sh 
+ 2226  ls
+ 2227  cat result_test.txt 
+ 2228  gedit collect_git_stats.sh 
+ 2229  ./collect_git_stats.sh 
+ 2230  cat result_test.txt 
+ 2231  gedit collect_git_stats.sh 
+ 2232  ./collect_git_stats.sh 
+ 2233  ls
+ 2234  cat result.txt 
+ 2235  gedit collect_git_stats.sh 
+ 2236  ./collect_git_stats.sh
+ 2237  gedit collect_git_stats.sh 
+ 2238  cd ..
+ 2239  ls
+ 2240  cd linux_me_project/
+ 2241  ls
+ 2242  gedit README.md 
+ 2243  git pull
+ 2244  git add README.md 
+ 2245  git status
+ 2246  git commit -m "git stats command"
+ 2247  git push
+ 2248  cd ..
+ 2249  ls
+ 2250  cd hw3
+ 2251  ls
+ 2252  cd KarandysMateusz/
+ 2253  ls
+ 2254  cd ..
+ 2255  ls
+ 2256  cd KarandysMateusz/
+ 2257  ls
+ 2258  cat HW_2Karandys.Rmd 
+ 2259  cd ..
+ 2260  ls
+ 2261  mkdir HW_4
+ 2262  cd HW_4/
+ 2263  mkdir KarandysMateusz
+ 2264  ;s
+ 2265  cd KarandysMateusz/
+ 2266  cd ../..
+ 2267  ls
+ 2268  cp KarandysMateusz/HW_2Karandys.Rmd HW_4/KarandysMateusz/
+ 2269  cd HW_4/KarandysMateusz/
+ 2270  rstudio 
+ 2271  cd ..
+ 2272  cd linux_me_project/
+ 2273  ls
+ 2274  git status
+ 2275  git branch
+ 2276  git add .
+ 2277  git commit -m "init"
+ 2278  git push origin dashboard
+ 2279  cp ../../KarandysMateusz/bad_plot.png .
+ 2280  ls
+ 2281  cd HW_2Karandys_files/
+ 2282  ls
+ 2283  cd ..
+ 2284  ls
+ 2285  rm -r HW_2Karandys_files/
+ 2286  rm HW_2Karandys.pdf 
+ 2287  ls
+ 2288  html HW_2Karandys.html 
+ 2289  cd
+ 2290  ls
+ 2291  cd Projects/RedditClone/
+ 2292  code .
+ 2293  cd ..
+ 2294  cd Mini/twd/
+ 2295  ls
+ 2296  cd linux_me_project/
+ 2297  git pull
+ 2298  ls
+ 2299  cd data/
+ 2300  ls
+ 2301  cd bash-history/
+ 2302  ls
+ 2303  cat mateusz_bash_history.txt 
+ 2304  cd ..
+ 2305  cd linux_me_project/
+ 2306  ls
+ 2307  git pull
+ 2308  git checkout -b dashboard
+ 2309  rstudio 
+ 2310  cd Projects/RedditClone/
+ 2311  code .
+ 2312  git status
+ 2313  git add src/main/resources/.
+ 2314  git commit -m "post fragment"
+ 2315  git status
+ 2316  git add src/main/resources/.
+ 2317  git commit -m "comment fragment"
+ 2318  git add src/main/resources/.
+ 2319  git commit -m "rename css files"
+ 2320  git status
+ 2321  git add src/main/resources/.
+ 2322  git commit -m "rename style.css to header.css""
+ 2323  git status
+ 2324  git commit -m "rename style.css to header.css"
+ 2325  cd
+ 2326  eclipse/eclipse/eclipse 
+ 2327  convert
+ 2328  convert stud_front.jpg stud_back.jpg -append stud_result.jpg
+ 2329  ls
+ 2330  exit
+ 2331  cd Projects/RedditClone/
+ 2332  git status
+ 2333  git add .
+ 2334  git commit -m "dynamically load commuinities list"
+ 2335  git add .
+ 2336  git commit -m "fix header width"
+ 2337  git push
+ 2338  cd Projects/RedditClone/
+ 2339  code .
+ 2340  git status
+ 2341  git add src/main/resources/.
+ 2342  git commit -m "add sidebar"
+ 2343  git add .
+ 2344  git commit -m "fix login controller, fix dbinit"
+ 2345  git push
+ 2346  ls
+ 2347  git status
+ 2348  cd
+ 2349  eclipse/eclipse/eclipse 
+ 2350  cd Mini/twd/linux_me_project/
+ 2351  git pull
+ 2352  git branch
+ 2353  git checkout master 
+ 2354  git pull
+ 2355  git branch -d dashboard 
+ 2356  git branch
+ 2357  ls
+ 2358  cd Downloads/
+ 2359  ls
+ 2360  mv shiny.pdf ../Documents/CheatSheets/
+ 2361  cd ../Documents/CheatSheets/
+ 2362  ls
+ 2363  cd Mini/twd/linux_me_project/
+ 2364  git pull
+ 2365  rstudio 
+ 2366  rstudio .
+ 2367  git status
+ 2368  git add .
+ 2369  git commit -m "add ui ids"
+ 2370  git push
+ 2371  git status
+ 2372  git add .
+ 2373  git commit -m "small changes in bash tab"
+ 2374  git push
+ 2375  cd Projects/RedditClone/
+ 2376  ls
+ 2377  cd src
+ 2378  ls
+ 2379  cd test/
+ 2380  ls
+ 2381  mkdir resources
+ 2382  ls
+ 2383  cd Projects/RedditClone/
+ 2384  git status
+ 2385  git add .
+ 2386  git commit -m "add tests"
+ 2387  git status
+ 2388  git add .
+ 2389  git commit -m "dynamically load community content"
+ 2390  git add .
+ 2391  git commit -m "dynamically load posts for community"
+ 2392  git push
+ 2393  eclipse/eclipse/eclipse 
+ 2394  cd Mini/twd/
+ 2395  ls
+ 2396  cd linux_me_project/
+ 2397  git pull
+ 2398  git add app.R 
+ 2399  git commit -m "dplyr import"
+ 2400  git push
+ 2401  open ~/Documents/CheatSheets/shiny.pdf 
+ 2402  open ~/Documents/CheatSheets/ggplot.pdf 
+ 2403  git add app.R 
+ 2404  git commit -m "add libraries"
+ 2405  git add .
+ 2406  git commit -m "bash history tab layout"
+ 2407  git push
+ 2408  exit
+ 2409  rstudio
+ 2410  exit
+ 2411  cd Projects/RedditClone/
+ 2412  ls
+ 2413  git add .
+ 2414  git commit -m "modify services and add integration tests"
+ 2415  git add .
+ 2416  git commit -m "remove redunant imports"
+ 2417  git status
+ 2418  git add .
+ 2419  git commit -m "add relations between tables in db"
+ 2420  exit
+ 2421  eclipse/eclipse/eclipse 
+ 2422  exit
+ 2423  eclipse/eclipse/eclipse 
+ 2424  cd Projects/RedditClone/
+ 2425  git branch
+ 2426  git checkout -b db-associations
+ 2427  git add .
+ 2428  git commit -m "fix associations between entities community, post and user"
+ 2429  git log
+ 2430  git reset --hard
+ 2431  eclipse/eclipse/eclipse 
+ 2432  cd Mini/twd/linux_me_project/
+ 2433  rstudio
+ 2434  rstudio 
+ 2435  exit
+ 2436  git pull
+ 2437  git status
+ 2438  git add .
+ 2439  git commit -m "reactivity and basic plot"
+ 2440  git push
+ 2441  cd ..
+ 2442  ls
+ 2443  cd bash_test/
+ 2444  ls
+ 2445  cat result.txt 
+ 2446  mv result.txt ../linux_me_project/data/git-stats/
+ 2447  cd ../linux_me_project/data/git-stats/
+ 2448  ls
+ 2449  cat tmp.txt 
+ 2450  rm tmp.txt 
+ 2451  mv result.txt mateusz_git_stats.txt
+ 2452  ls
+ 2453  cd ..
+ 2454  git add .gitignore 
+ 2455  git status
+ 2456  git rm --cached .Rhistory 
+ 2457  git status
+ 2458  git commit -m "untrack .Rhistory"
+ 2459  git push
+ 2460  git log
+ 2461  git status 
+ 2462  git add data/bash-history/ server/bash_history_server.R 
+ 2463  git commit -m "add temporary kuba's file and move initialization to server"
+ 2464  git status 
+ 2465  git add data/
+ 2466  git commit -m "add temporary files"
+ 2467  git add .
+ 2468  git commit -m "data preprocessing for git statistics server"
+ 2469  git push
+ 2470  history 
+ 2471  cd ..
+ 2472  cd bash_test/
+ 2473  ls
+ 2474  gedit collect_git_stats.sh 
+ 2475  ./collect_git_stats.sh 
+ 2476  ls
+ 2477  cat result_test.txt 
+ 2478  vim collect_git_stats.sh 
+ 2479  cat collect_git_stats.sh 
+ 2480  vim collect_git_stats.sh 
+ 2481  cd Mini/twd/linux_me_project/
+ 2482  cd ../bash_test/
+ 2483  ls
+ 2484  cat collect_git_stats.sh 
+ 2485  gedit collect_git_stats.sh 
+ 2486  ./collect_git_stats.sh 
+ 2487  cat result_test.txt 
+ 2488  gedit collect_git_stats.sh 
+ 2489  ./collect_git_stats.sh > mateusz_git_stats.txt
+ 2490  ls
+ 2491  cat mateusz_git_stats.txt 
+ 2492  mv mateusz_git_stats.txt ../linux_me_project/data/git-stats/
+ 2493  cd ../linux_me_project/data/git-stats/
+ 2494  ls
+ 2495  cat mateusz_git_stats.txt 
+ 2496  cd Mini/twd/linux_me_project/
+ 2497  rstudio
+ 2498  git add .
+ 2499  git commit -m "update date in git statistics"
+ 2500  git push
+ 2501  exit
+ 2502  cd Mini/twd/linux_me_project/
+ 2503  git pull
+ 2504  open ~/Documents/CheatSheets/shiny.pdf 
+ 2505  git add .
+ 2506  git commit -m "heatmap sketch"
+ 2507  git push
+ 2508  cd Projects/RedditClone/
+ 2509  git status
+ 2510  git add src/main/.
+ 2511  git status
+ 2512  git commit -m "default view"
+ 2513  eclipse/eclipse/eclipse 
+ 2514  cd Projects/RedditClone/
+ 2515  git status
+ 2516  git add .
+ 2517  git commit -m "fix associations and tests"
+ 2518  cd Documents/
+ 2519  cat git_token.txt 
+ 2520  exit
+ 2521  cd Projects/RedditClone/
+ 2522  code .
+ 2523  git add .
+ 2524  git branch
+ 2525  git commit -m "joinig community feature"
+ 2526  git branch -d migrate-to-rest 
+ 2527  git push
+ 2528  cd
+ 2529  eclipse/eclipse/eclipse 
+ 2530  ec
+ 2531  eclipse/eclipse/eclipse 
+ 2532  cd Mini/mntmp/
+ 2533  ls
+ 2534  mkdir pro2
+ 2535  cd pro2/
+ 2536  texstudio 
+ 2537  exit
+ 2538  df -h
+ 2539  cd Projects/RedditClone/
+ 2540  ls
+ 2541  cd src/
+ 2542  ls
+ 2543  cd main/
+ 2544  ls
+ 2545  cd resources/
+ 2546  ;s
+ 2547  ls
+ 2548  cd templates/
+ 2549  ls
+ 2550  cd fragments/
+ 2551  gedit header.html 
+ 2552  exit
+ 2553  ls
+ 2554  code .
+ 2555  cd ..
+ 2556  cd RedditClone/src/main/resources/static/
+ 2557  ls
+ 2558  cd css/
+ 2559  gedit header.css 
+ 2560  cd
+ 2561  cd Projects/FirstReactApp/
+ 2562  cd RedditClone/src/main/resources/static/
+ 2563  cd ../RedditClone/src/main/resources/static/
+ 2564  cd css/
+ 2565  sudo apt install xclip
+ 2566  xclip -sel c header.css 
+ 2567  cd -
+ 2568  cd ~/Projects/FirstReactApp/
+ 2569  cd ../RedditClone/src/main/resources/static/css/
+ 2570  cd -
+ 2571  xclip -sel c ../RedditClone/src/main/resources/static/css/default.css 
+ 2572  npm install @mui/material @emotion/react @emotion/styled
+ 2573  npm install @mui/icons-material
+ 2574  exit
+ 2575  curl --version
+ 2576  sudo apt update
+ 2577  sudo apt upgrade
+ 2578  df -h
+ 2579  sudo apt autoremove 
+ 2580  df -h
+ 2581  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+ 2582  export NVM_DIR="$HOME/.nvm"
+ 2583  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+ 2584  [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+ 2585  command -v nvm
+ 2586  nvm install --lts
+ 2587  nvm use --lts
+ 2588  node -v
+ 2589  node
+ 2590  code
+ 2591  code 
+ 2592  cd Projects/
+ 2593  ls
+ 2594  mkdir FirstReactApp
+ 2595  rm -r FirstReactApp/
+ 2596  npm --version
+ 2597  npm create vito@latest FirstReactApp -- --template react
+ 2598  npm create vite@latest FirstReactApp -- --template react
+ 2599  cd First
+ 2600  npm install
+ 2601  cd FirstReactApp/
+ 2602  npm install
+ 2603  npm run dev
+ 2604  history
+ 2605  xclip -sel c ~/Documents/git_token.txt 
+ 2606  cd Mini/twd/linux_me_project/
+ 2607  git pull
+ 2608  git branch
+ 2609  git checkout -b bash-history-features
+ 2610  history
+ 2611  man disown
+ 2612  disown 
+ 2613  rstudio & disown
+ 2614  cd
+ 2615  open ./Documents/CheatSheets/ggplot.pdf 
+ 2616  open ./Documents/CheatSheets/shiny.pdf 
+ 2617  cd Mini/twd/linux_me_project/
+ 2618  git add .
+ 2619  git commit -m "add boxes and dt table"
+ 2620  git status
+ 2621  git add app.R 
+ 2622  git commit -m "add styles for tabBox"
+ 2623  git checkout master 
+ 2624  git checkout bash-history-features 
+ 2625  git branch
+ 2626  ls -a
+ 2627  cat .gitignore 
+ 2628  cd ui/
+ 2629  ls -a
+ 2630  cd ..
+ 2631  git status
+ 2632  git add .
+ 2633  git commit -m "move styles to app.R"
+ 2634  git status
+ 2635  git checkout master 
+ 2636  git pull
+ 2637  git branch
+ 2638  git merge bash-history-features 
+ 2639  git push
+ 2640  git status
+ 2641  git branch
+ 2642  git diff
+ 2643  git add .
+ 2644  git commit -m "column layout"
+ 2645  git pish
+ 2646  git push
+ 2647  history
+ 2648  git branch
+ 2649  git checkout bash-history-features 
+ 2650  git checkout master 
+ 2651  git branch -d bash-history-features 
+ 2652  git checkout -b "bash-history-features-2"
+ 2653  git branch
+ 2654  git status
+ 2655  git add .
+ 2656  git commit -m "add shinycssloaders spinners"
+ 2657  git status
+ 2658  cat linux_me_project.Rproj 
+ 2659  cd Mini/twd/linux_me_project/
+ 2660  git status
+ 2661  ls -a
+ 2662  cd .Rproj.user/
+ 2663  ls
+ 2664  cd ..
+ 2665  rm -rf linux_me_project.Rproj .Rproj.user/
+ 2666  ls
+ 2667  git status
+ 2668  git diff
+ 2669  git restore .gitignore
+ 2670  ls -a
+ 2671  cat .gitignore 
+ 2672  git status
+ 2673  ls -a
+ 2674  rm -rf .Rproj.user/
+ 2675  git status
+ 2676  history
+ 2677  cd ~/Documents/
+ 2678  ls
+ 2679  cd CheatSheets/
+ 2680  ls
+ 2681  gedit shiny-extensions.txt
+ 2682  cd -
+ 2683  cd ..
+ 2684  cd Mini/twd/linux_me_project/
+ 2685  cd ..
+ 2686  ls
+ 2687  touch dupa.R
+ 2688  cd linux_me_project/data/
+ 2689  ls
+ 2690  cd bash-history/
+ 2691  ls
+ 2692  cat mateusz_bash_history.txt | head n25
+ 2693  cat mateusz_bash_history.txt | head -n25
+ 2694  cd -
+ 2695  cd ..
+ 2696  cd data/bash-history/
+ 2697  cat mateusz_bash_history.txt | grep "-a"
+ 2698  cat mateusz_bash_history.txt | grep -a
+ 2699  cat mateusz_bash_history.txt
+ 2700  cat mateusz_bash_history.txt | grep '-a'
+ 2701  man grep
+ 2702  cat mateusz_bash_history.txt | head
+ 2703  cat mateusz_bash_history.txt | head -n1000
+ 2704  cd -
+ 2705  git branch 
+ 2706  git checkout master 
+ 2707  git branch 
+ 2708  git add .
+ 2709  git commit -m "write consecutiveCombinations function"
+ 2710  git status 
+ 2711  git checkout mas
+ 2712  git pull
+ 2713  git branch 
+ 2714  git checkout master 
+ 2715  git pull
+ 2716  git checkout bash-history-features-2 
+ 2717  git branch
+ 2718  rstudio 
+ 2719  cd Mini/twd/linux_me_project/
+ 2720  git branch 
+ 2721  git status
+ 2722  git add .
+ 2723  git commit -m "most used commands sequences table"
+ 2724  git status
+ 2725  git add .
+ 2726  git commit -m "sequences table description"
+ 2727  git checkout master 
+ 2728  git pull
+ 2729  git merge bash-history-features-2 
+ 2730  git push
+ 2731  git branch -d bash-history-features-2 
+ 2732  git checkout -b sequences-table-use-arg1
+ 2733  git branch
+ 2734  git branch -d sequences-table-use-arg1 
+ 2735  git branch
+ 2736  git status
+ 2737  git checkout master 
+ 2738  git branch
+ 2739  git branch -d sequences-table-use-arg1 
+ 2740  git pull
+ 2741  git status 
+ 2742  git add .
+ 2743  git diff
+ 2744  git restore --cached .
+ 2745  git restore --staged .
+ 2746  git status
+ 2747  git diff
+ 2748  git add .
+ 2749  git commit -m "remove todo"
+ 2750  git branch
+ 2751  git push
+ 2752  git checkout -b bash-history-features
+ 2753  exit
+ 2754  exit
+ 2755  history
+ 2756  xclip -sel c ~/Documents/git_token.txt 
+ 2757  exit
+ 2758  cd Mini/twd/
+ 2759  ls
+ 2760  rm dupa.R 
+ 2761  mkdir lab11
+ 2762  cd lab11/
+ 2763  jupyter lab 
+ 2764  pip install numpy
+ 2765  pip install pandas
+ 2766  cd ..
+ 2767  ls
+ 2768  exit
+ 2769  cd Mini/mntmp/
+ 2770  cd pro2/
+ 2771  ls
+ 2772  texstudio 
+ 2773  pip install matplotlib
+ 2774  ls
+ 2775  cd Mini/twd/
+ 2776  ls
+ 2777  cd KarandysMateusz/
+ 2778  ls
+ 2779  rm .
+ 2780  rm -a
+ 2781  rm  *
+ 2782  ls
+ 2783  jupyter lab
+ 2784  exit
+ 2785  cd Projects/FirstReactApp/
+ 2786  code .
+ 2787  npm run dev
+ 2788  eclipse/eclipse/eclipse 
+ 2789  cd Projects/RedditClone/
+ 2790  ls
+ 2791  ls -a
+ 2792  cat .project 
+ 2793  rm .project 
+ 2794  ls -a
+ 2795  ls -al
+ 2796  ls
+ 2797  ls -a
+ 2798  cd ..
+ 2799  rm -rf RedditClone/
+ 2800  ls
+ 2801  rm -rf RedditClone/
+ 2802  ls
+ 2803  cd RedditClone/
+ 2804  ls -la
+ 2805  git status
+ 2806  cd
+ 2807  ls -a
+ 2808  cd .jdks/
+ 2809  ;s
+ 2810  ls -a
+ 2811  cd corretto-1.8.0_392/
+ 2812  ;s
+ 2813  ls
+ 2814  cd ..
+ 2815  cd
+ 2816  cd Projects/RedditClone/
+ 2817  ls
+ 2818  git clone https://github.com/vecel/reddit-clone.git
+ 2819  ls
+ 2820  ls -la
+ 2821  rm -rf reddit-clone/
+ 2822  ls
+ 2823  ls -la
+ 2824  rm -rf .git
+ 2825  ls
+ 2826  ls -la
+ 2827  git clone https://github.com/vecel/reddit-clone.git
+ 2828  ls
+ 2829  ls -la
+ 2830  rm -rf reddit-clone/
+ 2831  git init
+ 2832  rm -rf .git
+ 2833  git init
+ 2834  cd ..
+ 2835  ls
+ 2836  rm -rf RedditClone/
+ 2837  git clone https://github.com/vecel/reddit-clone.git RedditClone
+ 2838  ls
+ 2839  cd RedditClone/
+ 2840  ls
+ 2841  ls -a
+ 2842  git status
+ 2843  cd Projects/RedditClone/
+ 2844  git status
+ 2845  git branch
+ 2846  cd ..
+ 2847  ls
+ 2848  cd First
+ 2849  cd FirstReactApp/
+ 2850  ls
+ 2851  cd public/
+ 2852  ls
+ 2853  cd ..
+ 2854  cd src/
+ 2855  ls
+ 2856  cd ..
+ 2857  cd..
+ 2858  cd ..
+ 2859  cd RedditClone/
+ 2860  ls
+ 2861  curl http://localhost:8080/
+ 2862  git branch
+ 2863  git checkout -b "migrate to rest"
+ 2864  git checkout -b migrate-to-rest
+ 2865  git branch
+ 2866  git checkout main 
+ 2867  git status
+ 2868  git checkout migrate-to-rest 
+ 2869  git status
+ 2870  code .
+ 2871  git checkout main 
+ 2872  git branch -d migrate-to-rest 
+ 2873  ls
+ 2874  git checkout -b migrate-to-rest
+ 2875  git pull
+ 2876  git checkout main 
+ 2877  git pull
+ 2878  gradle init
+ 2879  ./gradlew init
+ 2880  gradle init
+ 2881  ll
+ 2882  gradle init
+ 2883  gradle --stacktrace init
+ 2884  gradle init
+ 2885  ls
+ 2886  mv build.gradle ..
+ 2887  cd ..
+ 2888  mv build.gradle RedditClone/
+ 2889  mv RedditClone/pom.xml .
+ 2890  cd RedditClone/
+ 2891  ./gradlew clean
+ 2892  ./gradlew build
+ 2893  cat .classpath 
+ 2894  git status
+ 2895  git restore
+ 2896  git restore .
+ 2897  cat .gitignore 
+ 2898  cat .classpath 
+ 2899  ls
+ 2900  ll
+ 2901  ls -a
+ 2902  cd .idea/
+ 2903  ls
+ 2904  cd ..
+ 2905  ls
+ 2906  ls -a
+ 2907  cat .project 
+ 2908  gradle init
+ 2909  ./gradlew clean
+ 2910  ./gradlew build
+ 2911  gradle .
+ 2912  echo $JAVA_HOME
+ 2913  ./gradlew clean
+ 2914  ./gradlew build
+ 2915  gradle init
+ 2916  sudo apt upgrade gradle
+ 2917  rm -rf .
+ 2918  ls
+ 2919  rm -rf 
+ 2920  ls
+ 2921  rm -rf *
+ 2922  ls
+ 2923  ls -a
+ 2924  git pull
+ 2925  ls
+ 2926  ls -a
+ 2927  cd ..
+ 2928  ls
+ 2929  rm -rf RedditClone/
+ 2930  mkdir RedditClone
+ 2931  cd RedditClone/
+ 2932  ls
+ 2933  git clone https://github.com/vecel/reddit-clone.git
+ 2934  ls
+ 2935  ls -a
+ 2936  rm -rf reddit-clone/
+ 2937  cd ..
+ 2938  rm RedditClone/
+ 2939  rm -r RedditClone/
+ 2940  ls
+ 2941  git clone https://github.com/vecel/reddit-clone.git
+ 2942  mv reddit-clone/ RedditClone/
+ 2943  cd RedditClone/
+ 2944  ls
+ 2945  ls -a
+ 2946  ls
+ 2947  cd
+ 2948  ls
+ 2949  ls -a
+ 2950  cd Mini/
+ 2951  ls
+ 2952  mkdir redditclonedupa
+ 2953  cd redditclonedupa/
+ 2954  ~/intellij/idea-IU-232.10203.10/bin/idea.sh 
+ 2955  ls -a
+ 2956  ~/intellij/idea-IU-232.10203.10/bin/idea.sh 
+ 2957  cd ..
+ 2958  rm -r redditclonedupa/
+ 2959  cd
+ 2960  eclipse/eclipse/eclipse 
+ 2961  cd Projects/FirstReactApp/
+ 2962  code .
+ 2963  exit
+ 2964  cd ..
+ 2965  git status
+ 2966  git add app/.
+ 2967  git commit -m "Change Structure"
+ 2968  cd app/
+ 2969  npm install @mui/icons-material
+ 2970  npm install @mui/material @emotion/react @emotion/styled
+ 2971  cd ..
+ 2972  git status 
+ 2973  git add app/.
+ 2974  git commit -m "Rewrite header"
+ 2975  ls
+ 2976  ls src/
+ 2977  ls src/main/resources/templates/index.html 
+ 2978  ls src/main/resources/templates/
+ 2979  cd src/main/resources/templates/
+ 2980  cd fragments/
+ 2981  ls
+ 2982  cd ..
+ 2983  ls
+ 2984  cat index.html 
+ 2985  clear
+ 2986  cd -
+ 2987  cd ../..
+ 2988  cd
+ 2989  cd Projects/RedditClone/
+ 2990  cd src/main/resources/
+ 2991  ls
+ 2992  cd templates/
+ 2993  ls
+ 2994  code .
+ 2995  cd ..
+ 2996  ls
+ 2997  code .
+ 2998  cd -
+ 2999  cd ~/Projects/RedditClone/
+ 3000  ls
+ 3001  git status
+ 3002  git add app/.
+ 3003  git commit -m "Rewrite sidebar"
+ 3004  git push
+ 3005  git push --set-upstream origin react-frontend 
+ 3006  exit
+ 3007  cd
+ 3008  ./intellij/idea-IU-232.10203.10/bin/idea.sh 
+ 3009  exit
+ 3010  cd eclipse/
+ 3011  ls
+ 3012  cd eclipse_workspace/
+ 3013  ls
+ 3014  cd Servers/
+ 3015  ls
+ 3016  cd 'Tomcat v10.0 Server at localhost-config'/
+ 3017  ls
+ 3018  cd
+ 3019  cd eclipse/
+ 3020  ls
+ 3021  cd eclipse
+ 3022  ls
+ 3023  cd configuration/
+ 3024  ls
+ 3025  cd
+ 3026  cd Projects/RedditClone/
+ 3027  l
+ 3028  ls -a
+ 3029  top
+ 3030  git status
+ 3031  git branch
+ 3032  git checkout -b react-frontend
+ 3033  git branch
+ 3034  ls
+ 3035  npx --version
+ 3036  npm --version
+ 3037  npx create-react-app app
+ 3038  ls
+ 3039  cd app
+ 3040  npm start
+ 3041  cd ..
+ 3042  git status
+ 3043  git add app/
+ 3044  git commit -m "Initial commit"
+ 3045  sudo apt update
+ 3046  npm update -g npm
+ 3047  man npm fund
+ 3048  npm fund
+ 3049  cd app/
+ 3050  code .
+ 3051  npm install react-router-dom
+ 3052  npm fund
+ 3053  npm audit fix
+ 3054  npm audit fix --force
+ 3055  npm run dev
+ 3056  npm start
+ 3057  exit
+ 3058  cd Projects/RedditClone/app/
+ 3059  code .
+ 3060  npm run dev
+ 3061  npm start
+ 3062  code .
+ 3063  npm start
+ 3064  code .
+ 3065  npm start
+ 3066  cd ..
+ 3067  cd
+ 3068  ./intellij/idea-IU-232.10203.10/bin/idea.sh 
+ 3069  cd ..
+ 3070  git status
+ 3071  git add app/.
+ 3072  git commit -m "create components, render communities list"
+ 3073  git status
+ 3074  git add .
+ 3075  git commit -m "return json from community controller"
+ 3076  cd src/main/resources/
+ 3077  code .
+ 3078  cd -
+ 3079  ls
+ 3080  git status
+ 3081  git add .
+ 3082  git commit -m "fetch and display community"
+ 3083  git push
+ 3084  git branch
+ 3085  cd Mini/mntmp/pro2/
+ 3086  texstudio 
+ 3087  touch .gitigonre
+ 3088  gedit .gitigonre 
+ 3089  git init
+ 3090  git add .
+ 3091  touch README.md
+ 3092  gedit README.md 
+ 3093  git add README.md 
+ 3094  git commit -m "final commit"
+ 3095  git push
+ 3096  git status
+ 3097  git remote add origin https://github.com/vecel/iterative-jacobi-method.git
+ 3098  git branch -M main
+ 3099  git push -u origin main
+ 3100  exit
+ 3101  cd Projects/RedditClone/app/ && code .
+ 3102  npm run dev
+ 3103  npm run
+ 3104  npm start
+ 3105  exit
+ 3106  cd ..
+ 3107  cd
+ 3108  ./intellij/idea-IU-232.10203.10/bin/idea.sh 
+ 3109  exit
+ 3110  cd Projects/RedditClone/src/main/resources/ && code .
+ 3111  cd ../../..
+ 3112  git add .
+ 3113  git commit -m "posts view"
+ 3114  git status
+ 3115  git add .
+ 3116  git commit -m "add user controller, modify view"
+ 3117  npm kill-port 8080
+ 3118  npx kill-port 8080
+ 3119  fuser 8080/tcp
+ 3120  fuser -k 8080/tcp
+ 3121  git status
+ 3122  git add .
+ 3123  git commit -m "fix json reference, add community endpoints"
+ 3124  git status
+ 3125  git diff
+ 3126  git add src/main/java/pl/.
+ 3127  git commit -m "rename endpoint"
+ 3128  git add .
+ 3129  git commit -m "refactor community view component"
+ 3130  git push
+ 3131  cd
+ 3132  cd Mini/twd/linux_me_project/
+ 3133  git pull
+ 3134  git branch
+ 3135  git checkout master
+ 3136  git pull
+ 3137  R
+ 3138  ls
+ 3139  cd data/
+ 3140  cd r-libs/
+ 3141  ls
+ 3142  R
+ 3143  ls
+ 3144  cat file.txt 
+ 3145  mv file.txt mateusz_r_libs.txt
+ 3146  ls
+ 3147  cd
+ 3148  cd Mini/twd/
+ 3149  cd linux_me_project/
+ 3150  git branch
+ 3151  git status
+ 3152  git diff
+ 3153  git add data/.
+ 3154  git commit -m "add mateusz r libs"
+ 3155  git add .
+ 3156  git commit -m "small text fix"
+ 3157  git push
+ 3158  git branch 
+ 3159  git checkout -b about
+ 3160  git brach
+ 3161  git branch
+ 3162  cd ui/
+ 3163  mv aboutUI.R about_ui.R
+ 3164  cd 
+ 3165  cd Downloads/
+ 3166  ls
+ 3167  mv Linux_Mint_logo_without_wordmark.svg.png mint_logo.svg.png
+ 3168  ls
+ 3169  cd 
+ 3170  cd Mini/twd/linux_me_project/
+ 3171  mkdir images
+ 3172  cd images/
+ 3173  mv ~/Downloads/mint_logo.svg.png .
+ 3174  ls
+ 3175  cd ..
+ 3176  rm -rf images/
+ 3177  cd server/
+ 3178  ls
+ 3179  rm about_server.R 
+ 3180  cd ..
+ 3181  git status
+ 3182  git branch
+ 3183  git add .
+ 3184  git commit -m "about tab template"
+ 3185  git push
+ 3186  git push --set-upstream origin about
+ 3187  git status
+ 3188  git checkout master 
+ 3189  git pull
+ 3190  ls
+ 3191  ls ui/
+ 3192  git branch
+ 3193  git branch -d about 
+ 3194  ls
+ 3195  git status
+ 3196  git push
+ 3197  git branch -a
+ 3198  git push origin -d about
+ 3199  exit
+ 3200  rstudio 
+ 3201  gedit linux_me.md 
+ 3202  exit
+ 3203  code .
+ 3204  cd ../src/main/resources/
+ 3205  code .
+ 3206  cd ../../..
+ 3207  git status
+ 3208  git add README.md 
+ 3209  git commit -m "add screenshots"
+ 3210  git push
+ 3211  git log
+ 3212  git revert 49ce524630f2b180925c6727975f85c7c4851fab
+ 3213  git status
+ 3214  git push
+ 3215  git checkout main 
+ 3216  git add .
+ 3217  git commit -m "initial version of Signup component"
+ 3218  git checkout main 
+ 3219  cat README.md 
+ 3220  git add README.md 
+ 3221  git commit -m "add screenshots"
+ 3222  git push
+ 3223  git checkout react-frontend 
+ 3224  exit
+ 3225  cd Projects/RedditClone/app/
+ 3226  npm start
+ 3227  exit
+ 3228  cd Projects/RedditClone/
+ 3229  cd
+ 3230  ./intellij/idea-IU-232.10203.10/bin/idea.sh 
+ 3231  exit
+ 3232  cd Documents/
+ 3233  gedit reddit_clone.md
+ 3234  gedit linux_me.md
+ 3235  ls
+ 3236  gedit polynomial_interpolation.md
+ 3237  gedit planes_safety.md
+ 3238  gedit open_link_in_new_tab.md
+ 3239  exit
+ 3240  cd Mini/twd/linux_me_project/
+ 3241  rstudio
+ 3242  cd
+ 3243  cd Documents/
+ 3244  gedit about_me.md
+ 3245  cd ..
+ 3246  cd app/
+ 3247  code .
+ 3248  cd ../src/main/resources/
+ 3249  ls
+ 3250  code .
+ 3251  ./intellij/idea-IU-232.10203.10/bin/idea.sh 
+ 3252  cd Projects/RedditClone/app/
+ 3253  npm start
+ 3254  top
+ 3255  exit
+ 3256  cd Projects/RedditClone/
+ 3257  git status
+ 3258  git add .
+ 3259  git commit -m "form submission on signup page"
+ 3260  git push
+ 3261  exit
+ 3262  cd
+ 3263  ./intellij/idea-IU-232.10203.10/bin/idea.sh 
+ 3264  exit
+ 3265  cd Projects/RedditClone/app/ && code .
+ 3266  npm start
+ 3267  exit
+ 3268  cd Projects/RedditClone/app/
+ 3269  npm start
+ 3270  cd
+ 3271  ./intellij/idea-IU-232.10203.10/bin/idea.sh 
+ 3272  cd Projects/RedditClone/app/
+ 3273  code .
+ 3274  npm start
+ 3275  cd ..
+ 3276  git statis
+ 3277  git status
+ 3278  git add .
+ 3279  git log
+ 3280  git commit -m "handle errors on signup page"
+ 3281  git push
+ 3282  cd
+ 3283  ./intellij/idea-IU-232.10203.10/bin/idea.sh 
+ 3284  cd Projects/RedditClone/app/
+ 3285  cd ..
+ 3286  cd app/ && code .
+ 3287  npm start
+ 3288  exit
+ 3289  cd ..
+ 3290  git status
+ 3291  git add .
+ 3292  git commit -m "fix bug with clearing HttpSession when changing pages"
+ 3293  git push
+ 3294  git add .
+ 3295  git commit -m "logout feature"
+ 3296  git push
+ 3297  git add .
+ 3298  git commit -m "view without community"
+ 3299  git push
+ 3300  exit
+ 3301  exit
+ 3302  ./intellij/idea-IU-232.10203.10/bin/idea.sh 
+ 3303  cd app/
+ 3304  npm start
+ 3305  cd Projects/RedditClone/
+ 3306  cd app/
+ 3307  code .
+ 3308  cd ..
+ 3309  git add app/.
+ 3310  git commit -m "fix page refreshing after logout"
+ 3311  git add .
+ 3312  git commit -m "update post controller"
+ 3313  git add .
+ 3314  git commit -m "user logging"
+ 3315  git push
+ 3316  ./intellij/idea-IU-232.10203.10/bin/idea.sh 
+ 3317  cd Projects/RedditClone/app/
+ 3318  code .
+ 3319  npm start
+ 3320  cd ..
+ 3321  git add .
+ 3322  git commit -m "user can join community, remove redundant comments"
+ 3323  git checkout main 
+ 3324  git checkout react-frontend 
+ 3325  git push
+ 3326  cd src/main/resources/
+ 3327  ls
+ 3328  cd static/
+ 3329  ls -a
+ 3330  cd css/
+ 3331  ls -a
+ 3332  cd ..
+ 3333  cd
+ 3334  cd Projects/RedditClone/
+ 3335  git checkout main 
+ 3336  git pull
+ 3337  git branch 
+ 3338  cd Mini/twd/
+ 3339  ls
+ 3340  mkdir lab_iles_tam
+ 3341  cd lab_iles_tam/
+ 3342  mv ~/Downloads/lab14.ipynb .
+ 3343  ls
+ 3344  jupyter lab
+ 3345  pip install networkx
+ 3346  pip install scipy
+ 3347  mv ~/Downloads/calls.csv ..
+ 3348  cd ..
+ 3349  ls
+ 3350  cd KarandysMateusz/
+ 3351  ls
+ 3352  rm -a
+ 3353  rm tree.ipynb 
+ 3354  rm tree.png 
+ 3355  ls
+ 3356  cd ..
+ 3357  mv calls.csv KarandysMateusz/
+ 3358  cd KarandysMateusz/
+ 3359  ls
+ 3360  jupyter lab
+ 3361  ls
+ 3362  cd ..
+ 3363  cd lab_iles_tam/
+ 3364  jupyter lab
+ 3365  cd ..
+ 3366  git status
+ 3367  git branch
+ 3368  git add .
+ 3369  git commit -m "fix join community bug"
+ 3370  git checkout -b add-post
+ 3371  git add .
+ 3372  git commit -m "create frontend template"
+ 3373  git push
+ 3374  git push --set-upstream origin add-post
+ 3375  exit
+ 3376  cd Projects/RedditClone/app/ && code .
+ 3377  npm start
+ 3378  exit
+ 3379  ./intellij/idea-IU-232.10203.10/bin/idea.sh 
+ 3380  exit
+ 3381  cd Mini/twd/KarandysMateusz/
+ 3382  ls
+ 3383  jupyter lab
+ 3384  exit
+ 3385  ls
+ 3386  mv calls.csv ..
+ 3387  ls
+ 3388  exit
+ 3389  git checkout bash-history-features 
+ 3390  git status
+ 3391  git diff
+ 3392  git add .
+ 3393  git commit -m "add bash history tab description"
+ 3394  git branch
+ 3395  git push
+ 3396  git checkout bash-history-features 
+ 3397  git status
+ 3398  git checkout master 
+ 3399  git branch -d bash-history-features 
+ 3400  git checkout -b bash-history-features
+ 3401  git status 
+ 3402  git add .
+ 3403  git commit -m "hide plot modebar"
+ 3404  git push --set-upstream origin bash-history
+ 3405  git push
+ 3406  git push --set-upstream origin bash-history-features 
+ 3407  git checkout master 
+ 3408  ls
+ 3409  git branch 
+ 3410  git pull
+ 3411  cd data/
+ 3412  ls
+ 3413  cd bash-history/
+ 3414  ls
+ 3415  history > mateusz_bash_history.txt 
