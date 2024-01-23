@@ -1,0 +1,12 @@
+name: PersonalVisualizationProject
+title: PersonalVisualizationProject
+username: michael-pytel
+account: michael-pytel
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11006211
+bundleId: 8176181
+url: https://michael-pytel.shinyapps.io/PersonalVisualizationProject/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
