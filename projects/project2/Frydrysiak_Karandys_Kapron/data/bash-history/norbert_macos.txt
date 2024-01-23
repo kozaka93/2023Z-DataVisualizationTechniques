@@ -1,0 +1,4054 @@
+    1  ls
+    2  cd ..
+    3  cd /
+    4  ls
+    5  df -h
+    6  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    7  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    8  exit
+    9  brew
+   10  bash
+   11  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   12  brew
+   13  (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/fantasy2fry/.zprofile
+   14  eval "$(/opt/homebrew/bin/brew shellenv)"
+   15  brew
+   16  brew help
+   17  brew search neofetch
+   18  brew install neofetch
+   19  neofetch
+   20  xrandr
+   21  brew help
+   22  brew update
+   23  brew commands
+   24  brew search lunarvim
+   25  brew search neovim
+   26  brew search intellij
+   27  python
+   28  python3
+   29  pip3 install cython
+   30  gcc
+   31  g++
+   32  python3
+   33  clear
+   34  brew search firefox
+   35  brew search opera
+   36  brew search ruby
+   37  ruby
+   38  clear
+   39  ruby
+   40  clear
+   41  r
+   42  clear
+   43  r
+   44  clear
+   45  df -h
+   46  r
+   47  df -h
+   48  r
+   49  df -h
+   50  R
+   51  brew search R
+   52  brew search Rstudio
+   53  clear
+   54  brew install git
+   55  git status
+   56  git
+   57  clear
+   58  brew install discord
+   59  clear
+   60  brew install wine
+   61  brew install wine-stable
+   62  clear
+   63  brew update
+   64  clear
+   65  brew update
+   66  clear
+   67  exit
+   68  history
+   69  clear
+   70  quit
+   71  ping wp.pl
+   72  clear
+   73  brew update
+   74  clear
+   75  ping google.com
+   76  ping wp.pl
+   77  ping apple.com
+   78  clear
+   79  brew search speedtest
+   80  ping apple.com
+   81  ping apple.com
+   82  ping apple.com
+   83  ping wp.pl
+   84  ping google.com
+   85  ping google.com
+   86  clear
+   87  brew search speedtest
+   88  clear
+   89  brew update
+   90  brew install wine-stable
+   91  wine
+   92  man wine
+   93  wine64
+   94  wi
+   95  wine --help
+   96  wine help
+   97  brew uninstall wine
+   98  vim
+   99  nano
+  100  emacs
+  101  clear
+  102  v
+  103  ls -a
+  104  cd .config
+  105  ls
+  106  ls -a
+  107  cd ..
+  108  ls
+  109  ls -a ~
+  110  ls -a
+  111  touch .zshrc
+  112  open -e .zshrc
+  113  vim .zshrc
+  114  brew search neovim
+  115  vrew
+  116  brew
+  117  brew info neovim
+  118  brew install neovim
+  119  man brew
+  120  vim .zshrc
+  121  source .zshrc
+  122  v
+  123  v
+  124  clear
+  125  vim
+  126  v
+  127  clear
+  128  clear
+  129  nvim
+  130  clear
+  131  git
+  132  clear
+  133  brew info intellij
+  134  brew search intellij
+  135  brew install discord
+  136  discord
+  137  brew show intellij-idea-ce
+  138  brew info intellij-idea-ce
+  139  brew info intellij-idea
+  140  brew install intellij-idea
+  141  intellij-idea
+  142  idea
+  143  brew uninstall intellij-idea
+  144  brew install intellij-idea-ce
+  145  brew doctor
+  146  idea
+  147  clear
+  148  brew search virtual
+  149  brew search bytop
+  150  brew install bpytop
+  151  bpytop
+  152  bpytop
+  153  brew search terminal
+  154  brew update
+  155  clear
+  156  bpytop
+  157  clear
+  158  clear
+  159  top
+  160  clear
+  161  brew search top
+  162  clear
+  163  clear
+  164  clear
+  165  ping wp.pl
+  166  clear
+  167  brew search pycharm
+  168  brew info pycharm-ce
+  169  clear
+  170  brew install pycharm-ce
+  171  clear
+  172  brew info virtualbox
+  173  brew install virtualbox
+  174  brew search virtualbox
+  175  brew info virtualpog
+  176  brew info virtualpg
+  177  clear
+  178  brew search debugger
+  179  pip3 install pytorch
+  180  python3.11 -m pip install --upgrade pip
+  181  pip3 install pytorch
+  182  man pip3
+  183  man pip
+  184  clear
+  185  pip3 search pytorch
+  186  clear
+  187  pip3 install tensorflow
+  188  pip3 install pandas
+  189  clear
+  190  pip3 install numpy
+  191  clear
+  192  brew search fish
+  193  clear
+  194  brew search rstudio
+  195  brew install rstudio
+  196  brew install --cask r
+  197  brew install r
+  198  brew install r
+  199  brew install r
+  200  brew install r
+  201  brew install r
+  202  brew install r
+  203  brew install rstudio
+  204  R
+  205  clear
+  206  sudo shutdown now
+  207  sudo shutdown now
+  208  sudo shutdown
+  209  sudo shutdown -n
+  210  man shutdown
+  211  ls
+  212  cd /
+  213  ls
+  214  mount
+  215  cd Volumes
+  216  ls
+  217  cd ISY
+  218  ls
+  219  mv 18\ Norbert\ Frydrysiak\ -\ 22.02.2020 ~/Documents
+  220  cd
+  221  ls
+  222  brew
+  223  brew config
+  224  brew update
+  225  brew upgrade
+  226  mount
+  227  cd /
+  228  ls
+  229  lsusb
+  230  brew search warp
+  231  brew search fish
+  232  ls
+  233  clear
+  234  brew
+  235  brew search neovim
+  236  brew update
+  237  brew upgrade neovim
+  238  clear
+  239  sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \\n       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+  240  v
+  241  v
+  242  cd .config
+  243  ls
+  244  mkdir nvim
+  245  ls
+  246  cd nvim
+  247  ls
+  248  touch init.vim
+  249  ls
+  250  v init.vim
+  251  v
+  252  v init.vim
+  253  v
+  254  v init.vim
+  255  brew search node
+  256  brew info node
+  257  brew install node
+  258  v
+  259  v init.vim
+  260  R
+  261  clear
+  262  v
+  263  cd
+  264  ls
+  265  cd Downloads
+  266  ls
+  267  touch python.py
+  268  v python.py
+  269  python3
+  270  clear
+  271  v
+  272  pip install pynvim --upgrade
+  273  v
+  274  v python.py
+  275  clear
+  276  cd
+  277  clear
+  278  v .config/nvim/init.vim
+  279  v .config/nvim/init.vim
+  280  v .config/nvim/init.vim
+  281  bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
+  282  lvim
+  283  bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
+  284  lvim
+  285  v
+  286  cd .local
+  287  ls
+  288  cd bin
+  289  ls
+  290  brew install iterm2
+  291  $PATH
+  292  PATH
+  293  cd ..
+  294  ls
+  295  cd ..
+  296  ls
+  297  pwd
+  298  ls -a
+  299  cd .zprofile
+  300  ls
+  301  ls -a
+  302  man ls
+  303  v .zprofile
+  304  exit
+  305  lvim
+  306  ls
+  307  v .zprofile
+  308  clear
+  309  v .zprofile
+  310  lvim
+  311  cd .local
+  312  ls
+  313  cd bin
+  314  ls
+  315  ./lvim
+  316  ./lvim
+  317  cd ..
+  318  ;s
+  319  ls
+  320  cd ..
+  321  v .zprofile
+  322  ls
+  323  ls -a
+  324  v .zshrc
+  325  source .zshrc
+  326  lvim
+  327  lvim
+  328  v .zshrc
+  329  cd .local/vin
+  330  cd .local/bin
+  331  pwd
+  332  cd
+  333  v .zshrc
+  334  source .zshrc
+  335  lvim
+  336  cd Downloads
+  337  ls
+  338  lvim python.py
+  339  lvim python.py
+  340  v
+  341  clear
+  342  lvim
+  343  brew search cargo
+  344  brew search rust
+  345  brew install rust
+  346  man brew
+  347  man brew
+  348  which python
+  349  which python3
+  350  which rstudio
+  351  which v
+  352  which nvim
+  353  which c++
+  354  cd /usr
+  355  ls
+  356  cd local
+  357  ls
+  358  cd ..
+  359  cd bin
+  360  ls
+  361  awk
+  362  cd ..
+  363  brew --prefix rstudio
+  364  brew --prefix intellij
+  365  brew --prefix intellij-ce
+  366  brew --prefix neovim
+  367  brew search intellij
+  368  brew --prefix intellij-idea-ce
+  369  brew info intellij-idea-ce
+  370  cd /opt/homebrew
+  371  ls
+  372  mount
+  373  mount
+  374  mount
+  375  clear
+  376  cd /
+  377  ls
+  378  brew search disk
+  379  lsblk
+  380  mount
+  381  mount
+  382  mount
+  383  ls
+  384  cd /
+  385  ls
+  386  ls
+  387  cd Documents
+  388  ls
+  389  mv Dokumenty/* .
+  390  ls
+  391  cd Dokumenty
+  392  ls
+  393  cd ..
+  394  ls
+  395  rmdir Dokumenty
+  396  ls
+  397  ls
+  398  clear
+  399  brew search midnight
+  400  brew search ranger
+  401  brew install ranger
+  402  ranger
+  403  brew install midnight
+  404  brew install midnight-commander
+  405  mc
+  406  clear
+  407  git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+  408  ls -a
+  409  v .zshrc
+  410  v
+  411  nvim .zshrc
+  412  clear
+  413  ls
+  414  ls -a
+  415  vim .zshrc
+  416  nvim .zshrc
+  417  ls
+  418  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n\n
+  419  
+  420  ls
+  421  clear
+  422  lvim
+  423  nvim
+  424  history | grep export
+  425  history
+  426  clear
+  427  cd ..
+  428  ls
+  429  cd fantasy2fry
+  430  ls
+  431  ls -a
+  432  cd .local
+  433  ls
+  434  cd bin
+  435  ls
+  436  pwd
+  437  cd
+  438  ls
+  439  ls -a
+  440  cat .zprofile
+  441  cat .zshrc
+  442  cat .zshrc.pre-oh-my-zsh
+  443  nvim .zshrc
+  444  exit
+  445  lvim
+  446  v
+  447  clear
+  448  bypytop
+  449  bpytop
+  450  clear
+  451  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+  452  ls
+  453  v .zshrc
+  454  source .zshrc
+  455  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+  456  ls -a
+  457  nvim .zshrc
+  458  source .zshrc
+  459  ls
+  460  ls -a
+  461  cd Documents
+  462  ls
+  463  google zsh
+  464  lvim
+  465  ls
+  466  cd ..
+  467  cd Downloads
+  468  ls
+  469  lvim python.py
+  470  clear
+  471  python3 python.py
+  472  lvim python.py
+  473  v
+  474  lvim python.py
+  475  cd
+  476  v
+  477  cd Downloads
+  478  v python.py
+  479  gem install neovim
+  480  v
+  481  gem install neovim
+  482  sudo gem install neovim
+  483  v
+  484  clear
+  485  lvim
+  486  cmatrix
+  487  brew search cmatrix
+  488  brew install cmatrix
+  489  cmatrix
+  490  clear
+  491  brew search gnome
+  492  brew search image
+  493  brew info terminalimage
+  494  brew info terminalimageviewer
+  495  brew search gwenview
+  496  brew search nomacs
+  497  port
+  498  man port
+  499  port
+  500  ports
+  501  brew search port
+  502  brew search ports
+  503  cd /opt/local
+  504  ls
+  505  cd bin
+  506  ls
+  507  ./port
+  508  cd
+  509  ls
+  510  ls -a
+  511  v .zshrc
+  512  exit
+  513  port
+  514  sudo port install gwenview
+  515  man port
+  516  brew search image
+  517  brew install terminalimageviewer
+  518  terminalimageviewer
+  519  cd /opt/homebrew
+  520  ls
+  521  cd bin
+  522  ls
+  523  R
+  524  ls
+  525  Rscript
+  526  clear
+  527  ls
+  528  ranger
+  529  clear
+  530  ls
+  531  ls -ar
+  532  ls -r
+  533  man ls
+  534  ls -l
+  535  clear
+  536  ls | terminal
+  537  ls
+  538  brew info terminalimageviewer
+  539  image
+  540  man brew
+  541  tiv
+  542  cd
+  543  cd Documents/USA_DREAM
+  544  ls
+  545  tiv 20230712_122524.jpg
+  546  clear
+  547  brew uninstall terminalimageviewer
+  548  clear
+  549  brew search imagemagick
+  550  image
+  551  brew info iina
+  552  brew search iina
+  553  brew install iina
+  554  iina
+  555  brew search automator
+  556  ls
+  557  cd Pictures
+  558  ls
+  559  ls -R
+  560  clear
+  561  cd ..
+  562  ls
+  563  cd Documents
+  564  ls
+  565  cd Obrazy
+  566  ls
+  567  mkdir moje_fajne_zdjecia_samoreklama
+  568  ls
+  569  cd mojezdjeciazimprezyumisi
+  570  ls
+  571  cd ..
+  572  ls
+  573  mv t*.jpg moje_fajne_zdjecia_samoreklama
+  574  ls
+  575  cd moje_fajne_zdjecia_samoreklama
+  576  ls
+  577  open *
+  578  clear
+  579  neofetch
+  580  brew search gimp
+  581  brew info gimp
+  582  clear
+  583  ls
+  584  cd Documents
+  585  ls
+  586  mkdir korepetycje
+  587  ls
+  588  cd korepetycje
+  589  ls
+  590  mkdir fiza_matura
+  591  mkdir matma_matura
+  592  ls
+  593  pwd
+  594  cd Downloads
+  595  ls
+  596  rm MacPorts-2.8.1-13-Ventura.pkg python.py
+  597  ls
+  598  mv Z* ../Documents/korepetycje/fiza_matura
+  599  ls
+  600  mv * ../Documents/korepetycje/matma_matura
+  601  ls
+  602  cd ../Documents/korepetycje
+  603  ls
+  604  cd fiza_matura
+  605  ls
+  606  mv ZADANIA-MATURALNE-II.pdf ../matma_matura
+  607  ls
+  608  cd ..
+  609  ls
+  610  cd matma_matura
+  611  ls
+  612  clear
+  613  ls
+  614  cd ..
+  615  ls
+  616  touch stronki_matma.txt
+  617  v stronki_matma.txt
+  618  clear
+  619  ls
+  620  cd ..
+  621  ls
+  622  brew update
+  623  ping wp.pl
+  624  clear
+  625  ls
+  626  cd Documents
+  627  ls
+  628  ls -R
+  629  clear
+  630  ls
+  631  cd informatyczne
+  632  ls
+  633  cd iadstudia
+  634  ls
+  635  cd anal2
+  636  ls
+  637  clear
+  638  cd ..
+  639  ls
+  640  cd algebra
+  641  ls
+  642  open *.html
+  643  open gotowiec_projekt3.ipynb
+  644  clear
+  645  pip3 install notebook
+  646  jupyter notebook
+  647  clear
+  648  jupyter
+  649  jupyter gotowiec_projekt3.ipynb
+  650  jupyter notebook gotowiec_projekt3.ipynb
+  651  jupyter notebook
+  652  clear
+  653  pip3 --version
+  654  pip3 install jupyter
+  655  python3 -m pip install --upgrade pip
+  656  jupyter notebook
+  657  clear
+  658  pip3 install jupyter
+  659  clear
+  660  jupyter notebook
+  661  brew update && brew doctor
+  662  brew install pyenv
+  663  brew install python
+  664  python3 --version
+  665  brew install jupyter
+  666  jupyter notebook
+  667  pip3 install tornado
+  668  clear
+  669  jupyter kernelspec list
+  670  man jupyter
+  671  jupyter -Xfrozen_modules=off
+  672  clear
+  673  pip3 reinstall jupyter
+  674  pip3 install jupyter
+  675  pip3 install notebook
+  676  pip3 install pandas
+  677  pip3 install numpy
+  678  clear
+  679  pip
+  680  pip install jupyter
+  681  clear
+  682  jupyter notebook
+  683  pip3 install jsonschema
+  684  pip3 install --upgrade --force-reinstall jupyter
+  685  jupyter notebook
+  686  clea
+  687  clear
+  688  pip3 install notebook
+  689  pip3 install jupyterlab
+  690  pip3 install voila
+  691  pip3 install --upgrade jupyter-server
+  692  pip3 install --upgrade jupyter-server jupyter-client
+  693  pip3 install --upgrade --force-reinstall jupyter-server jupyter-client
+  694  jupyter notebook
+  695  brew search chromium
+  696  brew search firefox
+  697  brew install firefox
+  698  firefox
+  699  jupyter notebook
+  700  clear
+  701  cd .jupyter
+  702  ls
+  703  which jupyter
+  704  jupyter notebook --generate-config
+  705  ls
+  706  lvim jupyter_notebook_config.py
+  707  which firefox
+  708  lvim jupyter_notebook_config.py
+  709  jupyter notebook
+  710  lvim jupyter_notebook_config.py
+  711  jupyter notebook
+  712  clear
+  713  pip3 install ipython pandas matplotlib
+  714  jupyter notebook
+  715  clear
+  716  ls
+  717  ls -l /opt/homebrew/Cellar/python@3.11/3.11.4_1/Frameworks/Python.framework/Versions/3.11/share/jupyter/lab/schemas/\n
+  718  python --version
+  719  python3 --version
+  720  brew install python
+  721  python3 --version
+  722  jupyter lab --version
+  723  clear
+  724  pip3 uninstall jupyterlab && pip3 install jupyterlab
+  725  jupyter notebook
+  726  clear
+  727  jupyter labextension update --all\n
+  728  jupyter lab build\n
+  729  pyenv install --list
+  730  pyenv install 3.9
+  731  pyenv global 3.9
+  732  eval "$(pyenv init --path)"\n
+  733  python3 --version
+  734  jupyter notebook
+  735  cd Documents/informatyczne/iadstudia/algebra
+  736  ls
+  737  pwd
+  738  clear
+  739  brew update
+  740  jupyter notebook gotowiec_projekt3.ipynb
+  741  pip3 install sklearn
+  742  clear
+  743  exit
+  744  pip3 install sklearn
+  745  pip3 install scikit-learn
+  746  pip3 install networkx
+  747  pip3 install scipy
+  748  clear
+  749  exit
+  750  sudo shutdown -n
+  751  sudo shutdown now
+  752  sudo shutdown -h 1
+  753  sudo shutdown -h
+  754  man shutdown
+  755  clear
+  756  sudo shutdown -h now
+  757  pip3 install numpy
+  758  exit
+  759  python3 -m pip install numpy\n
+  760  cd Documents/informatyczne/iadstudia/
+  761  ls
+  762  cd pdu
+  763  ls
+  764  cd pythonowe
+  765  ls
+  766  cd 23maja
+  767  ls
+  768  python3 9_maj.py
+  769  cat 9_maj.py
+  770  python3 23maj.py
+  771  cat 23maj.py
+  772  cat 23majuwu.py
+  773  python3 23majuwu.py
+  774  pip3 install os
+  775  pip3 install sqlite3
+  776  pip3 install sqlite
+  777  pip3 install sqllite
+  778  pip3 install sqllite3
+  779  pip3 install pandas
+  780  pip3 install tempfile
+  781  clear
+  782  cd ..
+  783  ls
+  784  cd ..
+  785  ls
+  786  Rscript zadanie-1_01.R
+  787  clear
+  788  cd ..
+  789  ls
+  790  cd pppdsem2
+  791  ls
+  792  pppd
+  793  ls
+  794  ls -a
+  795  ls -A
+  796  ls
+  797  cd pppdsem22
+  798  ls
+  799  python3 punktowane1.py
+  800  clear
+  801  ls
+  802  cd
+  803  clear
+  804  gcc -version
+  805  gcc --version
+  806  neofetch
+  807  htop
+  808  bpytop
+  809  clear
+  810  neofetch
+  811  brew search libreoffice
+  812  brew install libreoffice
+  813  brew search fig
+  814  brew info fig
+  815  brew install fig
+  816  fig
+  817  fig doctor
+  818  cd Documents/informatyczne/
+  819  cd mojeprogramy/
+  820  ls
+  821  clear
+  822  exit
+  823  cd Documents/informatyczne/samorozwoj/
+  824  ls
+  825  v
+  826  git clone https://github.com/fantasy2fry/fantasy2fry.git
+  827  ls
+  828  cd fantasy2fry/
+  829  ls
+  830  v README.md
+  831  R
+  832  v
+  833  clear
+  834  v README.md
+  835  git commit -m 'start of description' README.md
+  836  git push
+  837  v README.md
+  838  git commit -a -m 'finished working of first version of description/added resume'
+  839  git add Resume\ Norbert\ Frydrysiak.pdf
+  840  git commit -a -m 'finished working of first version of description/added resume'
+  841  git push
+  842  brew install gimp
+  843  lvim
+  844  clear
+  845  lvim
+  846  clear
+  847  cd Documents/informatyczne/iadstudia/pdu/
+  848  cd ../pppdsem22/punktowane2/
+  849  ls
+  850  ls -a
+  851  lvim punktowane2.py
+  852  cd ../
+  853  ls
+  854  cd punktowane3
+  855  ls
+  856  lvim punktowane3.py
+  857  lvim punktowane5.py
+  858  lvim punktowane1.py
+  859  python3 punktowane1.py
+  860  clear
+  861  python3 punktowane1.py
+  862  cd
+  863  clear
+  864  exit
+  865  neofetch
+  866  ls
+  867  cd /
+  868  ls
+  869  cd
+  870  ls
+  871  clear
+  872  R
+  873  exit
+  874  v
+  875  cd Documents/informatyczne/iadstudia/pppdsem22/
+  876  v punktowane1.py
+  877  cd ../pdu/pd5/
+  878  ls
+  879  v Norbert_Frydrysiak_327273_pd5.py
+  880  pip3 install pynvim
+  881  pip3 install --user pynvim
+  882  pip3 install --upgrade pynvim
+  883  v Norbert_Frydrysiak_327273_pd5.py
+  884  pip install pynvim
+  885  v Norbert_Frydrysiak_327273_pd5.py
+  886  clear
+  887  cd
+  888  brew search alfred
+  889  brew install alfred
+  890  which alfred
+  891  brew info alfred
+  892  brew search cleanshot
+  893  brew install cleanshot
+  894  brew uninstall cleanshot
+  895  clear
+  896  which port
+  897  which rstudio
+  898  which wine
+  899  ls
+  900  ls 0a
+  901  ls -a
+  902  v .zshrc
+  903  clea
+  904  clear
+  905  brew info rize
+  906  brew search rize
+  907  brew search things
+  908  brew search notion
+  909  brew install notion
+  910  cd Documents/informatyczne/iadstudia/pdu/pd4/
+  911  ls
+  912  git status
+  913  git log
+  914  clear
+  915  ls
+  916  git remote -v
+  917  touch README.md
+  918  ls
+  919  v README.md
+  920  cat README.txt
+  921  ls
+  922  du -h
+  923  ls
+  924  df -h
+  925  clear
+  926  git remote set-url origin https://github.com/fantasy2fry/is-number-13-unlucky-for-airlines-R-project.git
+  927  ls
+  928  touch .gitignore
+  929  ls
+  930  ls -a
+  931  v .gitignore
+  932  git status
+  933  v .gitignore
+  934  git status
+  935  v .gitignore
+  936  git add .gitignore
+  937  ls
+  938  git status
+  939  git rm --cached prezentacja.pdf
+  940  ls
+  941  git status
+  942  git add README.md
+  943  ls
+  944  git status
+  945  git rm --cached plot_template_preparation.R
+  946  ls
+  947  git rm --cached plot_template_preparation.R
+  948  git status
+  949  ls
+  950  git status
+  951  git rm --cached README.txt
+  952  ls
+  953  git status
+  954  git add tabelki/*
+  955  ls
+  956  git status
+  957  git add data_preparation.R shinyApp.R
+  958  ls
+  959  git status
+  960  v .gitignore
+  961  git status
+  962  git add .gitignore
+  963  ls
+  964  git status
+  965  git remote -v
+  966  git commit -m 'start of rebranding files from old project'
+  967  ls
+  968  git status
+  969  git push
+  970  cd ~/Downloads
+  971  ls
+  972  mv certificate-of-completion-for-the-complete-python-megabundle-anyone-can-learn-to-code.pdf ../Documents/Certyfikaty/
+  973  cd
+  974  cd Documents/Certyfikaty/
+  975  ls
+  976  ls -a
+  977  cd Documents/informatyczne/iadstudia/pdu/pd4/
+  978  ls
+  979  v README.md
+  980  git status
+  981  git commit -a -m 'final state of transferring files to github'
+  982  git push
+  983  v *.txt
+  984  v .gitignore
+  985  git status
+  986  git commit -a -m 'added description-like files in polish'
+  987  git stauts
+  988  git status
+  989  git add README.txt prezentacja.pdf
+  990  ls
+  991  git commit -a -m 'added description-like files in polish'
+  992  git status
+  993  git push
+  994  ls
+  995  clear
+  996  cd ../../../samorozwoj/fantasy2fry/
+  997  v README.md
+  998  git status
+  999  cd Downloads/
+ 1000  ls -a
+ 1001  mv * ../Documents/Obrazy/
+ 1002  ls -a
+ 1003  cd
+ 1004  neofetch
+ 1005  v
+ 1006  clear
+ 1007  brew install clangd
+ 1008  brew info clingf
+ 1009  brew info cling
+ 1010  brew install cmake
+ 1011  brew search shottr
+ 1012  brew install shottr
+ 1013  brew search vmware
+ 1014  brew search vm
+ 1015  brew search virtual
+ 1016  brew install vmware-fusion
+ 1017  brew remove vmware-fusion
+ 1018  clear
+ 1019  brew info virtualbox
+ 1020  brew info utm
+ 1021  brew install utm
+ 1022  man brew
+ 1023  clear
+ 1024  neofetch
+ 1025  exit
+ 1026  brew search copyclip
+ 1027  brew install copyclip
+ 1028  brew remove copyclip
+ 1029  brew search copyclip
+ 1030  neofetch
+ 1031  brew update
+ 1032  df -h
+ 1033  du -h /
+ 1034  df -h
+ 1035  brew remove utm
+ 1036  cd Downloads/
+ 1037  ls
+ 1038  rm Endeavouros_Cassini_Nova-03-2023_R2.iso
+ 1039  ls
+ 1040  clear
+ 1041  ls
+ 1042  cd
+ 1043  clear
+ 1044  ls
+ 1045  pwd
+ 1046  bash
+ 1047  cd Documents/informatyczne/iadstudia/pdu/pd5/
+ 1048  ls
+ 1049  ls -a
+ 1050  git status
+ 1051  man git
+ 1052  man giteveryday
+ 1053  git init
+ 1054  ls -a
+ 1055  v Norbert_Frydrysiak_327273_pd5.py
+ 1056  clear
+ 1057  cd
+ 1058  ls
+ 1059  brew update
+ 1060  neofetch
+ 1061  cd Downloads/
+ 1062  ls
+ 1063  mv wfajnatapeta.png ../Documents/Obrazy/
+ 1064  l
+ 1065  ranger
+ 1066  clear
+ 1067  brew search gnoem
+ 1068  brew search gnome
+ 1069  brew search image
+ 1070  brew search eye
+ 1071  man port
+ 1072  port search eog
+ 1073  port install eog
+ 1074  sudo port install eog
+ 1075  port selfupdate
+ 1076  sudo port selfupdate
+ 1077  port upgrade outdated
+ 1078  sudo port upgrade outdated
+ 1079  clear
+ 1080  man port
+ 1081  brew search xee
+ 1082  brew install xee
+ 1083  brew purge xee
+ 1084  brew remove xee
+ 1085  brew gthump
+ 1086  brew search gthumpy
+ 1087  brew search gthump
+ 1088  brew search sequential
+ 1089  brew install sequential
+ 1090  brew remove sequential
+ 1091  brew install gthumb
+ 1092  brew search github
+ 1093  brew info github
+ 1094  brew info git
+ 1095  brew search ninja
+ 1096  brew install ninja meson
+ 1097  man ninja
+ 1098  man meson
+ 1099  clear
+ 1100  ls
+ 1101  cd Documents/
+ 1102  ls
+ 1103  mkdir poligon
+ 1104  ls
+ 1105  cd poligon
+ 1106  ls
+ 1107  git clone https://gitlab.gnome.org/GNOME/gthumb.git
+ 1108  cd gthumb/
+ 1109  meson build && ninja -C build && sudo ninja -C build install
+ 1110  brew install jpeg
+ 1111  meson build && ninja -C build && sudo ninja -C build install
+ 1112  brew install glib gtk libpng zlib libjpeg gsettings-desktop-schemas
+ 1113  brew install exiv2 gstreamer libtiff
+ 1114  meson build && ninja -C build && sudo ninja -C build install
+ 1115  brew install clutter clutter-gtk colordiff
+ 1116  meson build && ninja -C build && sudo ninja -C build install
+ 1117  cd ..
+ 1118  ls
+ 1119  rm -rf gthumb/
+ 1120  ls
+ 1121  ls -a
+ 1122  cd ..
+ 1123  ls
+ 1124  cd Documents/informatyczne/wat/
+ 1125  ls
+ 1126  cd wdp2sem/
+ 1127  cd 1zaj/
+ 1128  ls
+ 1129  v
+ 1130  v zad1.c
+ 1131  gcc -o p zad1.c
+ 1132  ls
+ 1133  ./p
+ 1134  v zad10.c
+ 1135  v zad11.c
+ 1136  v zad2.c
+ 1137  gcc -o p zad2.c
+ 1138  man gcc
+ 1139  brew search gcc
+ 1140  brew search g++
+ 1141  brew install g++
+ 1142  brew info gcc-arm-embedded
+ 1143  clear
+ 1144  gcc -o p zad2.c -std=c89
+ 1145  ./p
+ 1146  gcc -o p zad2.c -std=c89
+ 1147  gcc -std=c99 -o p zad2.c 
+ 1148  gcc -std=c90 -o p zad2.c 
+ 1149  ls
+ 1150  cat zad3.c
+ 1151  gcc -std=c90 -o p zad3.c 
+ 1152  gcc -std=c89 -o p zad3.c 
+ 1153  gcc -std=c99 -o p zad3.c 
+ 1154  ./p
+ 1155  clear
+ 1156  cd ../2zaj/
+ 1157  ls
+ 1158  ls -a
+ 1159  ls -ar
+ 1160  man ls
+ 1161  ls -l
+ 1162  clear
+ 1163  cd ..
+ 1164  ls
+ 1165  cd 5zaj
+ 1166  ls
+ 1167  v info_80532_Frydrysiak_5.txt
+ 1168  open hardinfo_report.html
+ 1169  v Wyniki.txt
+ 1170  v info_80532_Frydrysiak_5.txt
+ 1171  ls
+ 1172  open 80532_Frydrysiak_Sprawozdanie.pdf
+ 1173  clear
+ 1174  ls
+ 1175  v task1.c
+ 1176  v info_80532_Frydrysiak_5.txt
+ 1177  brew search hardinfo
+ 1178  clear
+ 1179  ls
+ 1180  cd ..
+ 1181  ls
+ 1182  cd ..
+ 1183  ls
+ 1184  cd wat
+ 1185  ls
+ 1186  cd ..
+ 1187  ls
+ 1188  cd samorozwoj/
+ 1189  ls
+ 1190  cd ..
+ 1191  ls
+ 1192  cd mojeprogramy/
+ 1193  ls
+ 1194  v szeregnieskonczony.c
+ 1195  gcc -o p szeregnieskonczony.c
+ 1196  ./p
+ 1197  v szeregnieskonczony.c
+ 1198  ./p
+ 1199  ls
+ 1200  rm p
+ 1201  ls
+ 1202  v liczeniepierwiastkowrownaniakwadratowego.c
+ 1203  gcc -o p liczeniepierwiastkowrownaniakwadratowego.c
+ 1204  ./p
+ 1205  clear
+ 1206  rm p
+ 1207  ls
+ 1208  mkdir archiwum
+ 1209  mv * archiwum/
+ 1210  ls
+ 1211  cd archiwum/
+ 1212  ls
+ 1213  cd ..
+ 1214  ls
+ 1215  cd ..
+ 1216  ls
+ 1217  cd iadstudia/
+ 1218  ls
+ 1219  cd anal2/
+ 1220  ls
+ 1221  cd ..
+ 1222  brew search horo
+ 1223  brew search pomodoro
+ 1224  brew install stats
+ 1225  stat
+ 1226  brew remove stats
+ 1227  bpytop
+ 1228  neofetch
+ 1229  brew search mutt
+ 1230  brew info neomutt
+ 1231  mount
+ 1232  df -h
+ 1233  brew search lan
+ 1234  brew search d-lan
+ 1235  brew search lanshare
+ 1236  brew searvh sharelt
+ 1237  brew search sharelt
+ 1238  brew search dukto
+ 1239  brew install qt5-make qt5-default
+ 1240  brew search un7zip
+ 1241  brew search 7zip
+ 1242  brew info 7-zip
+ 1243  brew install 7-zip
+ 1244  7
+ 1245  brew search zip
+ 1246  brew info zip
+ 1247  zip
+ 1248  brew info unzip
+ 1249  which sevenzip
+ 1250  which homebrew
+ 1251  which port
+ 1252  which wine
+ 1253  cd /opt/homebrew/bin
+ 1254  ls
+ 1255  ls | grep zip
+ 1256  ls | grep seven
+ 1257  cd
+ 1258  brew install p7zip\n
+ 1259  man 7z
+ 1260  mount
+ 1261  cd /Volumes/mlodziezowy/
+ 1262  ls
+ 1263  mv filmiki\ z\ monitoringu.7z ~/Documents/
+ 1264  ls
+ 1265  clear
+ 1266  cd
+ 1267  cd Documents/
+ 1268  ls
+ 1269  7z x filmiki\ z\ monitoringu.7z
+ 1270  ls
+ 1271  ls -l
+ 1272  cd filmiki\ z\ monitoringu/
+ 1273  ls
+ 1274  cd Documents/
+ 1275  ls
+ 1276  cd filmiki\ z\ monitoringu
+ 1277  ls
+ 1278  fig
+ 1279  fig doctor
+ 1280  cd Documents/filmiki\ z\ monitoringu
+ 1281  ls
+ 1282  neofetch
+ 1283  brew update
+ 1284  brew upgrade
+ 1285  brew 
+ 1286  brew reinstall fig
+ 1287  fig doctor
+ 1288  clear
+ 1289  exit
+ 1290  /Users/fantasy2fry/Downloads/heart+disease/Index; exit
+ 1291  ping wp.pl
+ 1292  clear
+ 1293  brew search skype
+ 1294  brew install skype
+ 1295  v
+ 1296  clear
+ 1297  brew install texlive-full
+ 1298  brew install texlive
+ 1299  pdflatex
+ 1300  clear
+ 1301  cd Documents/korepetycje/matma_studia/
+ 1302  touch calkipodwojneipotrojne.tex
+ 1303  v calkipodwojneipotrojne.tex
+ 1304  pdflatex calkipodwojneipotrojne.tex
+ 1305  ls
+ 1306  open calkipodwojneipotrojne.pdf
+ 1307  v calkipodwojneipotrojne.tex
+ 1308  pdflatex calkipodwojneipotrojne.tex
+ 1309  open calkipodwojneipotrojne.pdf
+ 1310  v calkipodwojneipotrojne.tex
+ 1311  pdflatex calkipodwojneipotrojne.tex
+ 1312  open calkipodwojneipotrojne.pdf
+ 1313  ping wp.pl
+ 1314  clear
+ 1315  brew search mactex
+ 1316  brew install mactex
+ 1317  pyenv install --list
+ 1318  pyenv --version
+ 1319  python3 --version
+ 1320  brew search python
+ 1321  brew install python@2
+ 1322  brew install mactex
+ 1323  cd /Users/fantasy2fry/Library/Caches/Homebrew/
+ 1324  cd downloads/
+ 1325  ls
+ 1326  rm e54f27ff97e9c3b737e4c7d56724a177795b23e210e5b0e435222a8ab423ed21
+ 1327  clear
+ 1328  brew install mactex
+ 1329  brew update
+ 1330  rm /Users/fantasy2fry/Library/Caches/Homebrew/downloads/88b09fed4b8fee55e3744318664358518cfe23966d62e0dc011648c0c934ee7c--mactex-20230314.pkg
+ 1331  brew install mactex
+ 1332  brew search rclone
+ 1333  brew list
+ 1334  bpytop
+ 1335  clear
+ 1336  man brew
+ 1337  clear
+ 1338  brew search teams
+ 1339  brew install microsoft-teams
+ 1340  ls
+ 1341  ls -a
+ 1342  v .zshrc
+ 1343  cd .config/
+ 1344  ls
+ 1345  cd nvim
+ 1346  ls
+ 1347  v init.vim
+ 1348  ls
+ 1349  cd Documents/
+ 1350  ls
+ 1351  cat init.vim
+ 1352  v init.vim
+ 1353  v
+ 1354  v init.vim
+ 1355  v
+ 1356  cd .config/nvim
+ 1357  v init.vim
+ 1358  clear
+ 1359  v init.vim
+ 1360  cd ..
+ 1361  cd ../Documents/informatyczne/wat/wdp2sem/5zaj/
+ 1362  ls
+ 1363  v task1.c
+ 1364  clear
+ 1365  sudo shutdown -h now
+ 1366  ls
+ 1367  brew update
+ 1368  cd Documents/korepetycje/matma_studia/
+ 1369  ls
+ 1370  mv SCR-20230912-kicv.png ~/Downloads/
+ 1371  ;s
+ 1372  cd
+ 1373  cd Downloads/
+ 1374  ls
+ 1375  brew search steam
+ 1376  ping wp.pl
+ 1377  clear
+ 1378  ping wp.pl
+ 1379  clear
+ 1380  ping wp.pl
+ 1381  clear
+ 1382  cd Documents/informatyczne/iadstudia/po_programy/
+ 1383  ls
+ 1384  ls -l
+ 1385  ifconfig
+ 1386  ifconfig | grep HWaddr
+ 1387  ifconfig | grep ether
+ 1388  cd Documents/korepetycje/matma_matura/
+ 1389  ls
+ 1390  mkdir latexgenerator
+ 1391  cd latexgenerator/
+ 1392  ls
+ 1393  touch spis_pierwszy_dział.tex
+ 1394  v spis_pierwszy_dział.tex
+ 1395  cd .config
+ 1396  ls
+ 1397  cd nvim
+ 1398  ls
+ 1399  v init.vim
+ 1400  v spis_pierwszy_dział.tex
+ 1401  mv spis_pierwszy_dział.tex spis_matura_rozsz.tex
+ 1402  ;s
+ 1403  ls
+ 1404  ls -l
+ 1405  pdflatex spis_matura_rozsz.tex
+ 1406  ls
+ 1407  open spis_matura_rozsz.pdf
+ 1408  v spis_pierwszy_dział.tex
+ 1409  v spis_matura_rozsz.tex
+ 1410  pdflatex spis_matura_rozsz.tex
+ 1411  open spis_matura_rozsz.pdf
+ 1412  v spis_matura_rozsz.tex
+ 1413  pdflatex spis_matura_rozsz.tex
+ 1414  open spis_matura_rozsz.pdf
+ 1415  v spis_matura_rozsz.tex
+ 1416  pdflatex spis_matura_rozsz.tex
+ 1417  open spis_matura_rozsz.pdf
+ 1418  v spis_matura_rozsz.tex
+ 1419  pdflatex spis_matura_rozsz.tex
+ 1420  open spis_matura_rozsz.pdf
+ 1421  v spis_matura_rozsz.tex
+ 1422  pdflatex spis_matura_rozsz.tex
+ 1423  open spis_matura_rozsz.pdf
+ 1424  ls
+ 1425  ls -a
+ 1426  ls -l
+ 1427  ls -A
+ 1428  touch planimetria.tex
+ 1429  v planimetria.tex
+ 1430  pdflatex planimetria.tex
+ 1431  open planimetria.pdf
+ 1432  v planimetria.tex
+ 1433  pdflatex planimetria.tex
+ 1434  open planimetria.pdf
+ 1435  v planimetria.tex
+ 1436  pdflatex planimetria.tex
+ 1437  open planimetria.pdf
+ 1438  ls
+ 1439  v planimetria.tex
+ 1440  pdflatex planimetria.tex
+ 1441  open planimetria.pdf
+ 1442  v planimetria.tex
+ 1443  pdflatex planimetria.tex
+ 1444  open planimetria.pdf
+ 1445  v planimetria.tex
+ 1446  quit
+ 1447  cd Documents/korepetycje/matma_matura/latexgenerator/
+ 1448  ls
+ 1449  v planimetria.tex
+ 1450  pdflatex planimetria.tex
+ 1451  open planimetria.pdf
+ 1452  v planimetria.tex
+ 1453  pdflatex planimetria.tex
+ 1454  open planimetria.pdf
+ 1455  cd Documents/korepetycje/matma_matura/latexgenerator/
+ 1456  ls
+ 1457  v planimetria.tex
+ 1458  pdflatex planimetria.tex
+ 1459  open planimetria.pdf
+ 1460  v planimetria.tex
+ 1461  pdflatex planimetria.tex
+ 1462  open planimetria.pdf
+ 1463  cd Documents/informatyczne/samorozwoj/
+ 1464  ls
+ 1465  cd fantasy2fry/
+ 1466  ls
+ 1467  v README.md
+ 1468  git commit -a -m 'added LaTeX'
+ 1469  git push
+ 1470  history | grep git push
+ 1471  history 
+ 1472  history | grep git
+ 1473  git status
+ 1474  git push
+ 1475  ls
+ 1476  v README.md
+ 1477  clear
+ 1478  cd
+ 1479  ls
+ 1480  brew search logseq
+ 1481  python3
+ 1482  brew search discord
+ 1483  brew search clion
+ 1484  brew info clion
+ 1485  sudo powermetrics --samplers smc
+ 1486  cd Documents/
+ 1487  mkdir mama_muzyka
+ 1488  cd mama_muzyka/
+ 1489  ls
+ 1490  brew search youtube
+ 1491  brew install youtube-to-mp3
+ 1492  youtube https://www.youtube.com/watch\?v\=ejqkGxMXDhw
+ 1493  ls
+ 1494  brew info youtube-to-mp3
+ 1495  brew remove youtube-to-mp3
+ 1496  brew install youtube-dl
+ 1497  python3 --version
+ 1498  youtube-dl -x --audio-format mp3 https://www.youtube.com/watch\?v\=ejqkGxMXDhw
+ 1499  ls
+ 1500  open Akcent\ -\ Obraz\ Twój\ -\ Official\ Video\ 1996-ejqkGxMXDhw.mp3
+ 1501  ls
+ 1502  brew search yt-dlp
+ 1503  brew install yt-dlp
+ 1504  brew remove youtube-dl
+ 1505  yt-dlp
+ 1506  yt-dlp --version
+ 1507  brew upgrade
+ 1508  yt-dlp -x -audio-format mp3 https://www.youtube.com/watch\?v\=NR2qjvsqNSk
+ 1509  yt-dlp -x --audio-format mp3 https://www.youtube.com/watch\?v\=NR2qjvsqNSk
+ 1510  yt-dlp -x --audio-format mp3 https://www.youtube.com/watch\?v\=k96jS1vurg4
+ 1511  yt-dlp -x --audio-format mp3 https://www.youtube.com/watch\?v\=5pLTRK7BEjw
+ 1512  ls
+ 1513  yt-dlp -x --audio-format mp3 https://www.youtube.com/watch\?v\=B57EHSXMVp0
+ 1514  yt-dlp -x --audio-format mp3 https://www.youtube.com/watch\?v\=u0sp-2dF3ME
+ 1515  cp * /Volumes/Mama_Muzyka/
+ 1516  cd Documents/mama_muzyka/
+ 1517  yt-dlp -x --audio-format mp3 https://www.youtube.com/watch\?v\=d73tiBBzvFM
+ 1518  ls
+ 1519  cp * /Volumes/Mama_Muzyka/
+ 1520  ls /Volumes/Mama_Muzyka/
+ 1521  brew search matlab
+ 1522  brew info matlab2tikz
+ 1523  cd Documents/informatyczne/
+ 1524  ls
+ 1525  cd iadstudia/
+ 1526  ls
+ 1527  mkdir numerki
+ 1528  cd numerki/
+ 1529  ls
+ 1530  ssh frydrysiakn@ssh.mini.pw.edu.pl
+ 1531  clear
+ 1532  brew search octave
+ 1533  man scp
+ 1534  java --version
+ 1535  brew search java
+ 1536  cd Desktop/
+ 1537  neofetch
+ 1538  brew search neofetch
+ 1539  brew info neofetch
+ 1540  brew info onefetch
+ 1541  cd Documents/informatyczne/iadstudia/numerki/
+ 1542  ls
+ 1543  mv MN_IAD_wt12_Frydrysiak.m lab1/
+ 1544  ;s
+ 1545  ls
+ 1546  mkdir lab1
+ 1547  mv MN_IAD_wt12_Frydrysiak.m lab1/
+ 1548  ls
+ 1549  cd lab1/
+ 1550  ls
+ 1551  clear
+ 1552  exit
+ 1553  pip3 install matplotlib
+ 1554  pip3 install ggplot
+ 1555  cd Documents/informatyczne/iadstudia/
+ 1556  ls
+ 1557  mkdir twd
+ 1558  ls
+ 1559  cd twd
+ 1560  ls
+ 1561  mkdir lab1
+ 1562  ls
+ 1563  cd lab1
+ 1564  mv ~/Downloads/lab1.R .
+ 1565  ls
+ 1566  R
+ 1567  ls
+ 1568  touch gra_Norbert_Frydrysiak.R
+ 1569  v gra_Norbert_Frydrysiak.R
+ 1570  mkdir FrydrysiakNorbert
+ 1571  ls
+ 1572  mv gra_Norbert_Frydrysiak.R FrydrysiakNorbert/
+ 1573  ls
+ 1574  cd FrydrysiakNorbert/
+ 1575  ls
+ 1576  man git
+ 1577  ls
+ 1578  cat gra_Norbert_Frydrysiak.R
+ 1579  ls
+ 1580  brew search inscape
+ 1581  brew info inkscape
+ 1582  brew install inkscape
+ 1583  cmatrix
+ 1584  clear
+ 1585  cmatrix
+ 1586  neofetch
+ 1587  clear
+ 1588  neofetch
+ 1589  clear
+ 1590  neofetch
+ 1591  brew info neofetch
+ 1592  cd Documents/informatyczne/iadstudia/numerki/lab1/
+ 1593  ls
+ 1594  v MN_IAD_wt12_Frydrysiak.m
+ 1595  shutdown -h now
+ 1596  sudo shutdown -h now
+ 1597  brew info intellij-idea-ce
+ 1598  brew upgrade intellij-idea-ce
+ 1599  brew search git
+ 1600  cd Documents/informatyczne/iadstudia/po_programy/
+ 1601  ls
+ 1602  ls -l
+ 1603  ls
+ 1604  cd Biblioteka/
+ 1605  ls
+ 1606  cd ..
+ 1607  cd rysiu_gaming/
+ 1608  ls
+ 1609  ls -R
+ 1610  ls -R | grep gitignore
+ 1611  clear
+ 1612  cd ..
+ 1613  ls
+ 1614  cd zdarzenia_2023/
+ 1615  ls
+ 1616  cd src
+ 1617  ls
+ 1618  cd mini/
+ 1619  ls
+ 1620  cd ../../..
+ 1621  ls
+ 1622  cd pierwszyProjekt3Sem/
+ 1623  ls -A
+ 1624  cd ..
+ 1625  cd zdarzenia_2023/
+ 1626  ls -A
+ 1627  cat .gitignore
+ 1628  v .gitignore
+ 1629  cat .gitignore
+ 1630  clear
+ 1631  cd ../pierwszyProjekt3Sem/
+ 1632  ls
+ 1633  ls -a
+ 1634  neofetch
+ 1635  cd Documents/informatyczne/iadstudia/numerki/
+ 1636  ls
+ 1637  scp lab1 frydrysiakn@ssh.mini.pw.edu.pl:/numerki
+ 1638  scp lab1/ frydrysiakn@ssh.mini.pw.edu.pl:/numerki
+ 1639  scp lab1/* frydrysiakn@ssh.mini.pw.edu.pl:/numerki
+ 1640  scp lab1/* frydrysiakn@ssh.mini.pw.edu.pl:numerki/
+ 1641  ls
+ 1642  mkdir lab2
+ 1643  ls
+ 1644  ls -l
+ 1645  brew search filezilla
+ 1646  ls
+ 1647  cd lab2
+ 1648  ls
+ 1649  scp frydrysiakn@ssh.mini.pw.edu.pl:numerki/LAB2/* .
+ 1650  clear
+ 1651  scp frydrysiakn@ssh.mini.pw.edu.pl:numerki/LAB2/* .
+ 1652  ssh frydrysiakn@ssh.mini.pw.edu.pl
+ 1653  scp frydrysiakn@ssh.mini.pw.edu.pl:numerki/LAB2/* .
+ 1654  man scp
+ 1655  scp frydrysiakn@ssh.mini.pw.edu.pl:numerki/LAB2/* .
+ 1656  bash scp frydrysiakn@ssh.mini.pw.edu.pl:numerki/LAB2/* .
+ 1657  ls
+ 1658  scp frydrysiakn@ssh.mini.pw.edu.pl:numerki/LAB2/* .
+ 1659  clear
+ 1660  ls
+ 1661  clear
+ 1662  cmatrix
+ 1663  clear
+ 1664  neofetch
+ 1665  cd ..
+ 1666  ks
+ 1667  ls
+ 1668  cd ..
+ 1669  ls
+ 1670  cd Documents/informatyczne/iadstudia/
+ 1671  ls
+ 1672  mkdir kolo_naukowe_data_science
+ 1673  ls
+ 1674  cd kolo_naukowe_data_science/
+ 1675  ls
+ 1676  git clone https://github.com/fantasy2fry/Rekrutacja_2023.git
+ 1677  ls
+ 1678  cd Rekrutacja_2023/
+ 1679  ls
+ 1680  ls -A
+ 1681  cd spaceship_titanic/
+ 1682  ls
+ 1683  cd rozwiazania/
+ 1684  ls
+ 1685  cd ..
+ 1686  ls
+ 1687  cd ..
+ 1688  cd connect4/
+ 1689  ls
+ 1690  cat Player.py
+ 1691  cat README.md
+ 1692  ls
+ 1693  cd rozwiazania/
+ 1694  touch game.py
+ 1695  v game.py
+ 1696  python3 game.py
+ 1697  clear
+ 1698  v game.py
+ 1699  ls
+ 1700  mkdir Norbert_Frydrysiak
+ 1701  ls
+ 1702  mv game.py Norbert_Frydrysiak/
+ 1703  ls
+ 1704  ls Norbert_Frydrysiak/
+ 1705  cd ..
+ 1706  v Player.py
+ 1707  jupyter notebook
+ 1708  cd ../../../algebra/
+ 1709  ls
+ 1710  jupyter notebook gotowiec_projekt3.ipynb
+ 1711  jupyter notebook zadanie\ 4\ awad\ projekt\ 3.ipynb
+ 1712  jupyter zadanie\ 4\ awad\ projekt\ 3.ipynb
+ 1713  brew install jupyterlab
+ 1714  jupyter zadanie\ 4\ awad\ projekt\ 3.ipynb
+ 1715  jupyter notebook zadanie\ 4\ awad\ projekt\ 3.ipynb
+ 1716  pip3 install jupyter
+ 1717  brew info jupyterlab
+ 1718  brew install pygments python-certifi six zeromq
+ 1719  jupyter notebook zadanie\ 4\ awad\ projekt\ 3.ipynb
+ 1720  clear
+ 1721  pip uninstall jupyter
+ 1722  jupyter notebook zadanie\ 4\ awad\ projekt\ 3.ipynb
+ 1723  pip install jupyter
+ 1724  jupyter notebook zadanie\ 4\ awad\ projekt\ 3.ipynb
+ 1725  pip install --upgrade notebook
+ 1726  jupyter notebook zadanie\ 4\ awad\ projekt\ 3.ipynb
+ 1727  jupyter notebook gotowiec_projekt3.ipynb
+ 1728  pip3 install jupyterlab
+ 1729  jupyterlab
+ 1730  jupyter lab
+ 1731  jupyter lab bluid
+ 1732  jupyter lab build
+ 1733  jupyter lab
+ 1734  history | grep pyenv
+ 1735  pyenv install --list
+ 1736  pyenv global '3.9.17 (set by /Users/fantasy2fry/.pyenv/version)'
+ 1737  python3 --version
+ 1738  pyenv install 3.9.0
+ 1739  pyenv global '3.9.17 (set by /Users/fantasy2fry/.pyenv/version)'
+ 1740  ls
+ 1741  python3 --version
+ 1742  jupyter lab
+ 1743  clear
+ 1744  pip3 install ipykernel
+ 1745  brew remove python@3.11
+ 1746  brew upgrade --reinstall python@3.11
+ 1747  brew reinstall python@3.11
+ 1748  jupyter notebook gotowiec_projekt3.ipynb
+ 1749  jupyter lab gotowiec_projekt3.ipynb
+ 1750  brew remove jupyterlab
+ 1751  brew remove --cask jupyterlab
+ 1752  jupyter lab
+ 1753  clear
+ 1754  jupyter notebook
+ 1755  jupyter nbclassic
+ 1756  JUPYTER_PATH=/opt/homebrew/share/jupyter 
+ 1757  JUPYTER_CONFIG_PATH=/opt/homebrew/etc/jupyter jupyter notebook
+ 1758  clear
+ 1759  conda
+ 1760  history | grep pyenv
+ 1761  history | grep pip3
+ 1762  history | grep pip
+ 1763  clear
+ 1764  pyenv 3.9.0
+ 1765  pyenv install 3.9.0
+ 1766  pyenv global 3.9.0
+ 1767  brew install openssl readline sqlite3 xz\n
+ 1768  python3 --version
+ 1769  brew info python@3.11
+ 1770  brew install python-tk@3.11 python-gdbm@3.11
+ 1771  jupyter notebook
+ 1772  clear
+ 1773  brew search dataspell
+ 1774  brew info dataspell
+ 1775  brew install dataspell
+ 1776  cd Documents/informatyczne/iadstudia/
+ 1777  ls
+ 1778  cd pdu/
+ 1779  ls
+ 1780  cd pythonowe/
+ 1781  ls
+ 1782  cd 23maja/
+ 1783  ls
+ 1784  python3 zadanie-9_02.py
+ 1785  python3 z*
+ 1786  python3 zadanie-9_03.py
+ 1787  python3 zadanie-9_04.py
+ 1788  1
+ 1789  2
+ 1790  3
+ 1791  cd pdu
+ 1792  ls
+ 1793  cd pythonowe
+ 1794  ls
+ 1795  cd 23maja
+ 1796  ls
+ 1797  python3 zadanie-9_05-9_06.py
+ 1798  2
+ 1799  clear
+ 1800  ls
+ 1801  exit
+ 1802  cd Documents/informatyczne/iadstudia/pdu/pythonowe/
+ 1803  which python3
+ 1804  cd /usr/bin/
+ 1805  ls
+ 1806  ls | grep python
+ 1807  ls -l
+ 1808  which python3
+ 1809  which pip3
+ 1810  clear
+ 1811  git clone https://github.com/github/copilot.vim \\n   ~/.config/nvim/pack/github/start/copilot.vim
+ 1812  v
+ 1813  cd Documents/informatyczne/iadstudia/pppdsem22/
+ 1814  ls
+ 1815  v punktowane1.py
+ 1816  clear
+ 1817  cd
+ 1818  exit
+ 1819  cd Documents/informatyczne/iadstudia/twd/
+ 1820  ls
+ 1821  mkdir lab2
+ 1822  ls
+ 1823  cd lab2
+ 1824  mv ~/Downloads/lab2.R .
+ 1825  ls
+ 1826  R
+ 1827  clear
+ 1828  cd Documents/informatyczne/iadstudia/twd
+ 1829  ls
+ 1830  cd lab2
+ 1831  ls
+ 1832  mkdir FrydrysiakNorbert
+ 1833  ls
+ 1834  cd FrydrysiakNorbert/
+ 1835  ls
+ 1836  ls ~/Downloads/
+ 1837  mv ~/Downloads/HW1_tasks.R ~/Downloads/spotify-2023.csv .
+ 1838  ls
+ 1839  cd * ../
+ 1840  mv * ../
+ 1841  ls
+ 1842  cd ..
+ 1843  ls
+ 1844  pwd
+ 1845  cd Documents/informatyczne/iadstudia/twd/lab2/
+ 1846  git clone https://github.com/fantasy2fry/2023Z-DataVisualizationTechniques.git
+ 1847  ls
+ 1848  mv FrydrysiakNorbert/ 2023Z-DataVisualizationTechniques/homeworks/hw1/
+ 1849  ls
+ 1850  cd 2023Z-DataVisualizationTechniques/
+ 1851  git commit -a -m 'FrydrysiakNorbert HW1'
+ 1852  git add homeworks/hw1/FrydrysiakNorbert/
+ 1853  git commit -a -m 'FrydrysiakNorbert HW1'
+ 1854  git push
+ 1855  cd homeworks/hw1/FrydrysiakNorbert/
+ 1856  ls
+ 1857  v HW1_tasks_FrydrysiakNorbert.R
+ 1858  clear
+ 1859  ls
+ 1860  ls -A
+ 1861  cat .DS_Store
+ 1862  rm .DS_Store
+ 1863  ls
+ 1864  git commit -a -m 'FrydrysiakNorbert HW1'
+ 1865  ls
+ 1866  git push
+ 1867  git status
+ 1868  cd ..
+ 1869  git status
+ 1870  cd ..
+ 1871  git status
+ 1872  man crontab
+ 1873  find . -name '.DS_Store'
+ 1874  man default
+ 1875  clear
+ 1876  brew update
+ 1877  cd Documents/informatyczne/iadstudia/kolo_naukowe_data_science/
+ 1878  cd Rekrutacja_2023/
+ 1879  ls
+ 1880  cd connect4/
+ 1881  ls
+ 1882  cd rozwiazania/
+ 1883  ls
+ 1884  rm Norbert_Frydrysiak/
+ 1885  rmdir Norbert_Frydrysiak/
+ 1886  rm -R Norbert_Frydrysiak/
+ 1887  ls
+ 1888  git status
+ 1889  cd ..
+ 1890  ls
+ 1891  cd ..
+ 1892  cd spaceship_titanic/
+ 1893  ls
+ 1894  cat README.md
+ 1895  ls
+ 1896  cd rozwiazania/
+ 1897  mkdir Norbert_Frydrysiak
+ 1898  ls
+ 1899  cd Norbert_Frydrysiak/
+ 1900  ls
+ 1901  cd Documents/informatyczne/iadstudia/algebra/
+ 1902  ls
+ 1903  ls -l
+ 1904  cat data_exploration.ipynb
+ 1905  ls -A
+ 1906  rm data_exploration.ipynb .ipynb_checkpoints/ .DS_Store
+ 1907  ls
+ 1908  ls -A
+ 1909  rm -R .ipynb_checkpoints/
+ 1910  ls -A
+ 1911  ls
+ 1912  rm data_exploration.rmd
+ 1913  ls
+ 1914  ls -A
+ 1915  pip3 install irkernel
+ 1916  python3 -m pip install --upgrade pip
+ 1917  ls
+ 1918  cd ..
+ 1919  R
+ 1920  ls
+ 1921  cd Norbert_Frydrysiak/
+ 1922  ls
+ 1923  rm *
+ 1924  ls
+ 1925  git staus
+ 1926  git status
+ 1927  ls
+ 1928  git rm data_exploration.ipynb
+ 1929  git status
+ 1930  cd ..
+ 1931  git status
+ 1932  cd Norbert_Frydrysiak/
+ 1933  ls
+ 1934  pip3 install r-irkernel
+ 1935  pip3 show
+ 1936  pip3 show -f
+ 1937  pip3 show irkernel
+ 1938  brew search irkernel
+ 1939  R
+ 1940  git status
+ 1941  cd ../
+ 1942  ls
+ 1943  cd ../
+ 1944  ls
+ 1945  pwd
+ 1946  ls
+ 1947  clear
+ 1948  cat opis_danych.txt
+ 1949  pip3 install seaborn
+ 1950  cat opis_danych.txt
+ 1951  bpytop
+ 1952  clear
+ 1953  cd Documents/informatyczne/iadstudia/twd/
+ 1954  ls
+ 1955  mkdir lab3
+ 1956  ls
+ 1957  cd lab3
+ 1958  ls
+ 1959  mv ~/Downloads/spotify-2023.csv .
+ 1960  ls
+ 1961  mv ~/Downloads/lab3.R .
+ 1962  ls
+ 1963  R
+ 1964  clear
+ 1965  ls
+ 1966  pwd
+ 1967  df -h
+ 1968  cd Documents/informatyczne/
+ 1969  cd iadstudia/
+ 1970  cd twd/
+ 1971  ls
+ 1972  git clone https://github.com/fantasy2fry/fast_food_data_analysis_project.git
+ 1973  ls
+ 1974  cd fast_food_data_analysis_project/
+ 1975  ls
+ 1976  git branch
+ 1977  ls
+ 1978  man git
+ 1979  cd Documents/informatyczne/iadstudia/kolo_naukowe_data_science/
+ 1980  ls
+ 1981  cd Rekrutacja_2023/spaceship_titanic/rozwiazania/Norbert_Frydrysiak/
+ 1982  ls
+ 1983  du data_exploration.ipynb
+ 1984  du -h data_exploration.ipynb
+ 1985  ls -A
+ 1986  cd Rekrutacja_2023/spaceship_titanic/rozwiazania/Norbert_Frydrysiak/
+ 1987  ls
+ 1988  cd Rekrutacja_2023/spaceship_titanic/rozwiazania/Norbert_Frydrysiak/
+ 1989  cd Documents/informatyczne/iadstudia/kolo_naukowe_data_science/Rekrutacja_2023/spaceship_titanic/rozwiazania/Norbert_Frydrysiak/
+ 1990  ls
+ 1991  ls -A
+ 1992  git status
+ 1993  ls
+ 1994  cat ../../opis_danych.txt
+ 1995  cd Documents/informatyczne/iadstudia/kolo_naukowe_data_science/Rekrutacja_2023/spaceship_titanic/rozwiazania/Norbert_Frydrysiak/
+ 1996  cat ../../opis_danych.txt
+ 1997  ls
+ 1998  cd
+ 1999  ls
+ 2000  cd Documents/informatyczne/iadstudia/AK/
+ 2001  ls
+ 2002  ls ..
+ 2003  ls
+ 2004  cd ..
+ 2005  ls
+ 2006  zip AK
+ 2007  ls
+ 2008  history | grep zip
+ 2009  7z x AK ak.zip
+ 2010  ls
+ 2011  man 7zip
+ 2012  man 7z
+ 2013  7z a AK ak.zip
+ 2014  ls
+ 2015  rm AK.7z
+ 2016  ls
+ 2017  man zip
+ 2018  zip add AK/ ak.zip
+ 2019  ls
+ 2020  du add.zip
+ 2021  rm add.zip
+ 2022  ls
+ 2023  cd AK/
+ 2024  ls
+ 2025  cd Documents/informatyczne/iadstudia/kolo_naukowe_data_science/Rekrutacja_2023/spaceship_titanic/rozwiazania/Norbert_Frydrysiak/
+ 2026  ls
+ 2027  ls -A
+ 2028  git status
+ 2029  git rm .gitignore
+ 2030  git status
+ 2031  git commit -m 'recruitment task finished Norbert_Frydrysiak'
+ 2032  ls
+ 2033  git status
+ 2034  git add data_exploration.ipynb
+ 2035  git commit -m 'recruitment task finished Norbert_Frydrysiak'
+ 2036  git status
+ 2037  git push
+ 2038  git fetch
+ 2039  git status
+ 2040  git push
+ 2041  git pull
+ 2042  cd Documents/informatyczne/iadstudia/kolo_naukowe_data_science/Rekrutacja_2023/spaceship_titanic/rozwiazania/Norbert_Frydrysiak/
+ 2043  ls
+ 2044  wc -l data_exploration.ipynb
+ 2045  git status
+ 2046  cd Documents/informatyczne/iadstudia/numerki/
+ 2047  ls
+ 2048  mkdir lab3
+ 2049  ls
+ 2050  mkdir lab4
+ 2051  ls
+ 2052  cmatrix
+ 2053  clear
+ 2054  cd Documents/informatyczne/iadstudia/kolo_naukowe_data_science/Rekrutacja_2023/spaceship_titanic/rozwiazania/
+ 2055  ls ../
+ 2056  cd Norbert_Frydrysiak/
+ 2057  ls
+ 2058  git status
+ 2059  git fetch
+ 2060  ls ../
+ 2061  git pull upstream master
+ 2062  git pull master
+ 2063  git pull
+ 2064  ls ../
+ 2065  git add data_exploration.ipynb
+ 2066  git commit -m 'recruitment task finished Norbert_Frydrysiak - relative path'
+ 2067  git push
+ 2068  bpytop
+ 2069  clear
+ 2070  history | grep zip
+ 2071  brew list
+ 2072  man p7zip
+ 2073  brew list | grep z
+ 2074  man zip
+ 2075  cd Documents/informatyczne/iadstudia/numerki/
+ 2076  ls
+ 2077  cd lab4/
+ 2078  ls
+ 2079  zip MN_IAD_Lab4_Frydrysiak.zip szeregSin.m szeregSinPlot.m
+ 2080  ls
+ 2081  cd Documents/
+ 2082  cd informatyczne/iadstudia/
+ 2083  cd kolo_naukowe_data_science/
+ 2084  ls
+ 2085  cd Rekrutacja_2023/
+ 2086  ls
+ 2087  git status
+ 2088  cd ../..
+ 2089  cd
+ 2090  cmatrix
+ 2091  clear
+ 2092  neofetch
+ 2093  ls
+ 2094  fig doctor
+ 2095  cd Documents/informatyczne/iadstudia/
+ 2096  ls
+ 2097  cd twd
+ 2098  ls
+ 2099  cd fast_food_data_analysis_project/
+ 2100  ls
+ 2101  ls ~/Downloads/
+ 2102  mv ~/Downloads/*.csv .
+ 2103  ls
+ 2104  mkdir data
+ 2105  ls
+ 2106  mv *.csv data/
+ 2107  ls
+ 2108  cd data/
+ 2109  ls
+ 2110  cd ..
+ 2111  ls
+ 2112  mkdir spider_plot
+ 2113  ls
+ 2114  cd spider_plot/
+ 2115  ls
+ 2116  mkdir spider_plot_code.R
+ 2117  ls
+ 2118  cd spider_plot_code.R/
+ 2119  ls
+ 2120  cd ..
+ 2121  ls
+ 2122  rmdir spider_plot_code.R/
+ 2123  ls
+ 2124  touch spider_plot_code.R
+ 2125  ls
+ 2126  cd ..
+ 2127  ls
+ 2128  ls data/
+ 2129  R
+ 2130  ls
+ 2131  ls -R
+ 2132  cd spider_plot/
+ 2133  pwd
+ 2134  R
+ 2135  python3
+ 2136  clear
+ 2137  ls
+ 2138  R
+ 2139  clear
+ 2140  ls
+ 2141  cd ..
+ 2142  ls
+ 2143  git status
+ 2144  git add data
+ 2145  git status
+ 2146  git add spider_plot/
+ 2147  ls
+ 2148  git status
+ 2149  git commit -m 'first spider plot created and data added'
+ 2150  git push
+ 2151  cd Documents/informatyczne/iadstudia/twd/
+ 2152  ls
+ 2153  mkdir lab4
+ 2154  ls
+ 2155  cd lab4
+ 2156  mv ~/Downloads/lab4.R .
+ 2157  ls
+ 2158  brew search chrome
+ 2159  brew install chromium
+ 2160  brew remove chromium
+ 2161  brew info chrome-export
+ 2162  brew info chrome-cli
+ 2163  cd Documents/informatyczne/iadstudia/twd/
+ 2164  ls -R
+ 2165  ls
+ 2166  cd lab2/
+ 2167  ls
+ 2168  mv 2023Z-DataVisualizationTechniques/ ../
+ 2169  ls
+ 2170  cd ..
+ 2171  ls
+ 2172  cd 2023Z-DataVisualizationTechniques/
+ 2173  ls
+ 2174  git status
+ 2175  git pull
+ 2176  ls
+ 2177  cd homeworks/
+ 2178  ls
+ 2179  cd hw2/
+ 2180  ls
+ 2181  man git-fetch
+ 2182  man git-pull
+ 2183  git status
+ 2184  git stats
+ 2185  git show
+ 2186  git pull
+ 2187  cd hw2
+ 2188  ls
+ 2189  mkdir FrydrysiakNorbert
+ 2190  ls
+ 2191  cd FrydrysiakNorbert/
+ 2192  ls
+ 2193  git status
+ 2194  mkdir files
+ 2195  ls
+ 2196  cd files/
+ 2197  ls
+ 2198  touch plot.R
+ 2199  ls
+ 2200  cd ..
+ 2201  ls
+ 2202  cd files/
+ 2203  ls
+ 2204  mv plot.png Documents/informatyczne/iadstudia/twd/2023Z-DataVisualizationTechniques/homeworks/hw2/FrydrysiakNorbert/files/
+ 2205  ls
+ 2206  open plot.png
+ 2207  cd matma_studia/
+ 2208  ls
+ 2209  mv SCR-20231104-tevq.png ../../informatyczne/iadstudia/twd/2023Z-DataVisualizationTechniques/homeworks/hw2/FrydrysiakNorbert/files/
+ 2210  ls
+ 2211  mv SCR-20231104-tevq.png zly_wykres.png
+ 2212  ls
+ 2213  touch dok.tex
+ 2214  ls
+ 2215  v dok.tex
+ 2216  ls
+ 2217  rm dok.tex
+ 2218  ls
+ 2219  touch dok.md
+ 2220  v dok.md
+ 2221  brew search pandoc
+ 2222  pandoc dok.md -o dok.pdf
+ 2223  open dok.pdf
+ 2224  v dok.md
+ 2225  pandoc dok.md -o dok.pdf
+ 2226  open dok.pdf
+ 2227  v dok.md
+ 2228  pandoc dok.md -o dok.pdf
+ 2229  open dok.pdf
+ 2230  v dok.md
+ 2231  pandoc dok.md -o dok.pdf
+ 2232  open dok.pdf
+ 2233  v dok.md
+ 2234  pandoc dok.md -o dok.pdf
+ 2235  open dok.pdf
+ 2236  v dok.md
+ 2237  pandoc dok.md -o dok.pdf
+ 2238  open dok.pdf
+ 2239  v dok.md
+ 2240  pandoc dok.md -o dok.pdf
+ 2241  open dok.pdf
+ 2242  v dok.md
+ 2243  pandoc dok.md -o dok.pdf
+ 2244  open dok.pdf
+ 2245  v dok.md
+ 2246  pandoc dok.md -o dok.pdf
+ 2247  open dok.pdf
+ 2248  v dok.md
+ 2249  pandoc dok.md -o dok.pdf
+ 2250  open dok.pdf
+ 2251  v dok.md
+ 2252  pandoc dok.md -o dok.pdf
+ 2253  open dok.pdf
+ 2254  ls
+ 2255  mv dok.pdf ../
+ 2256  cd ..
+ 2257  ls -R
+ 2258  ls -Rl
+ 2259  open dok.pdf
+ 2260  git status
+ 2261  git commit -m 'hw2 Norbert Frydrysiak added'
+ 2262  git status
+ 2263  ls
+ 2264  git show
+ 2265  ls
+ 2266  cd ..
+ 2267  ls
+ 2268  git status
+ 2269  git push
+ 2270  ls
+ 2271  git add FrydrysiakNorbert/
+ 2272  git status
+ 2273  git commit -m 'hw2 Norbert Frydrysiak added'
+ 2274  git push
+ 2275  git rm .DS_Store
+ 2276  ls
+ 2277  ls -A
+ 2278  rm .DS_Store
+ 2279  ls
+ 2280  ls -A
+ 2281  ls FrydrysiakNorbert/
+ 2282  cd FrydrysiakNorbert/
+ 2283  ls
+ 2284  ls -A
+ 2285  rm .DS_Store
+ 2286  git status
+ 2287  git commit -m 'hw2 Norbert Frydrysiak added'
+ 2288  git rm .DS_Store
+ 2289  git status
+ 2290  git commit -m 'hw2 Norbert Frydrysiak added'
+ 2291  git push
+ 2292  cd
+ 2293  clear
+ 2294  brew install steam
+ 2295  brew search forklift
+ 2296  brew install forklift
+ 2297  neofetch
+ 2298  v pythonowy.py
+ 2299  clear
+ 2300  neofetch
+ 2301  ls
+ 2302  cd /
+ 2303  ls
+ 2304  cd bin
+ 2305  ls
+ 2306  R
+ 2307  brew install libgit2
+ 2308  R
+ 2309  clear
+ 2310  v
+ 2311  v pythonowy.py
+ 2312  cd Documents/informatyczne/iadstudia/twd/fast_food_data_analysis_project/
+ 2313  ls
+ 2314  git status
+ 2315  git rm spider_plot/.Rhistory
+ 2316  git rm -f spider_plot/.Rhistory
+ 2317  git status
+ 2318  git add spider_plot/radar*
+ 2319  git status
+ 2320  git add spider_plot/spider_plot_code.R
+ 2321  git status
+ 2322  git commit -m 'spider_plots update'
+ 2323  git status
+ 2324  git puhs
+ 2325  git push
+ 2326  neofetch
+ 2327  cd Documents/informatyczne/iadstudia/twd/
+ 2328  ls
+ 2329  cd fast_food_data_analysis_project/
+ 2330  ls
+ 2331  cd spider_plot/
+ 2332  ls
+ 2333  open radar_plot_Arbys.png
+ 2334  cd /
+ 2335  ls
+ 2336  cd etc
+ 2337  ls
+ 2338  cd
+ 2339  clear
+ 2340  cd Documents/informatyczne/iadstudia/twd/
+ 2341  mkdir lab5
+ 2342  ls
+ 2343  cd lab5
+ 2344  ls
+ 2345  mv ~/Downloads/lab5.R .
+ 2346  mv ~/Downloads/house_data.csv .
+ 2347  ls
+ 2348  R
+ 2349  ls
+ 2350  clear
+ 2351  R
+ 2352  clear
+ 2353  cd Documents/informatyczne/iadstudia/kolo_naukowe_data_science/
+ 2354  ls
+ 2355  mkdir introduction_to_data_science_ml
+ 2356  ls
+ 2357  cd introduction_to_data_science_ml/
+ 2358  ls
+ 2359  mv ~/Downloads/entry_task.ipynb .
+ 2360  ls
+ 2361  brew update
+ 2362  clear
+ 2363  cd
+ 2364  cd Downloads/
+ 2365  ls
+ 2366  ls | grep .rar
+ 2367  mv Megapack\ TCM24.rar /Users/fantasy2fry/Library/Application\ Support/Sports\ Interactive/Football\ Manager\ 2024/graphics/
+ 2368  cd /Users/fantasy2fry/Library/Application\ Support
+ 2369  ls
+ 2370  cd Sports\ Interactive/Football\ Manager\ 2024/
+ 2371  cd graphics/
+ 2372  ls
+ 2373  brew search unrar
+ 2374  brew info unar
+ 2375  brew install unar
+ 2376  unar Megapack\ TCM24.rar
+ 2377  ls
+ 2378  rm Megapack\ TCM24.rar
+ 2379  ls
+ 2380  ls Logos\ TCM24/
+ 2381  ls
+ 2382  ls ~/Downloads/
+ 2383  mv ~/Downloads/00.\ ASF\ 22.rar .
+ 2384  unar 00.\ ASF\ 22.rar
+ 2385  ls
+ 2386  rm 00.\ ASF\ 22.rar
+ 2387  cd 00.\ ASF\ 22/
+ 2388  ls
+ 2389  cd ..
+ 2390  cd skins/
+ 2391  ls
+ 2392  ls ~/Downloads/
+ 2393  mv ~/Downloads/Cheetah\ Skin\ 24.1.0/ .
+ 2394  ls
+ 2395  cd Documents/informatyczne/iadstudia/pppdsem22/
+ 2396  ls
+ 2397  cd Documents/informatyczne/iadstudia/po_programy/
+ 2398  mv ~/Downloads/Strumienie_laby/ .
+ 2399  ls
+ 2400  mv ~/Downloads/Strumienie_laby/ .
+ 2401  ls
+ 2402  rm Strumienie_laby
+ 2403  rm -R Strumienie_laby
+ 2404  ls
+ 2405  mv ~/Downloads/Strumienie_laby/ .
+ 2406  ls
+ 2407  cd Downloads/
+ 2408  ls
+ 2409  cd Strumienie_laby/
+ 2410  ls
+ 2411  cd src/streams/
+ 2412  ls
+ 2413  v MetodyStrumieniowe.java
+ 2414  v ImplementacjaInterfejsu.java
+ 2415  clear
+ 2416  cd
+ 2417  cd Documents/korepetycje/
+ 2418  ls
+ 2419  mkdir pppd
+ 2420  ls
+ 2421  cd pppd/
+ 2422  touch multizbiory.py
+ 2423  v multizbiory.py
+ 2424  python3 multizbiory.py
+ 2425  v multizbiory.py
+ 2426  python3 multizbiory.py
+ 2427  v multizbiory.py
+ 2428  python3 multizbiory.py
+ 2429  v multizbiory.py
+ 2430  python3 multizbiory.py
+ 2431  v multizbiory.py
+ 2432  python3 multizbiory.py
+ 2433  4
+ 2434  python3 multizbiory.py
+ 2435  v multizbiory.py
+ 2436  python3 multizbiory.py
+ 2437  v multizbiory.py
+ 2438  python3 multizbiory.py
+ 2439  v multizbiory.py
+ 2440  python3 multizbiory.py
+ 2441  v multizbiory.py
+ 2442  cd
+ 2443  cd Documents/informatyczne/iadstudia/numerki/
+ 2444  ls
+ 2445  mkdir project_1
+ 2446  cd project_1/
+ 2447  ls
+ 2448  clear
+ 2449  mv ~/Downloads/mQP3dd07qM7BFWk3.png ~/Documents/i
+ 2450  cd Documents/informatyczne/iadstudia/numerki/
+ 2451  ls
+ 2452  mv ~/Downloads/mQP3dd07qM7BFWk3.png .
+ 2453  ls
+ 2454  mv mQP3dd07qM7BFWk3.png project_1/
+ 2455  ls
+ 2456  cd project_1/
+ 2457  ls
+ 2458  brew search vs-code
+ 2459  brew search virt
+ 2460  brew search virtual studio
+ 2461  brew info visual-studio
+ 2462  brew info visual-studio-code
+ 2463  brew install visual-studio-code
+ 2464  which matlab
+ 2465  cd /Applications/
+ 2466  ks
+ 2467  ls
+ 2468  pwd
+ 2469  ls
+ 2470  clear
+ 2471  cd
+ 2472  ls
+ 2473  cd Pictures/
+ 2474  ls
+ 2475  cd ..
+ 2476  ls
+ 2477  clear
+ 2478  neofetch
+ 2479  clear
+ 2480  v
+ 2481  vim
+ 2482  nvim
+ 2483  neofetch
+ 2484  cd Documents/informatyczne/iadstudia/twd
+ 2485  ls
+ 2486  mkdir lab6
+ 2487  ls
+ 2488  cd lab6
+ 2489  mv ~/Downloads/lab6.R .
+ 2490  ls
+ 2491  mv ~/Downloads/pop_and_area.csv .
+ 2492  ls
+ 2493  R
+ 2494  brew install gdal
+ 2495  R
+ 2496  brew install jql
+ 2497  R
+ 2498  brew install jq
+ 2499  R
+ 2500  brew install udunits
+ 2501  brew install protobuf
+ 2502  brew link protobuf
+ 2503  brew link --overwrite protobuf
+ 2504  clear
+ 2505  R
+ 2506  clea
+ 2507  cd Documents/informatyczne/iadstudia/twd/fast_food_data_analysis_project/
+ 2508  ls
+ 2509  git status
+ 2510  git add spider_plot/spider_plot_code.R
+ 2511  ls
+ 2512  git commit -m 'spider_plots good version add'
+ 2513  git push
+ 2514  ls
+ 2515  git status
+ 2516  cd
+ 2517  cd Documents/poligon/
+ 2518  ls
+ 2519  touch matrix.py
+ 2520  ls
+ 2521  v matrix.py
+ 2522  python3 matrix.py
+ 2523  cd ../informatyczne/iadstudia/twd/2023Z-DataVisualizationTechniques/
+ 2524  git status
+ 2525  git pull
+ 2526  git status
+ 2527  ls
+ 2528  cd homeworks/
+ 2529  ls
+ 2530  ls hw2
+ 2531  ls hw1
+ 2532  ls
+ 2533  mkdir hw3
+ 2534  ls
+ 2535  cd hw3
+ 2536  ls
+ 2537  mkdir FrydrysiakNorbert
+ 2538  ls
+ 2539  cd FrydrysiakNorbert/
+ 2540  ls
+ 2541  touch mapa.R
+ 2542  ls
+ 2543  l
+ 2544  ls
+ 2545  mv ~/Downloads/255887bb-5451-4c19-8e35-27899ae8c3ad.csv ./dataca.csv
+ 2546  ls
+ 2547  pwd
+ 2548  ls
+ 2549  mv ~/Downloads/CPI_1.1_Texas_Child_Population__ages_0-17__by_County_2013-2022_20231119.csv ./datatexas.csv
+ 2550  ls
+ 2551  rm dataca.csv
+ 2552  ls
+ 2553  git status
+ 2554  ls
+ 2555  git rm ../../../.DS_Store ../../.DS_Store ../../hw1/.DS_Store
+ 2556  git status
+ 2557  cd ../..
+ 2558  cd ..
+ 2559  git status
+ 2560  git rm .DS_Store
+ 2561  git add homeworks/hw3
+ 2562  git status
+ 2563  git rm homeworks/hw3/.DS_Store
+ 2564  git status
+ 2565  rm homeworks/hw3/.DS_Store
+ 2566  git status
+ 2567  git rm homeworks/hw1/.DS_Store
+ 2568  git rm homeworks/hw3/.DS_Store
+ 2569  git status
+ 2570  git commit -m 'hw3 Frydrysiak add'
+ 2571  git status
+ 2572  git push
+ 2573  git pull
+ 2574  git status
+ 2575  git pull
+ 2576  git push
+ 2577  git push --help
+ 2578  git push -f
+ 2579  git status
+ 2580  ls homeworks/hw2/
+ 2581  ls homeworks/hw3
+ 2582  ls homeworks/hw1
+ 2583  git pull
+ 2584  git status
+ 2585  fig doctor
+ 2586  clear
+ 2587  fig
+ 2588  fig doctor
+ 2589  fig issue
+ 2590  fig restart
+ 2591  cd Documents/informatyczne/iadstudia/twd/fast_food_data_analysis_project/
+ 2592  ls
+ 2593  ls data
+ 2594  mv ~/Downloads/violinPlot.r .
+ 2595  mv ~/Downloads/proj1.r .
+ 2596  ls
+ 2597  mv proj1.r map.R
+ 2598  mv violinPlot.r violinPlot.R
+ 2599  ls
+ 2600  ls spider_plot/
+ 2601  ls
+ 2602  mkdir map
+ 2603  mkdir violin
+ 2604  ls
+ 2605  mv map.R map/
+ 2606  mv violinPlot.R violin/
+ 2607  ls
+ 2608  cp data spider_plot/ map/ violin/ ../2023Z-DataVisualizationTechniques/projects/project1/Frydrysiak_Szewczak_Zajaczkowski/
+ 2609  man cp
+ 2610  cp -R data spider_plot/ map/ violin/ ../2023Z-DataVisualizationTechniques/projects/project1/Frydrysiak_Szewczak_Zajaczkowski/
+ 2611  ls
+ 2612  cd ../
+ 2613  ls
+ 2614  cd 2023Z-DataVisualizationTechniques
+ 2615  fig doctor
+ 2616  fig restart
+ 2617  cd projects/project1/Frydrysiak_Szewczak_Zajaczkowski/
+ 2618  ls
+ 2619  ls data/
+ 2620  git status
+ 2621  git add ./
+ 2622  git status
+ 2623  git rm .DS_Store
+ 2624  ls -A
+ 2625  rm .DS_Store
+ 2626  git rm .DS_Store
+ 2627  git status
+ 2628  ls -A
+ 2629  rm .Rhistory
+ 2630  git rm .Rhistory
+ 2631  git status
+ 2632  mkdir radar
+ 2633  mv radar* spider_plot_code.R ./radar/
+ 2634  ls
+ 2635  ls radar
+ 2636  mkdir violin
+ 2637  mv violinPlot.R violin/
+ 2638  ls
+ 2639  mkdir map
+ 2640  mv map.R map/
+ 2641  ls
+ 2642  git status
+ 2643  git add map/
+ 2644  git add radar/ violin/
+ 2645  ls
+ 2646  git status
+ 2647  git rm map.R radar_*
+ 2648  git status
+ 2649  git rm map.R
+ 2650  git status
+ 2651  ls
+ 2652  git rm radar_plot_ArbysBurger\ King.svg
+ 2653  git rm radar_plot_Chick\ Fil-ADairy\ Queen.svg
+ 2654  git rm radar_plot_McdonaldsSonic.svg
+ 2655  git rm radar_plot_SubwayTaco\ Bell.svg
+ 2656  git status
+ 2657  git rm spider_plot_code.R
+ 2658  git rm violinPlot.R
+ 2659  git status
+ 2660  ls -R
+ 2661  mv ~/Downloads/plakat.pdf .
+ 2662  ls
+ 2663  ls -R
+ 2664  git status
+ 2665  git add plakat.pdf
+ 2666  ls
+ 2667  git status
+ 2668  ls -R
+ 2669  git commit -m 'project 1 Frydrysiak Szewczak Zajaczkowski add'
+ 2670  git status
+ 2671  git push
+ 2672  git push -f
+ 2673  history
+ 2674  git status
+ 2675  cd Documents/informatyczne/iadstudia/numerki/project_1/
+ 2676  ls
+ 2677  touch goertzel.py
+ 2678  v goertzel.py
+ 2679  python3 goertzel.py
+ 2680  v goertzel.py
+ 2681  python3 goertzel.py
+ 2682  v goertzel.py
+ 2683  python3 goertzel.py
+ 2684  v goertzel.py
+ 2685  python3 goertzel.py
+ 2686  v goertzel.py
+ 2687  python3 goertzel.py
+ 2688  v goertzel.py
+ 2689  cd Documents/informatyczne/iadstudia/twd
+ 2690  ls
+ 2691  mkdir lab7
+ 2692  mv ~/Downloads/lab7.R .
+ 2693  ls
+ 2694  mv lab7.r
+ 2695  ls
+ 2696  mv lab7.R ./lab7/
+ 2697  ls
+ 2698  cd lab7
+ 2699  ls
+ 2700  R
+ 2701  clear
+ 2702  pip3 install plotly
+ 2703  pip install statsbombpy
+ 2704  pipe install statsbombpy
+ 2705  pip3 install statsbombpy
+ 2706  python3 --vr
+ 2707  python3 --version
+ 2708  cd Downloads/
+ 2709  ls
+ 2710  mv zadanie_punktowane_lab9_gr2/ ../Documents/informatyczne/iadstudia/po_programy/
+ 2711  cp Downloads/projekt1mn.pdf Documents/informatyczne/iadstudia/numerki/project_1/
+ 2712  cd Documents/informatyczne/iadstudia/numerki/project_1/
+ 2713  ls
+ 2714  open projekt1mn.pdf
+ 2715  cd Documents/informatyczne/iadstudia/numerki/project_1/
+ 2716  ls
+ 2717  cd ..
+ 2718  ssh frydrysiakn@ssh.mini.pw.edu.pl
+ 2719  cd Documents/informatyczne/iadstudia/numerki/project_1/
+ 2720  cd ..
+ 2721  scp project_1/ frydrysiak@ssh.mini.pw.edu.pl:numerki/
+ 2722  scp project_1/ frydrysiakn@ssh.mini.pw.edu.pl:numerki/
+ 2723  scp -r project_1/ frydrysiakn@ssh.mini.pw.edu.pl:numerki/
+ 2724  ls
+ 2725  ssh frydrysiakn@ssh.mini.pw.edu.pl
+ 2726  cd Documents/informatyczne/iadstudia/numerki/project_1/
+ 2727  open projekt1mn.pdf
+ 2728  bpytop
+ 2729  cd Documents/informatyczne/iadstudia/numerki/project_1/
+ 2730  ls
+ 2731  history | grep zip
+ 2732  zip MN_IAD_Projekt1_Frydrysiak.zip *
+ 2733  ls
+ 2734  ls -A
+ 2735  ls -lr
+ 2736  du MN_IAD_Projekt1_Frydrysiak.zip
+ 2737  du .
+ 2738  pip3 install statsbombpy
+ 2739  ls
+ 2740  cd Documents/informatyczne/iadstudia/
+ 2741  ls
+ 2742  mkdir po_project
+ 2743  ls
+ 2744  cd po_project/
+ 2745  ls
+ 2746  python3 --version
+ 2747  pip install soccerdata
+ 2748  pip search soccerdata
+ 2749  cd /users
+ 2750  cd fantasy2fry/soccerdata/
+ 2751  ls
+ 2752  du .
+ 2753  du -h .
+ 2754  cd soccerdata/
+ 2755  du -h .
+ 2756  cd Documents/informatyczne/iadstudia/twd
+ 2757  ls
+ 2758  mkdir lab8
+ 2759  ls
+ 2760  cd lab8
+ 2761  ls
+ 2762  touch laby.R
+ 2763  ls
+ 2764  R
+ 2765  clear
+ 2766  history
+ 2767  ls
+ 2768  history > his.txt
+ 2769  ls
+ 2770  v his.txt
+ 2771  clear
+ 2772  cd
+ 2773  ls
+ 2774  pip3 install requests
+ 2775  pip3 install bs4
+ 2776  pip3 install re csvkit
+ 2777  pip3 install getopt
+ 2778  cd Documents/informatyczne/iadstudia/po_project/
+ 2779  ls
+ 2780  git init
+ 2781  ls
+ 2782  git status
+ 2783  git remote add origin https://fantasy2fry@bitbucket.org/zpoif-2023-zespol-18/zpoif_2023_zespol_18.git\n
+ 2784  git status
+ 2785  git add data_collect.ipynb .gitignore
+ 2786  git status
+ 2787  git commit -m 'init and first data exploration add'
+ 2788  git push -u origin master
+ 2789  git status
+ 2790  mv ~/Downloads/Aplikacja\ do\ analizy\ danych\ piłkarskich\ -\ konspekt.pdf .
+ 2791  ls
+ 2792  ls -A
+ 2793  mv Aplikacja\ do\ analizy\ danych\ piłkarskich\ -\ konspekt.pdf konspekt.pdf
+ 2794  ls
+ 2795  git add konspekt.pdf
+ 2796  mv ~/Downloads/Aplikacja\ do\ analizy\ danych\ piłkarskich\ -\ konspekt.pdf konspekt.pdf
+ 2797  git status
+ 2798  git add konspekt.pdf
+ 2799  git commit -m 'overview add'
+ 2800  git push
+ 2801  cd Documents/informatyczne/iadstudia/po_project/
+ 2802  ls
+ 2803  git status
+ 2804  open konspekt.pdf
+ 2805  cd Documents/informatyczne/iadstudia/pppdsem22/
+ 2806  ls
+ 2807  cd 8lab
+ 2808  ls
+ 2809  cat Lab8_01.py
+ 2810  cd
+ 2811  cd Documents/informatyczne/iadstudia/pppdsem22/
+ 2812  cat punktowane4.py
+ 2813  neofetch
+ 2814  R
+ 2815  mv ~/Documents/informatyczne/iadstudia/twd
+ 2816  mv ~/Documents/informatyczne/iadstudia/twd/lab8/laby.R ~/Documents/informatyczne/iadstudia/po_project/data_collect_rlanguage.R
+ 2817  R
+ 2818  v
+ 2819  clear
+ 2820  v
+ 2821  clear
+ 2822  which pip3
+ 2823  which pip
+ 2824  which python3
+ 2825  which ipython3
+ 2826  which jupyter-notebook
+ 2827  which jupyter
+ 2828  jupyter kernelspec list
+ 2829  cd /usr/local/bin/
+ 2830  ls
+ 2831  jupyter notebook
+ 2832  brew update
+ 2833  brew upgrade
+ 2834  brew update
+ 2835  bpytop
+ 2836  clear
+ 2837  pip3 install plotly
+ 2838  man pip3
+ 2839  man pip
+ 2840  man python3
+ 2841  cd Documents/informatyczne/iadstudia/twd
+ 2842  ls
+ 2843  mkdir lab9
+ 2844  cd lab8
+ 2845  cd ../lab9
+ 2846  ls
+ 2847  mv ~/Downloads/README.md .
+ 2848  mv ~/Downloads/app_start.R .
+ 2849  mv ~/Downloads/app.png .
+ 2850  ls
+ 2851  R
+ 2852  clear
+ 2853  open app.png
+ 2854  R
+ 2855  cd ..
+ 2856  ls
+ 2857  mkdir linux_me_project
+ 2858  ls
+ 2859  mv lab8/his.txt linux_me_project/
+ 2860  ls linux_me_project/
+ 2861  cd linux_me_project/
+ 2862  mv ~/Downloads/lista_komend.txt .
+ 2863  mv ~/Downloads/lista_pakietow.txt .
+ 2864  ls
+ 2865  v lista_pakietow.txt
+ 2866  ls
+ 2867  v his.txt
+ 2868  v lista_pakietow.txt
+ 2869  v lista_komend.txt
+ 2870  cat lista_komend.txt | wc -l
+ 2871  cat his.txt | wc -l
+ 2872  cat lista_pakietow.txt | wc -l
+ 2873  v his.txt
+ 2874  pip freeze
+ 2875  pip freeze > pakiety_python.txt
+ 2876  ls
+ 2877  v pakiety_python.txt
+ 2878  cat pakiety_python.txt | wc -l
+ 2879  mkdir norbert_dane
+ 2880  ls
+ 2881  mv * norbert_dane/
+ 2882  ls
+ 2883  ls  norbert_dane/
+ 2884  mv norbert_dane/ Norbert_dane
+ 2885  ls
+ 2886  ls Norbert_dane/
+ 2887  ls Norbert_dane/ Norbert_Dane/
+ 2888  mv Norbert_dane/ Norbert_Dane/
+ 2889  ls
+ 2890  mv ~/Downloads/0189a292-91e6-11ee-84bc-24f8d88eddf9.tar .
+ 2891  ls
+ 2892  tar -x 0189a292-91e6-11ee-84bc-24f8d88eddf9.tar
+ 2893  ls
+ 2894  ls -A
+ 2895  tar -xvzf 0189a292-91e6-11ee-84bc-24f8d88eddf9.tar
+ 2896  ls
+ 2897  open repositories/
+ 2898  fig doctor
+ 2899  fig restart
+ 2900  fig doctor
+ 2901  open repositories_000001.json
+ 2902  man git
+ 2903  brew search git-stats
+ 2904  brew search git
+ 2905  ls
+ 2906  mv 0189a292-91e6-11ee-84bc-24f8d88eddf9.tar Norbi_github.tar
+ 2907  ls
+ 2908  rm repositories_000001.json schema.json users_000001.json
+ 2909  ls
+ 2910  rm -R repositories/
+ 2911  ls
+ 2912  ls repositories/
+ 2913  rm -r repositories/
+ 2914  rm -fr repositories/
+ 2915  ls
+ 2916  ls Norbert_Dane/
+ 2917  mv Norbert_Dane/ Norbert_Data/
+ 2918  ls
+ 2919  cd Norbert_Data/
+ 2920  ls
+ 2921  v his.txt
+ 2922  mv his.txt macos_bash_commands.txt
+ 2923  ls
+ 2924  mv lista_komend.txt linux_bash_commands.txt
+ 2925  ;s
+ 2926  ls
+ 2927  mv lista_pakietow.txt python_packages.txt
+ 2928  ls
+ 2929  mv python_packages.txt linux_packages.txt
+ 2930  ls
+ 2931  mv pakiety_python.txt python_libraries.txt
+ 2932  ls
+ 2933  cd ..
+ 2934  ls
+ 2935  mkdir data
+ 2936  cd data/
+ 2937  mkdir bash-history/
+ 2938  mkdir system-packages/
+ 2939  mkdir python-libs/
+ 2940  mkdir r-libs/
+ 2941  ls
+ 2942  mkdir git-stats/
+ 2943  ls
+ 2944  cd ..
+ 2945  ls
+ 2946  cd Norbert_Data/
+ 2947  ls
+ 2948  mv linux_bash_commands.txt ../data/bash-history/Norbert_linux.txt
+ 2949  ls
+ 2950  mv macos_bash_commands.txt ../data/bash-history/Norbert_macos.txt
+ 2951  ls
+ 2952  mv linux_packages.txt ../data/system-packages/Norbert_system_packages.txt
+ 2953  ls
+ 2954  mv python_libraries.txt ../data/python-libs/Norbert_python_libs.txt
+ 2955  ls
+ 2956  cd ..
+ 2957  ls
+ 2958  rmdir Norbert_Data/
+ 2959  ls
+ 2960  mv Norbi_github.tar ../
+ 2961  ls
+ 2962  cd data/
+ 2963  ls
+ 2964  ls -R
+ 2965  cd bash-history/
+ 2966  ls
+ 2967  mv Norbert_linux.txt norbert_linux.txt
+ 2968  ls
+ 2969  mv Norbert_macos.txt norbert_macos.txt
+ 2970  ls
+ 2971  cd ..
+ 2972  ls -r
+ 2973  ls -R
+ 2974  cd python-libs/
+ 2975  ls
+ 2976  mv Norbert_python_libs.txt norbert_python_libs.txt
+ 2977  cd ..
+ 2978  ls
+ 2979  ls -R
+ 2980  cd system-packages/
+ 2981  ls
+ 2982  mv Norbert_system_packages.txt norbert_system_packages.txt
+ 2983  ls
+ 2984  cd ..
+ 2985  ls -R
+ 2986  cd  r-libs/
+ 2987  R
+ 2988  ls
+ 2989  cd ..
+ 2990  ls
+ 2991  ls -R
+ 2992  cd ..
+ 2993  ls
+ 2994  git init
+ 2995  git status
+ 2996  ls
+ 2997  touch .gitignore
+ 2998  v .gitignore
+ 2999  git status
+ 3000  git add
+ 3001  git add *
+ 3002  git status
+ 3003  git add .gitignore
+ 3004  git status
+ 3005  ls -A
+ 3006  du -h .
+ 3007  echo "# linux_me_project" >> README.md
+ 3008  git add README.md
+ 3009  git status
+ 3010  git commit -m 'init'
+ 3011  git remote add origin https://github.com/fantasy2fry/linux_me_project.git
+ 3012  git push -u origin master
+ 3013  pip list
+ 3014  ls
+ 3015  v README.md
+ 3016  ls -R
+ 3017  touch data/git-stats/tmp.txt
+ 3018  git status
+ 3019  touch data/r-libs/tmp.txt
+ 3020  git add *
+ 3021  git status
+ 3022  git commit -m 'README start and tmp files add'
+ 3023  git push
+ 3024  git status
+ 3025  git pull
+ 3026  cd Documents/informatyczne/iadstudia/twd
+ 3027  cd linux_me_project/
+ 3028  git status
+ 3029  git pull
+ 3030  git log
+ 3031  git
+ 3032  git help 
+ 3033  git help -g
+ 3034  git help -a
+ 3035  cd ..
+ 3036  ls
+ 3037  cd 2023Z-DataVisualizationTechniques/
+ 3038  ls
+ 3039  git status
+ 3040  git pull
+ 3041  git status
+ 3042  cd ..
+ 3043  cd linux_me_project/
+ 3044  ls
+ 3045  git checkout master
+ 3046  git fetch origin
+ 3047  git merge dashboard
+ 3048  git merge origin/dashboard
+ 3049  git log
+ 3050  git status
+ 3051  git push origin master
+ 3052  git push origin --delete origin/dashboard
+ 3053  git push origin --delete dashboard
+ 3054  cd ..
+ 3055  ls
+ 3056  cd 2023Z-DataVisualizationTechniques/
+ 3057  git pull
+ 3058  cd homeworks/
+ 3059  ls
+ 3060  cd hw4
+ 3061  ls
+ 3062  mkdir FrydrysiakNorbert
+ 3063  ls
+ 3064  cd FrydrysiakNorbert/
+ 3065  ls
+ 3066  ls -A
+ 3067  ls
+ 3068  touch task.ipynb
+ 3069  ls
+ 3070  git add task.ipynb
+ 3071  ls
+ 3072  open plot.html
+ 3073  ls -A
+ 3074  git status
+ 3075  git add task.ipynb plot.html
+ 3076  ls
+ 3077  git commit -m 'Norbert Frydrysiak HW4 add'
+ 3078  git status
+ 3079  git push
+ 3080  git status
+ 3081  open plot.html
+ 3082  cd Documents/informatyczne/iadstudia/twd/2023Z-DataVisualizationTechniques/homeworks/hw4/FrydrysiakNorbert/
+ 3083  ls
+ 3084  open plot.html
+ 3085  brew list
+ 3086  neofetch
+ 3087  history | grep sudo | wc -l
+ 3088  history | wc -l
+ 3089  ls
+ 3090  cd ../../../../linux_me_project/
+ 3091  ls
+ 3092  touch XDDDDD.txt
+ 3093  ls
+ 3094  git pull
+ 3095  ls
+ 3096  rm XDDDDD.txt
+ 3097  ls
+ 3098  cd Documents/informatyczne/iadstudia/po_project/
+ 3099  ls
+ 3100  git status
+ 3101  mkdir data_exploration
+ 3102  mkdir data
+ 3103  ls
+ 3104  mv data_collect_rlanguage.R data_exploration/
+ 3105  ls
+ 3106  mv data_collect.ipynb data_exploration/
+ 3107  ls
+ 3108  ls -R
+ 3109  ls
+ 3110  cd
+ 3111  cd /Users/fantasy2fry/
+ 3112  ls -A
+ 3113  ls -A | grep .m2
+ 3114  ls
+ 3115  cd Documents/informatyczne/iadstudia/twd
+ 3116  ls
+ 3117  mkdir lab10
+ 3118  kls
+ 3119  ls
+ 3120  cd lab10
+ 3121  ls
+ 3122  mv ~/Downloads/lab10.R .
+ 3123  ls
+ 3124  R
+ 3125  clear
+ 3126  R
+ 3127  cd Documents/informatyczne/iadstudia/twd
+ 3128  cd linux_me_project/
+ 3129  ls
+ 3130  git pull
+ 3131  git status
+ 3132  cd data/git-stats/
+ 3133  ls
+ 3134  find ~/ -name .git -execdir sh -c 'echo "Repository $(realpath "{}")" && git log -n 10000 --pretty=format:"%h, %an, %as, %s" --date=short && echo "\n"' \; > norbert_git_stats.txt
+ 3135  ls
+ 3136  v norbert_git_stats.txt
+ 3137  ls
+ 3138  cd ..
+ 3139  ls
+ 3140  cd ..
+ 3141  ls -R
+ 3142  R
+ 3143  ls
+ 3144  cd ..
+ 3145  ls
+ 3146  cd  linux_me_project/
+ 3147  ls
+ 3148  cd data/system-packages/
+ 3149  ls
+ 3150  brew list
+ 3151  ls
+ 3152  brew list > norbert_system_packages_macos.txt
+ 3153  ls
+ 3154  v norbert_system_packages_macos.txt
+ 3155  ls
+ 3156  pwd
+ 3157  git status
+ 3158  git branch feat-norbert-syspacks
+ 3159  git status
+ 3160  git branch feat-norbert-syspacks
+ 3161  git add ../../app.R ../git-stats/norbert_git_stats.txt ../../server/system_packages_server.R ../../ui/system_packages_ui.R norbert_system_packages_macos.txt
+ 3162  git branch --delete feat-norbert-syspacks
+ 3163  git status
+ 3164  git commit -m 'Norbert git stats and first attempt for sys packs part add'
+ 3165  git push
+ 3166  git pull
+ 3167  git branch feat-norbert-syspacks
+ 3168  git checkout feat-norbert-syspacks
+ 3169  git status
+ 3170  cd ..
+ 3171  ls
+ 3172  cd ..
+ 3173  ls
+ 3174  v README.md
+ 3175  git status
+ 3176  ls
+ 3177  git status
+ 3178  ls
+ 3179  cd Documents/informatyczne/iadstudia/sowid1/
+ 3180  ls
+ 3181  cd skypty/
+ 3182  ls
+ 3183  cd zaliczenie/
+ 3184  ls
+ 3185  cat zad1i2.sh
+ 3186  cat zad3_regexgotowy.txt
+ 3187  ls
+ 3188  htop
+ 3189  bpytop
+ 3190  git status
+ 3191  ls
+ 3192  git status
+ 3193  git add README.md app.R server/system_packages_server.R ui/system_packages_ui.R
+ 3194  git status
+ 3195  git commit -m 'syspacks first plot that it is not working XD add'
+ 3196  git push
+ 3197  git push --set-upstream origin feat-norbert-syspacks
+ 3198  git pull
+ 3199  man git-merge
+ 3200  git merge master
+ 3201  git merge feat-norbert-syspacks
+ 3202  git checkout master
+ 3203  git pull
+ 3204  git merge feat-norbert-syspacks
+ 3205  git checkout master
+ 3206  git pull
+ 3207  git checkout feat-norbert-syspacks
+ 3208  git merge master
+ 3209  git status
+ 3210  git push
+ 3211  git status
+ 3212  git add server/system_packages_server.R
+ 3213  git status
+ 3214  git commit -m 'syspacks first plot working a little bit add'
+ 3215  git push
+ 3216  cd Documents/informatyczne/iadstudia/twd
+ 3217  ls
+ 3218  cd linux_me_project/
+ 3219  cd data/bash-history/
+ 3220  ls
+ 3221  v norbert_linux.txt
+ 3222  v norbert_macos.txt
+ 3223  pwd
+ 3224  v norbert_linux.txt
+ 3225  v kuba_bash_history.txt
+ 3226  v norbert_linux.txt
+ 3227  R
+ 3228  git status
+ 3229  git restore ../../server/bash_history_server.R
+ 3230  git status
+ 3231  git add ../../server/bash_history_server.R
+ 3232  git status
+ 3233  git commit -m 'norbert linux bash commends added to dataframe'
+ 3234  git push
+ 3235  git pull
+ 3236  git checkout master
+ 3237  git pull
+ 3238  git checkout feat-norbert-syspacks
+ 3239  git pull
+ 3240  git merge master
+ 3241  git status
+ 3242  git push
+ 3243  git pull
+ 3244  git checkout master
+ 3245  git pull
+ 3246  history | wc -l
+ 3247  echo $HISTSIZE
+ 3248  brew install tree
+ 3249  tree
+ 3250  tree -L 1
+ 3251  cd Documents/informatyczne/iadstudia/twd/linux_me_project/
+ 3252  git status
+ 3253  git pull
+ 3254  git checkout feat-norbert-syspacks
+ 3255  git pull
+ 3256  git checkout master
+ 3257  v
+ 3258  vim
+ 3259  clear
+ 3260  neofetch
+ 3261  cmatrix
+ 3262  clear
+ 3263  cd Documents/informatyczne/iadstudia/twd/linux_me_project/
+ 3264  ls
+ 3265  git status
+ 3266  git add server/system_packages_server.R ui/system_packages_ui.R server/bash_history_server.R ui/bash_history_ui.R
+ 3267  git status
+ 3268  git commit -m 'bash plots modification and one plot added to pacakges analysis'
+ 3269  git push
+ 3270  git checkout master
+ 3271  git merge feat-norbert-syspacks
+ 3272  git push
+ 3273  git checkout
+ 3274  git checkout feat-norbert-syspacks
+ 3275  git merge master
+ 3276  git status
+ 3277  v ui/bash_history_ui.R
+ 3278  git status
+ 3279  git log
+ 3280  git checkout master
+ 3281  v ui/bash_history_ui.R
+ 3282  git push
+ 3283  git checkout feat-norbert-syspacks
+ 3284  git push
+ 3285  ls -R
+ 3286  clear
+ 3287  v data/bash-history/norbert_linux.txt
+ 3288  clear
+ 3289  cd ..
+ 3290  ls
+ 3291  mkdir lab11
+ 3292  cd lab11
+ 3293  ls
+ 3294  mv ~/Downloads/lab11.ipynb .
+ 3295  mv ~/Downloads/Zadanie1.png .
+ 3296  mv ~/Downloads/Zadanie1white.png .
+ 3297  ls
+ 3298  open Zadanie1.png
+ 3299  cd ..
+ 3300  ls
+ 3301  cd linux_me_project/
+ 3302  clear
+ 3303  cd data/
+ 3304  ls
+ 3305  v git-stats/norbert_git_stats.txt
+ 3306  v git-stats/mateusz_git_stats.txt
+ 3307  clear
+ 3308  neofetch
+ 3309  cd Documents/informatyczne/iadstudia/twd/2023Z-DataVisualizationTechniques/
+ 3310  git status
+ 3311  git pull
+ 3312  cd homeworks/hw5/
+ 3313  ls
+ 3314  v hw5.R
+ 3315  mkdir FrydrysiakNorbert
+ 3316  ls
+ 3317  cd FrydrysiakNorbert/
+ 3318  R
+ 3319  ls
+ 3320  R
+ 3321  ls
+ 3322  ls -A
+ 3323  mkdir xmas_tree.ipnyb
+ 3324  touch xmas_tree.ipnyb
+ 3325  ls
+ 3326  ls -l
+ 3327  rm xmas_tree.ipnyb/
+ 3328  ls
+ 3329  ls -l
+ 3330  rmdir xmas_tree.ipnyb/
+ 3331  ls
+ 3332  touch xmas_tree.ipnyb
+ 3333  touch xmas_tree.ipynb
+ 3334  ls
+ 3335  rm xmas_tree.ipnyb
+ 3336  ls
+ 3337  touch xmas_tree.py
+ 3338  ls
+ 3339  rm xmas_tree.ipynb
+ 3340  ls
+ 3341  v xmas_tree.py
+ 3342  python3 xmas_tree.py
+ 3343  v xmas_tree.py
+ 3344  python3 xmas_tree.py
+ 3345  v xmas_tree.py
+ 3346  python3 xmas_tree.py
+ 3347  v xmas_tree.py
+ 3348  python3 xmas_tree.py
+ 3349  v xmas_tree.py
+ 3350  python3 xmas_tree.py
+ 3351  v xmas_tree.py
+ 3352  python3 xmas_tree.py
+ 3353  v xmas_tree.py
+ 3354  python3 xmas_tree.py
+ 3355  v xmas_tree.py
+ 3356  ls
+ 3357  rm xmas_tree.py
+ 3358  ls
+ 3359  mkdir xmas_tree.R
+ 3360  ls
+ 3361  rmdir xmas_tree.R/
+ 3362  touch xmas_tree.R
+ 3363  ls
+ 3364  R
+ 3365  ls
+ 3366  bpytop
+ 3367  mvn
+ 3368  brew search maven
+ 3369  java --version
+ 3370  cd Documents/informatyczne
+ 3371  cd iadstudia/po_project/
+ 3372  ls
+ 3373  git status
+ 3374  cd out/
+ 3375  ls
+ 3376  cd production/
+ 3377  ls
+ 3378  cd po_project/data/collect/
+ 3379  ls
+ 3380  cd ../../../../
+ 3381  ls
+ 3382  cd ../
+ 3383  ls
+ 3384  javac src/data/collect/MenuOptionsGetter.java
+ 3385  cd ..
+ 3386  ls
+ 3387  cd po_programy/
+ 3388  ls
+ 3389  cd ..
+ 3390  ls
+ 3391  rm -rf po_project/
+ 3392  ls
+ 3393  cd Documents/informatyczne/iadstudia/numerki/
+ 3394  ls
+ 3395  mkdir project_2
+ 3396  ls
+ 3397  cd project_2/
+ 3398  ls
+ 3399  ping wp.pl
+ 3400  clear
+ 3401  ping wp.pl
+ 3402  clear
+ 3403  bpytop
+ 3404  fig doctor
+ 3405  cd Documents/informatyczne/iadstudia/twd/2023Z-DataVisualizationTechniques/
+ 3406  git status
+ 3407  git add homeworks/hw5/FrydrysiakNorbert/
+ 3408  git status
+ 3409  cd homeworks/hw5/
+ 3410  ls
+ 3411  cd FrydrysiakNorbert/
+ 3412  pwd
+ 3413  ls
+ 3414  pwd
+ 3415  ls
+ 3416  open xmas_tree.png
+ 3417  cd Documents/informatyczne/iadstudia/twd/2023Z-DataVisualizationTechniques/
+ 3418  cd homeworks/hw5/
+ 3419  ls
+ 3420  cd FrydrysiakNorbert/
+ 3421  ls
+ 3422  open xmas_tree.png
+ 3423  rm xmas_tree.png
+ 3424  open xmas_tree.pdf
+ 3425  git status
+ 3426  git add xmas_tree.pdf
+ 3427  git status
+ 3428  git add xmas_tree.R
+ 3429  git status
+ 3430  git commit -m 'hw5 FrydrysiakNorbert add'
+ 3431  git push
+ 3432  ls
+ 3433  cd
+ 3434  cd Documents/informatyczne/iadstudia/numerki/project_2/
+ 3435  ls
+ 3436  cd
+ 3437  cd Downloads/
+ 3438  ls
+ 3439  cd projekt_16_Kukla_Michaˆ/
+ 3440  ls
+ 3441  v projekt16_skrypt.m
+ 3442  cd Documents/informatyczne/iadstudia/twd
+ 3443  cd linux_me_project/
+ 3444  git pull
+ 3445  git checkout master
+ 3446  git status
+ 3447  git pull
+ 3448  R
+ 3449  clear
+ 3450  cd
+ 3451  ls
+ 3452  cd Documents/informatyczne/iadstudia/twd
+ 3453  cd linux_me_project/
+ 3454  git status
+ 3455  git pull
+ 3456  git status
+ 3457  git restore app.R
+ 3458  git pull
+ 3459  cd Documents/informatyczne/iadstudia/twd
+ 3460  ls
+ 3461  mkdir lab12
+ 3462  ls
+ 3463  cd lab12
+ 3464  mv ~/Downloads/lab12.ipynb .
+ 3465  ls
+ 3466  which pip3
+ 3467  which pip
+ 3468  cd ..
+ 3469  ls
+ 3470  cd linux_me_project/
+ 3471  cd data/bash-history/
+ 3472  ls
+ 3473  v norbert_linux.txt
+ 3474  v
+ 3475  clear
+ 3476  v
+ 3477  history | wc -l
+ 3478  ls
+ 3479  cd Downloads/
+ 3480  ls
+ 3481  open projekt2mn.pdf
+ 3482  mv projekt2mn.pdf ../Documents/informatyczne/iadstudia/numerki/project_2/
+ 3483  cd ..
+ 3484  cd Documents/informatyczne/iadstudia/numerki/
+ 3485  cd project_2/
+ 3486  l
+ 3487  ls
+ 3488  ll
+ 3489  ls
+ 3490  history | grep zip
+ 3491  ls
+ 3492  zip MN_IAD_Projekt2_Frydrysiak.zip *
+ 3493  ls
+ 3494  ll
+ 3495  ls -A
+ 3496  ls -a
+ 3497  du MN_IAD_Projekt2_Frydrysiak.zip
+ 3498  du -h MN_IAD_Projekt2_Frydrysiak.zip
+ 3499  du -h *
+ 3500  cp MN_IAD_Projekt2_Frydrysiak.zip ~/Downloads/
+ 3501  ls
+ 3502  lvim
+ 3503  clear
+ 3504  brew search arc
+ 3505  brew info arc
+ 3506  cd Documents/informatyczne/iadstudia/twd/
+ 3507  ls
+ 3508  ll
+ 3509  ls
+ 3510  cd linux_me_project/
+ 3511  ls
+ 3512  git status
+ 3513  git fetch
+ 3514  ls
+ 3515  git pull
+ 3516  git checkout feat-norbert-syspacks
+ 3517  git merge master
+ 3518  git push
+ 3519  cd data/
+ 3520  ls
+ 3521  ls -R
+ 3522  cd r-libs/
+ 3523  ls
+ 3524  R
+ 3525  ls
+ 3526  git status
+ 3527  cat kuba_r_libs.txt
+ 3528  cat norbert_r_libs.txt
+ 3529  git add norbert_r_libs.txt
+ 3530  git status
+ 3531  git commit -m 'norbert r-libs add'
+ 3532  git push
+ 3533  git checkout master
+ 3534  git merge feat-norbert-syspacks
+ 3535  git push
+ 3536  cd ..
+ 3537  ls
+ 3538  cd ..
+ 3539  ls
+ 3540  cd server
+ 3541  ls
+ 3542  v git_stats_server.R
+ 3543  R
+ 3544  brew search emutls_w
+ 3545  git status
+ 3546  git checkout feat-norbert-syspacks
+ 3547  git merge master
+ 3548  ls -R
+ 3549  cd ..
+ 3550  ls -R
+ 3551  ls
+ 3552  git commit -m 'my plan for git stats add'
+ 3553  git add server/git_stats_server.R
+ 3554  git commit -m 'my plan for git stats add'
+ 3555  git status
+ 3556  git push
+ 3557  history | wc -l
+ 3558  brew list
+ 3559  clear
+ 3560  cd
+ 3561  cd Documents/informatyczne/iadstudia/numerki/project_2/
+ 3562  ls
+ 3563  open projekt2mn.pdf
+ 3564  git fetch
+ 3565  cd ../../twd/linux_me_project/
+ 3566  ls
+ 3567  git fetch
+ 3568  git checkout feat-kuba-rlibs
+ 3569  git pull
+ 3570  git checkout master
+ 3571  git fetch
+ 3572  git pull
+ 3573  git checkout feat-norbert-syspacks
+ 3574  git merge master
+ 3575  git checkout feat-kuba-rlibs
+ 3576  R
+ 3577  brew search gcc
+ 3578  brew reinstall gcc
+ 3579  R
+ 3580  ls
+ 3581  git checkout feat-norbert-syspacks
+ 3582  ls
+ 3583  git pull
+ 3584  R
+ 3585  git status
+ 3586  ls -R
+ 3587  R
+ 3588  git status
+ 3589  git add server/git_stats_server.R app.R ui/system_packages_ui.R server/system_packages_server.R ui/git_stats_ui.R
+ 3590  git commit -m 'figthting with calendar plot (aka heatmap) and some adding of boxes from shinydashboard'
+ 3591  git push
+ 3592  brew
+ 3593  neofetch
+ 3594  brew install opera-gx
+ 3595  brew remove opera-gx
+ 3596  ls
+ 3597  clear
+ 3598  cd Documents/informatyczne/iadstudia/twd/linux_me_project/
+ 3599  ls
+ 3600  git status
+ 3601  ls -R
+ 3602  git config  --list
+ 3603  git status
+ 3604  ls
+ 3605  cd data/
+ 3606  ls
+ 3607  cd git-stats/
+ 3608  ls
+ 3609  find ~/ -name .git -execdir sh -c 'echo "Repository $(realpath "{}")" && git log -n 10000 --pretty=format:"%h, %an, %as, %s" --date=short && echo "\n"' \; > norbert_git_stats.txt
+ 3610  git status
+ 3611  v norbert_git_stats.txt
+ 3612  cat norbert_git_stats.txt | wc -l
+ 3613  cd ..
+ 3614  ls
+ 3615  cd bash-history/
+ 3616  ls
+ 3617  v norbert_macos.txt
+ 3618  history | head
+ 3619  history > norbert_macos.txt
+ 3620  ls
+ 3621  git add ../git-stats/norbert_git_stats.txt norbert_macos.txt ../../server/git_stats_server.R ../../ui/git_stats_ui.R
+ 3622  git commit -m 'git-stats 3 short info add and data update'
+ 3623  git push
+ 3624  git status
+ 3625  R
+ 3626  git status
+ 3627  git add
+ 3628  git add ../../ui/git_stats_ui.R ../../server/git_stats_server.R
+ 3629  git commit -m 'calendar heatmap add :D :D :D'
+ 3630  git push
+ 3631  git status
+ 3632  ls
+ 3633  cd ..
+ 3634  ls
+ 3635  cd ..
+ 3636  ls
+ 3637  cd ui
+ 3638  ls
+ 3639  touch python_libs.R
+ 3640  ls
+ 3641  cd ..
+ 3642  cd server/
+ 3643  ls
+ 3644  cd ../ui/
+ 3645  mv python_libs.R python_libs_ui.R
+ 3646  ls
+ 3647  cd ../server/
+ 3648  ls
+ 3649  touch python_libs_server.R
+ 3650  ls
+ 3651  git status
+ 3652  git add ../app.R system_packages_server.R ../ui/system_packages_ui.R python_libs_server.R ../ui/python_libs_ui.R
+ 3653  git commit -m 'system_packages version beta, added python libs tab choice'
+ 3654  git push
+ 3655  git pull
+ 3656  git checkout
+ 3657  git checkout master
+ 3658  git pull
+ 3659  git checkout feat-norbert-syspacks
+ 3660  git merge
+ 3661  git merge master
+ 3662  git status
+ 3663  git merge --abort
+ 3664  git status
+ 3665  git checkout
+ 3666  git checkout master
+ 3667  git pull
+ 3668  git checkout feat-norbert-syspacks
+ 3669  git pull
+ 3670  git merge master
+ 3671  git status
+ 3672  git push
+ 3673  git checkout master
+ 3674  git pull
+ 3675  git checkout feat-norbert-syspacks
+ 3676  git merge master
+ 3677  git status
+ 3678  git push
+ 3679  ls
+ 3680  git status
+ 3681  cd
+ 3682  cd Documents/informatyczne/iadstudia/twd/linux_me_project/
+ 3683  ls
+ 3684  cd data/
+ 3685  ls
+ 3686  cd python-libs/
+ 3687  ls
+ 3688  v norbert_python_libs.txt
+ 3689  v kuba_python_libs.txt
+ 3690  ls
+ 3691  v norbert_python_libs.txt
+ 3692  cd Documents/informatyczne/iadstudia/twd/linux_me_project/
+ 3693  ls
+ 3694  git status
+ 3695  git add ui/git_stats_ui.R server/system_packages_server.R server/git_stats_server.R server/python_libs_server.R ui/python_libs_ui.R
+ 3696  git commit -m 'python libs tab added'
+ 3697  git push
+ 3698  git fetch
+ 3699  git checkout
+ 3700  git checkout master
+ 3701  git merge feat-norbert-syspacks
+ 3702  git push
+ 3703  git checkout feat-norbert-syspacks
+ 3704  git merge master
+ 3705  cd data/
+ 3706  ls
+ 3707  cd git-stats/
+ 3708  ls
+ 3709  find ~/ -name .git -execdir sh -c 'echo "Repository $(realpath "{}")" && git log -n 10000 --pretty=format:"%h, %an, %as, %s" --date=short && echo "\n"' \; > norbert_git_stats.txt
+ 3710  ls
+ 3711  git add norbert_git_stats.txt ../../ui/about_ui.R
+ 3712  git status
+ 3713  git commit -m 'git stats norbert update and about_ui small change'
+ 3714  git push
+ 3715  git checkout master
+ 3716  git merge feat-norbert-syspacks
+ 3717  git push
+ 3718  git fetch
+ 3719  git pull
+ 3720  cd ../../../
+ 3721  ls
+ 3722  mkdir lab13
+ 3723  ls
+ 3724  cd lab13
+ 3725  ls
+ 3726  mv ~/Downloads/lab13.ipynb .
+ 3727  ls
+ 3728  cd ..
+ 3729  cd linux_me_project/
+ 3730  ls
+ 3731  git status
+ 3732  git add server/git_stats_server.R
+ 3733  git commit -m 'todo to git_stats add'
+ 3734  env
+ 3735  history | wc -l
+ 3736  git status
+ 3737  git push
+ 3738  git fetch
+ 3739  git checkout master
+ 3740  git merge feat-norbert-syspacks
+ 3741  git checkout feat-norbert-syspacks
+ 3742  git fetch
+ 3743  git merge master
+ 3744  git push
+ 3745  git status
+ 3746  git add server/git_stats_server.R
+ 3747  git commit -m 'todo to git_stats add 2'
+ 3748  git push
+ 3749  git checkout
+ 3750  git checkout master
+ 3751  git pull
+ 3752  git merge feat-norbert-syspacks
+ 3753  git push
+ 3754  git checkout feat-norbert-syspacks
+ 3755  git merge master
+ 3756  git push
+ 3757  git status
+ 3758  v --version
+ 3759  last
+ 3760  last -wR
+ 3761  man last
+ 3762  last -w
+ 3763  last
+ 3764  clear
+ 3765  ssh frydrysiakn@ssh.mini.pw.edu.pl
+ 3766  ls
+ 3767  clear
+ 3768  neofetch
+ 3769  cd Documents/informatyczne/iadstudia/twd/linux_me_project/
+ 3770  ls
+ 3771  ls -R
+ 3772  clear
+ 3773  git status
+ 3774  git add server/git_stats_server.R server/system_packages_server.R ui/git_stats_ui.R
+ 3775  git commit -m 'git message analysis add'
+ 3776  git push
+ 3777  git status
+ 3778  git add ui/git_stats_ui.R server/git_stats_server.R
+ 3779  git commit -m 'git part finish prototype'
+ 3780  git push
+ 3781  git checkout master
+ 3782  git merge feat-norbert-syspacks
+ 3783  git status
+ 3784  git push
+ 3785  git checkout feat-norbert-syspacks
+ 3786  git fetch
+ 3787  cd Documents/informatyczne/iadstudia/twd/linux_me_project/
+ 3788  git fetch
+ 3789  clear
+ 3790  ls
+ 3791  v README.md
+ 3792  git status
+ 3793  git add *
+ 3794  git status
+ 3795  git commit -m "python description & sys packs one input del"
+ 3796  git push
+ 3797  git checkout
+ 3798  git checkout master
+ 3799  git fetch
+ 3800  git pull
+ 3801  git merge feat-norbert-syspacks
+ 3802  git push
+ 3803  git checkout feat-norbert-syspacks
+ 3804  pip3 install pipdeptree
+ 3805  pipdeptree 
+ 3806  cd
+ 3807  cd Downloads/
+ 3808  pipdeptree > test.txt
+ 3809  v test.txt
+ 3810  clear
+ 3811  rm test.txt
+ 3812  ls
+ 3813  cd ../Documents/informatyczne/iadstudia/twd/linux_me_project/
+ 3814  ls
+ 3815  cd data/
+ 3816  cd git-stats/
+ 3817  ls
+ 3818  find ~/ -name .git -execdir sh -c 'echo "Repository $(realpath "{}")" && git log -n 10000 --pretty=format:"%h, %an, %as, %s" --date=short && echo "\n"' \; > norbert_git_stats.txt
+ 3819  git status
+ 3820  ls
+ 3821  pipdeptree --json
+ 3822  git status
+ 3823  git add norbert_git_stats.txt
+ 3824  git commit -m '18 jan git stats norbert update'
+ 3825  git push
+ 3826  git checkout master
+ 3827  git merge feat-norbert-syspacks
+ 3828  git push
+ 3829  cd
+ 3830  cd Downloads/
+ 3831  pipdeptree --json > test.json
+ 3832  v test.json
+ 3833  cd ..
+ 3834  cd Documents/informatyczne/iadstudia/twd/linux_me_project/
+ 3835  v README.md
+ 3836  git status
+ 3837  git add
+ 3838  git add README.md
+ 3839  git commit -m "python dependecies quick command found"
+ 3840  git push
+ 3841  git checkout master
+ 3842  git merge feat-norbert-syspacks
+ 3843  git checkout
+ 3844  git checkout feat-norbert-syspacks
+ 3845  git merge master
+ 3846  git push
+ 3847  ls
+ 3848  cd data/
+ 3849  cd python-libs/
+ 3850  mkdir dependencies
+ 3851  cd dependencies/
+ 3852  ls -R ../
+ 3853  pipdeptree --json > norbert_dep.json
+ 3854  git status
+ 3855  git add ./
+ 3856  git status
+ 3857  v norbert_dep.json
+ 3858  cat norbert_dep.json | wc -l
+ 3859  git commit -m "python dependecies norbert add"
+ 3860  git push
+ 3861  git checkout master
+ 3862  git merge feat-norbert-syspacks
+ 3863  git push
+ 3864  git checkout feat-norbert-syspacks
+ 3865  git fetch
+ 3866  git status
+ 3867  cd ../../
+ 3868  cd ../
+ 3869  ls
+ 3870  history | wc -l
+ 3871  man pipdeptree
+ 3872  pip3 list
+ 3873  man pip3
+ 3874  man python3
+ 3875  clear
+ 3876  cd
+ 3877  cd Downloads/
+ 3878  ls
+ 3879  mv lab14.ipynb ../Documents/informatyczne/iadstudia/twd/lab14/
+ 3880  mv lab14.ipynb ../Documents/informatyczne/iadstudia/twd/
+ 3881  cd ../Documents/informatyczne/iadstudia/twd/
+ 3882  ls
+ 3883  mkdir lab14
+ 3884  mv la]
+ 3885  mv lab14.ipynb lab14/
+ 3886  cd lab14
+ 3887  ls
+ 3888  pip3 install graph_tool
+ 3889  brew install graph-tool
+ 3890  brew --prefix graph-tool
+ 3891  brew test -v graph-tool
+ 3892  /opt/homebrew/bin/python3 /Applications/DataSpell.app/Contents/plugins/python-ce/helpers/packaging_tool.py install graph-tool
+ 3893  python3.11 -m pip install --upgrade pip
+ 3894  /opt/homebrew/bin/python3 /Applications/DataSpell.app/Contents/plugins/python-ce/helpers/packaging_tool.py install graph-tool
+ 3895  brew install graph-tool
+ 3896  brew remove graph-tool
+ 3897  cd Downloads/
+ 3898  ls
+ 3899  pwd
+ 3900  ar --use-compress-program=unzstd -xvf CA.xml.zst
+ 3901  brew install graph-tool
+ 3902  pip freeze | grep graph
+ 3903  python3 freeze | grep graph
+ 3904  pip3 list
+ 3905  pip3 list | grep graph
+ 3906  cd ..
+ 3907  cd linux_me_project/
+ 3908  git checkout master
+ 3909  git pull
+ 3910  git checkout feat-norbert-syspacks
+ 3911  git merge master
+ 3912  git status
+ 3913  git push
+ 3914  ls
+ 3915  git status
+ 3916  mkdir imports
+ 3917  ls
+ 3918  cd imports/
+ 3919  touch calendarheatmap.R
+ 3920  v calendarheatmap.R
+ 3921  cd ..
+ 3922  ls
+ 3923  ls -R
+ 3924  git add server/git_stats_server.R app.R imports/
+ 3925  git commit -m "heatmap files local in imports and scale change"
+ 3926  git push
+ 3927  git checkout master
+ 3928  git merge feat-norbert-syspacks
+ 3929  git push
+ 3930  git checkout feat-norbert-syspacks
+ 3931  cd Documents/informatyczne/iadstudia/
+ 3932  ls
+ 3933  cd po_programy/
+ 3934  ls
+ 3935  rm -R zpoif_2023_zespol_18/
+ 3936  sudo rm -R zpoif_2023_zespol_18/
+ 3937  ls
+ 3938  cd ..
+ 3939  cd twd/linux_me_project/
+ 3940  ls
+ 3941  git status
+ 3942  v README.md
+ 3943  git add README.md imports/calendarheatmap.R
+ 3944  git commit -m "heatmap colors change and README huge change"
+ 3945  git push
+ 3946  git fetch
+ 3947  git checkout master
+ 3948  git pull
+ 3949  git merge feat-norbert-syspacks
+ 3950  git push
+ 3951  git checkout feat-norbert-syspacks
+ 3952  git status
+ 3953  git add server/git_stats_server.R ui/about_ui.R
+ 3954  git commit -m "about section done and xaxis and yaxis titles in git section add"
+ 3955  git push
+ 3956  git checkout master
+ 3957  git merge feat-norbert-syspacks
+ 3958  git push
+ 3959  git checkout feat-norbert-syspacks
+ 3960  git fetch
+ 3961  exit
+ 3962  history | wc -l
+ 3963  cd Documents/informatyczne/iadstudia/
+ 3964  ls
+ 3965  mkdir fizyka
+ 3966  cd fizyka/
+ 3967  mv ~/Downloads/Elektromagnetyzm-* .
+ 3968  ls
+ 3969  open *
+ 3970  cd ..
+ 3971  cd po_programy/zpoif_2023_zespol_18/
+ 3972  git status
+ 3973  git branch --sort=-commitdate 
+ 3974  git branch --sort=-committerdate 
+ 3975  cd ..
+ 3976  cd Documents/informatyczne/iadstudia/twd/linux_me_project/
+ 3977  git status
+ 3978  git fetch
+ 3979  fig doctor
+ 3980  git checkout master
+ 3981  git pull
+ 3982  cd Documents/informatyczne/iadstudia/twd/linux_me_project/
+ 3983  git pull
+ 3984  git checkout feat-norbert-syspacks
+ 3985  git merge master
+ 3986  git push
+ 3987  git fetch
+ 3988  git checkout master
+ 3989  git status
+ 3990  git pull
+ 3991  bpytop
+ 3992  clear
+ 3993  cd Documents/informatyczne/iadstudia/po_programy/zpoif_2023_zespol_18/
+ 3994  git status
+ 3995  git rm testoutput/
+ 3996  git rm -r testoutput/
+ 3997  git status
+ 3998  git add .gitignore
+ 3999  git status
+ 4000  git commit -m ".gitignore update and remove unnecessary files"
+ 4001  git status
+ 4002  git push
+ 4003  cd Documents/informatyczne/iadstudia/po_programy/zpoif_2023_zespol_18/
+ 4004  git status
+ 4005  git rm -r out/
+ 4006  git status
+ 4007  git commit -m "unnecessary files remove form out/ folder"
+ 4008  git push
+ 4009  ls
+ 4010  brew search obs
+ 4011  brew info obs
+ 4012  brew install obs
+ 4013  ls
+ 4014  cd src/data/collect/
+ 4015  ls
+ 4016  v PlayersStatsGetter.java
+ 4017  cd ..
+ 4018  ls
+ 4019  cd frames/
+ 4020  ls
+ 4021  cd visualization/
+ 4022  ls
+ 4023  v App.java
+ 4024  git status
+ 4025  git rm -r out/
+ 4026  cd ../..
+ 4027  cd ..
+ 4028  git rm -r out/
+ 4029  ls
+ 4030  git rm -r out/
+ 4031  git log
+ 4032  git status
+ 4033  cd Documents/informatyczne/iadstudia/twd/linux_me_project/
+ 4034  git fetch
+ 4035  git status
+ 4036  git pull
+ 4037  ls -R
+ 4038  mv data/python-libs/dependencies/mateusz.dep.json data/python-libs/dependencies/mateusz_dep.json
+ 4039  git status
+ 4040  git add data/python-libs/dependencies/mateusz.dep.json data/python-libs/dependencies/mateusz_dep.json
+ 4041  git status
+ 4042  git commit -m "name fix for mateusz python dependecies"
+ 4043  git push
+ 4044  cd data/python-libs/dependencies/
+ 4045  ls
+ 4046  v mateusz_dep.json
+ 4047  git add ../../../server/python_libs_server.R
+ 4048  git commit -m "add mateusz python dependencies graph"
+ 4049  git push
+ 4050  cd Documents/informatyczne/iadstudia/twd/linux_me_project/
+ 4051  cd data/
+ 4052  cd bash-history/
+ 4053  ls
+ 4054  history | wc -l
