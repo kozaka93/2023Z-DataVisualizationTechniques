@@ -1,0 +1,12 @@
+name: TWD_Projekt2_Health
+title: TWD_Projekt2_Health
+username: predki
+account: predki
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10944191
+bundleId: 8180762
+url: https://predki.shinyapps.io/TWD_Projekt2_Health/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
