@@ -1,0 +1,1000 @@
+ 1007  cd cd
+ 1008  cd
+ 1009  cd .local/lib/python3.10/site-packages/
+ 1010  ls
+ 1011  cat $PATH
+ 1012  cd
+ 1013  whereis radian
+ 1014  whereis eclipse
+ 1015  whereis code
+ 1016  .local/lib/python3.10/site-packages/radian
+ 1017  ls
+ 1018  clear
+ 1019  ls /usr/local/bin/python
+ 1020  .local/bin/radian 
+ 1021  radian
+ 1022  ls .local/bin/radian 
+ 1023  ls .local/bin
+ 1024  ls
+ 1025  whereis radian
+ 1026  cat $PATH
+ 1027  $PATH
+ 1028  cat $PATH
+ 1029  CD
+ 1030  cd
+ 1031  ls
+ 1032  pwd
+ 1033  cd .local/bin
+ 1034  ls
+ 1035  ls -a
+ 1036  pwd
+ 1037  export PATH=$PATH:/home/beart/.local/bin
+ 1038  cat $PATH
+ 1039  radian
+ 1040  man alias
+ 1041  alias r="radian"
+ 1042  r
+ 1043  pwd
+ 1044  exit
+ 1045  cd
+ 1046  cd Documents/
+ 1047  ls
+ 1048  cat ofis 
+ 1049  clear
+ 1050  exi
+ 1051  exit
+ 1052  cd programowanie/studia/TWD/Projekt2/linux_me_project/
+ 1053  code .
+ 1054  R
+ 1055  conda install -c conda-forge radian
+ 1056  radian
+ 1057  conda update -n base -c defaults conda
+ 1058  conda radian
+ 1059  clear
+ 1060  conda
+ 1061  conda --version
+ 1062  pip3 install -U radian
+ 1063  radian
+ 1064  clear
+ 1065  pip-3 install --user radian
+ 1066  pip3 install --user radian
+ 1067  radian
+ 1068  R
+ 1069  python
+ 1070  python3
+ 1071  pip3 install -U radian
+ 1072  clear
+ 1073  git branch 
+ 1074  R
+ 1075  git stauts
+ 1076  git status 
+ 1077  git checkout master 
+ 1078  git branch 
+ 1079  git status
+ 1080  git add *
+ 1081  git status
+ 1082  git commit -m"add infoboxes to r-libs"
+ 1083  git push
+ 1084  git status
+ 1085  git checkout master 
+ 1086  git status
+ 1087  git pull
+ 1088  git checkout feat-kuba-rlibs 
+ 1089  git branch 
+ 1090  git status
+ 1091  git restore *
+ 1092  git statsu
+ 1093  git status
+ 1094  git add ui/r_libs_ui.R 
+ 1095  git status
+ 1096  git diff
+ 1097  man git diff
+ 1098  git diff HEAD feat-kuba-rlibs
+ 1099  git diff HEAD origin/feat-kuba-rlibs 
+ 1100  clea
+ 1101  clear
+ 1102  git statis
+ 1103  git stauts
+ 1104  git status 
+ 1105  git restore --staged ui/r_libs_ui.R
+ 1106  git status
+ 1107  shutdown 'now'
+ 1108  sudo apt update
+ 1109  clear
+ 1110  r
+ 1111  radian
+ 1112  man alias
+ 1113  clear
+ 1114  cd programowanie/studia/TWD/Projekt2/linux_me_project/
+ 1115  git status
+ 1116  cd programowanie/studia/TWD/Projekt2/linux_me_project/
+ 1117  shutdown 'now'
+ 1118  git status
+ 1119  ls
+ 1120  python -u "/home/beart/programowanie/studia/AiSD/kol1/test_bst.py"
+ 1121  python3 -u "/home/beart/programowanie/studia/AiSD/kol1/test_bst.py"
+ 1122  python3 -u "/home/beart/programowanie/studia/AiSD/kol1/bst.py"
+ 1123  python3 -u "/home/beart/programowanie/studia/AiSD/kol1/test_bst.py"
+ 1124  rm kol1/test_bst.py 
+ 1125  cd kol1/
+ 1126  cd
+ 1127  python3 -u "/home/beart/programowanie/studia/AiSD/kol1/bst.py"
+ 1128  cd kol1
+ 1129  rm node.py 
+ 1130  python3 -u "/home/beart/programowanie/studia/AiSD/kol1/test_bst.py"
+ 1131  rm test_bst.py 
+ 1132  touch test.py
+ 1133  python3 -u "/home/beart/programowanie/studia/AiSD/kol1/test.py"
+ 1134  rm test.py 
+ 1135  clear
+ 1136  echo /usr/bin/bash
+ 1137  clear
+ 1138  cd ../kol2/
+ 1139  touch hashtable
+ 1140  touch hashtable.py
+ 1141  rm hashtable
+ 1142  ls
+ 1143  clear
+ 1144  touch test.py
+ 1145  python3 -u "/home/beart/programowanie/studia/AiSD/kol2/test.py"
+ 1146  echo /usr/bin/bash
+ 1147  sudo apt update
+ 1148  clear
+ 1149  cd programowanie/studia/TWD/Projekt2/linux_me_project/
+ 1150  ls
+ 1151  clear
+ 1152  git status 
+ 1153  git add *
+ 1154  git status 
+ 1155  git commit -m'add histogram to r-libs'
+ 1156  git sta
+ 1157  git status 
+ 1158  git push
+ 1159  cd
+ 1160  cd programowanie/studia/ZPOiF/my_repos/zpoif_2023_kitam_kapronj/
+ 1161  ls
+ 1162  git status
+ 1163  git branch 
+ 1164  git branch -d test 
+ 1165  git checkout main 
+ 1166  git bran
+ 1167  git branch 
+ 1168  git brach -d test
+ 1169  git branch -d test
+ 1170  git branch 
+ 1171  git pull
+ 1172  git status
+ 1173  cat .gitignore 
+ 1174  ls .settings/
+ 1175  nano .gitignore 
+ 1176  ls
+ 1177  git status 
+ 1178  git add .gitignore 
+ 1179  git branch 
+ 1180  git status 
+ 1181  git commit -m "modify .gitignore"
+ 1182  git push
+ 1183  git branch 
+ 1184  git status 
+ 1185  git branch feature-api-client 
+ 1186  git checkout feature-api-client 
+ 1187  git pull
+ 1188  clear
+ 1189  git branch 
+ 1190  git status
+ 1191  git add src/*
+ 1192  git status
+ 1193  git commit -m "add method for currency exchange rate api query"
+ 1194  git push
+ 1195  git status
+ 1196  git add src/*
+ 1197  git status
+ 1198  git commit -m "add CurrencyExchangeRate class"
+ 1199  git push
+ 1200  cd
+ 1201  cd programowanie/studia/
+ 1202  ls
+ 1203  mkdir AiSD
+ 1204  ls
+ 1205  cd AiSD/
+ 1206  ls
+ 1207  code .
+ 1208  cat $PATH
+ 1209  cd kol1/
+ 1210  touch node.py
+ 1211  code ../
+ 1212  cd ../
+ 1213  code .
+ 1214  shutdown 'now'
+ 1215  echo /usr/bin/bash
+ 1216  python3 -u "/home/beart/programowanie/studia/AiSD/kol2/test.py"
+ 1217  cd kol2/
+ 1218  cat hashtable.py 
+ 1219  clear
+ 1220  echo /usr/bin/bash
+ 1221  python3 -u "/home/beart/programowanie/studia/AiSD/kol2/tempCodeRunnerFile.py"
+ 1222  python3 -u "/home/beart/programowanie/studia/AiSD/kol2/test.py"
+ 1223  rm kol2/tempCodeRunnerFile.py 
+ 1224  clear
+ 1225  rm kol2/test.py 
+ 1226  python3 -u "/home/beart/programowanie/studia/AiSD/kol2/test_hashtable.py"
+ 1227  python3 -u "/home/beart/programowanie/studia/AiSD/kol2/test_hashtable.py"
+ 1228  clear
+ 1229  rm kol2/test_hashtable.py 
+ 1230  touch kol2/selectionsort.py
+ 1231  touch kol1/list.py
+ 1232  rm -r .vscode/
+ 1233  python3 -u "/home/beart/programowanie/studia/AiSD/kol2/selectionsort.py"
+ 1234  /bin/python3
+ 1235  python3 -u "/home/beart/programowanie/studia/AiSD/test.py"
+ 1236  python3 -u "/home/beart/programowanie/studia/AiSD/kol2/test_selectionsort.py"
+ 1237  clear
+ 1238  python3 -u "/home/beart/programowanie/studia/AiSD/kol2/test_selectionsort.py"
+ 1239  touch kol2/quicksort.py
+ 1240  python3 -u "/home/beart/programowanie/studia/AiSD/kol2/quicksort.py"
+ 1241  touch kol2/insertionsort.py
+ 1242  python3 -u "/home/beart/programowanie/studia/AiSD/kol2/test_selectionsort.py"
+ 1243  python3 -u "/home/beart/programowanie/studia/AiSD/kol2/tempCodeRunnerFile.py"
+ 1244  python3 -u "/home/beart/programowanie/studia/AiSD/kol2/test_selectionsort.py"
+ 1245  python3 -u "/home/beart/programowanie/studia/AiSD/kol2/insertionsort.py"
+ 1246  python3 -u "/home/beart/programowanie/studia/AiSD/kol2/test_selectionsort.py"
+ 1247  sudo apt update 
+ 1248  clear
+ 1249  cd programowanie/studia/AiSD/
+ 1250  ls
+ 1251  code .
+ 1252  sudo apt update 
+ 1253  sudo apt upgrade 
+ 1254  cd kol2/
+ 1255  ls
+ 1256  rm tempCodeRunnerFile.py 
+ 1257  rm test_quicksort.py 
+ 1258  ls ../
+ 1259  rm ../test.py 
+ 1260  ls
+ 1261  rm test_*
+ 1262  python3 -u "/home/beart/programowanie/studia/AiSD/kol2/quicksort.py"
+ 1263  python3 -u "/home/beart/programowanie/studia/AiSD/kol2/test_selectionsort.py"
+ 1264  python3 -u "/home/beart/programowanie/studia/AiSD/kol2/test_quicksort.py"
+ 1265  echo /usr/bin/bash
+ 1266  cd programowanie/studia/AiSD/
+ 1267  ls
+ 1268  git clone https://github.com/kuba-kapron/algorithms_and_data_structures_2023.git
+ 1269  ls
+ 1270  mv -r kol1 algorithms_and_data_structures_2023/kol1
+ 1271  mv kol1 algorithms_and_data_structures_2023/kol1
+ 1272  ls
+ 1273  ls algorithms_and_data_structures_2023/
+ 1274  mv kol2 algorithms_and_data_structures_2023/kol1
+ 1275  ls
+ 1276  ls algorithms_and_data_structures_2023/
+ 1277  cd algorithms_and_data_structures_2023/
+ 1278  code .
+ 1279  ls
+ 1280  ls kol1/
+ 1281  ls kol1/kol2/
+ 1282  mv kol1/kol2/ kol2
+ 1283  ls
+ 1284  ls kol2/
+ 1285  git status
+ 1286  nano .gitignore
+ 1287  git status
+ 1288  ls
+ 1289  ls -a
+ 1290  clear
+ 1291  git status
+ 1292  git add *
+ 1293  git status
+ 1294  git add .gitignore 
+ 1295  git status
+ 1296  git commit -m "init"
+ 1297  git push
+ 1298  code .
+ 1299  git status 
+ 1300  shutdown 'now'
+ 1301  sudo apt update 
+ 1302  sudo apt upgrade 
+ 1303  cd /opt/
+ 1304  ls
+ 1305  clear
+ 1306  cd
+ 1307  neofetch 
+ 1308  cd Downloads/
+ 1309  ls
+ 1310  sha256sum ideaIU-2023.3.2.tar.gz 
+ 1311  sha256sum ideaIU-2023.3.2.tar.gz == "c763926c0bd1d14a1a9f07846a3cfd0330d5eacce31263c453710ac7a0f4c20f *ideaIU-2023.3.2.tar.gz"
+ 1312  echo "c763926c0bd1d14a1a9f07846a3cfd0330d5eacce31263c453710ac7a0f4c20f *ideaIU-2023.3.2.tar.gz" | sha256sum -c
+ 1313  clear
+ 1314  ls
+ 1315  sudo tar -xzf ideaIU-2023.3.2.tar.gz -C /opt
+ 1316  ls
+ 1317  ls /opt/
+ 1318  ls /opt/idea-IU-233.13135.103/
+ 1319  cat /opt/idea-IU-233.13135.103/Install-Linux-tar.txt 
+ 1320  ls
+ 1321  rm ideaIU-2023.3.2.tar.gz 
+ 1322  /opt/idea-IU-233.13135.103/bin/idea.sh 
+ 1323  cd /opt/idea-IU-233.13135.103/bin/
+ 1324  pwd
+ 1325  echo $PATH 
+ 1326  export PATH=$PATH:/opt/idea-IU-233.13135.103/bin
+ 1327  echo $PATH 
+ 1328  ls /opt/idea-IU-233.13135.103/bin
+ 1329  clear
+ 1330  ls
+ 1331  echo idea.svg
+ 1332  cat idea.svg 
+ 1333  clear
+ 1334  ls
+ 1335  ls ../
+ 1336  cd ../
+ 1337  cat build.txt 
+ 1338  cat Install-Linux-tar.txt 
+ 1339  cd
+ 1340  ls .config/
+ 1341  ls .config/JetBrains/
+ 1342  ls .config/JetBrains/IntelliJIdea2023.3/
+ 1343  /opt/idea-IU-233.13135.103/bin/idea.sh 
+ 1344  ls /opt/idea-IU-233.13135.103/
+ 1345  ls /opt/idea-IU-233.13135.103/bin/
+ 1346  idea.sh
+ 1347  run idea.sh
+ 1348  clear
+ 1349  echo $PATH
+ 1350  cat /usr/share/applications/
+ 1351  ls  /usr/share/applications/
+ 1352  cd /usr/share/applications/
+ 1353  ls
+ 1354  ls *.desktop
+ 1355  ls /opt/idea-IU-233.13135.103/Install-Linux-tar.txt 
+ 1356  cat /opt/idea-IU-233.13135.103/Install-Linux-tar.txt 
+ 1357  cd /usr/share/applications/
+ 1358  cat code.desktop 
+ 1359  ls
+ 1360  ls ~/.local/share/applications/
+ 1361  cp ~/.local/share/applications/jetbrains-idea.desktop .
+ 1362  sudo cp ~/.local/share/applications/jetbrains-idea.desktop .
+ 1363  ls jet*
+ 1364  cat jetbrains-idea.desktop 
+ 1365  sudo cat jetbrains-idea.desktop 
+ 1366  cat jetbrains-pycharm-ce.desktop 
+ 1367  snap
+ 1368  bitwarden
+ 1369  cd Downloads/
+ 1370  ls
+ 1371  run Screenshot\ 2024-01-11\ at\ 16-33-44\ Patryk\ Spaliński\ w\ serwisie\ X\ „AI\ policzyło\ mi\ że\ na\ #ProtestWolnychPolakow\ jest\ mniej\ więcej\ tyle\ osób.\ Ocenę\ czy\ to\ flop\ czy\ sukces\ pozostawiam\ Wam.\ https\ __t.co_233g0ncYxu”\ _\ X.png 
+ 1372  clear
+ 1373  ls
+ 1374  cat SyZCyvXf.html 
+ 1375  clear
+ 1376  ls
+ 1377  cat puchacz.pdf 
+ 1378  clear
+ 1379  ls
+ 1380  snap
+ 1381  flatpak
+ 1382  flatpak --help 
+ 1383  flatpak list
+ 1384  flatpak run Discord
+ 1385  flatpak run com.discordapp.Discord 
+ 1386  flatpak --help 
+ 1387  flatpak search bitwarden
+ 1388  flatpak update -h
+ 1389  flatpak update
+ 1390  gnome-help 
+ 1391  neofetch 
+ 1392  ls
+ 1393  rm com.discordapp.Discord.flatpakref 
+ 1394  flatpak search discord
+ 1395  flatpak -h
+ 1396  flatpak list 
+ 1397  clear
+ 1398  cd
+ 1399  mkdir AppImages
+ 1400  cd Downloads/
+ 1401  ls
+ 1402  mv Bitwarden-2024.1.0-x86_64.AppImage ../AppImages/
+ 1403  cd
+ 1404  cd AppImages/
+ 1405  ls
+ 1406  clear
+ 1407  ls ../Downloads/
+ 1408  ls
+ 1409  cat $PATH
+ 1410  clear
+ 1411  ls
+ 1412  mv Bitwarden-2024.1.0-x86_64.AppImage ../.local/bin/
+ 1413  cd
+ 1414  cd .local/bin/
+ 1415  ls
+ 1416  cd ../
+ 1417  ls /opt/
+ 1418  man chmod
+ 1419  ls
+ 1420  ls AppImages/
+ 1421  mv .local/bin/Bitwarden-2024.1.0-x86_64.AppImage AppImages/
+ 1422  ls AppImages/
+ 1423  chmod a+x AppImages/Bitwarden-2024.1.0-x86_64.AppImage 
+ 1424  AppImages/Bitwarden-2024.1.0-x86_64.AppImage 
+ 1425  ls /usr/share/applications/
+ 1426  .local/share/applications/
+ 1427  ls .local/share/applications/
+ 1428  grep App
+ 1429  ls | grep App
+ 1430  ls | grep programowanie/
+ 1431  ls | grep programowanie
+ 1432  ls | grep D
+ 1433  ls /usr/share/applications/ | grep bit
+ 1434  dpkg
+ 1435  ls AppImages/
+ 1436  run AppImages/Bitwarden-2024.1.0-x86_64.AppImage 
+ 1437  run
+ 1438  clear
+ 1439  run
+ 1440  clear
+ 1441  AppImages/Bitwarden-2024.1.0-x86_64.AppImage 
+ 1442  cd AppImages/
+ 1443  ls
+ 1444  ./Bitwarden-2024.1.0-x86_64.AppImage --appimage-extract
+ 1445  ls
+ 1446  cd squashfs-root/
+ 1447  ls
+ 1448  cat bitwarden.desktop 
+ 1449  mv bitwarden.desktop ~/.local/share/applications/
+ 1450  mv  ~/.local/share/applications/bitwarden.desktop bitwarden.desktop
+ 1451  ls
+ 1452  cp bitwarden.desktop ~/.local/share/applications/
+ 1453  ls ~/.local/share/applications/
+ 1454  nano ~/.local/share/applications/bitwarden.desktop 
+ 1455  ls ../
+ 1456  nano ~/.local/share/applications/bitwarden.desktop 
+ 1457  cd ../
+ 1458  rm -r squashfs-root/
+ 1459  ls
+ 1460  nano ~/.local/share/applications/bitwarden.desktop 
+ 1461  nano ~/.local/share/applications/jetbrains-idea.desktop 
+ 1462  cd /usr/share/applications/
+ 1463  ls
+ 1464  cat R.desktop 
+ 1465  $home
+ 1466  $HOME/
+ 1467  echo $HOME 
+ 1468  nano ~/.local/share/applications/bitwarden.desktop 
+ 1469  cd /usr/share/applications/
+ 1470  ls | grep eclipse.desktop 
+ 1471  cat eclipse.desktop 
+ 1472  cd ../icons/
+ 1473  ls
+ 1474  ls ~/.local/share/icons/
+ 1475  ls ../pixmaps/
+ 1476  cd
+ 1477  cd AppImages/
+ 1478  ./Bitwarden-2024.1.0-x86_64.AppImage --appimage-extract
+ 1479  ls
+ 1480  cd sq
+ 1481  cd squashfs-root/
+ 1482  ls
+ 1483  cp bitwarden.png /usr/share/pixmaps/
+ 1484  sudo cp bitwarden.png /usr/share/pixmaps/
+ 1485  ls /usr/share/pixmaps/
+ 1486  cd /usr/share/pixmaps/
+ 1487  nano ~/.local/share/applications/bitwarden.desktop 
+ 1488  cd
+ 1489  cd AppImages/
+ 1490  ls
+ 1491  rm -r squashfs-root/
+ 1492  ls
+ 1493  reboot 'now'
+ 1494  reboot
+ 1495  cd programowanie/studia/ZPOiF/my_repos/zpoif_2023_kitam_kapronj/
+ 1496  git status 
+ 1497  git checkout main 
+ 1498  git status
+ 1499  ls -a
+ 1500  cat .classpath 
+ 1501  git branch 
+ 1502  git branch feature-UI-kuba
+ 1503  git branch 
+ 1504  git branch -a
+ 1505  git checkout feature-UI-kuba 
+ 1506  ls
+ 1507  git status
+ 1508  git status 
+ 1509  git add src/*
+ 1510  git status 
+ 1511  git commit -m "Fixed package name in MainWindow.java"
+ 1512  man git push
+ 1513  git push -u origin feature-UI-kuba 
+ 1514  cat ~/programowanie/tok 
+ 1515  clear
+ 1516  git push -u origin feature-UI-kuba 
+ 1517  git checkout main 
+ 1518  git pull
+ 1519  git status 
+ 1520  nano .gitignore 
+ 1521  git status 
+ 1522  git commit -m "Added .idea/ to .gitignore"
+ 1523  git add .gitignore 
+ 1524  git commit -m "Added .idea/ to .gitignore"
+ 1525  git push
+ 1526  git status 
+ 1527  git checkout feature-api-client 
+ 1528  git branch 
+ 1529  clear
+ 1530  git branch 
+ 1531  git pull 
+ 1532  shutdown 'now'
+ 1533  echo /usr/bin/bash
+ 1534  sudo apt update 
+ 1535  sudo apt upgrade 
+ 1536  sudo apt update 
+ 1537  clear
+ 1538  cd programowanie/studia/ZPOiF/my_repos/zpoif_2023_kitam_kapronj/
+ 1539  ls
+ 1540  git status
+ 1541  git pull
+ 1542  cat ~/programowanie/tok 
+ 1543  git pull
+ 1544  git branch 
+ 1545  git status 
+ 1546  git branch -a
+ 1547  clear
+ 1548  java --version 
+ 1549  help java
+ 1550  man java
+ 1551  echo $JAVA_HOME
+ 1552  java --version 
+ 1553  echo $HOME 
+ 1554  echo $PATH 
+ 1555  git branch 
+ 1556  git status 
+ 1557  git diff src/pl/edu/pw/mini/zpoif/project/currencyapp/exchangerates/GoldExchangeRate.java
+ 1558  clear
+ 1559  git status 
+ 1560  git diff src/pl/edu/pw/mini/zpoif/project/currencyapp/exchangerates/GoldExchangeRate.java
+ 1561  git add src/pl/edu/pw/mini/zpoif/project/currencyapp/exchangerates/GoldExchangeRate.java 
+ 1562  git status 
+ 1563  git commit -m "Simplified GoldExchangeRate constructor"
+ 1564  git push
+ 1565  cat ~/programowanie/tok 
+ 1566  git push
+ 1567  git status
+ 1568  git add src/pl/edu/pw/mini/zpoif/project/currencyapp/exchangerates/table/TableOfExchangeRates.java 
+ 1569  git status
+ 1570  git commit -m "Add class for deserializing json with exch. rates tables"
+ 1571  cat ~/programowanie/tok 
+ 1572  git push 
+ 1573  git status
+ 1574  git status 
+ 1575  git restore src/pl/edu/pw/mini/zpoif/project/currencyapp/*/Curr*
+ 1576  git status
+ 1577  cd src/pl/edu/pw/mini/zpoif/project/currencyapp/
+ 1578  git status
+ 1579  git diff exchangerates/CurrencyExchangeRate.java
+ 1580  git diff exchangerates/table/TableOfExchangeRates.java
+ 1581  git status 
+ 1582  git diff apiclients/Test.java
+ 1583  git add *
+ 1584  git status
+ 1585  git commit -m "Added method that converts deserialized data to instances of Currency...Rate (used to plotting)"
+ 1586  cat ~/programowanie/tok 
+ 1587  git push 
+ 1588  git status 
+ 1589  cd
+ 1590  sudo apt update 
+ 1591  clear
+ 1592  shutdown 'now'
+ 1593  cd "/home/beart/programowanie/studia/ZPOiF/my_repos/zpoif_2023_kitam_kapronj/src/pl/edu/pw/mini/zpoif/project/currencyapp/" && javac App.java && java App
+ 1594  cd programowanie/studia/ZPOiF/my_repos/zpoif_2023_kitam_kapronj/
+ 1595  git status
+ 1596  code .
+ 1597  git status
+ 1598  ls
+ 1599  ls src/main/java/pl/edu/pw/mini/zpoif/project/currencyapp/
+ 1600  git add src/*
+ 1601  git status
+ 1602  git commit -m "change project structure"
+ 1603  git push 
+ 1604  cat ~/programowanie/tok 
+ 1605  git push 
+ 1606  git status 
+ 1607  git checkout main 
+ 1608  git pull
+ 1609  git status
+ 1610  ls src/main/
+ 1611  git branch 
+ 1612  git status 
+ 1613  git add pom.xml 
+ 1614  git commit -m "update source directory in pom.xml"
+ 1615  git push
+ 1616  cat ~/programowanie/tok 
+ 1617  git push
+ 1618  git status 
+ 1619  cat .gitignore 
+ 1620  git staut
+ 1621  gut stat
+ 1622  git status 
+ 1623  ls -a
+ 1624  rm .vscode/
+ 1625  rm -r .vscode/
+ 1626  ls
+ 1627  ls src/main/
+ 1628  git status 
+ 1629  ls src/main/resources/gold.json 
+ 1630  cat src/main/resources/gold.json 
+ 1631  clear
+ 1632  git status 
+ 1633  git diff src/main/java/pl/edu/pw/mini/zpoif/project/currencyapp/exchangerates/CurrencyExchangeRate.java
+ 1634  git status
+ 1635  git diff src/main/java/pl/edu/pw/mini/zpoif/project/currencyapp/exchangerates/GoldExchangeRate.java
+ 1636  git add src/main/java/pl/edu/pw/mini/zpoif/project/currencyapp/exchangerates/*
+ 1637  git status
+ 1638  git commit -m "Changed date fields in *ExchangeRate clases from Day to String" 
+ 1639  git status
+ 1640  git add src/main/resources/*
+ 1641  git status
+ 1642  git commit -m "init jsons with data from nbp api"
+ 1643  cat ~/programowanie/tok 
+ 1644  git push
+ 1645  git checkout feature-api-client 
+ 1646  git pull
+ 1647  git stauts
+ 1648  git status
+ 1649  git stauts
+ 1650  git status 
+ 1651  clear
+ 1652  git status
+ 1653  git pull
+ 1654  cat ~/programowanie/tok 
+ 1655  git pull
+ 1656  clear
+ 1657  git status
+ 1658  shutdown 'now'
+ 1659  cd
+ 1660  cd Downloads/
+ 1661  rm network.csv.zip 
+ 1662  clear
+ 1663  echo /usr/bin/bash
+ 1664  cd programowanie/studia/TWD/Laby/
+ 1665  code .
+ 1666  mkdir lab14
+ 1667  ls
+ 1668  mv ~/Downloads/lab14.ipynb lab14/
+ 1669  ls lab14
+ 1670  conda install networkx
+ 1671  clear
+ 1672  conda install matplotlib
+ 1673  conda install pandas
+ 1674  conda install scipy
+ 1675  ls
+ 1676  ls prace_domowe/
+ 1677  mkdir prace_domowe/hw6
+ 1678  ls prace_domowe/
+ 1679  cd ../Projekt2/linux_me_project/
+ 1680  git branch 
+ 1681  git checkout master 
+ 1682  git pull
+ 1683  git status
+ 1684  git checkout feat-kuba-rlibs 
+ 1685  git pull
+ 1686  cd 
+ 1687  cd programowanie/studia/ZPOiF/my_repos/zpoif_2023_kitam_kapronj/
+ 1688  git status
+ 1689  git checkout main 
+ 1690  git status
+ 1691  shutdown 'now'
+ 1692  sudo apt update 
+ 1693  sudo apt upgrade 
+ 1694  cd programowanie/studia/ZPOiF/my_repos/zpoif_2023_kitam_kapronj/
+ 1695  git status
+ 1696  git branch 
+ 1697  git branch -a
+ 1698  git checkout feature-UI-milosz 
+ 1699  git checkout feature-api-client 
+ 1700  git status
+ 1701  code .
+ 1702  cp src/main/java/pl/edu/pw/mini/zpoif/project/currencyapp/apiclients/Test.java ~/Desktop/
+ 1703  git status
+ 1704  git restore src/*
+ 1705  git restore src/main/*
+ 1706  git status
+ 1707  clear
+ 1708  git checkout feature-UI-milosz 
+ 1709  git status
+ 1710  git pull
+ 1711  cat ~/programowanie/tok 
+ 1712  git pull
+ 1713  git status 
+ 1714  git branch
+ 1715  git branch -a
+ 1716  git checkout main 
+ 1717  git status
+ 1718  git merge feature-UI-milosz 
+ 1719  git status
+ 1720  ls src/
+ 1721  git pull
+ 1722  git status
+ 1723  git fetch origin 
+ 1724  man git restore
+ 1725  git status
+ 1726  git reset --hard origin/main 
+ 1727  git status
+ 1728  git checkout feature-UI-milosz 
+ 1729  git status
+ 1730  git pull
+ 1731  git status
+ 1732  man git mergesolv 
+ 1733  clear
+ 1734  man git merge
+ 1735  git branch 
+ 1736  git merge main 
+ 1737  ls 
+ 1738  ls src/
+ 1739  ls src/main/java/pl/edu/pw/mini/zpoif/project/currencyapp/
+ 1740  cat src/main/java/pl/edu/pw/mini/zpoif/project/currencyapp/App
+ 1741  cat src/main/java/pl/edu/pw/mini/zpoif/project/currencyapp/App.java 
+ 1742  git diff src/main/java/pl/edu/pw/mini/zpoif/project/currencyapp/ui/MainWindow.java
+ 1743  git diff src/main/java/pl/edu/pw/mini/zpoif/project/currencyapp/exchangerates/CurrencyExchangeRate.java
+ 1744  git status
+ 1745  git push
+ 1746  git status
+ 1747  git pull
+ 1748  cat ~/programowanie/tok 
+ 1749  git pull
+ 1750  clear
+ 1751  git branch 
+ 1752  git checkout feature-api-client 
+ 1753  git pull
+ 1754  git status
+ 1755  git status 
+ 1756  git add .gitignore 
+ 1757  git commit -m "update .gitignore"
+ 1758  cat ~/programowanie/studia/
+ 1759  cat ~/programowanie/tok 
+ 1760  git push
+ 1761  git status 
+ 1762  git checkout main 
+ 1763  git status 
+ 1764  git status
+ 1765  shutdown 'now'
+ 1766  cd programowanie/studia/ZPOiF/
+ 1767  ls
+ 1768  clea
+ 1769  clear
+ 1770  cd my_repos/zpoif_2023_kitam_kapronj/
+ 1771  ls
+ 1772  cd src/main/resources/
+ 1773  ls
+ 1774  git status
+ 1775  git checkout main 
+ 1776  git pull
+ 1777  cat ~/programowanie/tok 
+ 1778  git pull
+ 1779  git checkout feature-UI-kuba 
+ 1780  git pull
+ 1781  git status
+ 1782  cd ../
+ 1783  cd ~/programowanie/studia/ZPOiF/my_repos/zpoif_2023_kitam_kapronj/
+ 1784  git pull
+ 1785  cd src/main/resources/
+ 1786  git checkout main 
+ 1787  git checkout feature-UI-kuba 
+ 1788  ls
+ 1789  mkdir currencies
+ 1790  ls
+ 1791  mv *.json currencies/
+ 1792  ls
+ 1793  ls currencies/
+ 1794  mv currencies/gold.json gold.json
+ 1795  ls
+ 1796  ls currencies/
+ 1797  git status
+ 1798  cat currencies/usd.json 
+ 1799  clear
+ 1800  git status
+ 1801  git add currencies/*
+ 1802  git status
+ 1803  git *.json
+ 1804  git add *.json
+ 1805  git status
+ 1806  git diff
+ 1807  clear
+ 1808  git status 
+ 1809  git add/rm *.json
+ 1810  git rm *.json
+ 1811  git status
+ 1812  git restore gold.json
+ 1813  ls
+ 1814  git restore --staged gold.json
+ 1815  git status
+ 1816  git restore gold.json
+ 1817  git status
+ 1818  cat gold.json 
+ 1819  clear
+ 1820  git status 
+ 1821  git add chf.json eur.json usd.json 
+ 1822  git status
+ 1823  git commit -m "update resources structure"
+ 1824  git push
+ 1825  cat ~/programowanie/tok 
+ 1826  git push
+ 1827  git status 
+ 1828  cd ../../
+ 1829  cd ../
+ 1830  ls
+ 1831  cpde .
+ 1832  code .
+ 1833  git status
+ 1834  git diff src/main/java/pl/edu/pw/mini/zpoif/project/currencyapp/exchangerates/table/TableOfExchangeRates.java
+ 1835  git status
+ 1836  git diff src/main/java/pl/edu/pw/mini/zpoif/project/currencyapp/exchangerates/table/TableOfExchangeRates.java
+ 1837  git status
+ 1838  git restore src/*/Test.java
+ 1839  git status
+ 1840  git diff */CurrencyExchangeRate.*
+ 1841  git diff */Table*
+ 1842  git status
+ 1843  git add *
+ 1844  git status
+ 1845  git commit -m "Add GraphDataLoader class"
+ 1846  cat ~/programowanie/tok 
+ 1847  git status
+ 1848  git push
+ 1849  git checkout feature-api-client 
+ 1850  git status
+ 1851  git checkout feature-UI-kuba 
+ 1852  shutdown 'now'
+ 1853  cd
+ 1854  cd Desktop/
+ 1855  nano primevideo
+ 1856  cat primevideo 
+ 1857  nano primevideo 
+ 1858  exit
+ 1859  echo /usr/bin/bash
+ 1860  sudo apt update 
+ 1861  clear
+ 1862  cd programowanie/studia/ZPOiF/my_repos/zpoif_2023_kitam_kapronj/
+ 1863  git status
+ 1864  git restore */Test.java
+ 1865  git status
+ 1866  git checkout feature-api-client 
+ 1867  git restore src/main/resources/*
+ 1868  git status
+ 1869  git checkout feature-api-client 
+ 1870  git status
+ 1871  git add */NBP*
+ 1872  git status
+ 1873  git commit -m "Modified NBPAPI client get strings from query methods to write to .json"
+ 1874  cat ~/programowanie/tok 
+ 1875  git push
+ 1876  git checkout main 
+ 1877  git pull
+ 1878  git status
+ 1879  clear
+ 1880  git status 
+ 1881  git checkout feature-UI-kuba 
+ 1882  git status
+ 1883  clear
+ 1884  git pull
+ 1885  cat ~/programowanie/tok 
+ 1886  git pull
+ 1887  git branch 
+ 1888  git pull
+ 1889  cat ~/programowanie/studia/
+ 1890  cat ~/programowanie/tok 
+ 1891  git pull
+ 1892  git status
+ 1893  git rm src/main/resources/*
+ 1894  git rm -r src/main/resources/*
+ 1895  git status
+ 1896  clear
+ 1897  git status
+ 1898  rm src/main/java/pl/edu/pw/mini/zpoif/project/currencyapp/apiclients/Test.java 
+ 1899  git staus
+ 1900  git add *
+ 1901  git status
+ 1902  git commit -m "Add writing NBP API data at app startup and modify NBP API client to not obstruct the work of the app when user is offline"
+ 1903  git status
+ 1904  cat ~/programowanie/tok 
+ 1905  git push 
+ 1906  git checkout main 
+ 1907  git pull
+ 1908  cd
+ 1909  rm Desktop/Test.java 
+ 1910  cd programowanie/studia/TWD/Projekt2/linux_me_project/
+ 1911  git status
+ 1912  cd ~/programowanie/studia/ZPOiF/my_repos/zpoif_2023_kitam_kapronj/
+ 1913  git status
+ 1914  cd
+ 1915  cd programowanie/studia/TWD/Projekt2/linux_me_project/
+ 1916  git status
+ 1917  git pull
+ 1918  git branch -a
+ 1919  git pull
+ 1920  ls data/
+ 1921  ls data/python-libs/
+ 1922  ls data/python-libs/dependencies/
+ 1923  cd data/python-libs/dependencies/
+ 1924  ls
+ 1925  pip3 install pipdeptree
+ 1926  pipdeptree --json > kuba_dep.json
+ 1927  ls
+ 1928  git branch 
+ 1929  cd ../../../
+ 1930  code .
+ 1931  git status
+ 1932  git diff app.R
+ 1933  git diff server/python_libs_server.R
+ 1934  git status
+ 1935  git diff ui/python_libs_ui.R
+ 1936  git status 
+ 1937  git add *
+ 1938  git status 
+ 1939  git commit -m "Add Graph of dependencies to python-libs"
+ 1940  cat ~/programowanie/tok 
+ 1941  git push 
+ 1942  git status
+ 1943  git add server/r_libs_server.R 
+ 1944  git status
+ 1945  git commit -m "Apperance updates in server r-libs"
+ 1946  cat ~/programowanie/tok 
+ 1947  git push
+ 1948  git checkout master 
+ 1949  git pull
+ 1950  git checkout feat-kuba-rlibs 
+ 1951  git branch 
+ 1952  git merge master 
+ 1953  git status
+ 1954  git diff server/r_libs_server.R
+ 1955  git log
+ 1956  clear
+ 1957  git status
+ 1958  git diff server/r_libs_server.R
+ 1959  git add server/r_libs_server.R 
+ 1960  git status
+ 1961  git diff server/r_libs_server.R
+ 1962  git commit -m "merged from main and resolved conflicts"
+ 1963  git push 
+ 1964  cat ~/programowanie/studia/
+ 1965  cat ~/programowanie/tok 
+ 1966  git push 
+ 1967  git checkout master 
+ 1968  git pull
+ 1969  git status 
+ 1970  git checkout feat-kuba-rlibs 
+ 1971  git pull
+ 1972  git status
+ 1973  git add *
+ 1974  git status
+ 1975  git commit -m "Add description to r-libs and update histogram labs"
+ 1976  cat ~/programowanie/tok 
+ 1977  git push
+ 1978  git checkout master 
+ 1979  git pull
+ 1980  git status
+ 1981  git diff README.md
+ 1982  git status
+ 1983  git restore README.md
+ 1984  git diff README.md
+ 1985  git sattus
+ 1986  git status 
+ 1987  git add README.md 
+ 1988  git commit -m "tiny change to README"
+ 1989  git push
+ 1990  cat ~/programowanie/tok 
+ 1991  git push
+ 1992  cd
+ 1993  clear
+ 1994  cd programowanie/studia/TWD/Laby/
+ 1995  code .
+ 1996  shutdown 'now'
+ 1997  pip3 install json
+ 1998  conda install json
+ 1999  clear
+ 2000  cd
+ 2001  cd programowanie/studia/TWD/Projekt2/linux_me_project/
+ 2002  cd data/
+ 2003  git status
+ 2004  git pull
+ 2005  apt list --installed > system-packages/kuba_system_packages.txt 
+ 2006  history > bash-history/kuba_bash_history.txt 
