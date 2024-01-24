@@ -1,0 +1,556 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: "SpiegelRegular";
+  font-size: 14pt;
+  line-height: 20pt;
+  color: var(--grey_1_5);
+  text-rendering: optimizelegibility;
+  cursor: url("assets/cursor.png"), auto;
+}
+
+a,
+button,
+[role="button"] {
+  cursor: url("assets/cursor-pointer.png"), auto;
+}
+
+label {
+  cursor: url("assets/cursor-pointer.png"), auto;
+}
+
+.selectize-dropdown [data-selectable].option {
+  opacity: 1;
+  cursor: url("assets/cursor-pointer.png"), auto;
+}
+
+rect {
+  cursor: url("assets/cursor-pointer.png"), auto !important;
+}
+
+:root {
+  --blue_1: #cdfafa;
+  --blue_2: #0ac8b9;
+  --blue_3: #0297ab;
+  --blue_4: #005a82;
+  --blue_5: #0a323c;
+  --blue_6: #091428;
+  --blue_7: #050a14;
+  --gold_1: #f0e6d2;
+  --gold_2: #c8aa6e;
+  --gold_3: #c89b3c;
+  --gold_4: #785a28;
+  --gold_5: #463714;
+  --gold_6: #32281e;
+  --grey_1: #a09b8c;
+  --grey_1_5: #5b5a56;
+  --grey_2: #3c3c41;
+  --grey_3: #1e2328;
+  --grey_cool: #1e282d;
+  --hextech_black: #010a13;
+  --bg-color: #020a13;
+  --bg-color-light: #171d24;
+}
+
+.typoH1 {
+  font-family: "Beaufort";
+  font-size: 40pt;
+  line-height: 42pt;
+  color: var(--gold_1);
+}
+
+.typoH2 {
+  font-family: "Beaufort";
+  font-size: 28pt;
+  line-height: 32pt;
+  color: var(--gold_1);
+  text-align: center;
+}
+
+.typoH3 {
+  font-family: "Beaufort";
+  font-size: 23pt;
+  line-height: 28pt;
+}
+
+.typoH4 {
+  font-family: "Beaufort";
+  font-size: 18pt;
+  line-height: 22pt;
+}
+
+.typoH5 {
+  font-family: "Beaufort";
+  font-size: 14pt;
+  line-height: 18pt;
+  color: var(--gold_3);
+}
+
+.typoBodyBold {
+  font-family: "SpiegelBold";
+  font-size: 14pt;
+  line-height: 20pt;
+  color: var(--grey_1_5);
+}
+
+.typoBody {
+  font-family: "SpiegelRegular";
+  font-size: 14pt;
+  line-height: 20pt;
+  color: var(--grey_1_5);
+}
+
+.typoBodySmall {
+  font-family: "SpiegelRegular";
+  font-size: 11pt;
+  line-height: 16pt;
+}
+
+.container-fluid {
+  display: flex;
+  width: 100%;
+  background-color: var(--bg-color);
+}
+
+.tab-content {
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.js-plotly-plot .plotly,
+.js-plotly-plot .plotly div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab-wrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+}
+/* TAB 1  */
+
+.tab-title-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.tab-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 32px;
+  gap: 12px;
+  background-color: var(--bg-color-light);
+}
+
+.tab-section-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 0;
+  max-width: 800px;
+  min-width: 500px;
+  gap: 12px;
+}
+
+.tab-champ-buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tab-champ-buttons > div {
+  width: 45% !important;
+}
+
+.tab-decorator-lg {
+  display: flex;
+  width: 450px;
+}
+
+.tab-decorator {
+  display: flex;
+  width: 400px;
+}
+
+.tab-vertical-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding: 32px;
+  background-color: var(--bg-color-light);
+}
+
+.tab-vertical-desc-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.tab1-time-text-wrapper {
+  width: 45%;
+}
+
+.tab1-time-button-wrapper {
+  display: flex;
+  width: 45%;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab-horizontal-chart-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+/* TAB 2  */
+
+.tab-map-buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tab-map-buttons > div {
+  width: 30% !important;
+}
+
+.slider-grip-rect {
+  stroke: var(--gold_2) !important;
+  stroke-width: 2px !important;
+  fill: var(--blue_6) !important;
+}
+
+.slider-tick-rect {
+  fill: var(--gold_5) !important;
+}
+
+.slider-label {
+  font-family: "Beaufort" !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  color: var(--gold_2) !important;
+}
+
+.slider-rail-rect {
+  fill: var(--gold_1) !important;
+}
+
+.updatemenu-item-text {
+  font-family: "Marcellus", serif !important;
+  fill: var(--gold_1) !important;
+  font-size: 15px !important;
+  font-weight: bold !important;
+  letter-spacing: 1px !important;
+  padding: 5px 15px !important;
+}
+
+.updatemenu-item-rect {
+  stroke: var(--gold_2) !important;
+  stroke-width: 2px !important;
+}
+
+/* TAB 3  */
+
+.tab3-sankey-text-wrapper {
+  width: 65%;
+}
+
+.tab3-sankey-button-wrapper {
+  display: flex;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab3-sankey-legend-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.tab3-sankey-legend-item {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.circle-text {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: "Beaufort";
+  font-size: 12pt;
+  line-height: 16pt;
+  color: var(--grey_2);
+}
+
+.tab-adv-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 800px;
+  min-width: 350px;
+  gap: 24px;
+}
+
+.tab-adv-buttons {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: flex-start;
+}
+
+.tab-adv-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  min-width: 850px;
+  max-width: 1000px;
+  margin: 0;
+}
+
+rect.bg {
+  fill: var(--bg-color-light) !important;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  background-color: var(--bg-color);
+  height: 80px;
+  border: 0px;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+}
+
+.navbar-header {
+  display: flex;
+}
+
+.navbar-brand > a {
+  font-family: "Beaufort";
+  font-size: 28pt;
+  line-height: 32pt;
+  color: var(--grey_2) !important;
+  transition: 0.4s ease-in-out;
+}
+
+.navbar-brand > a:hover {
+  color: var(--gold_2) !important;
+  transition: 0.4s ease-in-out;
+  text-decoration-line: none;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  align-items: center;
+  padding: 0px 16px;
+  width: 100%;
+}
+
+.navbar-nav > li > a {
+  color: var(--gold_2);
+  font-family: "Beaufort";
+  width: fit-content;
+  font-size: 14pt;
+  line-height: 20pt;
+  padding: 10px 30px;
+  border-bottom: 2px solid var(--gold_3);
+  border-right: 2px solid var(--gold_3);
+}
+
+.navbar-nav > li > a:hover {
+  color: var(--grey_2);
+  border-bottom: 2px solid var(--gold_2);
+  border-right: 2px solid var(--gold_2);
+  transition: 0.4s ease-in-out;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  color: var(--gold_1);
+  background-image: linear-gradient(to left, var(--gold_6), var(--bg-color));
+  border-bottom: 2px solid var(--gold_1);
+  border-right: 2px solid var(--gold_1);
+  transition: 0.4s;
+}
+
+/* SELECT BUTTON */
+.updatemenu-button,
+.selectize-control.single .selectize-input,
+.selectize-control.single .selectize-input input {
+  cursor: url("assets/cursor-pointer.png"), auto;
+}
+
+.control-label {
+  font-family: "Beaufort";
+  font-size: 14pt;
+  line-height: 20pt;
+  color: var(--gold_2);
+}
+
+.shiny-input-container:not(.shiny-input-container-inline) {
+  width: 250px;
+}
+
+.selectize-input.items.full.has-options.has-items {
+  font-family: "Marcellus", serif;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 5px 15px;
+  background-image: linear-gradient(to bottom, var(--blue_6), var(--blue_7));
+  color: var(--gold_1);
+  box-shadow: inset 0 0 2px #000000;
+  border-radius: 0px;
+  border-image: linear-gradient(to bottom, var(--gold_2), var(--gold_4));
+  border-image-slice: 1;
+  border-width: 2px;
+}
+
+.selectize-input.items.full.has-options.has-items:hover {
+  text-shadow: 0 0 5px #ffffff80;
+  box-shadow: 0 0 8px 0 #ffffff50;
+  background-image: linear-gradient(to bottom, var(--blue_6), var(--gold_5));
+  cursor: url("assets/cursor-pointer.png"), auto;
+  transition: 0.2s;
+}
+
+.updatemenu-button,
+.selectize-input.items.full.has-options.has-items:active {
+  color: var(--gold_1);
+  text-shadow: none;
+  box-shadow: none;
+  color: var(--gold_6);
+}
+
+.selectize-control.single .selectize-input:not(.no-arrow):after {
+  border-color: var(--gold_3) transparent transparent transparent;
+}
+
+.selectize-control.single
+  .selectize-input:not(.no-arrow).dropdown-active:after {
+  border-color: transparent transparent var(--gold_3) transparent;
+}
+
+.selectize-dropdown-content {
+  background-image: linear-gradient(to bottom, var(--blue_6), var(--blue_7));
+  box-shadow: inset 0 0 2px #000000;
+}
+
+.selectize-dropdown,
+.selectize-dropdown.form-control {
+  border-radius: 0px;
+  border-image: linear-gradient(to bottom, var(--gold_4), var(--gold_2));
+  border-image-slice: 1;
+  border-width: 2px;
+}
+
+.option {
+  font-family: "Marcellus", serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 5px 15px;
+  background: var(--blue_7);
+  color: var(--gold_1);
+}
+
+.selectize-dropdown .active {
+  font-size: 16px;
+  background: var(--blue_7);
+  color: var(--gold_1);
+  box-shadow: inset 0 0 6px var(--gold_1);
+}
+
+.selectize-dropdown .selected {
+  background: var(--blue_7);
+  cursor: url("assets/cursor-pointer.png"), auto;
+  font-size: 16px;
+  color: var(--gold_1);
+  box-shadow: inset 0 0 6px var(--gold_2);
+}
+
+/* ABOUT PAGE*/
+.about-container {
+  display: flex;
+  justify-self: center;
+  gap: 4px;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-color-light);
+  padding: 20px;
+}
+
+.tab-about-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 24px;
+  margin-bottom: 88px;
+}
+
+.tab-about-credits {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.tab-about-credits-img {
+  display: flex;
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.tab-about-credits-text {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: "Beaufort";
+  margin-left: 12px;
+  font-size: 16pt;
+  line-height: 20pt;
+  color: var(--gold_1);
+}
+
+.tab4-decorator-lg {
+  display: flex;
+  width: 550px;
+}
+
+.tab-credits-decorator {
+  margin: 8px;
+  display: flex;
+  width: 250px;
+}
