@@ -1,0 +1,239 @@
+endTime,genre,count
+2023-12-10,alternative rock,1
+2023-12-10,hip hop,24
+2023-12-10,indie,6
+2023-12-10,polish alternative,7
+2023-12-10,pop,6
+2023-12-10,r&b,3
+2023-12-10,rap,26
+2023-12-10,rock,7
+2023-12-10,soul,1
+2023-12-11,alternative rock,2
+2023-12-11,hip hop,2
+2023-12-11,indie,20
+2023-12-11,polish alternative,23
+2023-12-11,pop,17
+2023-12-11,r&b,3
+2023-12-11,rap,3
+2023-12-11,rock,23
+2023-12-11,soul,3
+2023-12-12,hip hop,1
+2023-12-12,indie,1
+2023-12-12,polish alternative,5
+2023-12-12,pop,8
+2023-12-12,r&b,1
+2023-12-12,rap,4
+2023-12-12,rock,2
+2023-12-13,alternative rock,4
+2023-12-13,indie,2
+2023-12-13,pop,4
+2023-12-13,r&b,4
+2023-12-13,rock,13
+2023-12-14,alternative rock,4
+2023-12-14,hip hop,6
+2023-12-14,indie,7
+2023-12-14,polish alternative,6
+2023-12-14,pop,18
+2023-12-14,r&b,4
+2023-12-14,rap,16
+2023-12-14,rock,3
+2023-12-15,hip hop,4
+2023-12-15,indie,28
+2023-12-15,polish alternative,3
+2023-12-15,pop,11
+2023-12-15,rap,13
+2023-12-15,rock,2
+2023-12-15,soul,2
+2023-12-16,alternative rock,12
+2023-12-16,hip hop,22
+2023-12-16,indie,6
+2023-12-16,polish alternative,9
+2023-12-16,pop,4
+2023-12-16,r&b,3
+2023-12-16,rap,20
+2023-12-16,rock,39
+2023-12-16,soul,1
+2023-12-17,afrofuturism,7
+2023-12-17,alternative rock,40
+2023-12-17,hip hop,10
+2023-12-17,indie,55
+2023-12-17,polish alternative,12
+2023-12-17,pop,39
+2023-12-17,r&b,5
+2023-12-17,rap,3
+2023-12-17,rock,44
+2023-12-17,soul,14
+2023-12-18,afrofuturism,29
+2023-12-18,alternative rock,19
+2023-12-18,hip hop,20
+2023-12-18,indie,100
+2023-12-18,polish alternative,18
+2023-12-18,pop,49
+2023-12-18,r&b,15
+2023-12-18,rap,19
+2023-12-18,rock,26
+2023-12-18,soul,16
+2023-12-19,afrofuturism,1
+2023-12-19,alternative rock,7
+2023-12-19,hip hop,30
+2023-12-19,indie,8
+2023-12-19,polish alternative,6
+2023-12-19,pop,12
+2023-12-19,r&b,9
+2023-12-19,rap,33
+2023-12-19,rock,18
+2023-12-19,soul,2
+2023-12-20,afrofuturism,18
+2023-12-20,alternative rock,7
+2023-12-20,hip hop,62
+2023-12-20,indie,14
+2023-12-20,polish alternative,1
+2023-12-20,pop,12
+2023-12-20,r&b,23
+2023-12-20,rap,67
+2023-12-20,rock,16
+2023-12-20,soul,10
+2023-12-21,alternative rock,17
+2023-12-21,hip hop,2
+2023-12-21,indie,23
+2023-12-21,polish alternative,2
+2023-12-21,pop,8
+2023-12-21,rock,17
+2023-12-22,indie,2
+2023-12-22,pop,3
+2023-12-23,afrofuturism,1
+2023-12-23,alternative rock,1
+2023-12-23,hip hop,14
+2023-12-23,indie,1
+2023-12-23,pop,14
+2023-12-23,r&b,2
+2023-12-23,rap,13
+2023-12-23,rock,4
+2023-12-23,soul,1
+2023-12-24,indie,1
+2023-12-24,pop,3
+2023-12-26,alternative rock,10
+2023-12-26,hip hop,1
+2023-12-26,indie,16
+2023-12-26,pop,5
+2023-12-26,rock,10
+2023-12-27,indie,1
+2023-12-27,polish alternative,11
+2023-12-27,pop,3
+2023-12-27,rock,10
+2023-12-28,alternative rock,2
+2023-12-28,hip hop,7
+2023-12-28,pop,3
+2023-12-28,r&b,6
+2023-12-28,rap,9
+2023-12-28,rock,12
+2023-12-29,hip hop,3
+2023-12-29,indie,1
+2023-12-29,pop,2
+2023-12-29,r&b,1
+2023-12-29,rap,3
+2023-12-29,soul,1
+2023-12-30,afrofuturism,2
+2023-12-30,alternative rock,11
+2023-12-30,hip hop,1
+2023-12-30,indie,23
+2023-12-30,polish alternative,26
+2023-12-30,pop,13
+2023-12-30,rock,10
+2023-12-31,pop,11
+2023-12-31,rock,14
+2024-01-01,alternative rock,1
+2024-01-01,hip hop,6
+2024-01-01,indie,8
+2024-01-01,polish alternative,17
+2024-01-01,pop,30
+2024-01-01,r&b,2
+2024-01-01,rap,8
+2024-01-01,rock,15
+2024-01-01,soul,3
+2024-01-02,afrofuturism,10
+2024-01-02,alternative rock,13
+2024-01-02,hip hop,11
+2024-01-02,indie,19
+2024-01-02,polish alternative,20
+2024-01-02,pop,28
+2024-01-02,r&b,14
+2024-01-02,rap,13
+2024-01-02,rock,58
+2024-01-02,soul,26
+2024-01-03,afrofuturism,11
+2024-01-03,alternative rock,13
+2024-01-03,hip hop,29
+2024-01-03,indie,36
+2024-01-03,polish alternative,12
+2024-01-03,pop,43
+2024-01-03,r&b,27
+2024-01-03,rap,28
+2024-01-03,rock,21
+2024-01-03,soul,61
+2024-01-04,afrofuturism,3
+2024-01-04,alternative rock,3
+2024-01-04,hip hop,47
+2024-01-04,indie,9
+2024-01-04,polish alternative,13
+2024-01-04,pop,29
+2024-01-04,r&b,24
+2024-01-04,rap,72
+2024-01-04,rock,8
+2024-01-04,soul,25
+2024-01-05,alternative rock,1
+2024-01-05,polish alternative,1
+2024-01-05,pop,2
+2024-01-05,r&b,1
+2024-01-05,rap,1
+2024-01-05,rock,2
+2024-01-05,soul,2
+2024-01-06,afrofuturism,27
+2024-01-06,alternative rock,4
+2024-01-06,hip hop,20
+2024-01-06,indie,8
+2024-01-06,pop,7
+2024-01-06,r&b,9
+2024-01-06,rap,20
+2024-01-06,rock,3
+2024-01-06,soul,7
+2024-01-07,afrofuturism,100
+2024-01-07,alternative rock,3
+2024-01-07,hip hop,41
+2024-01-07,indie,16
+2024-01-07,polish alternative,1
+2024-01-07,pop,23
+2024-01-07,r&b,41
+2024-01-07,rap,44
+2024-01-07,rock,7
+2024-01-07,soul,35
+2024-01-08,afrofuturism,42
+2024-01-08,alternative rock,17
+2024-01-08,hip hop,42
+2024-01-08,indie,33
+2024-01-08,polish alternative,6
+2024-01-08,pop,19
+2024-01-08,r&b,17
+2024-01-08,rap,39
+2024-01-08,rock,29
+2024-01-08,soul,17
+2024-01-09,afrofuturism,8
+2024-01-09,alternative rock,7
+2024-01-09,hip hop,12
+2024-01-09,indie,21
+2024-01-09,polish alternative,10
+2024-01-09,pop,13
+2024-01-09,r&b,8
+2024-01-09,rap,16
+2024-01-09,rock,18
+2024-01-09,soul,13
+2024-01-10,afrofuturism,15
+2024-01-10,alternative rock,5
+2024-01-10,hip hop,44
+2024-01-10,indie,22
+2024-01-10,polish alternative,60
+2024-01-10,pop,57
+2024-01-10,r&b,51
+2024-01-10,rap,58
+2024-01-10,rock,37
+2024-01-10,soul,62
