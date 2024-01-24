@@ -9,6 +9,6 @@ To see our application click
 **[here](https://kateqwerty001.pythonanywhere.com)**.
 
 <div align="center">
-  <img src="Boguszewska_Bokhan_Okrojek/screens/main.png" width="800"/>
+  <img src="/screens/main.png" width="800"/>
 </div>
 
