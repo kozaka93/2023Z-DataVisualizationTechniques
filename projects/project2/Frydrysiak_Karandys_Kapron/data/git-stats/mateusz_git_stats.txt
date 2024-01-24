@@ -1,0 +1,512 @@
+Repository /home/mateusz/Mini/java/my_repos/java-exercises/.git
+fc7273d, vecel, 2023-04-28, PrzejscieGraniczne
+4db84c9, vecel, 2023-04-25, AutomtSprzedajacy
+66e435c, Mateusz Karandys, 2023-04-02, Bozena
+a132e94, Mateusz Karandys, 2023-03-28, Grzybobranie
+9ffa6e0, Mateusz Karandys, 2023-03-19, Kret
+
+Repository /home/mateusz/Mini/java/my_repos/po_2023_lessons/.git
+edc49ae, Maciej Bednarz, 2023-06-10, Rozwiązanie zadania Reverse Engineering 1.
+92c57ae, Maciej Bednarz, 2023-05-30, Moduł 4 - UI i wątki.
+7ba63cd, Maciej Bednarz, 2023-05-29, Pliki do zadania 3c.
+f9d6025, Maciej Bednarz, 2023-05-23, Pliki do zadania Czarter
+b0eaea3, Maciej Bednarz, 2023-05-23, PLiki do zadania dla grupy wtorek 14-00
+d3c4c77, Maciej Bednarz, 2023-05-19, Pliki z danymi załączane do niektórych zadań z poprzednich lat.
+6be6748, Maciej Bednarz, 2023-05-19, Przykladowe akceptowalne rozwiazanie zadania 3 - "Odloty...".
+3997825, Maciej Bednarz, 2023-05-09, Modul3-IO
+4227726, Maciej Bednarz, 2023-04-22, * Przykladowe akceptowalne rozwiazanie zadania 2 - "Pralnia".
+7fdeca9, Maciej Bednarz, 2023-04-11, Modul2-Kolekcje
+7fdd806, Maciej Bednarz, 2023-03-31, Przykladowe akceptowalne rozwiazanie zadania 1 - "Grzybobranie".
+a990bed, Maciej Bednarz, 2023-03-31, Zagregowane (do jednego projektu) przyklady z zajęć.
+e1b642e, Maciej Bednarz, 2023-03-27, Lab06
+cfad95d, Maciej Bednarz, 2023-02-27, Lab02 topics.
+
+Repository /home/mateusz/Mini/java/my_repos/zpoif_2020_komponenty_do_zadan/.git
+50786b6, Maciej Bednarz, 2020-11-16, Komponenty do zadań ocenianych 4 i 5 + rozwiązania.
+2b3a44d, Maciej Bednarz, 2020-11-04, Zadania oceniane nr 3 + rozwiązanie.
+be99534, Maciej Bednarz, 2020-11-02, Dobre rozwiązanie zadania ocenianego 2a ("Przesłuchanie").
+d7adfdf, Maciej Bednarz, 2020-11-02, Komponenty do zadań ocenianych 2a ("Przesłuchanie") i 2b ("Niszczarka").
+97207bf, Maciej Bednarz, 2020-10-23, Inicjalne elementy do zadań.
+00bdc39, Maciej Bednarz, 2020-10-23, Inicjalne elementy do zadań.
+
+Repository /home/mateusz/Mini/java/my_repos/po_2023_kandysm/.git
+70bfa41, vecel, 2023-11-27, zadanko o mafii
+7c98059, vecel, 2023-11-20, zadanko 4
+50f2466, vecel, 2023-11-13, Zadanko 3
+0a78121, vecel, 2023-11-06, task2
+9064ae8, vecel, 2023-10-30, Move Straszydlak class to Mieszkanie
+20a09d8, vecel, 2023-10-30, Add .gitignore
+176347d, vecel, 2023-10-30, Remove bin directory
+fe6b1c5, vecel, 2023-10-30, Zpoif zadanie oceniane klasy wewnetrzne, lokalne i anonimowe
+d27c778, vecel, 2023-06-12, Zadanie oceniane 4
+6aa7104, vecel, 2023-05-29, Poprawiono AstroParser
+bdf38b5, vecel, 2023-05-29, Poprawiono nazwe paczki
+13fe793, vecel, 2023-05-29, Zadanie oceniane 3c
+8fd2206, vecel, 2023-05-08, Zadanie oceniane 2c
+139b54e, vecel, 2023-05-08, Initial
+01b5ea1, Mateusz Karandys, 2023-04-03, Zadanie_oceniane_1a zmiana lokalizacji Demonstrator.java
+b85dadb, Mateusz Karandys, 2023-04-03, Zadanie_oceniane_1a
+44b8e52, Mateusz Karandys, 2023-03-20, MyRandom class
+fa55337, Mateusz Karandys, 2023-03-13, Zadanie - pozdrowienia
+
+Repository /home/mateusz/Mini/java/my_repos/zpoif_2023_lessons/.git
+7b7d27a, Maciej Bednarz, 2023-11-27, Komponenty do zadania ocenianego nr 5a.
+1ea34b2, Maciej Bednarz, 2023-11-21, Komponenty do zadania 3c.
+fd15996, Maciej Bednarz, 2023-11-20, Merge branch 'master' of https://github.com/bednarzm/zpoif_2023_lessons
+51cb80a, Maciej Bednarz, 2023-11-20, Zadanie 4a
+e5d03b1, Maciej Bednarz, 2023-11-13, Zadanie 3b.
+17aa103, Maciej Bednarz, 2023-11-13, Zadanie 3a
+dfd08a0, Maciej Bednarz, 2023-11-12, Komponenty do kontrolnych zadań Jachty i Okręty.
+c23da8b, Maciej Bednarz, 2023-11-05, Jedno z dobrych rozwiazan zadania "Media".
+272c10e, Maciej Bednarz, 2023-10-29, Rozwiązanie zadania: Nawiedzone.
+5e203de, Maciej Bednarz, 2023-10-23, Memory
+29e2f86, Maciej Bednarz, 2023-10-16, DebugMe
+a92cd25, Maciej Bednarz, 2023-10-10, Empty repo init.
+
+Repository /home/mateusz/Mini/mntmp/pro2/.git
+88dcb33, vecel, 2024-01-07, final commit
+
+Repository /home/mateusz/Mini/mntmp/.git
+0f60eb8, vecel, 2023-12-02, add README
+f041d92, vecel, 2023-12-02, final commit
+
+Repository /home/mateusz/Mini/twd/linux_me_project/.git
+bc5ca0e, Mateusz Karandys, 2024-01-20, Merge pull request #16 from fantasy2fry/bash-history-features
+35a8b89, vecel, 2024-01-20, hide plot modebar
+613dec7, vecel, 2024-01-20, add bash history tab description
+e84101c, Norbert Frydrysiak, 2024-01-20, about section done and xaxis and yaxis titles in git section add
+338bb77, Norbert Frydrysiak, 2024-01-20, heatmap colors change and README huge change
+8a8b181, Norbert Frydrysiak, 2024-01-18, heatmap files local in imports and scale change
+b0faa9b, Jakub Kaproń, 2024-01-18, Merge pull request #14 from fantasy2fry/feat-kuba-rlibs
+9f137da, Norbert Frydrysiak, 2024-01-18, python dependecies norbert add
+a98f2de, Norbert Frydrysiak, 2024-01-18, python dependecies quick command found
+400c169, Norbert Frydrysiak, 2024-01-18, 18 jan git stats norbert update
+30f062c, Norbert Frydrysiak, 2024-01-18, python description & sys packs one input del
+5d6fc13, Norbert Frydrysiak, 2024-01-17, git part finish prototype
+e4d19f9, Norbert Frydrysiak, 2024-01-17, git message analysis add
+3ddd557, kuba-kapron, 2024-01-14, add histogram to r-libs
+8212cdb, kuba-kapron, 2024-01-12, add infoboxes to r-libs
+72f94a3, kuba-kapron, 2024-01-11, update TODO
+44e7b18, Norbert Frydrysiak, 2024-01-11, Merge branch 'feat-norbert-syspacks'
+3854155, Norbert Frydrysiak, 2024-01-11, todo to git_stats add 2
+822bcf0, Jakub Kaproń, 2024-01-11, Merge pull request #12 from fantasy2fry/feat-kuba-rlibs
+8e07afd, kuba-kapron, 2024-01-11, update Kuba's data
+27e21ae, Norbert Frydrysiak, 2024-01-11, todo to git_stats add
+a931220, Norbert Frydrysiak, 2024-01-11, git stats norbert update and about_ui small change
+1babf65, Norbert Frydrysiak, 2024-01-11, python libs tab added
+71f9368, Norbert Frydrysiak, 2024-01-11, Merge pull request #11 from fantasy2fry/feat-kuba-rlibs
+91d3a47, Norbert Frydrysiak, 2024-01-11, Merge pull request #10 from fantasy2fry/feat-norbert-syspacks
+b6d0c6a, Norbert Frydrysiak, 2024-01-11, Merge branch 'master' into feat-norbert-syspacks
+1821dee, Norbert Frydrysiak, 2024-01-11, system_packages version beta, added python libs tab choice
+55bd68a, kuba-kapron, 2024-01-11, added import of Mateusz's r-libs in r_libs_server.R
+2d6a274, Jakub Kaproń, 2024-01-11, Merge pull request #9 from fantasy2fry/feat-kuba-rlibs
+719f759, Jakub Kaproń, 2024-01-11, Merge pull request #8 from fantasy2fry/master
+16e490b, kuba-kapron, 2024-01-11, updated tutorial on how to get r-libs data in README
+a5cf327, Mateusz Karandys, 2024-01-11, Merge pull request #7 from fantasy2fry/about
+f078bf2, vecel, 2024-01-11, about tab template
+3f34050, vecel, 2024-01-11, small text fix
+4eecada, vecel, 2024-01-11, add mateusz r libs
+b9cdb3f, Norbert Frydrysiak, 2024-01-10, calendar heatmap add :D :D :D
+07ee372, Norbert Frydrysiak, 2024-01-10, git-stats 3 short info add and data update
+0c50789, Norbert Frydrysiak, 2024-01-09, figthting with calendar plot (aka heatmap) and some adding of boxes from shinydashboard
+8214bdb, Norbert Frydrysiak, 2024-01-08, my plan for git stats add
+b30dd48, kuba-kapron, 2024-01-08, added selectable number of most frequently imported packages to show in the network plot
+b12b8a5, kuba-kapron, 2024-01-08, added person selection in r-libs
+b97ed2c, Jakub Kaproń, 2024-01-08, Merge pull request #6 from fantasy2fry/master
+7486353, Norbert Frydrysiak, 2024-01-08, norbert r-libs add
+808ab35, kuba-kapron, 2024-01-08, add basic packages' imports network
+2404483, Jakub Kaproń, 2024-01-04, Merge pull request #5 from fantasy2fry/feat-kuba-rlibs
+39e693f, kuba-kapron, 2024-01-04, fixed missing r_libs_server.R import and added simple r libs data-loading function
+22cbb33, kuba-kapron, 2024-01-03, Merge pull request #4 from fantasy2fry/feat-kuba-rlibs
+744f541, kuba-kapron, 2024-01-03, update app.R with ui and server functions for r libs
+3268c79, kuba-kapron, 2024-01-03, Merge branch 'master' into feat-kuba-rlibs with updated readme and kuba's r libs data
+b3966f5, kuba-kapron, 2024-01-03, initialize ui and server functions for r libs
+93b561a, kuba-kapron, 2023-12-30, Kuba's r libs and deletion of a placeholder text file
+39cb2ac, kuba-kapron, 2023-12-30, update REAMDE with info on r-libs
+f1ff0fa, vecel, 2023-12-26, remove todo
+b64f8e0, vecel, 2023-12-26, sequences table description
+6b2d9bc, vecel, 2023-12-26, most used commands sequences table
+7fd5c2f, vecel, 2023-12-26, write consecutiveCombinations function
+3c1256c, vecel, 2023-12-25, add shinycssloaders spinners
+b40b990, vecel, 2023-12-25, column layout
+c80a9c1, vecel, 2023-12-25, move styles to app.R
+70c393e, vecel, 2023-12-25, add styles for tabBox
+d50e08d, vecel, 2023-12-25, add boxes and dt table
+8575caa, Norbert Frydrysiak, 2023-12-21, bash plots modification and one plot added to pacakges analysis
+f8822b7, Norbert Frydrysiak, 2023-12-19, Merge pull request #3 from fantasy2fry/feat-norbert-syspacks
+89eac5a, Norbert Frydrysiak, 2023-12-19, norbert linux bash commends added to dataframe
+a50f917, Norbert Frydrysiak, 2023-12-18, syspacks first plot working a little bit add
+6dc6e44, Norbert Frydrysiak, 2023-12-18, Merge pull request #2 from fantasy2fry/feat-norbert-syspacks
+f155826, Norbert Frydrysiak, 2023-12-18, syspacks first plot that it is not working XD add
+1871a99, kuba-kapron, 2023-12-18, Kuba's data without r libs
+c1b5d91, Norbert Frydrysiak, 2023-12-17, Norbert git stats and first attempt for sys packs part add
+37223dc, vecel, 2023-12-17, heatmap sketch
+d443b69, vecel, 2023-12-17, update date in git statistics
+f876185, vecel, 2023-12-17, data preprocessing for git statistics server
+26a0071, vecel, 2023-12-17, add temporary files
+e22d221, vecel, 2023-12-17, add temporary kuba's file and move initialization to server
+8a184f3, vecel, 2023-12-17, untrack .Rhistory
+f64cd9e, vecel, 2023-12-17, reactivity and basic plot
+51940f7, vecel, 2023-12-13, bash history tab layout
+31554a2, vecel, 2023-12-13, add libraries
+8ac7098, vecel, 2023-12-13, dplyr import
+86ae50c, vecel, 2023-12-11, small changes in bash tab
+9e3875c, vecel, 2023-12-11, add ui ids
+b3cf3b5, Norbert Frydrysiak, 2023-12-09, Merge pull request #1 from fantasy2fry/dashboard
+9670619, vecel, 2023-12-08, init
+813a09c, vecel, 2023-12-08, git stats command
+f82a622, vecel, 2023-12-07, mateusz data for bash, python and system
+982234a, Norbert Frydrysiak, 2023-12-07, README start and tmp files add
+6e6037f, Norbert Frydrysiak, 2023-12-07, init
+
+Repository /home/mateusz/Mini/twd/OnlineGroceryBasketAnalysis/.git
+2c935da, vecel, 2023-10-30, Merge branch 'main' of https://github.com/vecel/online-grocery-basket-analysis
+7e026e6, vecel, 2023-10-30, add visualization
+60e1bbb, WujekHussein, 2023-10-29, Add files via upload
+dcc3a71, vecel, 2023-10-28, update .gitignore, remove redundant file
+d8a7902, vecel, 2023-10-25, modify orders preprocessing
+29a0000, vecel, 2023-10-24, add project file
+b42ef06, vecel, 2023-10-24, add medium_orders_preprocessing script
+0669302, vecel, 2023-10-24, add gitignore
+46e6d0b, vecel, 2023-10-18, initial commit
+ef8a96c, Mateusz Karandys, 2023-10-18, Initial commit
+
+Repository /home/mateusz/.nvm/.git
+c92adb3, Jordan Harband, 2023-08-21, v0.39.5
+
+Repository /home/mateusz/Projects/RestAndReact/restandreact/.git
+Repository /home/mateusz/Projects/RedditClone/.git
+4a76ed6, vecel, 2024-01-19, create frontend template
+7281c2c, vecel, 2024-01-19, fix join community bug
+37d1642, Mateusz Karandys, 2024-01-16, Merge pull request #2 from vecel/react-frontend
+b12abc2, vecel, 2024-01-16, user can join community, remove redundant comments
+71dec10, vecel, 2024-01-15, user logging
+23c27c8, vecel, 2024-01-15, update post controller
+f80557b, vecel, 2024-01-15, fix page refreshing after logout
+d89f634, vecel, 2024-01-13, view without community
+17dcfbc, vecel, 2024-01-13, logout feature
+815bd66, vecel, 2024-01-13, fix bug with clearing HttpSession when changing pages
+54736d4, vecel, 2024-01-13, handle errors on signup page
+c223c24, vecel, 2024-01-12, form submission on signup page
+5b44c73, vecel, 2024-01-11, add screenshots
+b7d71f5, vecel, 2024-01-11, initial version of Signup component
+dc14988, vecel, 2024-01-11, Revert "add screenshots"
+49ce524, vecel, 2024-01-11, add screenshots
+aa164b7, vecel, 2024-01-11, refactor community view component
+cb72381, vecel, 2024-01-11, rename endpoint
+30bb38b, vecel, 2024-01-10, fix json reference, add community endpoints
+ec7baa6, vecel, 2024-01-10, add user controller, modify view
+1fa75cb, vecel, 2024-01-10, posts view
+60389b5, vecel, 2024-01-06, fetch and display community
+7ac825e, vecel, 2024-01-06, return json from community controller
+f592d39, vecel, 2024-01-06, create components, render communities list
+410f5e6, vecel, 2024-01-05, Rewrite sidebar
+749b60a, vecel, 2024-01-05, Rewrite header
+0f955f2, vecel, 2024-01-05, Change Structure
+1e2d00a, vecel, 2024-01-05, Initial commit
+b65d9a4, vecel, 2023-12-22, joinig community feature
+31e8a60, vecel, 2023-12-19, fix associations and tests
+04aeed3, vecel, 2023-12-18, default view
+975a44b, vecel, 2023-12-15, fix associations between entities community, post and user
+1a6cd40, vecel, 2023-12-14, add relations between tables in db
+01cad29, vecel, 2023-12-14, remove redunant imports
+7bc9d5f, vecel, 2023-12-14, modify services and add integration tests
+66a950d, vecel, 2023-12-12, dynamically load posts for community
+9235993, vecel, 2023-12-12, dynamically load community content
+00bf672, vecel, 2023-12-12, add tests
+192393a, vecel, 2023-12-10, fix header width
+f6b3ee2, vecel, 2023-12-10, dynamically load commuinities list
+da8e020, vecel, 2023-12-10, fix login controller, fix dbinit
+496c29a, vecel, 2023-12-10, add sidebar
+212deba, vecel, 2023-12-10, rename style.css to header.css
+ad6b71a, vecel, 2023-12-10, rename css files
+f0f7420, vecel, 2023-12-10, comment fragment
+4694ae6, vecel, 2023-12-10, post fragment
+110cbaf, vecel, 2023-12-07, post in community view
+778e367, vecel, 2023-12-07, login authentication
+644a834, vecel, 2023-12-02, rename community-fragment-style to community-fragment
+95762c1, vecel, 2023-12-02, create community fragment html and css
+e8cb037, vecel, 2023-11-30, create Community, Post and Comment classes and repositories
+e80c8e4, vecel, 2023-11-30, add constants classes
+397a5dd, vecel, 2023-11-30, user logout
+d9617ed, vecel, 2023-11-29, add test
+8debccb, vecel, 2023-11-29, add simple tests
+7f5e8d0, vecel, 2023-11-28, Hide jsessionid in url, minor fixes
+71e8dec, vecel, 2023-10-25, add login functionality
+9844549, vecel, 2023-10-19, fix css link file name
+186f275, vecel, 2023-10-19, refactor register and login sites to bem
+3b30d56, vecel, 2023-10-13, refactor to css bem guidlines
+60dc778, vecel, 2023-10-09, display user when registered, add header fragment
+c96af8e, vecel, 2023-10-08, complete user service
+23c8983, vecel, 2023-10-08, add registration exceptions
+50e8ae3, vecel, 2023-10-08, add userdto and password match validation
+2285536, vecel, 2023-10-08, add password validation
+5d62fa7, vecel, 2023-10-06, add sketchy backend register validation
+7a9c7cc, vecel, 2023-10-01, create database entity, repository and initialization
+0b9859f, vecel, 2023-10-01, update html and css
+306d887, vecel, 2023-10-01, add h2 database dependency
+4218d38, vecel, 2023-09-23, add register form validation
+f68836c, vecel, 2023-09-19, add user class
+9e0ce2c, vecel, 2023-09-19, add controllers
+19317ad, vecel, 2023-09-19, organize and modify resources
+f06aa7d, vecel, 2023-08-16, add forms toggling feature
+6516ccb, vecel, 2023-08-16, add login form
+1e67e6f, vecel, 2023-08-16, add signup form
+1c1d78d, vecel, 2023-08-04, add header with nav
+bbf15ca, vecel, 2023-08-02, initial commit
+
+Repository /home/mateusz/Projects/gs-consuming-rest/.git
+d0fdf5b, Jay Bryant, 2023-06-27, Added a paragraph about changing the server port
+87ebd69, Jay Bryant, 2023-05-24, Upgrade to Spring Boot 3.1.0
+1760109, Sébastien Deleuze, 2023-01-16, Use a Java record classes
+ac11538, Sébastien Deleuze, 2023-01-13, Update README.adoc
+91846f4, Sébastien Deleuze, 2023-01-13, Remove Java version override
+b6ff92b, Jay Bryant, 2023-01-10, Update the Docker path in the Jenkinsfile
+bb3f218, Jay Bryant, 2022-12-05, Upgrade to Spring Boot 3.0.0
+6332c81, Jay Bryant, 2022-11-17, Fixed a flawed sentence.
+9041600, Jay Bryant, 2022-11-17, Corrected the quoters link
+9a1b4ad, Jay Bryant, 2022-11-17, Change the quotation source
+62ac15d, Jay Bryant, 2021-09-29, Add pre-populated Initializr link
+80d0f42, Jay Bryant, 2021-09-16, Focus on Spring Initializr
+c186d93, Jay Bryant, 2021-07-08, Update to Boot 2.5.2
+12e6373, Greg L. Turnquist, 2021-06-04, Migrate to maven wrapper.
+3bc977e, Greg L. Turnquist, 2021-06-01, Migrate to Jenkins for CI.
+330f160, Greg L. Turnquist, 2021-06-01, Migrate to Jenkins for CI.
+2b41683, Greg L. Turnquist, 2021-04-26, Migrate from master to main.
+ebbd8e6, Jay Bryant, 2021-03-10, Improved the Spring Initializr section
+77adde4, pauld, 2020-12-28, Correct maven and gradle file previews
+2a7f353, pauld, 2020-12-28, Upgrade to Spring-boot 2.4.1
+3776791, Greg L. Turnquist, 2020-11-02, Upgrade LICENSE file to comply with standards.
+8d567f2, Jay Bryant, 2020-08-04, Update versions
+1090cca, Heaven31415, 2020-01-23, Improve fix based on review
+7033608, Heaven31415, 2020-01-23, Fix a few small issues
+9d554f3, Jay Bryant, 2020-01-02, Upgrade to Spring Boot 2.2.2
+d8ea83b, Jay Bryant, 2019-10-22, Upgraded to Spring Boot 2.2
+1536800, Dave Syer, 2020-01-02, Kick
+058074c, Greg Turnquist, 2019-11-26, Switch to tabs, and adjust tabsizing in asciidoctor.
+f1af974, Greg Turnquist, 2019-11-19, Upgrade to Spring Boot 2.2.1.RELEASE.
+1327804, Greg Turnquist, 2019-11-19, Upgrade to Gradle 4.10.3.
+26757b9, Andrii Kovalenko, 2019-11-14, delete ignored files:
+891a352, Dave Syer, 2019-11-07, Fix test package
+3ffe436, Dave Syer, 2019-11-07, Fix image path
+383d0a0, Jay Bryant, 2019-09-20, Fixing broken links
+f16c0ea, Greg Turnquist, 2019-09-13, Merge pull request #35 from Buzzardo/initializr
+116fe92, Jay Bryant, 2019-08-26, Incorporated Greg Turnquist's review comments
+55c73c1, Jay Bryant, 2019-08-22, Use Spring Initializr
+625633d, Greg Turnquist, 2019-08-12, Updated to @OpenJDK.
+0ce6861, Greg Turnquist, 2019-06-22, Upgrade to Spring Boot 2.1.6.RELEASE
+506418c, Greg Turnquist, 2019-04-22, Upgrade to Spring Boot 2.1.4.RELEASE.
+a8a861a, Greg Turnquist, 2019-03-21, URL Cleanup (#33)
+715f239, Spring Operator, 2019-03-21, URL Cleanup (#32)
+2645e2a, Spring Operator, 2019-03-21, URL Cleanup
+fe392b0, Greg Turnquist, 2019-03-20, Upgrade to Spring Boot 2.1.3.RELEASE
+6723fec, Greg Turnquist, 2019-03-20, Upgrade to Spring Boot 2.0.8.RELEASE.
+8965add, Brian Clozel, 2019-03-20, Merge pull request #31 from spring-operator/polish-urls-xml-master
+c517c6a, Spring Operator, 2019-03-19, URL Cleanup
+bd76ae0, Spring Operator, 2019-03-11, URL Cleanup (#30)
+e123a0b, Greg Turnquist, 2018-09-17, Upgrade to Spring Boot 2.0.5.RELEASE and Spring Cloud Finchley.SR1
+2c1194e, Greg Turnquist, 2018-06-18, Upgrade to @SpringBoot 2.0.3.RELEASE and @SpringCloud Finchley.RELEASE
+aaddb36, Greg Turnquist, 2018-05-09, Upgrade to Spring Boot 2.0.2.RELEASE and Spring Cloud Finchley.RC1
+7910b8f, Greg Turnquist, 2018-04-05, Upgrade to Spring Boot 2.0.1.RELEASE
+b95c6ba, Greg Turnquist, 2018-04-02, Remove front matter
+03f0c3d, Greg Turnquist, 2018-03-05, Replace jar gradle task with bootJar task
+2ac0aee, Greg Turnquist, 2018-03-05, Polish guide to reference 2.0.0.RELEASE
+9068be7, Greg Turnquist, 2018-03-01, Upgrade to Spring Boot 2.0.0.RELEASE
+ffc1817, Greg Turnquist, 2018-03-01, Upgrade to Gradle 4.6
+e95d034, Greg Turnquist, 2018-01-31, Upgrade to Spring Boot 1.5.10.RELEASE
+3634041, Greg Turnquist, 2017-11-30, Upgrade to Spring Boot 1.5.9.RELEASE
+962884f, Greg Turnquist, 2017-10-17, Upgrade to Spring Boot 1.5.8.RELEASE
+8df2553, Dave Syer, 2017-09-15, Add imports to Application.java snippet
+ab890f3, Greg Turnquist, 2017-09-13, Upgrade to Spring Boot 1.5.7.RELEASE
+5f43e2b, Jay Bryant, 2017-08-11, Added See Also links (#25)
+5687d83, Greg Turnquist, 2017-07-27, Upgrade to Spring Boot 1.5.6.RELEASE
+623438d, Greg Turnquist, 2017-07-26, Upgrade to Spring Boot 1.5.5.RELEASE
+98da521, Greg Turnquist, 2017-04-21, Upgrade to Spring Boot 1.5.3.RELEASE
+88e37b9, Greg Turnquist, 2017-03-03, Upgrade to Spring Boot 1.5.2.RELEASE
+49ac95c, Amriteya Pandey, 2017-01-31, Added documentation for @JsonProperty annotation (#24)
+01dae7c, Greg Turnquist, 2017-01-30, Upgrade to Spring Boot 1.5.1.RELEASE
+1ee21ac, Greg Turnquist, 2017-01-30, Upgrade to Spring Boot 1.5.0.RELEASE
+a2e1007, Greg Turnquist, 2017-01-26, Set maven pom.xml to Spring Boot 1.4.4.RELEASE
+57f6a37, Greg Turnquist, 2017-01-26, Upgrade to Spring Boot 1.4.4.RELEASE
+8713043, Greg Turnquist, 2016-12-22, Upgrade to Spring Boot 1.4.3.RELEASE
+316d9b6, Greg Turnquist, 2016-11-30, Upgrade plugin from spring-boot to o.s.boot
+e528793, Greg Turnquist, 2016-11-08, Upgrade to Spring Boot 1.4.2.RELEASE
+9f89f77, Tommy Ludwig, 2016-09-27, Polish README
+7611eaa, Greg Turnquist, 2016-09-23, Upgrade to Spring Boot 1.4.1.RELEASE
+b0cb78b, Dave Syer, 2016-09-23, Add note about corporate proxy
+8401239, Bartosz Majsak, 2016-09-07, Fixes rendering source of Application class (#18)
+8c64709, Greg Turnquist, 2016-08-29, Upgrade to gradle 2.13
+73bd95c, Dave Syer, 2016-08-25, Add test deps to build.gradle
+fb26866, Dave Syer, 2016-08-25, Update to use Spring Boot 1.4 RestTemplateBuilder
+7177efe, Greg Turnquist, 2016-07-29, Upgrade to @SpringBoot 1.4.0.RELEASE
+759e44d, Greg Turnquist, 2016-07-28, Upgrade to Spring Boot 1.3.7.RELEASE
+4982ea1, Greg Turnquist, 2016-07-05, Upgrade to Spring Boot 1.3.6.RELEASE
+b035c64, Dave Syer, 2016-07-02, Add Maven wrapper
+fd01e86, Greg Turnquist, 2016-06-27, Add CONTRIBUTING doc
+534131a, Greg Turnquist, 2016-05-10, Upgrade to Spring Boot 1.3.5.RELEASE
+5d54148, Greg Turnquist, 2016-05-06, Upgrade to Spring Boot 1.3.4.RELEASE
+0a55057, Greg Turnquist, 2016-02-26, Upgrade to Spring Boot 1.3.3.RELEASE
+3ab373c, Greg Turnquist, 2016-02-24, Polish
+a6037fa, Greg Turnquist, 2016-02-24, Merge pull request #15 from markusherzog/master
+f0fe3fd, Greg Turnquist, 2016-02-24, Migrate to container-based infrastructure
+6cb1650, Greg Turnquist, 2016-01-21, Upgrade to Spring Boot 1.3.2.RELEASE
+861208f, Markus Herzog, 2015-12-19, Don't mention Project Lombok’s @Data annotation
+0241ed6, Greg Turnquist, 2015-12-18, Upgrade to Spring Boot 1.3.1.RELEASE
+1bee800, Greg Turnquist, 2015-11-16, Upgrade to Spring Boot 1.3.0.RELEASE
+419b46c, Greg Turnquist, 2015-10-21, Merge pull request #14 from p-gotsonoga/patch-1
+1cc0200, Pavel, 2015-10-22, Fixed formatting.
+87c1559, Greg Turnquist, 2015-10-16, Upgraded to Spring Boot 1.2.7.RELEASE
+6bb9735, Greg Turnquist, 2015-09-23, Polish guide's text
+123a71b, Greg Turnquist, 2015-09-23, Add toString() method
+eb443a5, Greg Turnquist, 2015-09-23, Delombok the guide
+7b0d25c, Greg Turnquist, 2015-09-20, Upgrade to Spring Boot 1.2.6.RELEASE
+2824352, Greg Turnquist, 2015-08-25, Add footer
+c3b8d14, Greg Turnquist, 2015-07-02, Upgrade to Spring Boot 1.2.5.RELEASE
+d164529, Greg Turnquist, 2015-06-22, Remove release repos from maven
+9e8aff7, Greg Turnquist, 2015-06-22, Replace Facebook service with internal one
+a9b80a2, Greg Turnquist, 2015-06-15, Fix slack notifications
+4247520, Greg Turnquist, 2015-06-15, Add travis support
+ed8d351, Greg Turnquist, 2015-06-12, Upgrade non-specific guides to Java 8
+560fe63, Greg Turnquist, 2015-06-09, Upgrade to Spring Boot 1.2.4
+5040965, Greg Turnquist, 2015-03-31, Upgrade to Spring Boot 1.2.3.RELEASE
+829c44e, Greg Turnquist, 2015-03-15, Upgrade to Gradle 2.3
+27587a1, Greg Turnquist, 2015-02-26, Upgrade to Spring Boot 1.2.2.RELEASE
+b296b2f, Greg Turnquist, 2015-02-25, Remove mavenLocal and libs-release from gradle build
+255d3b0, Greg Turnquist, 2015-02-18, Upgrade to Spring Boot 1.2.1.RELEASE
+829d053, Greg Turnquist, 2015-01-14, Remove legacy start-class property from maven builds
+46657e6, Greg Turnquist, 2014-12-11, Upgrade to Spring Boot 1.1.10.RELEASE
+3244a20, Greg Turnquist, 2014-11-20, Convert to use https for repositories
+c3e0fad, Greg Turnquist, 2014-11-12, Upgrade to Spring Boot 1.1.9.RELEASE
+7308025, Greg Turnquist, 2014-10-10, Upgrade to Spring Boot 1.1.8.RELEASE
+e682223, Greg Turnquist, 2014-09-29, Remove redudant 'run the service' macro
+3bf2338, Greg Turnquist, 2014-09-29, Upgrade to Spring Boot 1.1.7.RELEASE
+6eae72d, Greg Turnquist, 2014-09-05, Upgrade to Spring Boot 1.1.6.RELEASE
+9d65eae, Greg Turnquist, 2014-09-02, Enable hiding/showing build steps
+d372729, Greg Turnquist, 2014-08-08, Update to Spring Boot 1.1.5.RELEASE
+724625a, Greg Turnquist, 2014-07-17, Merge pull request #7 from tsuyo/change_url
+e7d35ee, Tsuyoshi Miyake, 2014-07-17, change facebookd id for pivotal
+be94ac0, Greg Turnquist, 2014-07-08, Update to Spring Boot 1.1.4.RELEASE
+c6ce11d, Greg Turnquist, 2014-06-27, Update to Spring Boot 1.1.3.RELEASE
+b369f87, Greg Turnquist, 2014-06-24, Upgrade to Spring Boot 1.1.2.RELEASE
+4c24958, Greg Turnquist, 2014-06-11, Upgrade to Spring Boot 1.1.1.RELEASE
+301012a, Greg Turnquist, 2014-06-11, Replace repo.spring.io/release with repo.spring.io/libs-release
+6498e93, Greg Turnquist, 2014-06-10, Upgrade to Spring Boot 1.1.0.RELEASE
+16c4071, Greg Turnquist, 2014-05-05, Update path to macro content
+463840c, Greg Turnquist, 2014-04-24, Upgrade to Spring Boot 1.0.2.RELEASE
+7156e5b, Greg Turnquist, 2014-04-07, Upgrade to Spring Boot 1.0.1.RELEASE
+65531dd, Greg Turnquist, 2014-04-01, Upgrade to Spring Boot 1.0.0.RELEASE
+911bc16, Greg Turnquist, 2014-03-22, Upgrade to Spring Boot 1.0.0.RC5
+69c0532, Greg Turnquist, 2014-03-04, Upgrade to Spring Boot 1.0.0.RC4
+238d38b, Greg Turnquist, 2014-02-19, Convert to mvn compile for initial codeset
+2ccbdc6, Greg Turnquist, 2014-02-19, Replace initial gradle build with compileJava
+e261f4b, Greg Turnquist, 2014-02-18, Move final build file to the beginning and update guides to reflect this
+9020b8b, Greg Turnquist, 2014-02-17, Remove version number from Spring Boot starters
+715c52c, Greg Turnquist, 2014-02-14, Clean up guides to link to proper javadoc pages and include code instead of use pasted copies
+f87e0c5, Greg Turnquist, 2014-02-14, Upgrade to Spring Boot 1.0.0.RC3
+4a200ef, Greg Turnquist, 2014-02-13, Upgrade to Spring Boot 1.0.0.RC2
+f835c23, Greg Turnquist, 2014-02-12, Upgrade to gradle 1.11
+03c4330, Greg Turnquist, 2014-01-22, Upgrade to Spring Boot 1.0.0.RC1 and other dependencies
+dec1aef, Greg Turnquist, 2014-01-16, Remove old SIDEBAR files
+b9c73f9, Greg Turnquist, 2014-01-15, Initial cut of tag and project metadata
+7214169, Greg Turnquist, 2013-11-25, Convert to asciidoctor
+13194e2, Greg Turnquist, 2013-11-19, Update to Spring Boot 0.5.0.M6 and Jackson2
+070788e, Greg Turnquist, 2013-10-30, Rebuild with gradle 1.8 and also update to Spring Boot 0.5.0.M5
+a7ab442, Greg Turnquist, 2013-09-30, Upgrade guide to use Gradle 1.8
+ff4d142, Greg Turnquist, 2013-09-30, Update a macro so that it properly uses spring.io
+e3954bc, Greg Turnquist, 2013-09-30, Replace repo.springsource.org with repo.spring.io
+41faaa0, Greg Turnquist, 2013-09-27, Upgrade to Spring Boot 0.5.0.M4
+9e60fee, Greg Turnquist, 2013-09-11, Replace 'Spring Boot starter POM' with Spring Boot
+7f114cd, Greg Turnquist, 2013-09-08, Rebuild sidebar
+8a9ecda, Greg Turnquist, 2013-09-08, Rename tut-web in sidebar
+29cf707, Greg Turnquist, 2013-09-06, Add tut-web to sidebar
+935985a, Greg Turnquist, 2013-08-30, Add missing spring-boot-starter to dependencies
+83b47d5, Greg Turnquist, 2013-08-30, Update other version of gradle builds related to 0.5.0.M2
+a006600, Greg Turnquist, 2013-08-30, Upgrade to Spring Boot 0.5.0.M2
+72c4f7f, Greg Turnquist, 2013-08-28, Update guide to include like to gs-sts
+5b9fc60, Chris Beams, 2013-08-24, Rename spring{framework-meta => -guides}
+858b6b3, Greg Turnquist, 2013-08-23, Convert guide to display both Gradle and Maven info
+6bc31d6, Greg Turnquist, 2013-08-22, Fix version of spring-web
+1efbce7, Greg Turnquist, 2013-08-16, Apply http://creativecommons.org/licenses/by-nd/3.0/ to written work in this repo
+5829dbc, Greg Turnquist, 2013-08-16, Add ASLv2 license for the code in this repo
+879ddcc, Greg Turnquist, 2013-08-16, Clarify mods to buildscript section
+0eb76fb, Greg Turnquist, 2013-08-16, Clean up gradle build steps
+94f863d, Greg Turnquist, 2013-08-16, Convert guide to gradle
+19e18b4, Roy Clarkson, 2013-08-16, Update README
+c847cbf, Roy Clarkson, 2013-08-16, Update Spring and Jackson dependencies
+fa8e2a9, Roy Clarkson, 2013-08-15, Update POMs
+3b4173b, Greg Turnquist, 2013-08-15, Use proper name of Git
+aee0a34, Greg Turnquist, 2013-08-15, Fix links for /undestanding/Git
+8d9bcc2, Greg Turnquist, 2013-08-13, Replace understanding docs with macros
+c779d91, Greg Turnquist, 2013-08-13, Move SIDEBAR into a template file
+acece69, Roy Clarkson, 2013-08-13, Update README
+8d8ded4, Roy Clarkson, 2013-08-13, Merge pull request #5 from btalbott/master
+9efbf28, Beverley Talbott, 2013-08-12, Make final edits.
+45608b9, Greg Turnquist, 2013-08-12, Replace Tutorial TBD with REST tutorial
+c30ed07, Greg Turnquist, 2013-08-12, Fix link to spring-boot-maven-plugin
+a01e03e, Chris Beams, 2013-08-10, Capitalize /understanding/{subject} as approprite
+2b2a2e0, Greg Turnquist, 2013-08-09, Fix maven-compiler-plugin to version 2.3.2
+38c20c8, Greg Turnquist, 2013-08-09, Upgrade to Gradle 1.7
+d911aec, Greg Turnquist, 2013-08-08, Add intro sentence
+a1c00b1, Chris Beams, 2013-08-08, Replace /content with / in GSG links
+bc27c2c, Roy Clarkson, 2013-08-07, Add run.sh for CI support
+d3b9e6d, Greg Turnquist, 2013-08-06, Use libs-snapshot instead of snapshot
+eaa624e, Greg Turnquist, 2013-08-06, Remove 'TODO' from pom.xml and rebuild guide
+9f6ba43, Greg Turnquist, 2013-08-01, Add gradle support
+8bb3448, Greg Turnquist, 2013-08-01, Edit guide to properly use spring-boot:run
+8dac627, Greg Turnquist, 2013-07-31, Convert spring-boot-up to spring-boot-starter
+ae8b7f0, Greg Turnquist, 2013-07-30, Upgrade to Spring Boot
+3a9a6d3, Roy Clarkson, 2013-07-26, Update README to remove title
+99e51aa, Greg Turnquist, 2013-07-23, Replace java -jar with picketed code block
+ad38bba, Greg Turnquist, 2013-07-19, Switch to spring-package-maven-plugin and Spring Zero
+cacd405, Greg Turnquist, 2013-07-18, Fixed typo in macro
+73d45bc, Greg Turnquist, 2013-07-18, Regenerate guide based on macro updates from @btalbott
+27805f5, Greg Turnquist, 2013-07-18, Rebuild guide with new header on 'build_an_executable'
+93fa57e, Greg Turnquist, 2013-07-18, Merge pull request #4 from btalbott/master
+5702210, Beverley Talbott, 2013-07-18, Add build_an_executable_jar_subhead macro
+d113e86, Greg Turnquist, 2013-07-18, Update guides using complete/pom.xml to instead use initial/pom.xml
+de0dd6c, Greg Turnquist, 2013-07-18, Strip out -complete and -initial from artifacts. Regenerate guides suitably.
+363684c, Greg Turnquist, 2013-07-17, Typo in macro. Regenerate guides
+f1ef5cd, Greg Turnquist, 2013-07-17, Update build_the_application macros to link in gs-convert-jar-to-war
+14824de, Greg Turnquist, 2013-07-15, Renegerate guides based on updated macros.md
+8103ee9, Greg Turnquist, 2013-07-12, Delete old README.src.md
+7fa837d, Roy Clarkson, 2013-07-11, Update README
+a7c7298, Roy Clarkson, 2013-07-11, Merge pull request #3 from btalbott/master
+8e7b6cd, Greg Turnquist, 2013-07-11, Regenerate guides based on update to macros.md
+2f1e5c0, Beverley Talbott, 2013-07-10, Add missing section, edit title
+d5703e4, Beverley Talbott, 2013-07-10, Edit SIDEBAR.md
+ebf02ae, Craig Walls, 2013-07-09, Adjust capitalization in sidebar
+2e4bc55, Craig Walls, 2013-07-09, Merge branch 'master' of github.com:springframework-meta/gs-consuming-rest
+1c0716e, Craig Walls, 2013-07-09, Add sidebar
+de71066, Greg Turnquist, 2013-07-08, Convert to fpp
+62e4f30, Craig Walls, 2013-06-17, Generate README.md
+e0440e8, Craig Walls, 2013-06-17, Merge pull request #2 from btalbott/master
+4e114bd, Beverley Talbott, 2013-06-17, make minor edit
+c385c38, Beverley Talbott, 2013-06-17, Edit per guidelines
+da8ed26, Craig Walls, 2013-06-06, Edits to README per guideliens
+3c2bcf0, Craig Walls, 2013-06-06, Retrieve data from Facebook Graph API instead of Twitter
+1c7e43d, Craig Walls, 2013-06-06, Add milestone repo to pom.xml to fix Spring 4.0.0.M1 resolution problems.
+5782472, Craig Walls, 2013-06-06, Rename Main => Application
+106a35b, Chris Beams, 2013-06-05, Generate README.md based on README.src.md
+f295738, Chris Beams, 2013-06-05, Merge pull request #1 from btalbott/master
+21a1ca9, Beverley Talbott, 2013-06-05, Make copyedits, submit without built README.md
+8ceb09d, Chris Beams, 2013-06-03, Generate README.md files from README.src.md
+80d2b3d, Chris Beams, 2013-05-28, Version all GS guides at 0.1.0 per http://semver.org
+441b80e, Chris Beams, 2013-05-21, Simplify complete version of Main.java
+5972230, Chris Beams, 2013-05-21, Introduce initial / complete dir structure
+ee9671e, Chris Beams, 2013-05-21, Add .gitignore
+62f11a5, Chris Beams, 2013-05-21, Remove gradle build artifacts
+8af350a, Josh Long, 2013-04-17, fixed a few errors in the README.md document
+381aadf, Josh Long, 2013-04-17, adds initial sample, markdown document, and gradle build for getting started guide on consuming REST services with Spring.
+8935a08, Josh Long, 2013-04-17, Initial commit
+
+Repository /home/mateusz/Projects/JetBrainsInternship/JavaModelClassFromXml/.git
+7bbca4c, vecel, 2023-11-07, Add main class, handle I/O
+853dfd9, vecel, 2023-11-07, Update .gitignore
+ea037da, vecel, 2023-11-07, Handle exception, add docstrings
+b84115c, vecel, 2023-11-07, Initial commit
+75f34f3, vecel, 2023-11-07, Add directory output argument
+d68ddfd, vecel, 2023-11-07, Fix XmlProcessor and JavaModelClassGenerator
+4d24e03, vecel, 2023-11-07, Add XmlProcessor and JavaModelClassGenerator
+9601b89, vecel, 2023-11-07, Initial commit
+0ca74e7, vecel, 2023-11-07, Initial commit
+

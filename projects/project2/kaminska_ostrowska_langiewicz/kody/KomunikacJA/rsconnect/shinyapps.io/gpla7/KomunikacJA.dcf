@@ -1,0 +1,12 @@
+name: KomunikacJA
+title:
+username: gpla7
+account: gpla7
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10896888
+bundleId: 8134796
+url: https://gpla7.shinyapps.io/KomunikacJA/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
