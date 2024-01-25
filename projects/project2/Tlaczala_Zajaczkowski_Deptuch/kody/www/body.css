@@ -1,0 +1,389 @@
+/* -------------------------------------------- */
+/* BACKGROUND SETTINGS */
+/* -------------------------------------------- */
+
+.skin-blue .main-header .navbar {
+    background-color: var(--body-top-blue);
+}
+
+.content-wrapper, .right-side {
+    background-color: var(--body-blue);
+    margin-left: var(--sidebar-width)
+}
+
+/* -------------------------------------------- */
+/* FORCE GRAPH SETTINGS */
+/* -------------------------------------------- */
+
+.forceNetwork .link {
+    stroke: var(--accent-pink) !important;
+}
+
+.forceNetwork .node {
+    fill: var(--item-light-blue) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.forceNetwork .node:first-of-type {
+    fill: var(--accent-pink) !important;
+}
+
+.forceNetwork .node:first-of-type>text {
+    fill: var(--mywhite) !important;
+    font-size:40px !important;
+    text-shadow: 0 0 45px #6f8ff0c5;
+    translate: 40px;
+    z-index: 10 !important;
+}
+
+.forceNetwork .node>circle {
+    stroke: var(--mywhite) !important;
+    stroke-width: 5px !important;
+}
+
+.forceNetwork .node>text {
+    fill: var(--mywhite) !important;
+    font-family: "Open Sans" !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    translate: -55px;
+}
+
+.main-dish {
+    display: flex;
+    height: 800px;
+    translate: 0 -70px;
+}
+
+.input-box,
+.forceNetwork,
+.plotly.html-widget {
+    padding: 15px;
+    height: 100% !important;
+}
+
+.input-box {
+    width: 30%;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+}
+
+.forceNetwork {
+    width: 70% !important;
+}
+
+.forceNetwork>svg {
+    translate: -150px 0;
+}
+
+.skin-blue .input-box .form-group {
+    width: 100%;
+    background-color: var(--element-island-blue);
+    border-radius: 20px;
+    padding: 15px 25px;
+    margin-top: 20px;
+    font-family: "Open Sans";
+    transition: transform 0.8s ease-out;
+}
+
+.skin-blue .main-dish-when .input-box .form-group .control-label {
+    font-size: 30px;
+}
+
+.skin-blue .input-box .form-group:hover {
+    transform: scale(1.03);
+}
+
+.skin-blue .input-box .form-group .control-label {
+    color: var(--mywhite);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+
+.skin-blue .main-dish-graph .input-box .form-group .irs-single,
+.skin-blue .main-dish-graph .input-box .form-group .irs-from,
+.skin-blue .main-dish-graph .input-box .form-group .irs-to,
+.skin-blue .main-dish-graph .input-box .form-group .irs-min,
+.skin-blue .main-dish-graph .input-box .form-group .irs-max {
+    color: var(--mywhite);
+    font-size: 10px;
+    transform: scale(1.2);
+    padding: 2px 3px;
+    translate: 0 -5px;
+}
+
+.skin-blue .main-dish-graph .input-box .form-group .irs-min,
+.skin-blue .main-dish-graph .input-box .form-group .irs-max {
+    background-color: var(--accent-pink);
+    opacity: 0.8;
+}
+
+.skin-blue .main-dish-graph .input-box .form-group .irs-grid-text {
+    color: var(--mygray);
+    font-family: "Open Sans";
+    font-size: 11px;
+    font-weight: 700;
+    translate: 0 5px;
+}
+
+.skin-blue .main-dish-graph .input-box .form-group .irs-grid-pol {
+    background-color: var(--body-blue);
+    width: 2px;
+}
+
+.skin-blue .main-dish-graph .input-box .form-group .irs-grid-pol.small {
+    display: none;
+}
+
+.skin-blue .main-dish-graph .input-box .form-group .irs-line {
+    background: transparent;
+    border: 1px solid var(--body-blue)
+}
+
+.skin-blue .main-dish-graph .input-box .form-group .irs-handle {
+    /* background-color: var(--accent-pink); */
+    background-color: var(--slider-blue);
+    border: 2px solid var(--mywhite);
+}
+
+.skin-blue .main-dish-graph .input-box .form-group .irs-bar--single {
+    border: 1px solid var(--body-blue);
+    background: transparent;
+}
+
+.skin-blue .main-dish-graph .input-box .form-group:hover {
+    transform: none;
+}
+
+/* -------------------------------------------- */
+/* PLOTLY PAGES SETTINGS */
+/* -------------------------------------------- */
+
+.main-dish-towho,
+.main-dish-fromwho,
+.main-dish-when {
+    height: 500px;
+}
+
+.main-dish .plotly.html-widget {
+    width: 70% !important;
+    padding: 30px;
+}
+
+.main-dish .main-svg {
+    transform: scale(0.9) translate(-50px, -50px);
+}
+
+.main-dish .main-svg:nth-of-type(2) {
+    transform: scale(1.1);
+}
+
+.main-dish .radio {
+    margin-bottom: 25px;
+}
+
+.main-dish .radio:last-of-type {
+    margin-bottom: 0;
+}
+
+.main-dish .radio>label {
+    padding-left: 50px;
+}
+
+.main-dish .radio>label>input {
+    position: absolute;
+    transform: translate(-20px, 3px) scale(2.2);
+    color: var(--accent-pink);
+}
+
+.main-dish .radio>label>span {
+    color: var(--mywhite);
+    font-size: 20px;
+    font-weight: 700;
+    transition: color 0.3s ease-out;
+}
+
+.main-dish .radio>label:hover>span {
+    color: var(--accent-pink);
+}
+
+.main-dish .radio>label:hover>input {
+    color: var(--accent-pink);
+}
+
+.main-dish-towho .control-label,
+.main-dish-fromwho .control-label {
+    display: none;
+}
+
+/* -------------------------------------------- */
+/* PLOTLY SETTINGS */
+/* -------------------------------------------- */
+
+.main-dish g.point {
+    clip-path: inset(0% 0% 0% 0% round 2px 6px 6px 2px);
+}
+
+.main-dish-when g.point {
+    clip-path: inset(0% 0% 0% 0% round 6px 6px 2px 2px);
+}
+
+g.point>path {
+    fill: var(--chart-bar-blue) !important;
+}
+
+g .xgrid.crisp {
+    stroke: var(--accent-pink) !important;
+    opacity: 0.7 !important;
+}
+
+path.ygrid.crisp {
+    stroke: var(--accent-pink) !important;
+    opacity: 0.7 !important;
+}
+
+g.xaxislayer-above {
+    position:absolute;
+    translate: 0 20px;
+}
+
+g.g-xtitle>text,
+g.g-ytitle>text {
+    fill: var(--mygray) !important;
+    font-family: "Open Sans" !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    margin-top: 50px;
+}
+
+g.g-xtitle>text {
+    translate: -65px -50px;
+}
+
+g.g-ytitle>text {
+    translate: 0 -30px;
+}
+
+g.xtick>text,
+g.ytick>text {
+    fill: var(--mywhite) !important;
+    font-family: "Open Sans" !important;
+    font-size: 18px !important;
+}
+
+g.xtick>text {
+    font-weight: 900 !important;
+}
+
+g.ytick>text {
+    position: absolute;
+    translate: -15px 0;
+    font-weight: 600 !important;
+}
+
+
+
+
+/* -------------------------------------------- */
+/* TITLE BAR SETTINGS */
+/* -------------------------------------------- */
+
+.content-wrapper .title-bar {
+    position: relative;
+    translate: 0 -100px;
+    z-index: 100000;
+
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+
+    user-select: none;
+}
+
+.content-wrapper .title-bar .profile-picture {
+    background-color: var(--accent-blue);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 15px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.content-wrapper .title-bar .activity-status {
+    box-sizing: border-box;
+    background-color: var(--active-green);
+    border: 3px solid black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+.content-wrapper .title-bar .profile-picture:hover {
+    transform: scale(0.96);
+}
+
+.content-wrapper .title-bar .profile-picture:hover .activity-status {
+    transform: scale(1.2);
+}
+
+.content-wrapper .title-bar .title-box {
+    margin-right: auto;
+}
+
+.content-wrapper .title-bar .title-text {
+    font-size: 36px;
+    /* font-size: 28px; */
+    font-weight: 700;
+    transition: color 0.3s ease-out, transform 0.3s ease-out;
+    cursor: pointer;
+}
+
+.content-wrapper .title-bar .title-text:hover {
+    color: var(--accent-pink);
+    transform: scale(1.01);
+}
+
+.content-wrapper .title-bar .status-text {
+    color: var(--faded-blue);
+    font-size: 15px;
+    font-weight: 500;
+    width: fit-content;
+    transition: transform 0.3s ease-out, color 0.3s ease-out;
+}
+
+.content-wrapper .title-bar .status-text:hover {
+    cursor: pointer;
+    transform: scale(1.05) rotate(1deg);
+    color: var(--active-green);
+}
+
+.content-wrapper .title-bar .icon-box {
+    width: 250px;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    color: var(--accent-pink);
+}
+
+.content-wrapper .title-bar .icon-box>i {
+    transition: transform 0.3s ease-out;
+    cursor: pointer;
+}
+.content-wrapper .title-bar .icon-box>i:hover {
+    transform: rotate(10deg);
+}

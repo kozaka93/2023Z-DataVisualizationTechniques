@@ -1,0 +1,42 @@
+:root {
+    --mywhite: #F8FAFC;
+    --mygray: #b8c7ce;
+    --navbar-blue: #212B4E;
+    --navbar-top-blue: #284679;
+    --body-blue: #182039;
+    --body-top-blue: #212B4E;
+
+    --border-dark-blue: #0c1120;
+    --item-light-blue: #284679;
+
+    --active-green: #45CC58;
+    --faded-blue: #B1C5DB;
+
+    --chart-bar-blue: #30579B;
+    --element-island-blue: #27335D;
+
+    --slider-blue: #428bca;
+    --accent-blue: #3c8dbc;
+    --accent-pink: #F85582;
+
+    --header-height: 140px;
+    --title-height: 100px;
+    --sidebar-width: 450px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    height: 100vh !important;
+    overflow-y: hidden;
+}
+
+.white-text {
+    color: var(--mywhite);
+    font-family: "Open Sans";
+}

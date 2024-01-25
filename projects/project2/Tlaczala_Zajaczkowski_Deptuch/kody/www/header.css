@@ -1,0 +1,59 @@
+.main-header {
+    max-height: none;
+}
+
+.main-header .navbar {
+    height: var(--title-height);
+    margin-left: var(--sidebar-width);
+}
+
+.logo .white-text {
+    font-weight: bold;
+    font-size: 48px;
+    user-select: none;
+
+    transition: color 0.5s ease-out, transform 0.2s ease-out;
+}
+
+.logo .white-text:hover {
+    color: var(--accent-pink);
+}
+
+.skin-blue .main-header .logo {
+    background-color: var(--navbar-top-blue);
+    border-right: 5px solid var(--accent-pink);
+    height: var(--header-height);
+    width: var(--sidebar-width);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:unset;
+    font-family: "Lovelo Black";
+
+    transition: background-color 0.3s ease-out;
+}
+
+.skin-blue .main-header .logo:hover {
+    background-color: var(--navbar-blue);
+    cursor: pointer;
+}
+
+.skin-blue .main-header .logo:hover .white-text {
+    color: var(--accent-pink);
+    transform: scale(0.92) translate(0, 5px);
+}
+
+.skin-blue .main-header .logo>a>img {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+    translate: 0 -5px;
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle {
+    display: none;
+}
+
+.main-header .sidebar-toggle:before {
+    display: none;
+}
