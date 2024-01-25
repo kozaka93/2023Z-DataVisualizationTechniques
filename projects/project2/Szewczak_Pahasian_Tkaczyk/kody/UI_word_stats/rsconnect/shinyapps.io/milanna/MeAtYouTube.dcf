@@ -1,0 +1,14 @@
+name: MeAtYouTube
+title: MeAtYouTube
+username:
+account: milanna
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10961275
+bundleId: 8164058
+url: https://milanna.shinyapps.io/MeAtYouTube/
+when: 1705705587.67727
+lastSyncTime: 1705705587.67728
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: YThistory/milanna/SrchHistoryM.json
