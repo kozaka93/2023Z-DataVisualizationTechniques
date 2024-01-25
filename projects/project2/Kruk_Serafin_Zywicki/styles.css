@@ -1,0 +1,226 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+#artist_image img{
+ margin-left:30px;
+ margin-right:10px;
+ position:relative;
+ left:-20px;
+}
+
+
+
+.wrapper .main-header nav{
+ background-color:#385a65 !important;
+}
+
+#shiny-tab-one_person .row{
+ background-color:#182f37;
+}
+
+.wrapper .content{
+ background-color:#182f37;
+}
+
+#text_artist{
+ background-color:#182f37;
+}
+
+.col-sm-2 .box .box-body{
+ background-color:#182f37;
+}
+
+#text_songs{
+ background-color:#182f37;
+}
+
+.shiny-table tr td{
+ font-family:Roboto, sans-serif;
+ background-color:#182f37;
+ color:#ecf0f1;
+}
+
+.shiny-table tr th{
+  font-family:Roboto, sans-serif;
+  font-weight: light;
+ background-color:#182f37;
+ color:#ecf0f1;
+}
+
+#artist_image{
+ background-image:none;
+ background-color:#182f37;
+}
+
+#shiny-tab-one_person .row .col-sm-6 .box .box-body{
+ transform:translatex(0px) translatey(0px);
+ background-color:#182f37;
+}
+
+.col-sm-4 .box .box-body{
+ background-color:#182f37;
+}
+
+#name span{
+ font-size:38px;
+ display:inline-block;
+ transform:translatex(10px) translatey(0px);
+}
+
+#sidebarCollapsed{
+ background-color:#182f37;
+}
+
+.wrapper .main-header .logo{
+ background-color:#385a65;
+}
+
+#repart_plot .svg-container{
+ bottom:-4px;
+}
+
+
+
+/* Table Data */
+.shiny-table tr td{
+ transform:translatex(0px) translatey(0px);
+}
+
+#top span{
+ font-size:38px;
+ display:inline-block;
+ transform:translatex(10px) translatey(0px);
+}
+
+#unique_arists_plot .svg-container{
+ top:13px;
+}
+
+
+
+
+/* Span Tag */
+.sidebar-menu .active span{
+ font-family:'roboto';
+}
+
+/* Span Tag */
+.sidebar-menu a span{
+ font-family:Roboto, sans-serif !important;
+}
+
+/* Person label */
+#person-label{
+ font-family:Roboto, sans-serif;
+}
+
+/* Input */
+.shiny-options-group .p-fill input[type=radio]{
+ font-family:Roboto, sans-serif;
+}
+
+/* Datefrom label */
+#datefrom-label{
+ font-family:Roboto, sans-serif;
+}
+
+
+/* Span Tag */
+.sidebar-menu .active span{
+ font-family:'roboto';
+}
+
+/* Span Tag */
+.sidebar-menu a span{
+ font-family:Roboto, sans-serif !important;
+ font-size:16px;
+}
+
+/* Person label */
+#person-label{
+ font-family:Roboto, sans-serif;
+ font-weight:700;
+ font-size:16px;
+}
+
+/* Input */
+.shiny-options-group .p-fill input[type=radio]{
+ font-family:Roboto, sans-serif;
+ font-size:8px;
+}
+
+/* Datefrom label */
+#datefrom-label{
+ font-family:Roboto, sans-serif;
+ font-size:16px;
+}
+
+/* Logo */
+.wrapper .main-header .logo{
+ font-family:Roboto, sans-serif;
+}
+
+/* Dateto label */
+#dateto-label{
+ font-size:16px;
+}
+
+#radar_title span{
+font-family:Roboto, sans-serif;
+ position:relative;
+ margin-top: 40px; margin-bottom: -20px
+ z-index:1;
+}
+
+
+/* Image */
+#radar_plot img{
+ position:relative;
+ top:-10px;
+}
+
+#unique_arists_plot .svg-container{
+ top:20px;
+ position:relative;
+}
+
+#info span{
+ font-size:38px;
+ display:inline-block;
+ transform:translatex(10px) translatey(0px);
+}
+
+/* Span Tag */
+#aim_content span div > span{
+ position:relative;
+ top:-8px;
+ font-family:Roboto, sans-serif;
+}
+
+#aim_content div i{
+ font-size:77px;
+}
+
+/* Span Tag */
+#aim_content > span{
+ font-family:Roboto, sans-serif;
+}
+
+/* Span Tag */
+#about_content span{
+ font-family:Roboto, sans-serif;
+}
+
+/* Span Tag */
+#about span{
+ display:inline-block;
+ transform:translatex(0px) translatey(0px) !important;
+ font-family:Roboto, sans-serif;
+}
+
+
