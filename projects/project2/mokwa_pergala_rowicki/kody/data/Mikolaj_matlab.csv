@@ -1,0 +1,54 @@
+,Imie,Data modyfikacji,Rozszerzenie,Nazwa pliku,Liczba znaków:,Liczba wierszy,Laczna dlugosc komentarzy,Liczba pustych linii,Najdłuższe słowo,Długośc pierwszego komentarza,Srednia liczba znaków w wierszu,Liczba wierszy zakonczonych srednikiem,"Liczba wierszy, ktore powinny sie konczyc srednikiem","Liczba operatorów: +, -, *, /, =, :, ./, .*",Liczba operatorow otoczonych spacjami,Liczba zbyt długich linii
+0,Mikolaj,2023-12-29,m,computeError.m,4876,121,53,18,"vecnorm(repmat(accurateResult,",46,39.30578512396694,17,19,47,36,16
+1,Mikolaj,2024-01-02,m,dependenceOfTheNumberOfIterationsOnOmega (2).m,7192,143,79,12,"sorMethod(subDiagonal,mainDiagonal,supraDiagonal,b,generatedOmega,",74,49.3006993006993,14,31,23,20,16
+2,Mikolaj,2023-12-18,m,dependenceOfTheNumberOfIterationsOnOmega.m,968,28,2,5,"sorMethod(subDiagonal,mainDiagonal,supraDiagonal,b,omega,",2,33.607142857142854,7,9,13,13,1
+3,Mikolaj,2023-12-06,m,dokladneWartosci (2).m,939,26,12,2,"double(coeffs(polymonial,",11,35.15384615384615,7,8,11,8,0
+4,Mikolaj,2023-12-14,m,dokladneWartosci.m,936,26,12,2,"double(coeffs(polymonial,",11,35.03846153846154,7,8,11,6,0
+5,Mikolaj,2023-10-18,m,exfun.m,90,4,1,0,"exfun(x,y)",1,21.75,1,1,3,3,0
+6,Mikolaj,2023-10-18,m,exfunF.m,105,4,1,0,"exfunF(x,y,f)",1,25.5,1,1,2,2,0
+7,Mikolaj,2023-10-11,m,func (2).m,86,4,1,0,function,1,20.75,1,1,2,2,0
+8,Mikolaj,2023-10-11,m,func (3).m,86,4,1,0,function,1,20.75,1,1,2,2,0
+9,Mikolaj,2023-10-11,m,func (4).m,86,4,1,0,function,1,20.75,1,1,2,2,0
+10,Mikolaj,2023-10-19,m,func.m,92,4,1,0,trygonometrycznej,1,22.25,1,1,3,2,0
+11,Mikolaj,2023-12-27,m,generator.m,3028,78,33,10,~islogical(hasToBeSymmetric),32,37.833333333333336,12,15,31,27,6
+12,Mikolaj,2023-11-15,m,ilorazr.m,306,11,4,0,interpolacyjnego,4,26.90909090909091,3,3,14,7,0
+13,Mikolaj,2023-10-05,m,lab1.m,1903,169,17,21,"'text',rand(5,10,2),{11;22;33}}",1,10.2603550295858,31,123,93,67,0
+14,Mikolaj,2023-10-11,m,lab2.m,490,42,7,11,pages.mini.pw.edu.pl/~jasionowskam,3,10.666666666666666,6,19,15,12,0
+15,Mikolaj,2023-10-19,m,lab3.m,1508,74,53,8,"pochodnaTable(x,@func,@pochodnaD,@pochodnaP,n);",51,19.37837837837838,4,13,64,13,0
+16,Mikolaj,2023-10-26,m,lab4.m,1737,75,34,13,"pie3([1,2,3,4,1,2,3,4,5])",16,22.16,23,24,38,23,7
+17,Mikolaj,2023-11-16,m,main (2).m,1025,48,15,17,"[1,2,3,4,5,6,7,8,9,10];",5,20.354166666666668,16,16,19,18,1
+18,Mikolaj,2023-11-16,m,main (3).m,1025,48,15,17,"[1,2,3,4,5,6,7,8,9,10];",5,20.354166666666668,16,16,19,18,1
+19,Mikolaj,2023-11-08,m,main.m,553,30,12,9,Banachiewicza-Cholesky-ego,3,17.433333333333334,6,9,15,15,0
+20,Mikolaj,2023-12-06,m,metodaHalleya.m,2154,56,25,4,"(wartosciDrugiejPochodnej(a,y).*(wartosciWielomianu(a,y)./",23,37.482142857142854,13,14,26,21,2
+21,Mikolaj,2023-10-11,m,MN_lab2_Rowicki.m,278,17,4,4,"{'N','x','yaprox','yreal','blad'};",1,15.411764705882353,5,9,22,8,1
+22,Mikolaj,2023-10-05,m,myfunc.m,54,3,0,0,function[y],0,17.333333333333332,0,1,3,4,0
+23,Mikolaj,2023-11-16,m,myhorner.m,926,32,13,9,error(['Nieprawidłowe,5,27.96875,3,3,13,10,0
+24,Mikolaj,2023-10-19,m,pochodnaD.m,104,4,1,0,pochodnaD(x),1,25.25,1,1,3,2,0
+25,Mikolaj,2023-10-19,m,pochodnaP.m,227,8,1,0,"repmat(x',1,length(h));",1,27.5,5,5,8,7,0
+26,Mikolaj,2023-10-19,m,pochodnaTable.m,797,19,9,0,"pochodnaTable(x,f,pd,pp,n)",9,41.0,5,5,11,7,0
+27,Mikolaj,2023-10-19,m,pochodnaWykres.m,1198,42,6,5,"[-2,-6,-10,-15,-20];",5,27.523809523809526,29,29,17,14,0
+28,Mikolaj,2023-12-27,m,preciseResult.m,2503,68,27,11,"full(spdiags([[subDiagonal,",23,35.8235294117647,10,11,28,22,6
+29,Mikolaj,2023-12-05,m,rekurencyjneWspolczynnikiDrugiejPochodnej.m,1271,31,16,2,"rekurencyjneWspolczynnikiDrugiejPochodnej(x,n)",14,40.03225806451613,5,5,17,12,0
+30,Mikolaj,2023-12-05,m,rekurencyjneWspolczynnikiPierwszejPochodnej.m,1283,32,16,2,"rekurencyjneWspolczynnikiPierwszejPochodnej(x,n)",14,39.125,6,6,19,13,1
+31,Mikolaj,2023-12-06,m,rekurencyjneWspolczynnikiWielomianu.m,1168,34,16,4,"rekurencyjneWspolczynnikiWielomianu(x,",14,33.38235294117647,6,6,18,11,0
+32,Mikolaj,2023-11-08,m,rozklad.m,1900,51,21,13,Banachiewicza-Cholesky-ego,3,36.27450980392157,10,10,29,26,2
+33,Mikolaj,2024-01-02,m,skrypt.m,7097,155,42,28,"[~,~,~,~,fastestOmega4a,smallestErrorOmega4a,accurateResult4a]",7,44.78709677419355,63,66,74,64,31
+34,Mikolaj,2023-12-06,m,skryptTestujacy.m,6199,166,86,41,"[0,1,2,5,10,50,100,1000,10000,10000000];",7,36.3433734939759,39,39,39,33,2
+35,Mikolaj,2023-12-27,m,sorIteration (2).m,1978,39,27,2,"[previousIteration(:,2:end),",27,49.717948717948715,5,6,20,14,3
+36,Mikolaj,2023-12-16,m,sorIteration.m,1092,22,10,2,"[previousIteration(:,2:end),",10,48.68181818181818,5,6,19,14,2
+37,Mikolaj,2023-12-28,m,sorMethod (2).m,6339,164,48,30,"numberOfIterations(~isfinite(result(:,",2,37.65853658536585,30,34,85,69,19
+38,Mikolaj,2023-12-17,m,sorMethod.m,2658,90,4,22,numberOfIterations(numberOfIterations,2,28.544444444444444,22,25,58,48,10
+39,Mikolaj,2023-12-27,m,spectralRadius.m,2880,75,29,13,"full(spdiags([0,supraDiagonal]',",23,37.413333333333334,13,15,36,28,7
+40,Mikolaj,2023-12-06,m,sprawdzBlad.m,2871,64,25,12,"resultMatrix(:,3),resultMatrix(:,4),resultMatrix(:,",23,43.875,18,18,38,21,3
+41,Mikolaj,2023-10-11,m,szeregBlad (2).m,457,15,3,4,"[N,x_wybrane,szeregSin(x_wybrane,",3,29.533333333333335,3,4,10,7,0
+42,Mikolaj,2023-11-24,m,szeregBlad.m,457,15,3,4,"[N,x_wybrane,szeregSin(x_wybrane,",3,29.533333333333335,3,4,10,7,0
+43,Mikolaj,2023-10-26,m,szeregLn.m,597,12,7,0,"repmat((0:1:Nmax-1)',",7,48.833333333333336,3,3,17,8,1
+44,Mikolaj,2023-10-26,m,szeregLnPlot.m,789,28,4,3,colormap(parula(Nmax));,2,27.178571428571427,14,16,10,6,1
+45,Mikolaj,2023-10-11,m,szeregSin (2).m,487,23,4,5,"yaprox_mat(k+1,:)=((-1)^k)*(x.^(2*k+1))/factorial(2*k+1);",4,20.217391304347824,4,6,18,8,0
+46,Mikolaj,2023-11-24,m,szeregSin.m,491,23,4,5,"yaprox_mat(k+1,:)=((-1)^k).*(x.^(2*k+1))/factorial(2*k+1);",4,20.391304347826086,4,6,18,8,0
+47,Mikolaj,2023-12-17,m,test.m,2795,84,55,11,"dependenceOfTheNumberOfIterationsOnOmega(subDiagonal,mainDiagonal,",8,32.273809523809526,12,14,53,49,12
+48,Mikolaj,2023-12-05,m,wartosciDrugiejPochodnej.m,1560,36,22,3,"rekurencyjneWspolczynnikiDrugiejPochodnej(x,",20,42.361111111111114,5,5,6,4,0
+49,Mikolaj,2023-12-06,m,wartosciPierwszejPochodnej.m,1581,36,22,3,"rekurencyjneWspolczynnikiPierwszejPochodnej(x,",20,42.94444444444444,5,5,6,4,2
+50,Mikolaj,2023-12-06,m,wartosciWielomianu.m,1463,36,21,4,"rekurencyjneWspolczynnikiWielomianu(x,",19,39.666666666666664,5,5,6,4,0
+51,Mikolaj,2023-11-16,m,wielowykres.m,2222,77,28,26,"plot(wezly,wartosci_wezlow,",7,27.857142857142858,19,19,12,10,0
+52,Mikolaj,2023-12-06,m,wizualizacjaZbieznosci.m,4532,132,39,26,"wizualizacjaZbieznosci(wielomian,a,b,c,d,n,m)",30,33.34090909090909,35,38,45,28,2
