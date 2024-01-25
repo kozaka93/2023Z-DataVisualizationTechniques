@@ -1,0 +1,134 @@
+.left-side, .main-sidebar {
+    margin-top: 20px;
+    height: (100% - 20px);
+    padding-top: var(--header-height);
+    width: var(--sidebar-width);
+}
+
+.skin-blue .main-sidebar {
+    background-color: var(--navbar-blue);
+    border-right: 5px solid var(--accent-pink);
+}
+
+.skin-blue .sidebar-menu>li,
+.skin-blue .treeview-menu>li {
+    padding: 10px 20px;
+}
+
+.skin-blue .treeview-menu>li {
+    margin-left: 30px;
+}
+
+.skin-blue .sidebar-menu>li>a,
+.skin-blue .treeview-menu>li>a {
+    color: var(--mygray);
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 25px;
+    user-select: none;
+    transition: color 0.3s ease-out, transform 0.3s ease-out, border 0.3s ease-out, text-shadow 0.3s ease-out;
+}
+
+.skin-blue .sidebar-menu>li:hover>a,
+.skin-blue .treeview-menu>li:hover>a {
+    background-color: var(--navbar-blue);
+    border-left-color: transparent;
+}
+
+.skin-blue .sidebar-menu>li>a:hover,
+.skin-blue .treeview-menu>li>a:hover {
+    transform: scale(1.03);
+}
+
+.skin-blue .sidebar-menu .treeview.active>a {
+    color: var(--mygray);
+    border-left-color: transparent;
+    text-shadow: none;
+}
+
+.skin-blue .sidebar-menu>li>a:hover,
+.skin-blue .sidebar-menu>li.active>a,
+.skin-blue .treeview-menu>li>a:hover,
+.skin-blue .treeview-menu>li.active>a {
+    color: var(--mywhite);
+    background-color: var(--navbar-blue);
+    border-left-color: var(--accent-pink);
+    text-shadow: 0 0 10px rgba(255, 212, 224, 0.4);
+}
+
+.skin-blue .treeview-menu>li>a>i {
+    transition: color 0.2s ease-out;
+}
+
+.skin-blue .treeview-menu>li>a:hover>i,
+.skin-blue .treeview-menu>li.active>a>i {
+    color: var(--accent-pink);
+}
+
+.skin-blue .sidebar-menu>li>a>i {
+    margin-right: 1em;
+}
+
+.skin-blue .treeview-menu>li>a>i {
+    margin-right: 1em;
+}
+
+.skin-blue .treeview-menu {
+    background-color: var(--navbar-blue) !important;
+}
+
+.skin-blue .treeview .form-group.shiny-input-container {
+    width: 240px !important ;
+}
+/* 
+.skin-blue .form-group.shiny-input-container>label {
+    width: 250px !important;
+} */
+
+/* ------------------------------ */
+
+.skin-blue .sidebar-menu>li:nth-child(4) {
+    cursor: default;
+}
+
+.skin-blue .sidebar-menu>li:nth-child(4)>a {
+    display: flex;
+    cursor: default;
+    /* height: 300px; */
+}
+
+.skin-blue .sidebar-menu>li:nth-child(4)>a:hover .form-group.shiny-input-container {
+    border-color: red;
+    border-width: thick;
+}
+
+.skin-blue .sidebar-menu>li:nth-child(4)>a>span>div {
+    padding: 0;
+    padding-left: 10px;
+}
+
+.skin-blue .sidebar-menu>li:nth-child(4) .fa-angle-left::before {
+    visibility: hidden;
+}
+/* 
+.skin-blue .sidebar-menu .shiny-input-select {
+    background-color: var(--item-light-blue);
+    border-color: var(--border-dark-blue);
+}
+
+.selectize-input.full {
+    background-color: transparent;
+}
+
+.skin-blue .sidebar-menu .shiny-input-select .item {
+    color: var(--mygray);
+} */
+
+/* .skin-blue .sidebar-menu .treeview .shiny-input-select .selectize-dropdown {
+    display: block !important;
+} */
+/* ------------------------------ */
+
+.skin-blue .sidebar-collapse .main-sidebar {
+    transform: translate(-450px, 0);
+}
