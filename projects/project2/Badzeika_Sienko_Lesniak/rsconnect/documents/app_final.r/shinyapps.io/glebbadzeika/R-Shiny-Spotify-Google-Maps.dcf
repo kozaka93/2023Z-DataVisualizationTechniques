@@ -1,0 +1,12 @@
+name: R-Shiny-Spotify-Google-Maps
+title: R-Shiny-Spotify-Google-Maps
+username: glebbadzeika
+account: glebbadzeika
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11022980
+bundleId: 8180739
+url: https://glebbadzeika.shinyapps.io/R-Shiny-Spotify-Google-Maps/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
