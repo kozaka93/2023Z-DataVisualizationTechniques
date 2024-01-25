@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "project-me"
+version = "0.1.0"
+description = ""
+authors = ["Igor Kołodziej <igor.kolodziej@proton.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.1.4"
+dash = {extras = ["testing"], version = "^2.14.2"}
+plotly = "^5.18.0"
+dash-mantine-components = "^0.12.1"
+pre-commit = "^3.6.0"
+dash-leaflet = "^1.0.13"
+gpxpy = "^1.6.2"
+dash-bootstrap-components = "^1.5.0"
+dash-bootstrap-templates = "^1.1.1"
+statsmodels = "^0.14.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
