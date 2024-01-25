@@ -1,0 +1,6 @@
+nltk
+langdetect
+gender_guesser
+pandas
+openpyxl
+emoji
