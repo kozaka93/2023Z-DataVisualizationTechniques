@@ -1,0 +1,124 @@
+*{
+  color: #F4F4F4;
+  font-family: Helvetica, sans-serif;
+}
+
+.tall-box { 
+  height: 70vh !important;
+}
+
+.tall-box > .row {
+  height: 100% !important;
+}
+
+.tooltip {
+	position: absolute;
+	text-align: center;
+	width: auto;
+	padding: 4px;
+	font: 12px sans-serif;
+	background: #0b0b0b;
+	border: 1px solid rgba(255, 255 ,255 ,0.4);
+	border-radius: 8px;
+	pointer-events: none;
+	padding:1rem;
+}
+
+.selectize-input, .selectize-dropdown, .form-control, .datepicker, .input-group-addon {
+  background-color: #17181C !important;
+}
+
+.form-control{
+  color: #F4F4F4;
+}
+
+#gym_muscles{
+  height: 500px !important;
+}
+
+#gym_muscles > img {
+  height: 100%;
+}
+
+.navbar{
+  display:none;
+}
+
+.logo, #sidebarCollapsed{
+  background: #17181C !important;
+}
+
+#sidebarCollapsed{
+  border-right: 1px solid rgba(255,255,255, 0.2) !important;
+}
+
+section.content{
+    background: #0E0F13 !important;
+    min-height: 100vh !important;
+}
+
+
+.shiny-text-output{
+  background:none !important;
+  border:none !important;
+  color: #3bafda;
+  margin:0;
+  font-size:2rem;
+  display:flex;
+  justify-content: flex-end;
+}
+
+h2{
+  color: #FC3995;
+  width:100%;
+  font-size:3rem !important;
+  padding:1rem;
+  border-bottom: 1px solid rgba(255,255,255, 0.2) !important;
+  margin-bottom:3rem !important;
+}
+
+.box{
+  border-radius: .5rem;
+  border: none !important;
+  background: #17181C !important;
+  box-shadow:  5px 5px 15px rgba(0, 0, 0 ,0.1);
+  
+}
+
+.box-calc > .row > .col-sm-6 > .box > .box-body > pre{
+  color:#65FF9A !important;
+  font-size: 4rem !important;
+}
+
+.box-calc > .row > .col-sm-6 > .box {
+  border: 1px solid rgba(255,255,255, 0.2) !important;
+  box-shadow: none;
+}
+
+.box-header{
+  border-radius: .5rem;
+  background: none !important;
+  font-size:3rem !important;
+  padding:1rem;
+  text-transform: uppercase;
+
+.box > * {
+  color: #f4f4f4 !important;
+}
+
+.box-title {
+  color: rgba(255, 255, 255 ,0.5) !important;
+  width:100%;
+  font-size:2rem !important;
+  padding:1rem;
+}
+
+.row2{
+  display:flex !important;
+  flex-wrap: wrap !important;
+}
+
+.spider{
+  padding:2rem !important;
+}
+

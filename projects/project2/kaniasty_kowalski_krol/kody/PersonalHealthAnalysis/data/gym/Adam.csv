@@ -1,0 +1,376 @@
+title,start_time,end_time,description,exercise_title,superset_id,exercise_notes,set_index,set_type,weight_kg,reps,distance_km,duration_seconds,rpe,muscle_group
+Morning workout â˜€ï¸,03/12/2023 11:25,03/12/2023 12:25,,Bench Press (Barbell),,,0,normal,50,10,,,,Chest
+Morning workout â˜€ï¸,03/12/2023 11:25,03/12/2023 12:25,,Bench Press (Barbell),,,1,normal,60,10,,,,Chest
+Morning workout â˜€ï¸,03/12/2023 11:25,03/12/2023 12:25,,Bench Press (Barbell),,,2,normal,70,6,,,,Chest
+Morning workout â˜€ï¸,03/12/2023 11:25,03/12/2023 12:25,,Bench Press (Barbell),,,3,normal,70,5,,,,Chest
+Morning workout â˜€ï¸,03/12/2023 11:25,03/12/2023 12:25,,Low Cable Fly Crossovers,,,0,normal,12.5,10,,,,Chest
+Morning workout â˜€ï¸,03/12/2023 11:25,03/12/2023 12:25,,Low Cable Fly Crossovers,,,1,normal,12.5,10,,,,Chest
+Morning workout â˜€ï¸,03/12/2023 11:25,03/12/2023 12:25,,Low Cable Fly Crossovers,,,2,normal,12.5,10,,,,Chest
+Morning workout â˜€ï¸,03/12/2023 11:25,03/12/2023 12:25,,Cable Fly Crossovers,,,0,normal,7.5,10,,,,Chest
+Morning workout â˜€ï¸,03/12/2023 11:25,03/12/2023 12:25,,Cable Fly Crossovers,,,1,normal,7.5,10,,,,Chest
+Morning workout â˜€ï¸,03/12/2023 11:25,03/12/2023 12:25,,Cable Fly Crossovers,,,2,normal,7.5,10,,,,Chest
+Morning workout â˜€ï¸,03/12/2023 11:25,03/12/2023 12:25,,Triceps Rope Pushdown,,,0,normal,30,10,,,,Arms
+Morning workout â˜€ï¸,03/12/2023 11:25,03/12/2023 12:25,,Triceps Rope Pushdown,,,1,normal,30,10,,,,Arms
+Morning workout â˜€ï¸,03/12/2023 11:25,03/12/2023 12:25,,Triceps Rope Pushdown,,,2,normal,30,10,,,,Arms
+Morning workout â˜€ï¸,03/12/2023 11:25,03/12/2023 12:25,,Seated Shoulder Press (Machine),,,0,normal,30,10,,,,Arms
+Morning workout â˜€ï¸,03/12/2023 11:25,03/12/2023 12:25,,Seated Shoulder Press (Machine),,,1,normal,30,10,,,,Arms
+Morning workout â˜€ï¸,03/12/2023 11:25,03/12/2023 12:25,,Seated Shoulder Press (Machine),,,2,normal,30,10,,,,Arms
+Afternoon workout ðŸ’ª,11/12/2023 21:00,11/12/2023 22:02,,Climbing,,,0,normal,,,,5400,,Cardio
+Afternoon workout ðŸ’ª,12/12/2023 17:21,12/12/2023 18:26,,Running,,,0,normal,,,,300,,Cardio
+Afternoon workout ðŸ’ª,12/12/2023 17:21,12/12/2023 18:26,,Bent Over Row (Barbell),,,0,normal,45,10,,,,Back
+Afternoon workout ðŸ’ª,12/12/2023 17:21,12/12/2023 18:26,,Bent Over Row (Barbell),,,1,normal,45,10,,,,Back
+Afternoon workout ðŸ’ª,12/12/2023 17:21,12/12/2023 18:26,,Bent Over Row (Barbell),,,2,normal,45,10,,,,Back
+Afternoon workout ðŸ’ª,12/12/2023 17:21,12/12/2023 18:26,,Lat Pulldown (Machine),,,0,normal,50,10,,,,Back
+Afternoon workout ðŸ’ª,12/12/2023 17:21,12/12/2023 18:26,,Lat Pulldown (Machine),,,1,normal,50,10,,,,Back
+Afternoon workout ðŸ’ª,12/12/2023 17:21,12/12/2023 18:26,,Lat Pulldown (Machine),,,2,normal,50,10,,,,Back
+Afternoon workout ðŸ’ª,12/12/2023 17:21,12/12/2023 18:26,,Bicep Curl (Dumbbell),,,0,normal,14,10,,,,Arms
+Afternoon workout ðŸ’ª,12/12/2023 17:21,12/12/2023 18:26,,Bicep Curl (Dumbbell),,,1,normal,14,10,,,,Arms
+Afternoon workout ðŸ’ª,12/12/2023 17:21,12/12/2023 18:26,,Bicep Curl (Dumbbell),,,2,normal,14,10,,,,Arms
+Afternoon workout ðŸ’ª,12/12/2023 17:21,12/12/2023 18:26,,Upper Back Cable,,,0,normal,40,10,,,,Back
+Afternoon workout ðŸ’ª,12/12/2023 17:21,12/12/2023 18:26,,Upper Back Cable,,,1,normal,40,10,,,,Back
+Afternoon workout ðŸ’ª,12/12/2023 17:21,12/12/2023 18:26,,Upper Back Cable,,,2,normal,40,10,,,,Back
+Evening workout ðŸ‹ï¸,15/12/2023 19:20,15/12/2023 20:10,,Running,,,0,normal,,,,330,,Cardio
+Evening workout ðŸ‹ï¸,15/12/2023 19:20,15/12/2023 20:10,,Leg Press (Machine),,,0,normal,50,10,,,,Legs
+Evening workout ðŸ‹ï¸,15/12/2023 19:20,15/12/2023 20:10,,Leg Press (Machine),,,1,normal,50,10,,,,Legs
+Evening workout ðŸ‹ï¸,15/12/2023 19:20,15/12/2023 20:10,,Leg Press (Machine),,,2,normal,60,10,,,,Legs
+Evening workout ðŸ‹ï¸,15/12/2023 19:20,15/12/2023 20:10,,Leg Press Horizontal (Machine),,,0,normal,80,8,,,,Legs
+Evening workout ðŸ‹ï¸,15/12/2023 19:20,15/12/2023 20:10,,Leg Press Horizontal (Machine),,,1,normal,80,10,,,,Legs
+Evening workout ðŸ‹ï¸,15/12/2023 19:20,15/12/2023 20:10,,Leg Press Horizontal (Machine),,,2,normal,80,10,,,,Legs
+Evening workout ðŸ‹ï¸,15/12/2023 19:20,15/12/2023 20:10,,Seated Calf Raise,,,0,normal,30,10,,,,Legs
+Evening workout ðŸ‹ï¸,15/12/2023 19:20,15/12/2023 20:10,,Seated Calf Raise,,,1,normal,45,10,,,,Legs
+Evening workout ðŸ‹ï¸,15/12/2023 19:20,15/12/2023 20:10,,Seated Calf Raise,,,2,normal,40,10,,,,Legs
+Evening workout ðŸ‹ï¸,15/12/2023 19:20,15/12/2023 20:10,,Decline Crunch,,,0,normal,,25,,,,Core
+Evening workout ðŸ‹ï¸,15/12/2023 19:20,15/12/2023 20:10,,Decline Crunch,,,1,normal,,20,,,,Core
+Evening workout ðŸ‹ï¸,15/12/2023 19:20,15/12/2023 20:10,,Decline Crunch,,,2,normal,,20,,,,Core
+Evening workout ðŸ‹ï¸,15/12/2023 19:20,15/12/2023 20:10,,Lying Leg Curl (Machine),,,0,normal,50,10,,,,Legs
+Evening workout ðŸ‹ï¸,15/12/2023 19:20,15/12/2023 20:10,,Lying Leg Curl (Machine),,,1,normal,50,10,,,,Legs
+Evening workout ðŸ‹ï¸,15/12/2023 19:20,15/12/2023 20:10,,Lying Leg Curl (Machine),,,2,normal,50,10,,,,Legs
+Push,16/12/2023 11:30,16/12/2023 12:30,,Bench Press (Barbell),,,0,normal,40,10,,,,Chest
+Push,16/12/2023 11:30,16/12/2023 12:30,,Bench Press (Barbell),,,1,normal,50,10,,,,Chest
+Push,16/12/2023 11:30,16/12/2023 12:30,,Bench Press (Barbell),,,2,normal,60,10,,,,Chest
+Push,16/12/2023 11:30,16/12/2023 12:30,,Bench Press (Barbell),,,3,normal,70,6,,,,Chest
+Push,16/12/2023 11:30,16/12/2023 12:30,,Cable Fly Crossovers,,,0,normal,25,10,,,,Chest
+Push,16/12/2023 11:30,16/12/2023 12:30,,Cable Fly Crossovers,,,1,normal,25,10,,,,Chest
+Push,16/12/2023 11:30,16/12/2023 12:30,,Cable Fly Crossovers,,,2,normal,25,10,,,,Chest
+Push,16/12/2023 11:30,16/12/2023 12:30,,Low Cable Fly Crossovers,,,0,normal,12.5,10,,,,Chest
+Push,16/12/2023 11:30,16/12/2023 12:30,,Low Cable Fly Crossovers,,,1,normal,12.5,10,,,,Chest
+Push,16/12/2023 11:30,16/12/2023 12:30,,Low Cable Fly Crossovers,,,2,normal,12.5,10,,,,Chest
+Push,16/12/2023 11:30,16/12/2023 12:30,,Triceps Rope Pushdown,,,0,normal,35,10,,,,Arms
+Push,16/12/2023 11:30,16/12/2023 12:30,,Triceps Rope Pushdown,,,1,normal,30,10,,,,Arms
+Push,16/12/2023 11:30,16/12/2023 12:30,,Triceps Rope Pushdown,,,2,normal,30,10,,,,Arms
+Afternoon workout ðŸ’ª,17/12/2023 15:35,17/12/2023 16:32,,Bench Press (Barbell),,,0,normal,60,10,,,,Chest
+Afternoon workout ðŸ’ª,17/12/2023 15:35,17/12/2023 16:32,,Bench Press (Barbell),,,1,normal,70,6,,,,Chest
+Afternoon workout ðŸ’ª,17/12/2023 15:35,17/12/2023 16:32,,Bench Press (Barbell),,,2,normal,60,10,,,,Chest
+Afternoon workout ðŸ’ª,17/12/2023 15:35,17/12/2023 16:32,,Running,,,0,normal,,,,300,,Cardio
+Afternoon workout ðŸ’ª,17/12/2023 15:35,17/12/2023 16:32,,Lateral Raise (Dumbbell),,,0,normal,12,10,,,,Arms
+Afternoon workout ðŸ’ª,17/12/2023 15:35,17/12/2023 16:32,,Lateral Raise (Dumbbell),,,1,normal,12,12,,,,Arms
+Afternoon workout ðŸ’ª,17/12/2023 15:35,17/12/2023 16:32,,Lateral Raise (Dumbbell),,,2,normal,12,10,,,,Arms
+Afternoon workout ðŸ’ª,17/12/2023 15:35,17/12/2023 16:32,,Triceps Dip,,,0,normal,,12,,,,Arms
+Afternoon workout ðŸ’ª,17/12/2023 15:35,17/12/2023 16:32,,Triceps Dip,,,1,normal,,10,,,,Arms
+Afternoon workout ðŸ’ª,17/12/2023 15:35,17/12/2023 16:32,,Triceps Dip,,,2,normal,,10,,,,Arms
+Afternoon workout ðŸ’ª,17/12/2023 15:35,17/12/2023 16:32,,Decline Crunch,,,0,normal,,15,,,,Core
+Afternoon workout ðŸ’ª,17/12/2023 15:35,17/12/2023 16:32,,Decline Crunch,,,1,normal,,12,,,,Core
+Afternoon workout ðŸ’ª,17/12/2023 15:35,17/12/2023 16:32,,Decline Crunch,,,2,normal,,15,,,,Core
+Afternoon workout ðŸ’ª,17/12/2023 15:35,17/12/2023 16:32,,Cable Fly Crossovers,,,0,normal,25,10,,,,Chest
+Afternoon workout ðŸ’ª,17/12/2023 15:35,17/12/2023 16:32,,Cable Fly Crossovers,,,1,normal,25,10,,,,Chest
+Afternoon workout ðŸ’ª,17/12/2023 15:35,17/12/2023 16:32,,Cable Fly Crossovers,,,2,normal,25,10,,,,Chest
+Afternoon workout ðŸ’ª,17/12/2023 15:35,17/12/2023 16:32,,Low Cable Fly Crossovers,,,0,normal,12.5,10,,,,Chest
+Afternoon workout ðŸ’ª,17/12/2023 15:35,17/12/2023 16:32,,Low Cable Fly Crossovers,,,1,normal,12.5,10,,,,Chest
+Afternoon workout ðŸ’ª,17/12/2023 15:35,17/12/2023 16:32,,Low Cable Fly Crossovers,,,2,normal,12.5,10,,,,Chest
+Afternoon workout ðŸ’ª,17/12/2023 15:35,17/12/2023 16:32,,Bicep Curl (Dumbbell),,,0,normal,14,10,,,,Arms
+Afternoon workout ðŸ’ª,17/12/2023 15:35,17/12/2023 16:32,,Bicep Curl (Dumbbell),,,1,normal,16,10,,,,Arms
+Afternoon workout ðŸ’ª,17/12/2023 15:35,17/12/2023 16:32,,Bicep Curl (Dumbbell),,,2,normal,16,10,,,,Arms
+Morning workout â˜€ï¸,18/12/2023 09:43,18/12/2023 11:03,,Running,,,0,normal,,,,360,,Cardio
+Morning workout â˜€ï¸,18/12/2023 09:43,18/12/2023 11:03,,Leg Press (Machine),,,0,normal,70,10,,,,Legs
+Morning workout â˜€ï¸,18/12/2023 09:43,18/12/2023 11:03,,Leg Press (Machine),,,1,normal,70,10,,,,Legs
+Morning workout â˜€ï¸,18/12/2023 09:43,18/12/2023 11:03,,Leg Press (Machine),,,2,normal,40,10,,,,Legs
+Morning workout â˜€ï¸,18/12/2023 09:43,18/12/2023 11:03,,Squat (Barbell),,,0,normal,40,10,,,,Legs
+Morning workout â˜€ï¸,18/12/2023 09:43,18/12/2023 11:03,,Squat (Barbell),,,1,normal,70,8,,,,Legs
+Morning workout â˜€ï¸,18/12/2023 09:43,18/12/2023 11:03,,Squat (Barbell),,,2,normal,70,8,,,,Legs
+Morning workout â˜€ï¸,18/12/2023 09:43,18/12/2023 11:03,,Hip Thrust (Barbell),,,0,normal,70,10,,,,Legs
+Morning workout â˜€ï¸,18/12/2023 09:43,18/12/2023 11:03,,Hip Thrust (Barbell),,,1,normal,90,8,,,,Legs
+Morning workout â˜€ï¸,18/12/2023 09:43,18/12/2023 11:03,,Hip Thrust (Barbell),,,2,normal,90,8,,,,Legs
+Morning workout â˜€ï¸,18/12/2023 09:43,18/12/2023 11:03,,Seated Calf Raise,,,0,normal,45,10,,,,Legs
+Morning workout â˜€ï¸,18/12/2023 09:43,18/12/2023 11:03,,Seated Calf Raise,,,1,normal,45,10,,,,Legs
+Morning workout â˜€ï¸,18/12/2023 09:43,18/12/2023 11:03,,Seated Calf Raise,,,2,normal,45,10,,,,Legs
+Morning workout â˜€ï¸,18/12/2023 09:43,18/12/2023 11:03,,Lying Leg Curl (Machine),,,0,normal,50,10,,,,Legs
+Morning workout â˜€ï¸,18/12/2023 09:43,18/12/2023 11:03,,Lying Leg Curl (Machine),,,1,normal,50,10,,,,Legs
+Morning workout â˜€ï¸,18/12/2023 09:43,18/12/2023 11:03,,Lying Leg Curl (Machine),,,2,normal,50,10,,,,Legs
+Morning workout â˜€ï¸,18/12/2023 09:43,18/12/2023 11:03,,Leg Extension (Machine),,,0,normal,60,10,,,,Legs
+Morning workout â˜€ï¸,18/12/2023 09:43,18/12/2023 11:03,,Leg Extension (Machine),,,1,normal,60,10,,,,Legs
+Morning workout â˜€ï¸,18/12/2023 09:43,18/12/2023 11:03,,Leg Extension (Machine),,,2,normal,60,10,,,,Legs
+Morning workout â˜€ï¸,18/12/2023 09:43,18/12/2023 11:03,,Hanging Leg Raise,,,0,normal,,12,,,,Core
+Morning workout â˜€ï¸,18/12/2023 09:43,18/12/2023 11:03,,Hanging Leg Raise,,,1,normal,,12,,,,Core
+Morning workout â˜€ï¸,18/12/2023 09:43,18/12/2023 11:03,,Hanging Leg Raise,,,2,normal,,12,,,,Core
+Morning workout â˜€ï¸,18/12/2023 21:00,18/12/2023 22:30,,Climbing,,,0,normal,,,,90,,Cardio
+Evening workout ðŸ‹ï¸,19/12/2023 19:11,19/12/2023 20:14,,Pull Up,,,0,normal,,8,,,,Back
+Evening workout ðŸ‹ï¸,19/12/2023 19:11,19/12/2023 20:14,,Pull Up,,,1,normal,,5,,,,Back
+Evening workout ðŸ‹ï¸,19/12/2023 19:11,19/12/2023 20:14,,Lat Pulldown (Cable),,,0,normal,45,10,,,,Back
+Evening workout ðŸ‹ï¸,19/12/2023 19:11,19/12/2023 20:14,,Lat Pulldown (Cable),,,1,normal,50,12,,,,Back
+Evening workout ðŸ‹ï¸,19/12/2023 19:11,19/12/2023 20:14,,Lat Pulldown (Cable),,,2,normal,50,12,,,,Back
+Evening workout ðŸ‹ï¸,19/12/2023 19:11,19/12/2023 20:14,,Seated Cable Row - V Grip (Cable),,,0,normal,45,10,,,,Back
+Evening workout ðŸ‹ï¸,19/12/2023 19:11,19/12/2023 20:14,,Seated Cable Row - V Grip (Cable),,,1,normal,50,10,,,,Back
+Evening workout ðŸ‹ï¸,19/12/2023 19:11,19/12/2023 20:14,,Seated Cable Row - V Grip (Cable),,,2,normal,55,10,,,,Back
+Evening workout ðŸ‹ï¸,19/12/2023 19:11,19/12/2023 20:14,,Deadlift (Barbell),,,0,normal,70,10,,,,Back
+Evening workout ðŸ‹ï¸,19/12/2023 19:11,19/12/2023 20:14,,Deadlift (Barbell),,,1,normal,90,8,,,,Back
+Evening workout ðŸ‹ï¸,19/12/2023 19:11,19/12/2023 20:14,,Deadlift (Barbell),,,2,normal,90,8,,,,Back
+Evening workout ðŸ‹ï¸,19/12/2023 19:11,19/12/2023 20:14,,Upper Back Cable,,,0,normal,50,10,,,,Back
+Evening workout ðŸ‹ï¸,19/12/2023 19:11,19/12/2023 20:14,,Upper Back Cable,,,1,normal,50,10,,,,Back
+Evening workout ðŸ‹ï¸,19/12/2023 19:11,19/12/2023 20:14,,Upper Back Cable,,,2,normal,50,10,,,,Back
+Evening workout ðŸ‹ï¸,19/12/2023 19:11,19/12/2023 20:14,,Bent Over Row (Barbell),,,0,normal,45,10,,,,Back
+Evening workout ðŸ‹ï¸,19/12/2023 19:11,19/12/2023 20:14,,Bent Over Row (Barbell),,,1,normal,45,10,,,,Back
+Evening workout ðŸ‹ï¸,19/12/2023 19:11,19/12/2023 20:14,,Bent Over Row (Barbell),,,2,normal,45,10,,,,Back
+Evening workout ðŸ‹ï¸,19/12/2023 19:11,19/12/2023 20:14,,Bicep Curl (Machine),,,0,normal,17,10,,,,Arms
+Evening workout ðŸ‹ï¸,19/12/2023 19:11,19/12/2023 20:14,,Bicep Curl (Machine),,,1,normal,20,8,,,,Arms
+Evening workout ðŸ‹ï¸,19/12/2023 19:11,19/12/2023 20:14,,Bicep Curl (Machine),,,2,normal,17,8,,,,Arms
+Evening workout ðŸ‹ï¸,19/12/2023 19:11,19/12/2023 20:14,,Seated Shoulder Press (Machine),,,0,normal,35,10,,,,Arms
+Evening workout ðŸ‹ï¸,19/12/2023 19:11,19/12/2023 20:14,,Seated Shoulder Press (Machine),,,1,normal,35,10,,,,Arms
+Evening workout ðŸ‹ï¸,19/12/2023 19:11,19/12/2023 20:14,,Seated Shoulder Press (Machine),,,2,normal,40,10,,,,Arms
+Afternoon workout ðŸ’ª,24/12/2023 12:29,24/12/2023 13:36,,Seated Shoulder Press (Machine),,,0,normal,36,10,,,,Arms
+Afternoon workout ðŸ’ª,24/12/2023 12:29,24/12/2023 13:36,,Seated Shoulder Press (Machine),,,1,normal,36,10,,,,Arms
+Afternoon workout ðŸ’ª,24/12/2023 12:29,24/12/2023 13:36,,Seated Shoulder Press (Machine),,,2,normal,36,10,,,,Arms
+Afternoon workout ðŸ’ª,24/12/2023 12:29,24/12/2023 13:36,,Lateral Raise (Dumbbell),,,0,normal,12,10,,,,Arms
+Afternoon workout ðŸ’ª,24/12/2023 12:29,24/12/2023 13:36,,Lateral Raise (Dumbbell),,,1,normal,12,10,,,,Arms
+Afternoon workout ðŸ’ª,24/12/2023 12:29,24/12/2023 13:36,,Lateral Raise (Dumbbell),,,2,normal,12,10,,,,Arms
+Afternoon workout ðŸ’ª,24/12/2023 12:29,24/12/2023 13:36,,Bicep Curl (Dumbbell),,,0,normal,15,10,,,,Arms
+Afternoon workout ðŸ’ª,24/12/2023 12:29,24/12/2023 13:36,,Bicep Curl (Dumbbell),,,1,normal,15,10,,,,Arms
+Afternoon workout ðŸ’ª,24/12/2023 12:29,24/12/2023 13:36,,Bicep Curl (Dumbbell),,,2,normal,15,10,,,,Arms
+Afternoon workout ðŸ’ª,24/12/2023 12:29,24/12/2023 13:36,,Triceps Rope Pushdown,,,0,normal,35,10,,,,Arms
+Afternoon workout ðŸ’ª,24/12/2023 12:29,24/12/2023 13:36,,Triceps Rope Pushdown,,,1,normal,30,10,,,,Arms
+Afternoon workout ðŸ’ª,24/12/2023 12:29,24/12/2023 13:36,,Triceps Rope Pushdown,,,2,normal,30,10,,,,Arms
+Afternoon workout ðŸ’ª,24/12/2023 12:29,24/12/2023 13:36,,Push Up,,,0,normal,,20,,,,Chest
+Afternoon workout ðŸ’ª,24/12/2023 12:29,24/12/2023 13:36,,Push Up,,,1,normal,,20,,,,Chest
+Afternoon workout ðŸ’ª,24/12/2023 12:29,24/12/2023 13:36,,Push Up,,,2,normal,,20,,,,Chest
+Afternoon workout ðŸ’ª,27/12/2023 18:24,27/12/2023 18:26,,Triceps Rope Pushdown,,,0,normal,35,10,,,,Arms
+Afternoon workout ðŸ’ª,27/12/2023 18:24,27/12/2023 18:26,,Triceps Rope Pushdown,,,1,normal,30,10,,,,Arms
+Afternoon workout ðŸ’ª,27/12/2023 18:24,27/12/2023 18:26,,Triceps Rope Pushdown,,,2,normal,30,10,,,,Arms
+Afternoon workout ðŸ’ª,27/12/2023 18:24,27/12/2023 18:26,,Cable Fly Crossovers,,,0,normal,25,10,,,,Chest
+Afternoon workout ðŸ’ª,27/12/2023 18:24,27/12/2023 18:26,,Cable Fly Crossovers,,,1,normal,25,10,,,,Chest
+Afternoon workout ðŸ’ª,27/12/2023 18:24,27/12/2023 18:26,,Cable Fly Crossovers,,,2,normal,25,10,,,,Chest
+Afternoon workout ðŸ’ª,27/12/2023 18:24,27/12/2023 18:26,,Low Cable Fly Crossovers,,,0,normal,12.5,10,,,,Chest
+Afternoon workout ðŸ’ª,27/12/2023 18:24,27/12/2023 18:26,,Low Cable Fly Crossovers,,,1,normal,12.5,10,,,,Chest
+Afternoon workout ðŸ’ª,27/12/2023 18:24,27/12/2023 18:26,,Low Cable Fly Crossovers,,,2,normal,12.5,10,,,,Chest
+Afternoon workout ðŸ’ª,27/12/2023 18:24,27/12/2023 18:26,,Triceps Dip,,,0,normal,,12,,,,Arms
+Afternoon workout ðŸ’ª,27/12/2023 18:24,27/12/2023 18:26,,Triceps Dip,,,1,normal,,10,,,,Arms
+Afternoon workout ðŸ’ª,27/12/2023 18:24,27/12/2023 18:26,,Triceps Dip,,,2,normal,,10,,,,Arms
+Afternoon workout ðŸ’ª,27/12/2023 18:24,27/12/2023 18:26,,Bench Press (Barbell),,,0,normal,60,10,,,,Chest
+Afternoon workout ðŸ’ª,27/12/2023 18:24,27/12/2023 18:26,,Bench Press (Barbell),,,1,normal,70,6,,,,Chest
+Afternoon workout ðŸ’ª,27/12/2023 18:24,27/12/2023 18:26,,Bench Press (Barbell),,,2,normal,60,10,,,,Chest
+Afternoon workout ðŸ’ª,27/12/2023 18:24,27/12/2023 18:26,,Incline Bench Press (Barbell),,,0,normal,50,10,,,,Chest
+Afternoon workout ðŸ’ª,27/12/2023 18:24,27/12/2023 18:26,,Incline Bench Press (Barbell),,,1,normal,50,10,,,,Chest
+Afternoon workout ðŸ’ª,27/12/2023 18:24,27/12/2023 18:26,,Incline Bench Press (Barbell),,,2,normal,50,10,,,,Chest
+Morning workout â˜€ï¸,29/12/2023 18:26,29/12/2023 20:30,,Bench Press (Barbell),,,0,normal,60,10,,,,Chest
+Morning workout â˜€ï¸,29/12/2023 18:26,29/12/2023 20:30,,Bench Press (Barbell),,,1,normal,70,6,,,,Chest
+Morning workout â˜€ï¸,29/12/2023 18:26,29/12/2023 20:30,,Bench Press (Barbell),,,2,normal,70,8,,,,Chest
+Morning workout â˜€ï¸,29/12/2023 18:26,29/12/2023 20:30,,Bench Press (Barbell),,,3,normal,70,6,,,,Chest
+Morning workout â˜€ï¸,29/12/2023 18:26,29/12/2023 20:30,,Incline Bench Press (Dumbbell),,,0,normal,22,10,,,,Chest
+Morning workout â˜€ï¸,29/12/2023 18:26,29/12/2023 20:30,,Incline Bench Press (Dumbbell),,,1,normal,22,10,,,,Chest
+Morning workout â˜€ï¸,29/12/2023 18:26,29/12/2023 20:30,,Incline Bench Press (Dumbbell),,,2,normal,22,10,,,,Chest
+Morning workout â˜€ï¸,29/12/2023 18:26,29/12/2023 20:30,,Triceps Dip,,,0,normal,,12,,,,Arms
+Morning workout â˜€ï¸,29/12/2023 18:26,29/12/2023 20:30,,Triceps Dip,,,1,normal,,10,,,,Arms
+Morning workout â˜€ï¸,29/12/2023 18:26,29/12/2023 20:30,,Triceps Dip,,,2,normal,,10,,,,Arms
+Morning workout â˜€ï¸,29/12/2023 18:26,29/12/2023 20:30,,Cable Fly Crossovers,,,0,normal,25,10,,,,Chest
+Morning workout â˜€ï¸,29/12/2023 18:26,29/12/2023 20:30,,Cable Fly Crossovers,,,1,normal,25,10,,,,Chest
+Morning workout â˜€ï¸,29/12/2023 18:26,29/12/2023 20:30,,Cable Fly Crossovers,,,2,normal,25,10,,,,Chest
+Morning workout â˜€ï¸,29/12/2023 18:26,29/12/2023 20:30,,Triceps Rope Pushdown,,,0,normal,35,10,,,,Arms
+Morning workout â˜€ï¸,29/12/2023 18:26,29/12/2023 20:30,,Triceps Rope Pushdown,,,1,normal,30,10,,,,Arms
+Morning workout â˜€ï¸,29/12/2023 18:26,29/12/2023 20:30,,Triceps Rope Pushdown,,,2,normal,30,10,,,,Arms
+Morning workout â˜€ï¸,29/12/2023 18:26,29/12/2023 20:30,,Seated Shoulder Press (Machine),,,0,normal,36,10,,,,Arms
+Morning workout â˜€ï¸,29/12/2023 18:26,29/12/2023 20:30,,Seated Shoulder Press (Machine),,,1,normal,36,10,,,,Arms
+Morning workout â˜€ï¸,29/12/2023 18:26,29/12/2023 20:30,,Seated Shoulder Press (Machine),,,2,normal,36,10,,,,Arms
+Morning workout â˜€ï¸,29/12/2023 18:26,29/12/2023 20:30,,Lateral Raise (Dumbbell),,,0,normal,14,8,,,,Arms
+Morning workout â˜€ï¸,29/12/2023 18:26,29/12/2023 20:30,,Lateral Raise (Dumbbell),,,1,normal,14,8,,,,Arms
+Morning workout â˜€ï¸,29/12/2023 18:26,29/12/2023 20:30,,Lateral Raise (Dumbbell),,,2,normal,14,8,,,,Arms
+Morning workout â˜€ï¸,29/12/2023 18:26,29/12/2023 20:30,,Hollow Rock,,,0,normal,,,,30,,Core
+Morning workout â˜€ï¸,29/12/2023 18:26,29/12/2023 20:30,,Side Plank,,,0,normal,,,,30,,Core
+Morning workout â˜€ï¸,29/12/2023 18:26,29/12/2023 20:30,,Side Plank,,,1,normal,,,,30,,Core
+Morning workout â˜€ï¸,29/12/2023 18:26,29/12/2023 20:30,,Russian Twist (Weighted),,,0,normal,5,20,,,,Core
+Morning workout â˜€ï¸,29/12/2023 18:26,29/12/2023 20:30,,Reverse Crunch,,,0,normal,,10,,,,Core
+Morning workout â˜€ï¸,29/12/2023 18:26,29/12/2023 20:30,,Reverse Crunch,,,1,normal,,10,,,,Core
+Morning workout â˜€ï¸,29/12/2023 18:26,29/12/2023 20:30,,Plank,,,0,normal,,,,60,,Core
+Morning workout â˜€ï¸,29/12/2023 18:26,29/12/2023 20:30,,Dead Bug,,,0,normal,,10,,,,Core
+Afternoon workout ðŸ’ª,05/01/2024 18:37,05/01/2024 19:45,,Treadmill,,,0,normal,,,2,600,,Cardio
+Afternoon workout ðŸ’ª,05/01/2024 18:37,05/01/2024 19:45,,Squat (Barbell),,,0,normal,20,8,,,,Legs
+Afternoon workout ðŸ’ª,05/01/2024 18:37,05/01/2024 19:45,,Squat (Barbell),,,1,normal,60,8,,,,Legs
+Afternoon workout ðŸ’ª,05/01/2024 18:37,05/01/2024 19:45,,Squat (Barbell),,,2,normal,70,8,,,,Legs
+Afternoon workout ðŸ’ª,05/01/2024 18:37,05/01/2024 19:45,,Squat (Barbell),,,3,normal,70,8,,,,Legs
+Afternoon workout ðŸ’ª,05/01/2024 18:37,05/01/2024 19:45,,Leg Extension (Machine),,,0,normal,60,10,,,,Legs
+Afternoon workout ðŸ’ª,05/01/2024 18:37,05/01/2024 19:45,,Leg Extension (Machine),,,1,normal,60,10,,,,Legs
+Afternoon workout ðŸ’ª,05/01/2024 18:37,05/01/2024 19:45,,Leg Extension (Machine),,,2,normal,60,10,,,,Legs
+Afternoon workout ðŸ’ª,05/01/2024 18:37,05/01/2024 19:45,,Lying Leg Curl (Machine),,,0,normal,50,10,,,,Legs
+Afternoon workout ðŸ’ª,05/01/2024 18:37,05/01/2024 19:45,,Lying Leg Curl (Machine),,,1,normal,50,10,,,,Legs
+Afternoon workout ðŸ’ª,05/01/2024 18:37,05/01/2024 19:45,,Lying Leg Curl (Machine),,,2,normal,50,10,,,,Legs
+Evening workout ðŸ‹ï¸,07/01/2024 17:39,07/01/2024 19:13,,Incline Bench Press (Dumbbell),,,0,normal,22,10,,,,Chest
+Evening workout ðŸ‹ï¸,07/01/2024 17:39,07/01/2024 19:13,,Incline Bench Press (Dumbbell),,,1,normal,24,10,,,,Chest
+Evening workout ðŸ‹ï¸,07/01/2024 17:39,07/01/2024 19:13,,Incline Bench Press (Dumbbell),,,2,normal,24,8,,,,Chest
+Evening workout ðŸ‹ï¸,07/01/2024 17:39,07/01/2024 19:13,,Incline Bench Press (Dumbbell),,,3,normal,24,6,,,,Chest
+Evening workout ðŸ‹ï¸,07/01/2024 17:39,07/01/2024 19:13,,Cable Fly Crossovers,,,0,normal,22.5,10,,,,Chest
+Evening workout ðŸ‹ï¸,07/01/2024 17:39,07/01/2024 19:13,,Cable Fly Crossovers,,,1,normal,22.5,10,,,,Chest
+Evening workout ðŸ‹ï¸,07/01/2024 17:39,07/01/2024 19:13,,Cable Fly Crossovers,,,2,normal,22.5,10,,,,Chest
+Evening workout ðŸ‹ï¸,07/01/2024 17:39,07/01/2024 19:13,,Low Cable Fly Crossovers,,,0,normal,15,10,,,,Chest
+Evening workout ðŸ‹ï¸,07/01/2024 17:39,07/01/2024 19:13,,Low Cable Fly Crossovers,,,1,normal,15,10,,,,Chest
+Evening workout ðŸ‹ï¸,07/01/2024 17:39,07/01/2024 19:13,,Low Cable Fly Crossovers,,,2,normal,15,10,,,,Chest
+Evening workout ðŸ‹ï¸,07/01/2024 17:39,07/01/2024 19:13,,Seated Shoulder Press (Machine),,,0,normal,36,10,,,,Arms
+Evening workout ðŸ‹ï¸,07/01/2024 17:39,07/01/2024 19:13,,Seated Shoulder Press (Machine),,,1,normal,36,10,,,,Arms
+Evening workout ðŸ‹ï¸,07/01/2024 17:39,07/01/2024 19:13,,Seated Shoulder Press (Machine),,,2,normal,36,10,,,,Arms
+Evening workout ðŸ‹ï¸,07/01/2024 17:39,07/01/2024 19:13,,Lateral Raise (Dumbbell),,,0,normal,12,10,,,,Arms
+Evening workout ðŸ‹ï¸,07/01/2024 17:39,07/01/2024 19:13,,Lateral Raise (Dumbbell),,,1,normal,12,10,,,,Arms
+Evening workout ðŸ‹ï¸,07/01/2024 17:39,07/01/2024 19:13,,Lateral Raise (Dumbbell),,,2,normal,12,10,,,,Arms
+Evening workout ðŸ‹ï¸,07/01/2024 17:39,07/01/2024 19:13,,Hollow Rock,,,0,normal,,,,30,,Core
+Evening workout ðŸ‹ï¸,07/01/2024 17:39,07/01/2024 19:13,,Side Plank,,,0,normal,,,,30,,Core
+Evening workout ðŸ‹ï¸,07/01/2024 17:39,07/01/2024 19:13,,Side Plank,,,1,normal,,,,30,,Core
+Evening workout ðŸ‹ï¸,07/01/2024 17:39,07/01/2024 19:13,,Russian Twist (Weighted),,,0,normal,5,20,,,,Core
+Evening workout ðŸ‹ï¸,07/01/2024 17:39,07/01/2024 19:13,,Reverse Crunch,,,0,normal,,10,,,,Core
+Evening workout ðŸ‹ï¸,07/01/2024 17:39,07/01/2024 19:13,,Plank,,,0,normal,,,,60,,Core
+Evening workout ðŸ‹ï¸,07/01/2024 17:39,07/01/2024 19:13,,Dead Bug,,,0,normal,,10,,,,Core
+Evening workout ðŸ‹ï¸,07/01/2024 17:39,07/01/2024 19:13,,Treadmill,,,0,normal,,,2.2,720,,Cardio
+Morning workout â˜€ï¸,08/01/2024 09:51,08/01/2024 11:14,,Squat (Barbell),,,0,normal,20,10,,,,Legs
+Morning workout â˜€ï¸,08/01/2024 09:51,08/01/2024 11:14,,Squat (Barbell),,,1,normal,60,10,,,,Legs
+Morning workout â˜€ï¸,08/01/2024 09:51,08/01/2024 11:14,,Squat (Barbell),,,2,normal,70,10,,,,Legs
+Morning workout â˜€ï¸,08/01/2024 09:51,08/01/2024 11:14,,Squat (Barbell),,,3,normal,80,6,,,,Legs
+Morning workout â˜€ï¸,08/01/2024 09:51,08/01/2024 11:14,,Seated Calf Raise,,,0,normal,45,10,,,,Legs
+Morning workout â˜€ï¸,08/01/2024 09:51,08/01/2024 11:14,,Seated Calf Raise,,,1,normal,45,10,,,,Legs
+Morning workout â˜€ï¸,08/01/2024 09:51,08/01/2024 11:14,,Seated Calf Raise,,,2,normal,45,10,,,,Legs
+Morning workout â˜€ï¸,08/01/2024 09:51,08/01/2024 11:14,,Leg Extension (Machine),,,0,normal,60,10,,,,Legs
+Morning workout â˜€ï¸,08/01/2024 09:51,08/01/2024 11:14,,Leg Extension (Machine),,,1,normal,60,10,,,,Legs
+Morning workout â˜€ï¸,08/01/2024 09:51,08/01/2024 11:14,,Leg Extension (Machine),,,2,normal,60,10,,,,Legs
+Morning workout â˜€ï¸,08/01/2024 09:51,08/01/2024 11:14,,Lying Leg Curl (Machine),,,0,normal,50,10,,,,Legs
+Morning workout â˜€ï¸,08/01/2024 09:51,08/01/2024 11:14,,Lying Leg Curl (Machine),,,1,normal,50,10,,,,Legs
+Morning workout â˜€ï¸,08/01/2024 09:51,08/01/2024 11:14,,Lying Leg Curl (Machine),,,2,normal,50,10,,,,Legs
+Morning workout â˜€ï¸,08/01/2024 09:51,08/01/2024 11:14,,Hollow Rock,,,0,normal,,,,30,,Core
+Morning workout â˜€ï¸,08/01/2024 09:51,08/01/2024 11:14,,Side Plank,,,0,normal,,,,30,,Core
+Morning workout â˜€ï¸,08/01/2024 09:51,08/01/2024 11:14,,Russian Twist (Weighted),,,0,normal,5,20,,,,Core
+Morning workout â˜€ï¸,08/01/2024 09:51,08/01/2024 11:14,,Reverse Crunch,,,0,normal,,10,,,,Core
+Morning workout â˜€ï¸,08/01/2024 09:51,08/01/2024 11:14,,Plank,,,0,normal,,,,60,,Core
+Morning workout â˜€ï¸,08/01/2024 09:51,08/01/2024 11:14,,Dead Bug,,,0,normal,,10,,,,Core
+Evening workout ðŸ‹ï¸,12/01/2024 19:26,12/01/2024 20:40,,Lat Pulldown (Cable),,,0,normal,45,10,,,,Back
+Evening workout ðŸ‹ï¸,12/01/2024 19:26,12/01/2024 20:40,,Lat Pulldown (Cable),,,1,normal,50,10,,,,Back
+Evening workout ðŸ‹ï¸,12/01/2024 19:26,12/01/2024 20:40,,Lat Pulldown (Cable),,,2,normal,50,10,,,,Back
+Evening workout ðŸ‹ï¸,12/01/2024 19:26,12/01/2024 20:40,,Lat Pulldown (Cable),,,3,normal,50,8,,,,Back
+Evening workout ðŸ‹ï¸,12/01/2024 19:26,12/01/2024 20:40,,Bent Over Row (Barbell),,,0,normal,45,10,,,,Back
+Evening workout ðŸ‹ï¸,12/01/2024 19:26,12/01/2024 20:40,,Bent Over Row (Barbell),,,1,normal,45,10,,,,Back
+Evening workout ðŸ‹ï¸,12/01/2024 19:26,12/01/2024 20:40,,Bent Over Row (Barbell),,,2,normal,45,10,,,,Back
+Evening workout ðŸ‹ï¸,12/01/2024 19:26,12/01/2024 20:40,,Seated Row (Machine),,,0,normal,25,10,,,,Back
+Evening workout ðŸ‹ï¸,12/01/2024 19:26,12/01/2024 20:40,,Seated Row (Machine),,,1,normal,25,10,,,,Back
+Evening workout ðŸ‹ï¸,12/01/2024 19:26,12/01/2024 20:40,,Seated Row (Machine),,,2,normal,25,10,,,,Back
+Evening workout ðŸ‹ï¸,12/01/2024 19:26,12/01/2024 20:40,,Bicep Curl (Dumbbell),,,0,normal,14,10,,,,Arms
+Evening workout ðŸ‹ï¸,12/01/2024 19:26,12/01/2024 20:40,,Bicep Curl (Dumbbell),,,1,normal,14,10,,,,Arms
+Evening workout ðŸ‹ï¸,12/01/2024 19:26,12/01/2024 20:40,,Bicep Curl (Dumbbell),,,2,normal,14,10,,,,Arms
+Evening workout ðŸ‹ï¸,12/01/2024 19:26,12/01/2024 20:40,,Treadmill,,,0,normal,,,2.2,720,,Cardio
+Evening workout ðŸ‹ï¸,12/01/2024 19:26,12/01/2024 20:40,,Upper Back Cable,,,0,normal,50,10,,,,Back
+Evening workout ðŸ‹ï¸,12/01/2024 19:26,12/01/2024 20:40,,Upper Back Cable,,,1,normal,50,10,,,,Back
+Evening workout ðŸ‹ï¸,12/01/2024 19:26,12/01/2024 20:40,,Upper Back Cable,,,2,normal,50,10,,,,Back
+Afternoon workout ðŸ’ª,14/01/2024 17:33,14/01/2024 18:33,,Bench Press (Barbell),,,0,normal,60,10,,,,Chest
+Afternoon workout ðŸ’ª,14/01/2024 17:33,14/01/2024 18:33,,Bench Press (Barbell),,,1,normal,70,6,,,,Chest
+Afternoon workout ðŸ’ª,14/01/2024 17:33,14/01/2024 18:33,,Bench Press (Barbell),,,2,normal,70,8,,,,Chest
+Afternoon workout ðŸ’ª,14/01/2024 17:33,14/01/2024 18:33,,Cable Fly Crossovers,,,0,normal,22.5,10,,,,Chest
+Afternoon workout ðŸ’ª,14/01/2024 17:33,14/01/2024 18:33,,Cable Fly Crossovers,,,1,normal,22.5,10,,,,Chest
+Afternoon workout ðŸ’ª,14/01/2024 17:33,14/01/2024 18:33,,Cable Fly Crossovers,,,2,normal,22.5,10,,,,Chest
+Afternoon workout ðŸ’ª,14/01/2024 17:33,14/01/2024 18:33,,Low Cable Fly Crossovers,,,0,normal,15,10,,,,Chest
+Afternoon workout ðŸ’ª,14/01/2024 17:33,14/01/2024 18:33,,Low Cable Fly Crossovers,,,1,normal,15,10,,,,Chest
+Afternoon workout ðŸ’ª,14/01/2024 17:33,14/01/2024 18:33,,Low Cable Fly Crossovers,,,2,normal,15,10,,,,Chest
+Afternoon workout ðŸ’ª,14/01/2024 17:33,14/01/2024 18:33,,Seated Shoulder Press (Machine),,,0,normal,36,10,,,,Arms
+Afternoon workout ðŸ’ª,14/01/2024 17:33,14/01/2024 18:33,,Seated Shoulder Press (Machine),,,1,normal,36,10,,,,Arms
+Afternoon workout ðŸ’ª,14/01/2024 17:33,14/01/2024 18:33,,Seated Shoulder Press (Machine),,,2,normal,36,10,,,,Arms
+Afternoon workout ðŸ’ª,14/01/2024 17:33,14/01/2024 18:33,,Lateral Raise (Dumbbell),,,0,normal,12,10,,,,Arms
+Afternoon workout ðŸ’ª,14/01/2024 17:33,14/01/2024 18:33,,Lateral Raise (Dumbbell),,,1,normal,12,10,,,,Arms
+Afternoon workout ðŸ’ª,14/01/2024 17:33,14/01/2024 18:33,,Lateral Raise (Dumbbell),,,2,normal,12,10,,,,Arms
+Afternoon workout ðŸ’ª,14/01/2024 17:33,14/01/2024 18:33,,Triceps Rope Pushdown,,,0,normal,35,10,,,,Arms
+Afternoon workout ðŸ’ª,14/01/2024 17:33,14/01/2024 18:33,,Triceps Rope Pushdown,,,1,normal,30,10,,,,Arms
+Afternoon workout ðŸ’ª,14/01/2024 17:33,14/01/2024 18:33,,Triceps Rope Pushdown,,,2,normal,30,10,,,,Arms
+Afternoon workout ðŸ’ª,14/01/2024 17:33,14/01/2024 18:33,,Dead Bug,,,0,normal,,10,,,,Core
+Afternoon workout ðŸ’ª,14/01/2024 17:33,14/01/2024 18:33,,Plank,,,0,normal,,,,60,,Core
+Afternoon workout ðŸ’ª,14/01/2024 17:33,14/01/2024 18:33,,Reverse Crunch,,,0,normal,,10,,,,Core
+Afternoon workout ðŸ’ª,14/01/2024 17:33,14/01/2024 18:33,,Russian Twist (Weighted),,,0,normal,5,20,,,,Core
+Afternoon workout ðŸ’ª,14/01/2024 17:33,14/01/2024 18:33,,Side Plank,,,0,normal,,,,30,,Core
+Afternoon workout ðŸ’ª,14/01/2024 17:33,14/01/2024 18:33,,Side Plank,,,1,normal,,,,30,,Core
+Afternoon workout ðŸ’ª,14/01/2024 17:33,14/01/2024 18:33,,Hollow Rock,,,0,normal,,,,30,,Core
+Afternoon workout ðŸ’ª,14/01/2024 17:33,14/01/2024 18:33,,Treadmill,,,0,normal,,,1,360,,Core
+Afternoon workout ðŸ’ª,15/01/2024 16:12,15/01/2024 17:42,,kickboxing,,,0,normal,,,,5400,,Cardio
+Afternoon workout ðŸ’ª,16/01/2024 16:13,16/01/2024 17:43,,Climbing,,,0,normal,,,,5400,,Cardio
+Evening workout ðŸ‹ï¸,18/01/2024 17:39,18/01/2024 18:57,,Incline Bench Press (Dumbbell),,,0,normal,22,10,,,,Chest
+Evening workout ðŸ‹ï¸,18/01/2024 17:39,18/01/2024 18:57,,Incline Bench Press (Dumbbell),,,1,normal,24,10,,,,Chest
+Evening workout ðŸ‹ï¸,18/01/2024 17:39,18/01/2024 18:57,,Incline Bench Press (Dumbbell),,,2,normal,24,8,,,,Chest
+Evening workout ðŸ‹ï¸,18/01/2024 17:39,18/01/2024 18:57,,Incline Bench Press (Dumbbell),,,3,normal,24,6,,,,Chest
+Evening workout ðŸ‹ï¸,18/01/2024 17:39,18/01/2024 18:57,,Cable Fly Crossovers,,,0,normal,22.5,10,,,,Chest
+Evening workout ðŸ‹ï¸,18/01/2024 17:39,18/01/2024 18:57,,Cable Fly Crossovers,,,1,normal,22.5,10,,,,Chest
+Evening workout ðŸ‹ï¸,18/01/2024 17:39,18/01/2024 18:57,,Cable Fly Crossovers,,,2,normal,22.5,10,,,,Chest
+Evening workout ðŸ‹ï¸,18/01/2024 17:39,18/01/2024 18:57,,Low Cable Fly Crossovers,,,0,normal,15,10,,,,Chest
+Evening workout ðŸ‹ï¸,18/01/2024 17:39,18/01/2024 18:57,,Low Cable Fly Crossovers,,,1,normal,15,10,,,,Chest
+Evening workout ðŸ‹ï¸,18/01/2024 17:39,18/01/2024 18:57,,Low Cable Fly Crossovers,,,2,normal,15,10,,,,Chest
+Evening workout ðŸ‹ï¸,18/01/2024 17:39,18/01/2024 18:57,,Seated Shoulder Press (Machine),,,0,normal,36,10,,,,Arms
+Evening workout ðŸ‹ï¸,18/01/2024 17:39,18/01/2024 18:57,,Seated Shoulder Press (Machine),,,1,normal,36,10,,,,Arms
+Evening workout ðŸ‹ï¸,18/01/2024 17:39,18/01/2024 18:57,,Seated Shoulder Press (Machine),,,2,normal,36,10,,,,Arms
+Evening workout ðŸ‹ï¸,18/01/2024 17:39,18/01/2024 18:57,,Lateral Raise (Dumbbell),,,0,normal,12,10,,,,Arms
+Evening workout ðŸ‹ï¸,18/01/2024 17:39,18/01/2024 18:57,,Lateral Raise (Dumbbell),,,1,normal,12,10,,,,Arms
+Evening workout ðŸ‹ï¸,18/01/2024 17:39,18/01/2024 18:57,,Lateral Raise (Dumbbell),,,2,normal,12,10,,,,Arms
+Evening workout ðŸ‹ï¸,18/01/2024 17:39,18/01/2024 18:57,,Hollow Rock,,,0,normal,,,,30,,Core
+Evening workout ðŸ‹ï¸,18/01/2024 17:39,18/01/2024 18:57,,Side Plank,,,0,normal,,,,30,,Core
+Evening workout ðŸ‹ï¸,18/01/2024 17:39,18/01/2024 18:57,,Side Plank,,,1,normal,,,,30,,Core
+Evening workout ðŸ‹ï¸,18/01/2024 17:39,18/01/2024 18:57,,Russian Twist (Weighted),,,0,normal,5,20,,,,Core
+Evening workout ðŸ‹ï¸,18/01/2024 17:39,18/01/2024 18:57,,Reverse Crunch,,,0,normal,,10,,,,Core
+Evening workout ðŸ‹ï¸,18/01/2024 17:39,18/01/2024 18:57,,Plank,,,0,normal,,,,60,,Core
+Evening workout ðŸ‹ï¸,18/01/2024 17:39,18/01/2024 18:57,,Dead Bug,,,0,normal,,10,,,,Core
+Evening workout ðŸ‹ï¸,18/01/2024 17:39,18/01/2024 18:57,,Treadmill,,,0,normal,,,2.2,720,,Cardio
+Morning workout â˜€ï¸,19/01/2024 15:20,19/01/2024 17:05,,Squat (Barbell),,,0,normal,20,10,,,,Legs
+Morning workout â˜€ï¸,19/01/2024 15:20,19/01/2024 17:05,,Squat (Barbell),,,1,normal,60,10,,,,Legs
+Morning workout â˜€ï¸,19/01/2024 15:20,19/01/2024 17:05,,Squat (Barbell),,,2,normal,70,10,,,,Legs
+Morning workout â˜€ï¸,19/01/2024 15:20,19/01/2024 17:05,,Squat (Barbell),,,3,normal,80,6,,,,Legs
+Morning workout â˜€ï¸,19/01/2024 15:20,19/01/2024 17:05,,Seated Calf Raise,,,0,normal,45,10,,,,Legs
+Morning workout â˜€ï¸,19/01/2024 15:20,19/01/2024 17:05,,Seated Calf Raise,,,1,normal,45,10,,,,Legs
+Morning workout â˜€ï¸,19/01/2024 15:20,19/01/2024 17:05,,Seated Calf Raise,,,2,normal,45,10,,,,Legs
+Morning workout â˜€ï¸,19/01/2024 15:20,19/01/2024 17:05,,Leg Extension (Machine),,,0,normal,60,10,,,,Legs
+Morning workout â˜€ï¸,19/01/2024 15:20,19/01/2024 17:05,,Leg Extension (Machine),,,1,normal,60,10,,,,Legs
+Morning workout â˜€ï¸,19/01/2024 15:20,19/01/2024 17:05,,Leg Extension (Machine),,,2,normal,60,10,,,,Legs
+Morning workout â˜€ï¸,19/01/2024 15:20,19/01/2024 17:05,,Lying Leg Curl (Machine),,,0,normal,50,10,,,,Legs
+Morning workout â˜€ï¸,19/01/2024 15:20,19/01/2024 17:05,,Lying Leg Curl (Machine),,,1,normal,50,10,,,,Legs
+Morning workout â˜€ï¸,19/01/2024 15:20,19/01/2024 17:05,,Lying Leg Curl (Machine),,,2,normal,50,10,,,,Legs
+Morning workout â˜€ï¸,19/01/2024 15:20,19/01/2024 17:05,,Hollow Rock,,,0,normal,,,,30,,Core
+Morning workout â˜€ï¸,19/01/2024 15:20,19/01/2024 17:05,,Side Plank,,,0,normal,,,,30,,Core
+Morning workout â˜€ï¸,19/01/2024 15:20,19/01/2024 17:05,,Russian Twist (Weighted),,,0,normal,5,20,,,,Core
+Morning workout â˜€ï¸,19/01/2024 15:20,19/01/2024 17:05,,Reverse Crunch,,,0,normal,,10,,,,Core
+Morning workout â˜€ï¸,19/01/2024 15:20,19/01/2024 17:05,,Plank,,,0,normal,,,,60,,Core
+Morning workout â˜€ï¸,19/01/2024 15:20,19/01/2024 17:05,,Dead Bug,,,0,normal,,10,,,,Core
+Evening workout ðŸ‹ï¸,21/01/2024 17:00,21/01/2024 18:14,,Lat Pulldown (Cable),,,0,normal,45,10,,,,Back
+Evening workout ðŸ‹ï¸,21/01/2024 17:00,21/01/2024 18:14,,Lat Pulldown (Cable),,,1,normal,50,10,,,,Back
+Evening workout ðŸ‹ï¸,21/01/2024 17:00,21/01/2024 18:14,,Lat Pulldown (Cable),,,2,normal,50,10,,,,Back
+Evening workout ðŸ‹ï¸,21/01/2024 17:00,21/01/2024 18:14,,Lat Pulldown (Cable),,,3,normal,50,8,,,,Back
+Evening workout ðŸ‹ï¸,21/01/2024 17:00,21/01/2024 18:14,,Bent Over Row (Barbell),,,0,normal,45,10,,,,Back
+Evening workout ðŸ‹ï¸,21/01/2024 17:00,21/01/2024 18:14,,Bent Over Row (Barbell),,,1,normal,45,10,,,,Back
+Evening workout ðŸ‹ï¸,21/01/2024 17:00,21/01/2024 18:14,,Bent Over Row (Barbell),,,2,normal,45,10,,,,Back
+Evening workout ðŸ‹ï¸,21/01/2024 17:00,21/01/2024 18:14,,Seated Row (Machine),,,0,normal,25,10,,,,Back
+Evening workout ðŸ‹ï¸,21/01/2024 17:00,21/01/2024 18:14,,Seated Row (Machine),,,1,normal,25,10,,,,Back
+Evening workout ðŸ‹ï¸,21/01/2024 17:00,21/01/2024 18:14,,Seated Row (Machine),,,2,normal,25,10,,,,Back
+Evening workout ðŸ‹ï¸,21/01/2024 17:00,21/01/2024 18:14,,Bicep Curl (Dumbbell),,,0,normal,14,10,,,,Arms
+Evening workout ðŸ‹ï¸,21/01/2024 17:00,21/01/2024 18:14,,Bicep Curl (Dumbbell),,,1,normal,14,10,,,,Arms
+Evening workout ðŸ‹ï¸,21/01/2024 17:00,21/01/2024 18:14,,Bicep Curl (Dumbbell),,,2,normal,14,10,,,,Arms
+Evening workout ðŸ‹ï¸,21/01/2024 17:00,21/01/2024 18:14,,Treadmill,,,0,normal,,,2.2,720,,Cardio
+Evening workout ðŸ‹ï¸,21/01/2024 17:00,21/01/2024 18:14,,Upper Back Cable,,,0,normal,50,10,,,,Back
+Evening workout ðŸ‹ï¸,21/01/2024 17:00,21/01/2024 18:14,,Upper Back Cable,,,1,normal,50,10,,,,Back
+Evening workout ðŸ‹ï¸,21/01/2024 17:00,21/01/2024 18:14,,Upper Back Cable,,,2,normal,50,10,,,,Back
+Afternoon workout ðŸ’ª,23/01/2024 17:33,23/01/2024 18:33,,Bench Press (Barbell),,,0,normal,60,10,,,,Chest
+Afternoon workout ðŸ’ª,23/01/2024 17:33,23/01/2024 18:33,,Bench Press (Barbell),,,1,normal,70,6,,,,Chest
+Afternoon workout ðŸ’ª,23/01/2024 17:33,23/01/2024 18:33,,Bench Press (Barbell),,,2,normal,70,8,,,,Chest
+Afternoon workout ðŸ’ª,23/01/2024 17:33,23/01/2024 18:33,,Cable Fly Crossovers,,,0,normal,22.5,10,,,,Chest
+Afternoon workout ðŸ’ª,23/01/2024 17:33,23/01/2024 18:33,,Cable Fly Crossovers,,,1,normal,22.5,10,,,,Chest
+Afternoon workout ðŸ’ª,23/01/2024 17:33,23/01/2024 18:33,,Cable Fly Crossovers,,,2,normal,22.5,10,,,,Chest
+Afternoon workout ðŸ’ª,23/01/2024 17:33,23/01/2024 18:33,,Low Cable Fly Crossovers,,,0,normal,15,10,,,,Chest
+Afternoon workout ðŸ’ª,23/01/2024 17:33,23/01/2024 18:33,,Low Cable Fly Crossovers,,,1,normal,15,10,,,,Chest
+Afternoon workout ðŸ’ª,23/01/2024 17:33,23/01/2024 18:33,,Low Cable Fly Crossovers,,,2,normal,15,10,,,,Chest
+Afternoon workout ðŸ’ª,23/01/2024 17:33,23/01/2024 18:33,,Seated Shoulder Press (Machine),,,0,normal,36,10,,,,Arms
+Afternoon workout ðŸ’ª,23/01/2024 17:33,23/01/2024 18:33,,Seated Shoulder Press (Machine),,,1,normal,36,10,,,,Arms
+Afternoon workout ðŸ’ª,23/01/2024 17:33,23/01/2024 18:33,,Seated Shoulder Press (Machine),,,2,normal,36,10,,,,Arms
+Afternoon workout ðŸ’ª,23/01/2024 17:33,23/01/2024 18:33,,Lateral Raise (Dumbbell),,,0,normal,12,10,,,,Arms
+Afternoon workout ðŸ’ª,23/01/2024 17:33,23/01/2024 18:33,,Lateral Raise (Dumbbell),,,1,normal,12,10,,,,Arms
+Afternoon workout ðŸ’ª,23/01/2024 17:33,23/01/2024 18:33,,Lateral Raise (Dumbbell),,,2,normal,12,10,,,,Arms
+Afternoon workout ðŸ’ª,23/01/2024 17:33,23/01/2024 18:33,,Triceps Rope Pushdown,,,0,normal,35,10,,,,Arms
+Afternoon workout ðŸ’ª,23/01/2024 17:33,23/01/2024 18:33,,Triceps Rope Pushdown,,,1,normal,30,10,,,,Arms
+Afternoon workout ðŸ’ª,23/01/2024 17:33,23/01/2024 18:33,,Triceps Rope Pushdown,,,2,normal,30,10,,,,Arms
+Afternoon workout ðŸ’ª,23/01/2024 17:33,23/01/2024 18:33,,Dead Bug,,,0,normal,,10,,,,Core
+Afternoon workout ðŸ’ª,23/01/2024 17:33,23/01/2024 18:33,,Plank,,,0,normal,,,,60,,Core
+Afternoon workout ðŸ’ª,23/01/2024 17:33,23/01/2024 18:33,,Reverse Crunch,,,0,normal,,10,,,,Core
+Afternoon workout ðŸ’ª,23/01/2024 17:33,23/01/2024 18:33,,Russian Twist (Weighted),,,0,normal,5,20,,,,Core
+Afternoon workout ðŸ’ª,23/01/2024 17:33,23/01/2024 18:33,,Side Plank,,,0,normal,,,,30,,Core
+Afternoon workout ðŸ’ª,23/01/2024 17:33,23/01/2024 18:33,,Side Plank,,,1,normal,,,,30,,Core
+Afternoon workout ðŸ’ª,23/01/2024 17:33,23/01/2024 18:33,,Hollow Rock,,,0,normal,,,,30,,Core
+Afternoon workout ðŸ’ª,23/01/2024 17:33,23/01/2024 18:33,,Treadmill,,,0,normal,,,1,360,,Core

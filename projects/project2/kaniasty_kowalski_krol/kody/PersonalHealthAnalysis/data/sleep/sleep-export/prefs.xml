@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+	<boolean name="noise_recording_master_switch" value="false" />
+	<string name="country"><![CDATA[pl]]></string>
+	<int name="records_count" value="9" />
+	<string name="key_next_promo"><![CDATA[2024010100:2024010423:50:1703103851674]]></string>
+	<float name="chronotype" value="-1.0" />
+	<int name="news_card_shown" value="15" />
+	<long name="country_update_time" value="1703103851289" />
+	<boolean name="sound_recognition_noise_mixin" value="false" />
+</map>
