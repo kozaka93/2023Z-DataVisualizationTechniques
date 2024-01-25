@@ -1,0 +1,10 @@
+name: r-dashboard
+title:
+username: ligga
+account: ligga
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11022567
+bundleId: 8180645
+url: https://ligga.shinyapps.io/r-dashboard/
+version: 1

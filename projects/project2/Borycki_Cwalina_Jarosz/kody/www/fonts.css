@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Beaufort";
+  src: url("fonts/BeaufortforLOL-Bold.ttf");
+}
+
+@font-face {
+  font-family: "SpiegelBold";
+  src: url("fonts/Spiegel_TT_Bold.ttf");
+}
+
+@font-face {
+  font-family: "SpiegelRegular";
+  src: url("fonts/Spiegel_TT_Regular.ttf");
+}
+
+@font-face {
+  font-family: "Marcellus";
+  src: url("fonts/MarcellusSC-Regular.ttf");
+}
