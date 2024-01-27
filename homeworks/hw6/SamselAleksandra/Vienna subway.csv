@@ -1,0 +1,105 @@
+Start;Stop;Line;Color
+Oberlaa;Neulaa;1;red
+Neulaa;Alaudagasse;1;red
+Alaudagasse;Altes Landgut;1;red
+Altes Landgut;Troststrasse;1;red
+Troststrasse;Reumannplatz;1;red
+Reumannplatz;Keplerplatz;1;red
+Keplerplatz;Suedtiroler Platz - Hauptbahnhof;1;red
+Suedtiroler Platz - Hauptbahnhof;Taubstummengasse;1;red
+Taubstummengasse;Karlsplatz;1;red
+Karlsplatz;Stephansplatz;1;red
+Stephansplatz;Schwedenplatz;1;red
+Schwedenplatz;Nestroyplatz;1;red
+Nestroyplatz;Praterstern;1;red
+Praterstern;Vorgartenstrasse;1;red
+Vorgartenstrasse;Donauinsel;1;red
+Donauinsel;Kaisermuehlen/VIC;1;red
+Kaisermuehlen/VIC;Alte Donau;1;red
+Alte Donau;Kagran;1;red
+Kagran;Kagraner Platz;1;red
+Kagraner Platz;Rennbahnweg;1;red
+Rennbahnweg;Aderklaaer strasse;1;red
+Aderklaaer strasse;Grossfeldsiedlung;1;red
+Grossfeldsiedlung;Leopoldau;1;red
+Seestadt;Aspern Nord;2;purple
+Aspern Nord;Hausfeldstrasse;2;purple
+Hausfeldstrasse;Aspernstrasse;2;purple
+Aspernstrasse;Donauspital;2;purple
+Donauspital;Hardeggasse;2;purple
+Hardeggasse;Stadlau;2;purple
+Stadlau;Donaustadtbruecke;2;purple
+Donaustadtbruecke;Donaumarina;2;purple
+Donaumarina;Stadion;2;purple
+Stadion;Krieau;2;purple
+Krieau;Messe-Prater;2;purple
+Messe-Prater;Praterstern;2;purple
+Praterstern;Taborstrasse;2;purple
+Taborstrasse;Schottenring;2;purple
+Schottenring;Schottentor;2;purple
+Schottentor;Rathaus;2;purple
+Rathaus;Volkstheater;2;purple
+Volkstheater;Museumsquartier;2;purple
+Museumsquartier;Karlsplatz;2;purple
+Ottakring;Kendlerstrasse;3;orange
+Kendlerstrasse;Huetteldorfer strasse;3;orange
+Huetteldorfer strasse;Johnstrasse;3;orange
+Johnstrasse;Schweglerstrasse;3;orange
+Schweglerstrasse;Westbahnhof;3;orange
+Westbahnhof;Zieglergasse;3;orange
+Zieglergasse;Neubaugasse;3;orange
+Neubaugasse;Volkstheater;3;orange
+Volkstheater;Herrengasse;3;orange
+Herrengasse;Stephansplatz;3;orange
+Stephansplatz;Stubentor;3;orange
+Stubentor;Landstrasse;3;orange
+Landstrasse;Rochusgasse;3;orange
+Rochusgasse;Kardinal-Nagl-Platz;3;orange
+Kardinal-Nagl-Platz;Schlachthausgasse;3;orange
+Schlachthausgasse;Erdberg;3;orange
+Erdberg;Gasometer;3;orange
+Gasometer;Zippererstrasse;3;orange
+Zippererstrasse;Enkplatz;3;orange
+Enkplatz;Simmering;3;orange
+Huetteldorf;Ober St. Veit;4;green
+Ober St. Veit;Unter St. Veit;4;green
+Unter St. Veit;Braunschweiggasse;4;green
+Braunschweiggasse;Hietzing;4;green
+Hietzing;Schoenbrunn;4;green
+Schoenbrunn;Meidling Haupstrasse;4;green
+Meidling Haupstrasse;Laengenfeldgasse;4;green
+Laengenfeldgasse;Margaretenguertel;4;green
+Margaretenguertel;Pilgramgasse;4;green
+Pilgramgasse;Kettenbrueckengasse;4;green
+Kettenbrueckengasse;Karlsplatz;4;green
+Karlsplatz;Stadtpark;4;green
+Stadtpark;Landstrasse;4;green
+Landstrasse;Schwedenplatz;4;green
+Schwedenplatz;Schottenring;4;green
+Schottenring;Rossauer Laende;4;green
+Rossauer Laende;Friedensbruecke;4;green
+Friedensbruecke;Spittelau;4;green
+Spittelau;Heiligenstradt;4;green
+Siebenhirten;Perfektastrasse;6;brown
+Perfektastrasse;Erlaaer strasse;6;brown
+Erlaaer strasse;Alterlaa;6;brown
+Alterlaa;Am Schoepfwerk;6;brown
+Am Schoepfwerk;Tschwerttegasse;6;brown
+Tschwerttegasse;Bahnhof Meidling;6;brown
+Bahnhof Meidling;Niederhofstrasse;6;brown
+Niederhofstrasse;Laengenfeldgasse;6;brown
+Laengenfeldgasse;Gumpendorfer strasse;6;brown
+Gumpendorfer strasse;Westbahnhof;6;brown
+Westbahnhof;Burggasse-Stadthalle;6;brown
+Burggasse-Stadthalle;Thaliastrasse;6;brown
+Thaliastrasse;Josefstaedter strasse;6;brown
+Josefstaedter strasse;Alser strasse;6;brown
+Alser strasse;Michelbeuern - AKH;6;brown
+Michelbeuern - AKH;Waehringer strasse - Volksoper;6;brown
+Waehringer strasse - Volksoper;Nussdorfer strasse;6;brown
+Nussdorfer strasse;Spittelau;6;brown
+Spittelau;Jaegerstrasse;6;brown
+Jaegerstrasse;Dresdner strasse;6;brown
+Dresdner strasse;Handelskai;6;brown
+Handelskai;Neue Donau;6;brown
+Neue Donau;Floridsdorf;6;brown
