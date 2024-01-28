@@ -3,10 +3,10 @@ import matplotlib.pyplot as plt
 from matplotlib.colors import Normalize
 from matplotlib.cm import ScalarMappable
 
-# Replace 'your_graph.gml' with the actual path to your GML file
+
 file_path = '/Users/mateuszdeptuch/RStudio/TWD/lab14/lesmiserables.gml'
 
-# Read the graph from GML file, ignoring the 'label' attribute
+
 G = nx.read_gml(file_path)
 edge_values = nx.get_edge_attributes(G, 'value')
 edge_colors = [edge_values[edge] for edge in G.edges()]
@@ -18,10 +18,12 @@ nx.draw(G, pos, with_labels=True, node_size=70, node_color='#EEEEEE', edge_color
 norm = Normalize(vmin=min(edge_values.values()), vmax=max(edge_values.values()))
 sm = ScalarMappable(cmap=plt.cm.inferno_r, norm=norm)
 sm.set_array([])
+
 plt.title("Ile razy postaci z Les Miserables wystąpiły wspólnie w jednym rozdziale")
+
 cbar = plt.colorbar(sm, orientation='vertical', shrink=0.8)
 cbar.set_label('Liczba wspólnych rozdziałów')
 
 plt.savefig('/Users/mateuszdeptuch/Desktop/graph.pdf', format='PDF')
-# Show the graph
+
 plt.show()
