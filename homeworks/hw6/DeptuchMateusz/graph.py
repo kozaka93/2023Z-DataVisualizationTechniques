@@ -4,6 +4,7 @@ from matplotlib.colors import Normalize
 from matplotlib.cm import ScalarMappable
 
 
+#DANE: https://gephi.org/datasets/lesmiserables.gml.zip
 file_path = '/Users/mateuszdeptuch/RStudio/TWD/lab14/lesmiserables.gml'
 
 
