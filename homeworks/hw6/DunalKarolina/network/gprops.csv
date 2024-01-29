@@ -1,0 +1,9 @@
+# prop_name, value
+name,london_transport
+description,"Multiplex network with 3 edge types representing links within the three layers of London train stations: Underground, Overground and DLR.[^icon]
+[^icon]: Description obtained from the [ICON](https://icon.colorado.edu) project."
+citation,"['Manlio De Domenico, Albert Solé-Ribalta, Sergio Gómez, and Alex Arenas, \"Navigability of interconnected networks under random failures.\" PNAS 111, 8351-8356 (2014), https://doi.org/10.1073/pnas.1318469111']"
+url,https://manliodedomenico.com/data.php
+upstream_license,"Open Data Commons Open Database License (ODbL), https://opendatacommons.org/licenses/odbl/"
+tags,"['Transportation', 'Public Transport', 'Multilayer', 'Weighted']"
+layer_key,"{1: 'Tube', 2: 'Overground', 3: 'DLR'}"
