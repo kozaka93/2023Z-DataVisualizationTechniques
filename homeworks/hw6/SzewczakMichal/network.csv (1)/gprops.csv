@@ -1,0 +1,6 @@
+# prop_name, value
+name,blumenau_drug
+description,"A network of drug-drug interactions, extracted from 18 months of electronic health records (EHRs) from the city of Blumenau in Southern Brazil. Nodes are annotated with drug information (separate file), and edges are weighted by the severity of the interaction, along with other information."
+citation,"['R. Brattig Correia et al. \"City-wide electronic health records reveal gender and age biases in administration of known drug–drug interactions.\" npj Digital Medicine 2, 74 (2019), https://www.nature.com/articles/s41746-019-0141-x']"
+url,https://github.com/rionbr/DDIBlumenau/tree/master/csv
+tags,"['Biological', 'Drug interactions', 'Weighted', 'Metadata']"
